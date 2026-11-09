@@ -1,0 +1,16 @@
+{
+  "registry": {
+    "title": "ТФОМС Калининградской области. Реестр МО на 2026 год (файл «июль_ТРМО 2026.xlsx»)",
+    "url": "https://tfoms39.ru/medicalfacilities/register-medical/",
+    "downloadUrl": "https://tfoms39.ru/upload/iblock/0ff/ngdlejrjod17ygfc107yi1c8oshk5h41/%D0%B8%D1%8E%D0%BB%D1%8C_%D0%A2%D0%A0%D0%9C%D0%9E%202026.xlsx",
+    "retrievedDate": "2026-11-09",
+    "sha256": "5aff48eec26d6a994d95b4800ac719cca17a03bfa26c513153d5bfea0bc50e8a",
+    "interpretation": "Выбранные учреждения реальны и внесены в реестр; адреса V — адреса оказания помощи, не только юридические адреса R. Наличие в реестре не устанавливает правила госпитализации, режим работы конкретного отделения или доступность всех профилей."
+  },
+  "osm": {
+    "sourceSnapshot": "kaliningrad-261108.osm.pbf",
+    "attribution": "© OpenStreetMap contributors",
+    "license": "ODbL 1.0",
+    "coordinateMethod": "Mean of polygon vertices as in source extraction; approximate display/reference point, not verified entrance."
+  }
+}

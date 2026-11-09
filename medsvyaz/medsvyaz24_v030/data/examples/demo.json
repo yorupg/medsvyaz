@@ -1,0 +1,29 @@
+{
+ "id":"demo-network","version":"demo-2026-11-09-v1","title":"Учебная дорожная сеть","regionId":"demo","synthetic":true,"date":"2026-11-09","profile":"emergency-demo","profileLabel":"Условная экстренная помощь (учебный профиль)","mode":"car","trip":"to-facility","sourceIds":["synthetic-v1"],"license":"CC0-1.0","assumptions":["Все населённые пункты, учреждения, численности и времена вымышлены.","Рёбра задают условные минуты поездки. Координаты — положение на схеме, не широта и долгота.","Учебный центр Б доступен только днём; это условие эксперимента, а не медицинский факт.","Сценарное увеличение скорости не является рекомендацией нарушать ограничения движения."],"expectedPopulation":5100,
+ "nodes":[{"id":"a","x":70,"y":190},{"id":"b","x":210,"y":65},{"id":"c","x":250,"y":210},{"id":"d","x":420,"y":80},{"id":"e","x":450,"y":245},{"id":"h","x":640,"y":140},{"id":"j","x":620,"y":350},{"id":"u","x":90,"y":350}],
+ "edges":[
+  {"id":"ac","from":"a","to":"c","minutes":18,"directed":false,"allowed":true,"speedSource":"Синтетическое условие"},
+  {"id":"ab","from":"a","to":"b","minutes":22,"directed":false,"allowed":true,"speedSource":"Синтетическое условие"},
+  {"id":"bc","from":"b","to":"c","minutes":12,"directed":false,"allowed":true,"speedSource":"Синтетическое условие"},
+  {"id":"cd","from":"c","to":"d","minutes":15,"directed":false,"allowed":true,"speedSource":"Синтетическое условие"},
+  {"id":"ce","from":"c","to":"e","minutes":26,"directed":false,"allowed":true,"speedSource":"Синтетическое условие"},
+  {"id":"de","from":"d","to":"e","minutes":14,"directed":false,"allowed":true,"speedSource":"Синтетическое условие"},
+  {"id":"dh","from":"d","to":"h","minutes":14,"directed":false,"allowed":true,"speedSource":"Синтетическое условие"},
+  {"id":"eh","from":"e","to":"h","minutes":20,"directed":false,"allowed":true,"speedSource":"Синтетическое условие"},
+  {"id":"ej","from":"e","to":"j","minutes":16,"directed":false,"allowed":true,"speedSource":"Синтетическое условие"},
+  {"id":"jh","from":"j","to":"h","minutes":18,"directed":true,"allowed":true,"speedSource":"Синтетическое условие, одностороннее ребро"}
+ ],
+ "settlements":[
+  {"id":"s-a","name":"Пункт А","nodeId":"a","population":500,"municipality":"Западный сектор","provenance":"synthetic-v1"},
+  {"id":"s-b","name":"Пункт Б","nodeId":"b","population":1200,"municipality":"Западный сектор","provenance":"synthetic-v1"},
+  {"id":"s-c","name":"Пункт В","nodeId":"c","population":800,"municipality":"Центральный сектор","provenance":"synthetic-v1"},
+  {"id":"s-d","name":"Пункт Г","nodeId":"d","population":700,"municipality":"Центральный сектор","provenance":"synthetic-v1"},
+  {"id":"s-e","name":"Пункт Д","nodeId":"e","population":1500,"municipality":"Восточный сектор","provenance":"synthetic-v1"},
+  {"id":"s-j","name":"Пункт Е","nodeId":"j","population":300,"municipality":"Восточный сектор","provenance":"synthetic-v1"},
+  {"id":"s-u","name":"Изолированный пункт","nodeId":"u","population":100,"municipality":"Западный сектор","provenance":"synthetic-v1"}
+ ],
+ "facilities":[
+  {"id":"demo-hospital-a","name":"Учебный центр А","nodeId":"h","profile":"emergency-demo","periods":["day","night"],"verified":false,"provenance":"synthetic-v1"},
+  {"id":"demo-hospital-b","name":"Учебный центр Б","nodeId":"e","profile":"emergency-demo","periods":["day"],"verified":false,"provenance":"synthetic-v1"}
+ ]
+}

@@ -1,0 +1,18 @@
+{
+  "region": "ivanovo",
+  "profile": "selected-public-hospital",
+  "accessedAt": "2026-11-09",
+  "facilityCount": 5,
+  "scope": "Conservative sample of actual public-hospital inpatient addresses. Not complete regional register and not a shared clinical emergency profile.",
+  "sourceType": "TFOMS registry 2026 with actual treatment addresses and inpatient conditions",
+  "sourceDate": "2026-09-01",
+  "sourceDateNote": "Workbook filename and registry version 01.09.2026",
+  "files": [
+    {
+      "file": "ivanovo_registry2026.xlsx",
+      "sha256": "252d6cb66d3cab7fffd12a75fc68cecc4f903f6c35e1ab978e7ce6edc86b2fd2"
+    }
+  ],
+  "selectionPolicy": "Exact street/house and hospital building tag matched to OSM; conflicts excluded and documented in facilities_excluded.json.",
+  "coordinateMethod": "Shapely representative point inside actual OSM area polygon; not a verified vehicle entrance or hospital reception."
+}

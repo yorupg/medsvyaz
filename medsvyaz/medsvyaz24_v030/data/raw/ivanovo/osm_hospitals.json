@@ -1,0 +1,2260 @@
+[
+  {
+    "osmId": "node/954754167",
+    "tags": {
+      "amenity": "hospital"
+    },
+    "lon": 43.0101959,
+    "lat": 57.0833988,
+    "coordinateMethod": "OSM node"
+  },
+  {
+    "osmId": "node/1129133210",
+    "tags": {
+      "amenity": "hospital",
+      "name": "Волгореченская городская больница"
+    },
+    "lon": 41.1540107,
+    "lat": 57.4382854,
+    "coordinateMethod": "OSM node"
+  },
+  {
+    "osmId": "node/1413767162",
+    "tags": {
+      "amenity": "hospital"
+    },
+    "lon": 41.2081264,
+    "lat": 56.6027503,
+    "coordinateMethod": "OSM node"
+  },
+  {
+    "osmId": "node/1639979898",
+    "tags": {
+      "amenity": "hospital",
+      "name": "Поликлиника №11"
+    },
+    "lon": 41.0050343,
+    "lat": 56.9634889,
+    "coordinateMethod": "OSM node"
+  },
+  {
+    "osmId": "node/2130583470",
+    "tags": {
+      "amenity": "hospital",
+      "name": "Центральная городская больница"
+    },
+    "lon": 42.2187722,
+    "lat": 57.4343175,
+    "coordinateMethod": "OSM node"
+  },
+  {
+    "osmId": "node/2343214001",
+    "tags": {
+      "amenity": "hospital"
+    },
+    "lon": 42.7983381,
+    "lat": 57.3350476,
+    "coordinateMethod": "OSM node"
+  },
+  {
+    "osmId": "node/2968971724",
+    "tags": {
+      "amenity": "hospital",
+      "name": "Психоневрологический диспансер"
+    },
+    "lon": 41.3799154,
+    "lat": 56.8568025,
+    "coordinateMethod": "OSM node"
+  },
+  {
+    "osmId": "node/3810108054",
+    "tags": {
+      "addr:city": "Светиково",
+      "amenity": "hospital",
+      "name": "Медпункт"
+    },
+    "lon": 40.1933458,
+    "lat": 57.0116373,
+    "coordinateMethod": "OSM node"
+  },
+  {
+    "osmId": "node/4346196590",
+    "tags": {
+      "amenity": "hospital",
+      "name": "Городская больница N3"
+    },
+    "lon": 40.9946201,
+    "lat": 56.9853045,
+    "coordinateMethod": "OSM node"
+  },
+  {
+    "osmId": "node/4654008024",
+    "tags": {
+      "amenity": "hospital"
+    },
+    "lon": 40.3870341,
+    "lat": 56.6616736,
+    "coordinateMethod": "OSM node"
+  },
+  {
+    "osmId": "node/5195787283",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "17",
+      "addr:street": "Комсомольская улица",
+      "amenity": "hospital",
+      "description": "Клиника пластической хирургии",
+      "healthcare": "hospital",
+      "name": "Jeunesse"
+    },
+    "lon": 40.9764753,
+    "lat": 57.0082012,
+    "coordinateMethod": "OSM node"
+  },
+  {
+    "osmId": "node/5318038222",
+    "tags": {
+      "addr:housenumber": "5",
+      "addr:postcode": "153040",
+      "addr:street": "улица Любимова",
+      "amenity": "hospital",
+      "name": "ОБУЗ «Ивановский областной онкологический диспансер»",
+      "name:en": "ОБУЗ «Ивановский областной онкологический диспансер» (ОБУЗ «ИвООД»)",
+      "website": "https://ivonko.ru"
+    },
+    "lon": 41.0296028,
+    "lat": 56.9539807,
+    "coordinateMethod": "OSM node"
+  },
+  {
+    "osmId": "node/10124190242",
+    "tags": {
+      "addr:city": "Майдаково",
+      "addr:country": "RU",
+      "addr:housenumber": "1",
+      "addr:postcode": "155623",
+      "addr:street": "Северная улица",
+      "amenity": "hospital",
+      "name": "Майдаковская сельская больница"
+    },
+    "lon": 41.8129523,
+    "lat": 56.9005532,
+    "coordinateMethod": "OSM node"
+  },
+  {
+    "osmId": "node/10692906944",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Поликлиника №2, филиал"
+    },
+    "lon": 40.9203675,
+    "lat": 57.0323913,
+    "coordinateMethod": "OSM node"
+  },
+  {
+    "osmId": "way/70023977",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "5 к9",
+      "addr:street": "улица Парижской Коммуны",
+      "building": "hospital",
+      "building:levels": "1",
+      "source": "irs"
+    },
+    "lon": 40.95652387580921,
+    "lat": 56.996318599999995,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/88579774",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "5 к2",
+      "addr:street": "улица Парижской Коммуны",
+      "building": "hospital",
+      "building:levels": "2"
+    },
+    "lon": 40.95966988498751,
+    "lat": 56.9961105,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/88579791",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "5 к1",
+      "addr:street": "улица Парижской Коммуны",
+      "building": "hospital",
+      "building:levels": "2"
+    },
+    "lon": 40.95827195620654,
+    "lat": 56.99660155,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/88579814",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "5 к3",
+      "addr:street": "улица Парижской Коммуны",
+      "building": "hospital",
+      "building:levels": "1"
+    },
+    "lon": 40.95779056082485,
+    "lat": 56.9962542,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/88579838",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "5 к5",
+      "addr:street": "улица Парижской Коммуны",
+      "building": "hospital",
+      "building:levels": "1"
+    },
+    "lon": 40.95720124840918,
+    "lat": 56.996009349999994,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/88699324",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "5 к6",
+      "addr:street": "улица Парижской Коммуны",
+      "building": "hospital",
+      "building:levels": "1"
+    },
+    "lon": 40.95887852948544,
+    "lat": 56.995409550000005,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/88699327",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "5 к8",
+      "addr:street": "улица Парижской Коммуны",
+      "building": "hospital",
+      "building:levels": "1"
+    },
+    "lon": 40.958522206976866,
+    "lat": 56.9950922,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/88707928",
+    "tags": {
+      "addr:housenumber": "22",
+      "addr:street": "Шереметевский проспект",
+      "amenity": "hospital",
+      "building": "yes",
+      "building:levels": "4",
+      "name": "Кардиодиспансер"
+    },
+    "lon": 40.989542346091405,
+    "lat": 57.001169149999996,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/90247906",
+    "tags": {
+      "addr:city": "Ново-Талицы",
+      "addr:housenumber": "6",
+      "addr:street": "Садовая улица",
+      "amenity": "hospital",
+      "building": "commercial",
+      "building:levels": "2",
+      "fire_rank": "2",
+      "name": "ЦРБ Ивановского р-на"
+    },
+    "lon": 40.84568021436351,
+    "lat": 57.001385299999995,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/90247921",
+    "tags": {
+      "addr:city": "Ново-Талицы",
+      "addr:housenumber": "4",
+      "addr:street": "Школьная улица",
+      "amenity": "hospital",
+      "fire_rank": "2",
+      "name": "Ново-Талицкая районая поликлиника"
+    },
+    "lon": 40.850542722143054,
+    "lat": 57.0033137,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/90381807",
+    "tags": {
+      "addr:housenumber": "71",
+      "addr:postcode": "153043",
+      "addr:street": "улица Полка Нормандия-Неман",
+      "amenity": "clinic",
+      "building": "hospital",
+      "building:levels": "2",
+      "name": "Поликлиника №8"
+    },
+    "lon": 40.98002999257969,
+    "lat": 57.0320188,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/99632603",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes"
+    },
+    "lon": 40.38671482339668,
+    "lat": 56.66138685,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/101534460",
+    "tags": {
+      "addr:housenumber": "82",
+      "addr:street": "улица Полка Нормандия-Неман",
+      "amenity": "hospital",
+      "building": "yes",
+      "name": "Пятая детская больница"
+    },
+    "lon": 40.981574557449335,
+    "lat": 57.0301344,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/103957124",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Обуз Кинешемская ЦРБ, Заволжский филиал",
+      "website": "https://kincrb.ru/"
+    },
+    "lon": 42.13666456272748,
+    "lat": 57.494912400000004,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/109790361",
+    "tags": {
+      "addr:city": "Богородское",
+      "addr:housenumber": "2",
+      "addr:street": "Большая Клинцевская улица",
+      "building": "hospital"
+    },
+    "lon": 41.01472557684215,
+    "lat": 57.041732249999995,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/110263405",
+    "tags": {
+      "addr:housenumber": "9",
+      "addr:street": "улица Демидова",
+      "amenity": "hospital",
+      "building": "yes",
+      "building:levels": "5",
+      "name": "Госпиталь инвалидов войны"
+    },
+    "lon": 40.973905652293595,
+    "lat": 57.00632055,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/110263424",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes",
+      "building:levels": "5"
+    },
+    "lon": 40.97600199966344,
+    "lat": 57.006401749999995,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/110263426",
+    "tags": {
+      "addr:housenumber": "9",
+      "addr:street": "улица Демидова",
+      "amenity": "hospital",
+      "building": "yes",
+      "building:levels": "4"
+    },
+    "lon": 40.975016174432795,
+    "lat": 57.00634625,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/114590981",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes",
+      "healthcare": "hospital"
+    },
+    "lon": 40.88569384784483,
+    "lat": 56.7771472,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/114591030",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes"
+    },
+    "lon": 40.88567944960089,
+    "lat": 56.77799175,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/114591152",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes",
+      "healthcare": "hospital"
+    },
+    "lon": 40.88644660351231,
+    "lat": 56.777726099999995,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/114591350",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes",
+      "healthcare": "hospital"
+    },
+    "lon": 40.886135171825586,
+    "lat": 56.777333049999996,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/114591421",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes",
+      "healthcare": "hospital"
+    },
+    "lon": 40.884759131121214,
+    "lat": 56.77751585,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/116797240",
+    "tags": {
+      "addr:housenumber": "8",
+      "addr:postcode": "153005",
+      "addr:street": "улица Шошина",
+      "amenity": "hospital",
+      "building": "yes",
+      "building:levels": "5",
+      "healthcare": "hospital",
+      "name": "Больница №4",
+      "opening_hours": "Mo-Fr 08:00-16:00",
+      "phone": "+74932375941",
+      "source": "BING",
+      "website": "http://gkb4.lpu37.ru"
+    },
+    "lon": 40.99815257040566,
+    "lat": 57.0086395,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/116868786",
+    "tags": {
+      "addr:housenumber": "64",
+      "addr:street": "Шестагинская улица",
+      "amenity": "hospital",
+      "building": "yes",
+      "name": "Детская больница",
+      "source:addr": "ЕГРН"
+    },
+    "lon": 40.55333056716533,
+    "lat": 56.85772035,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/116868862",
+    "tags": {
+      "addr:housenumber": "9/1",
+      "addr:street": "1-я Красная улица",
+      "amenity": "hospital",
+      "building": "yes",
+      "name": "Тейковская ЦРБ",
+      "source:addr": "ЕГРН"
+    },
+    "lon": 40.53088876660894,
+    "lat": 56.853907899999996,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/116868890",
+    "tags": {
+      "addr:housenumber": "16",
+      "addr:street": "улица Советской Армии",
+      "amenity": "hospital",
+      "building": "yes",
+      "source:addr": "ЕГРН"
+    },
+    "lon": 40.510590700951866,
+    "lat": 56.8648951,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/117713860",
+    "tags": {
+      "addr:city": "Буньково",
+      "addr:housenumber": "6",
+      "addr:street": "Заречный переулок",
+      "amenity": "hospital",
+      "building": "yes",
+      "fire_rank": "2",
+      "healthcare": "hospital",
+      "name": "Наркологический диспансер №6"
+    },
+    "lon": 40.70718718259823,
+    "lat": 57.062051749999995,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/118064720",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes"
+    },
+    "lon": 40.98241191581527,
+    "lat": 57.002785200000005,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/118064732",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "27",
+      "addr:street": "Крутицкая улица",
+      "building": "hospital",
+      "building:levels": "2"
+    },
+    "lon": 40.98244765,
+    "lat": 57.002381650000004,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/118409771",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:country": "RU",
+      "addr:housenumber": "27",
+      "addr:region": "Ивановская область",
+      "addr:street": "Крутицкая улица",
+      "building": "hospital",
+      "building:levels": "2",
+      "source": "BING"
+    },
+    "lon": 40.9834779505574,
+    "lat": 57.002033,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/118638686",
+    "tags": {
+      "addr:housenumber": "3",
+      "addr:street": "улица Академика Мальцева",
+      "amenity": "hospital",
+      "building": "yes",
+      "building:levels": "2",
+      "name": "Первая детская больница"
+    },
+    "lon": 40.96740977050423,
+    "lat": 57.0189554,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/119040142",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes",
+      "building:levels": "3",
+      "name": "Поликлиника №7"
+    },
+    "lon": 40.96347985104744,
+    "lat": 56.97196325,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/119040153",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "11 к2",
+      "addr:postcode": "153032",
+      "addr:street": "улица Воронина",
+      "amenity": "clinic",
+      "building": "hospital",
+      "building:levels": "4",
+      "healthcare:speciality": "paediatrics",
+      "name": "Детская поликлиника №7 Городская клиническая больница №7",
+      "phone": "+7 4932 938401",
+      "website": "https://www.7gkb.ru/employees/child"
+    },
+    "lon": 40.96493561386683,
+    "lat": 56.97161905,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/119178427",
+    "tags": {
+      "addr:housenumber": "15",
+      "addr:street": "Советская улица",
+      "amenity": "hospital",
+      "building": "yes"
+    },
+    "lon": 42.165497895791034,
+    "lat": 57.444531,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/119609926",
+    "tags": {
+      "amenity": "hospital",
+      "name": "Наркодиспансер"
+    },
+    "lon": 40.96299144999999,
+    "lat": 57.0153883,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/120642585",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "54/1",
+      "addr:street": "улица Постышева",
+      "amenity": "hospital",
+      "building": "yes",
+      "healthcare": "hospital",
+      "name": "Наркологический диспансер"
+    },
+    "lon": 40.99101920561545,
+    "lat": 56.98549095,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/120667058",
+    "tags": {
+      "addr:housenumber": "12",
+      "addr:street": "улица 3 Июня",
+      "amenity": "hospital",
+      "building": "yes",
+      "healthcare": "hospital"
+    },
+    "lon": 41.01887098442907,
+    "lat": 57.02280945,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/120667059",
+    "tags": {
+      "addr:housenumber": "109",
+      "addr:street": "улица Шувандиной",
+      "amenity": "hospital",
+      "name": "НИИ Материнства и Детства"
+    },
+    "lon": 41.00720192016678,
+    "lat": 57.01953545000001,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/131670682",
+    "tags": {
+      "addr:housenumber": "1",
+      "addr:street": "Хуторская улица",
+      "amenity": "hospital",
+      "building": "yes",
+      "building:levels": "2",
+      "name": "Роддом"
+    },
+    "lon": 41.09601092933252,
+    "lat": 57.260315899999995,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/132077189",
+    "tags": {
+      "addr:housenumber": "4",
+      "addr:street": "улица Станкостроителей",
+      "amenity": "hospital",
+      "building": "yes",
+      "name": "8-я городская больница"
+    },
+    "lon": 40.967327749999995,
+    "lat": 56.965734850000004,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/132103525",
+    "tags": {
+      "addr:housenumber": "41",
+      "addr:street": "улица Нижний Двор",
+      "amenity": "hospital",
+      "building": "yes",
+      "building:levels": "3",
+      "name": "Больница"
+    },
+    "lon": 41.10218596370966,
+    "lat": 57.25918955,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/136208649",
+    "tags": {
+      "addr:housenumber": "37",
+      "addr:street": "Октябрьская улица",
+      "amenity": "hospital",
+      "building": "yes",
+      "building:levels": "3",
+      "healthcare": "hospital",
+      "source:addr": "ЕГРН"
+    },
+    "lon": 42.59906051939895,
+    "lat": 56.84460395,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/136208651",
+    "tags": {
+      "addr:housenumber": "35",
+      "addr:street": "Октябрьская улица",
+      "building": "hospital",
+      "source:addr": "ЕГРН"
+    },
+    "lon": 42.59964422846882,
+    "lat": 56.844260750000004,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/139298131",
+    "tags": {
+      "building": "hospital"
+    },
+    "lon": 40.373686687485836,
+    "lat": 57.0313413,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/139298134",
+    "tags": {
+      "addr:city": "Комсомольск",
+      "addr:housenumber": "1",
+      "addr:postcode": "155150",
+      "addr:street": "улица Колганова",
+      "building": "hospital",
+      "building:levels": "2",
+      "name": "Комсмольская центральная больница"
+    },
+    "lon": 40.371266166749656,
+    "lat": 57.03149085,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/139298284",
+    "tags": {
+      "building": "hospital"
+    },
+    "lon": 40.37356519999998,
+    "lat": 57.0319174,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/148292893",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "110",
+      "addr:street": "проспект Ленина",
+      "building": "hospital",
+      "building:levels": "2",
+      "source": "BING"
+    },
+    "lon": 40.969941473745806,
+    "lat": 57.017747650000004,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/151175079",
+    "tags": {
+      "amenity": "hospital",
+      "email": "okb@ivreg.ru",
+      "emergency": "yes",
+      "name": "Ивановская областная клиническая больница",
+      "phone": "+7 4932 345600",
+      "website": "https://www.ivokb.ru/"
+    },
+    "lon": 41.026138463897084,
+    "lat": 56.9565535,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/151283856",
+    "tags": {
+      "building": "hospital",
+      "building:levels": "4",
+      "name": "Лечебный корпус №4"
+    },
+    "lon": 41.02772235805493,
+    "lat": 56.955908699999995,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/151284647",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "1",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "name": "Областная поликлиника"
+    },
+    "lon": 41.02527317339896,
+    "lat": 56.9577817,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/151285774",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "1",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "emergency": "yes",
+      "name": "Областная больница"
+    },
+    "lon": 41.02796748203803,
+    "lat": 56.9589226,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/151285777",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "1",
+      "addr:street": "улица Любимова",
+      "building": "hospital"
+    },
+    "lon": 41.02801308019079,
+    "lat": 56.95846185,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/151462790",
+    "tags": {
+      "building": "hospital",
+      "building:levels": "5"
+    },
+    "lon": 41.023180753976206,
+    "lat": 56.9573533,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/151464399",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "5",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "5"
+    },
+    "lon": 41.029284856034096,
+    "lat": 56.953811,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/157040761",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes",
+      "name": "Лужская районная больница"
+    },
+    "lon": 42.271072600000004,
+    "lat": 57.009375399999996,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/157040762",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes",
+      "building:levels": "2",
+      "name": "Лужская районная больница"
+    },
+    "lon": 42.27075979350981,
+    "lat": 57.00995265,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/167532562",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes",
+      "name": "Психоневрологический интернат \"Красный Маяк\"",
+      "name:en": "Psycho-neurological home \"Krasniy Mayak\""
+    },
+    "lon": 41.497503548897534,
+    "lat": 57.446252,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/167532970",
+    "tags": {
+      "addr:city": "Плёс",
+      "addr:housenumber": "4",
+      "addr:street": "улица Карла Маркса",
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Плёсская городская больница"
+    },
+    "lon": 41.5036091662651,
+    "lat": 57.4603976,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/168888023",
+    "tags": {
+      "addr:housenumber": "37",
+      "addr:street": "Большая Московская улица",
+      "amenity": "hospital",
+      "building": "yes",
+      "name": "Роддом",
+      "source:addr": "ЕГРН"
+    },
+    "lon": 41.286677864079174,
+    "lat": 57.38582460000001,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/168888098",
+    "tags": {
+      "addr:city": "Приволжск",
+      "addr:country": "RU",
+      "addr:housenumber": "37",
+      "addr:postcode": "155550",
+      "addr:street": "Малая Московская улица",
+      "amenity": "hospital",
+      "building": "yes",
+      "name": "Больница",
+      "roof:colour": "silver"
+    },
+    "lon": 41.287792486529625,
+    "lat": 57.3867219,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/169043468",
+    "tags": {
+      "addr:city": "Новское сельское поселение",
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Неработающая поликлиника Новского СП"
+    },
+    "lon": 41.46180548823783,
+    "lat": 57.3600923,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/169043498",
+    "tags": {
+      "addr:city": "Новское сельское поселение",
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Неработающая больница Новского СП"
+    },
+    "lon": 41.461832900000005,
+    "lat": 57.3603502,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/169978449",
+    "tags": {
+      "addr:housenumber": "15",
+      "addr:street": "улица Ленина",
+      "building": "hospital",
+      "building:levels": "2"
+    },
+    "lon": 43.165799845922564,
+    "lat": 56.978840149999996,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/169978520",
+    "tags": {
+      "addr:housenumber": "15",
+      "addr:street": "улица Ленина",
+      "building": "hospital",
+      "building:levels": "2",
+      "name": "Лаболатория"
+    },
+    "lon": 43.16787485070601,
+    "lat": 56.9792705,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/169978522",
+    "tags": {
+      "addr:city": "Пучеж",
+      "addr:housenumber": "15",
+      "addr:street": "улица Ленина",
+      "building": "hospital",
+      "building:levels": "2",
+      "name": "Инфекционное отделение"
+    },
+    "lon": 43.165020424518644,
+    "lat": 56.97835805,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/169978532",
+    "tags": {
+      "addr:housenumber": "15",
+      "addr:street": "улица Ленина",
+      "building": "hospital",
+      "building:levels": "5"
+    },
+    "lon": 43.1675769,
+    "lat": 56.97841215,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/169978549",
+    "tags": {
+      "addr:housenumber": "15",
+      "addr:street": "улица Ленина",
+      "building": "hospital",
+      "building:levels": "2",
+      "name": "Роддом"
+    },
+    "lon": 43.166473114143315,
+    "lat": 56.97839855,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/169978552",
+    "tags": {
+      "addr:city": "Пучеж",
+      "addr:housenumber": "15",
+      "addr:postcode": "155360",
+      "addr:street": "улица Ленина",
+      "building": "hospital",
+      "name": "ЦРБ"
+    },
+    "lon": 43.167903324251654,
+    "lat": 56.978875099999996,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/172057145",
+    "tags": {
+      "addr:city": "Родники",
+      "addr:housenumber": "7",
+      "addr:postcode": "155250",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "2",
+      "name": "Родниковская центральная районная больница"
+    },
+    "lon": 41.72512381727774,
+    "lat": 57.10382965,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/172839220",
+    "tags": {
+      "amenity": "hospital"
+    },
+    "lon": 41.15353388405626,
+    "lat": 57.43909225,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/173011132",
+    "tags": {
+      "addr:housenumber": "10",
+      "addr:street": "переулок Пятницкого",
+      "amenity": "hospital",
+      "building": "yes",
+      "name": "Центральная районная больница"
+    },
+    "lon": 41.91534165059473,
+    "lat": 57.20051515,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/173989208",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes",
+      "name": "Психиатрическая больница"
+    },
+    "lon": 40.66102987519165,
+    "lat": 56.898305199999996,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/175748788",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes",
+      "name": "Больница"
+    },
+    "lon": 40.508285612861556,
+    "lat": 56.72684855,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/176061755",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes"
+    },
+    "lon": 41.13116468678898,
+    "lat": 57.245426800000004,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/179092362",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes",
+      "healthcare": "hospital",
+      "name": "Инфекционное отделение"
+    },
+    "lon": 41.881834869198656,
+    "lat": 57.2168848,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/179092760",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes",
+      "healthcare": "hospital"
+    },
+    "lon": 41.878675548894556,
+    "lat": 57.2152982,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/179622505",
+    "tags": {
+      "addr:city": "Вичуга",
+      "addr:housenumber": "1",
+      "addr:street": "Больничная улица",
+      "building": "hospital",
+      "building:levels": "2",
+      "name": "Вичугская центральная районная больница"
+    },
+    "lon": 41.9240205504921,
+    "lat": 57.21386125,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/179622513",
+    "tags": {
+      "building": "hospital"
+    },
+    "lon": 41.924257499999996,
+    "lat": 57.21459645,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/179622565",
+    "tags": {
+      "building": "hospital"
+    },
+    "lon": 41.92416285311083,
+    "lat": 57.214372350000005,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/179622703",
+    "tags": {
+      "addr:housenumber": "1",
+      "addr:street": "Больничная улица",
+      "building": "hospital"
+    },
+    "lon": 41.9202075954062,
+    "lat": 57.2140554,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/181340879",
+    "tags": {
+      "addr:housenumber": "5",
+      "addr:street": "улица Чкалова",
+      "building": "hospital",
+      "building:levels": "4",
+      "building:material": "brick",
+      "wheelchair": "yes"
+    },
+    "lon": 43.09585047218519,
+    "lat": 57.324403399999994,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/181490384",
+    "tags": {
+      "building": "hospital",
+      "name": "Терапевтическое отделение"
+    },
+    "lon": 43.09582573812119,
+    "lat": 57.32304795,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/190304727",
+    "tags": {
+      "addr:housenumber": "32",
+      "addr:street": "Загородная улица",
+      "amenity": "hospital",
+      "building": "yes",
+      "emergency": "yes",
+      "name": "ЦРБ"
+    },
+    "lon": 40.11538284767828,
+    "lat": 56.545986400000004,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/200660845",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes"
+    },
+    "lon": 41.974724402396646,
+    "lat": 57.47174835,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/202932124",
+    "tags": {
+      "amenity": "hospital",
+      "building": "yes",
+      "name": "Больница"
+    },
+    "lon": 41.841599814338494,
+    "lat": 57.326170149999996,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/207782586",
+    "tags": {
+      "building": "hospital",
+      "building:levels": "3",
+      "name": "Поликлиника"
+    },
+    "lon": 42.47788912006599,
+    "lat": 57.4136273,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/207906083",
+    "tags": {
+      "addr:housenumber": "37",
+      "addr:street": "улица Гагарина",
+      "amenity": "hospital",
+      "building": "yes",
+      "name": "Районная больница"
+    },
+    "lon": 42.66488695745065,
+    "lat": 56.71212425,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/209983678",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "5",
+      "addr:street": "улица Парижской Коммуны",
+      "amenity": "hospital",
+      "fire_rank": "3",
+      "healthcare": "hospital",
+      "healthcare:speciality": "general",
+      "name": "Городская клиническая больница № 1"
+    },
+    "lon": 40.95787217118841,
+    "lat": 56.99543775,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/209983680",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "5 к7",
+      "addr:street": "улица Парижской Коммуны",
+      "building": "hospital",
+      "building:levels": "1"
+    },
+    "lon": 40.956911985198374,
+    "lat": 56.99566045,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/210202748",
+    "tags": {
+      "addr:housenumber": "6",
+      "addr:street": "улица Радищева",
+      "amenity": "hospital",
+      "building": "yes",
+      "building:levels": "3",
+      "name": "Центр реабилитации инвалидов"
+    },
+    "lon": 40.962715388476724,
+    "lat": 56.976716,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/211102778",
+    "tags": {
+      "addr:housenumber": "4",
+      "addr:street": "улица Володиной",
+      "amenity": "hospital",
+      "building": "yes",
+      "building:levels": "3"
+    },
+    "lon": 40.94526065,
+    "lat": 56.987900350000004,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/211102800",
+    "tags": {
+      "amenity": "hospital",
+      "name": "Областная туберкулезная больница"
+    },
+    "lon": 40.945195639957014,
+    "lat": 56.98798805,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/241890483",
+    "tags": {
+      "addr:city": "Писцово",
+      "amenity": "hospital",
+      "building": "yes",
+      "name": "Больница"
+    },
+    "lon": 40.52586276301977,
+    "lat": 57.18330005,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/266274448",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "106",
+      "addr:street": "улица Полка Нормандия-Неман",
+      "building": "hospital"
+    },
+    "lon": 40.98507478162651,
+    "lat": 57.0355432,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/271702964",
+    "tags": {
+      "amenity": "hospital"
+    },
+    "lon": 40.941617368387675,
+    "lat": 57.025419299999996,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/274139091",
+    "tags": {
+      "addr:housenumber": "19А к2",
+      "addr:postcode": "153511",
+      "addr:street": "Ивановская улица",
+      "amenity": "hospital",
+      "building": "yes",
+      "name": "Клиника ИГМА",
+      "official_name": "Клиника Федерального государственного бюджетного образовательного учреждения высшего образования «Ивановская государственная медицинская академия»",
+      "website": "https://www.isma.ivanovo.ru/divisions/126"
+    },
+    "lon": 41.07604240486024,
+    "lat": 56.93080755,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/274390909",
+    "tags": {
+      "addr:housenumber": "103",
+      "addr:place": "Богданиха",
+      "addr:postcode": "153550",
+      "building": "hospital",
+      "building:levels": "1",
+      "building:material": "steel",
+      "roof:material": "metal_sheet",
+      "roof:shape": "gabled"
+    },
+    "lon": 41.1227803510936,
+    "lat": 56.91935635,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/276360723",
+    "tags": {
+      "addr:housenumber": "45",
+      "addr:postcode": "153510",
+      "addr:street": "Октябрьская улица",
+      "amenity": "hospital",
+      "building": "yes",
+      "building:levels": "2",
+      "healthcare": "hospital",
+      "name": "Кохомская городская больница. Дневной стационар",
+      "official_name": "Областное бюджетное учреждение здравоохранения «Кохомская городская больница»",
+      "phone": "+7 4932 267929",
+      "website": "https://gbkohma.ru/"
+    },
+    "lon": 41.10155409146101,
+    "lat": 56.9281585,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/364164134",
+    "tags": {
+      "addr:housenumber": "13",
+      "addr:street": "Советская улица",
+      "amenity": "hospital",
+      "building": "yes",
+      "building:levels": "2"
+    },
+    "lon": 42.00749181695625,
+    "lat": 56.58466815,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/364164144",
+    "tags": {
+      "addr:city": "Южа",
+      "addr:country": "RU",
+      "addr:housenumber": "11",
+      "addr:street": "Советская улица",
+      "amenity": "hospital",
+      "building": "yes",
+      "name": "Южская ЦРБ"
+    },
+    "lon": 42.00764660098291,
+    "lat": 56.583992699999996,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/364408550",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "11 к1",
+      "addr:postcode": "153032",
+      "addr:street": "улица Воронина",
+      "amenity": "hospital",
+      "building:levels": "40",
+      "email": "gkb7@gov37.ivanovo.ru",
+      "name": "Городская клиническая больница №7",
+      "phone": "+7 4932 234121;+7 4932 234348;+7 4932 938455;+7 4932 938401;+7 4932 938464",
+      "website": "https://www.7gkb.ru/"
+    },
+    "lon": 40.96743160155553,
+    "lat": 56.97140115,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/364408583",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "11",
+      "addr:postcode": "153032",
+      "addr:street": "улица Воронина",
+      "amenity": "hospital",
+      "building:levels": "2",
+      "email": "gkb7@gov37.ivanovo.ru",
+      "name": "Городская больница №7",
+      "phone": "+7 4932 234121;+7 4932 234348;+7 4932 938455;+7 4932 938401;+7 4932 938464",
+      "website": "https://www.7gkb.ru/"
+    },
+    "lon": 40.966489082844,
+    "lat": 56.971606699999995,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/374996840",
+    "tags": {
+      "addr:housenumber": "2",
+      "addr:street": "2-я Шуйская улица",
+      "building": "hospital",
+      "name": "Детская городская больница"
+    },
+    "lon": 42.110620130636015,
+    "lat": 57.4427223,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/376461043",
+    "tags": {
+      "amenity": "hospital"
+    },
+    "lon": 42.109903399827374,
+    "lat": 57.4183497,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "relation/5579914",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Педиатрическое отделение ОБУЗ Кинешемская ЦРБ"
+    },
+    "lon": 42.110917594164036,
+    "lat": 57.442836400000004,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/401349186",
+    "tags": {
+      "addr:housenumber": "60",
+      "addr:street": "проспект Ленина",
+      "amenity": "hospital",
+      "name": "Станция скорой медицинской помощи"
+    },
+    "lon": 40.97424958881987,
+    "lat": 57.0068481,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/403258409",
+    "tags": {
+      "addr:city": "Ильинское-Хованское",
+      "addr:housenumber": "44",
+      "addr:street": "Советская улица",
+      "building": "hospital",
+      "name": "Ильинская центральная районная больница"
+    },
+    "lon": 39.761939907255254,
+    "lat": 56.97416825,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/403258410",
+    "tags": {
+      "building": "hospital"
+    },
+    "lon": 39.76309031102582,
+    "lat": 56.97390025,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/403258411",
+    "tags": {
+      "building": "hospital"
+    },
+    "lon": 39.76350776723663,
+    "lat": 56.9744132,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/436909301",
+    "tags": {
+      "amenity": "hospital"
+    },
+    "lon": 40.37255335829927,
+    "lat": 57.0314362,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/453624002",
+    "tags": {
+      "building": "hospital"
+    },
+    "lon": 41.975741473308204,
+    "lat": 57.4720266,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/453624003",
+    "tags": {
+      "building": "hospital"
+    },
+    "lon": 41.97504517467173,
+    "lat": 57.47240095,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/461585262",
+    "tags": {
+      "building": "hospital",
+      "building:levels": "4"
+    },
+    "lon": 41.02594824806049,
+    "lat": 56.95569415,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/461588518",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "7",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "5"
+    },
+    "lon": 41.024809512099225,
+    "lat": 56.9533369,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/468728843",
+    "tags": {
+      "amenity": "hospital",
+      "name": "Палехская центральная районная больница"
+    },
+    "lon": 41.850465493105176,
+    "lat": 56.7982324,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/469420133",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "51А",
+      "addr:street": "Профессиональная улица",
+      "amenity": "hospital",
+      "building:levels": "4",
+      "healthcare": "hospital"
+    },
+    "lon": 40.990558374123765,
+    "lat": 56.94812855,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/474040295",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "112",
+      "addr:street": "проспект Ленина",
+      "building": "hospital",
+      "building:levels": "2"
+    },
+    "lon": 40.97005571586074,
+    "lat": 57.018355,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/487355768",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "57",
+      "addr:street": "улица Постышева",
+      "amenity": "hospital",
+      "architect": "В.К.Горшков",
+      "building": "hospital",
+      "building:levels": "6",
+      "start_date": "1974"
+    },
+    "lon": 40.99455996056638,
+    "lat": 56.98526655,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/495640736",
+    "tags": {
+      "addr:housenumber": "12",
+      "addr:street": "улица Окуловой",
+      "building": "hospital"
+    },
+    "lon": 41.0233188615109,
+    "lat": 56.9943207,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/512002850",
+    "tags": {
+      "addr:housenumber": "37",
+      "addr:street": "улица Гагарина",
+      "building": "hospital",
+      "building:levels": "5"
+    },
+    "lon": 42.6664128,
+    "lat": 56.71216795,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/512275943",
+    "tags": {
+      "amenity": "hospital"
+    },
+    "lon": 42.66509096472102,
+    "lat": 56.712008999999995,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/520755396",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "112",
+      "addr:street": "проспект Ленина",
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Отделение НИИ материнства и детства им.В.Н.Городкова",
+      "residential": "urban",
+      "source": "highway buffer",
+      "website": "http://niimid.ru/clinic/classical_medicine/cfpr.php"
+    },
+    "lon": 40.97025262049377,
+    "lat": 57.0180208,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/541931500",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "106/1",
+      "addr:street": "улица Кузнецова",
+      "amenity": "hospital",
+      "building": "yes",
+      "fire_rank": "2",
+      "name": "Наркологическое отделение №1"
+    },
+    "lon": 40.94451119222657,
+    "lat": 57.0094842,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/575711717",
+    "tags": {
+      "building": "hospital",
+      "building:levels": "4",
+      "name": "Лечебный корпус №1"
+    },
+    "lon": 41.02564767539411,
+    "lat": 56.9573171,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/575711718",
+    "tags": {
+      "building": "hospital",
+      "building:levels": "4",
+      "name": "Лечебный корпус №2",
+      "start_date": "1970"
+    },
+    "lon": 41.026337582679005,
+    "lat": 56.956856599999995,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/575711719",
+    "tags": {
+      "building": "hospital",
+      "building:levels": "4",
+      "name": "Лечебный корпус №3"
+    },
+    "lon": 41.02702672889323,
+    "lat": 56.9563849,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/579846076",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital"
+    },
+    "lon": 41.36421660248299,
+    "lat": 56.7010638,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/579846078",
+    "tags": {
+      "building": "hospital"
+    },
+    "lon": 41.36462623192625,
+    "lat": 56.70113675,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/702701119",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "НУЗ Отделенческая больница на станции Иваново РЖД"
+    },
+    "lon": 40.984890801918965,
+    "lat": 57.03566895,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/731774559",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "52/2",
+      "addr:street": "улица Ермака",
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Ивановская клиническая больница имени Куваевых",
+      "website": "https://igb2.ru/",
+      "wikidata": "Q24704052",
+      "wikipedia": "ru:Ивановская клиническая больница имени Куваевых"
+    },
+    "lon": 40.95694206482643,
+    "lat": 57.02093745,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/731774560",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "2/7",
+      "addr:street": "Детская улица",
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "healthcare:speciality": "dermatology;gynaecology",
+      "name": "Ивановский областной кожно-венерологический диспансер",
+      "website": "https://ivokvd.ru/"
+    },
+    "lon": 40.94886365326641,
+    "lat": 57.02441255,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "relation/10141799",
+    "tags": {
+      "amenity": "hospital",
+      "name": "Новогоркинская поликлиника"
+    },
+    "lon": 41.06095361424663,
+    "lat": 56.7294973,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/745007147",
+    "tags": {
+      "addr:housenumber": "2",
+      "addr:street": "улица Лежневская",
+      "building": "hospital"
+    },
+    "lon": 41.121703249999996,
+    "lat": 56.8035919,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/745007148",
+    "tags": {
+      "addr:housenumber": "2",
+      "addr:street": "улица Лежневская",
+      "building": "hospital"
+    },
+    "lon": 41.121140509990525,
+    "lat": 56.8036123,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/745007149",
+    "tags": {
+      "addr:housenumber": "2",
+      "addr:street": "улица Лежневская",
+      "building": "hospital"
+    },
+    "lon": 41.12110583125,
+    "lat": 56.80338955,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/757880303",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Районная больница"
+    },
+    "lon": 41.20830495111069,
+    "lat": 56.60324465,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "relation/4483403",
+    "tags": {
+      "amenity": "hospital",
+      "name": "ЦРБ"
+    },
+    "lon": 41.376957076535916,
+    "lat": 56.842854149999994,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/846339912",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Районная больница"
+    },
+    "lon": 40.885641997609554,
+    "lat": 56.77765655,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/865426101",
+    "tags": {
+      "addr:housenumber": "3",
+      "addr:street": "Больничная улица",
+      "building": "hospital"
+    },
+    "lon": 41.674244169260746,
+    "lat": 56.932663149999996,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/866260198",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Отделение районной бльницы"
+    },
+    "lon": 41.674144232602515,
+    "lat": 56.9330057,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/917161391",
+    "tags": {
+      "building": "hospital"
+    },
+    "lon": 43.11895695,
+    "lat": 57.33729495,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/917161392",
+    "tags": {
+      "building": "hospital"
+    },
+    "lon": 43.11929515306951,
+    "lat": 57.3375328,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/917161393",
+    "tags": {
+      "building": "hospital"
+    },
+    "lon": 43.119846804447036,
+    "lat": 57.33736515,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/917473035",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Районная больница"
+    },
+    "lon": 43.09570011227203,
+    "lat": 57.3234876,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/946463763",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Морг"
+    },
+    "lon": 43.16434692549862,
+    "lat": 56.97813480000001,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/970694909",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Районная больница"
+    },
+    "lon": 42.59930307976948,
+    "lat": 56.844489949999996,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/981647489",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Медицинский пункт"
+    },
+    "lon": 43.04686918706626,
+    "lat": 56.93457415,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1014313775",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "1",
+      "name": "Корпус В3"
+    },
+    "lon": 41.029459057397,
+    "lat": 56.95766785,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1014325929",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "1"
+    },
+    "lon": 41.03077043829372,
+    "lat": 56.957836400000005,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1014325930",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "1",
+      "name": "Корпус В4"
+    },
+    "lon": 41.02987672506027,
+    "lat": 56.9574545,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1014325931",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "1",
+      "name": "Корпус Б6"
+    },
+    "lon": 41.03154585637613,
+    "lat": 56.9572934,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1014325932",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "1"
+    },
+    "lon": 41.03049533618544,
+    "lat": 56.9568316,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1014325933",
+    "tags": {
+      "building": "hospital",
+      "name": "Корпус А3"
+    },
+    "lon": 41.031212800000006,
+    "lat": 56.957571900000005,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1014325934",
+    "tags": {
+      "building": "hospital",
+      "name": "Корпус А2"
+    },
+    "lon": 41.030062752274546,
+    "lat": 56.9570981,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1014325935",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "1",
+      "name": "Корпус А4"
+    },
+    "lon": 41.030482578994224,
+    "lat": 56.956102,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1014325936",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:housenumber": "15",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "name": "Корпус А1"
+    },
+    "lon": 41.02974318272328,
+    "lat": 56.95660595,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1224962149",
+    "tags": {
+      "building": "hospital"
+    },
+    "lon": 41.4840825,
+    "lat": 56.79698765,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1229072100",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Пучежская районная больница"
+    },
+    "lon": 43.16581029563257,
+    "lat": 56.9784734,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1263498002",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Вичугская центральная районная больница"
+    },
+    "lon": 41.92202724005078,
+    "lat": 57.2139035,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1425025077",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "1",
+      "name": "Корпус Б2"
+    },
+    "lon": 41.030566968994954,
+    "lat": 56.9583957,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1425025078",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "1",
+      "name": "Корпус Б1"
+    },
+    "lon": 41.03004614051498,
+    "lat": 56.95817275,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1425025079",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "1",
+      "name": "Корпус В2"
+    },
+    "lon": 41.02938589149679,
+    "lat": 56.95809165,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1425025080",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "1",
+      "name": "Корпус В1"
+    },
+    "lon": 41.028905169307706,
+    "lat": 56.9578903,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1425025081",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "1",
+      "name": "Корпус Б4"
+    },
+    "lon": 41.03251131895818,
+    "lat": 56.95704635,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1425025082",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "1",
+      "name": "Корпус Б5"
+    },
+    "lon": 41.03198657841713,
+    "lat": 56.95682215,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1425025083",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "1",
+      "name": "Корпус Б7"
+    },
+    "lon": 41.031449249999994,
+    "lat": 56.9565926,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1425025084",
+    "tags": {
+      "addr:city": "Иваново",
+      "addr:street": "улица Любимова",
+      "building": "hospital",
+      "building:levels": "1",
+      "name": "Корпус Б8"
+    },
+    "lon": 41.030926019345465,
+    "lat": 56.95636965,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1425025085",
+    "tags": {
+      "amenity": "hospital",
+      "email": "gkb1@ivreg.ru",
+      "emergency": "yes",
+      "name": "1-я городская клиническая больница",
+      "phone": "+7 4932 900030",
+      "website": "https://www.igkb1.ru/"
+    },
+    "lon": 41.03092450082855,
+    "lat": 56.95679175,
+    "coordinateMethod": "representative point inside OSM area"
+  },
+  {
+    "osmId": "way/1452827219",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "Детская больница"
+    },
+    "lon": 41.12541660588289,
+    "lat": 57.26209645,
+    "coordinateMethod": "representative point inside OSM area"
+  }
+]

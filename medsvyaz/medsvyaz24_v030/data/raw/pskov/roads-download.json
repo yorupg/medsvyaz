@@ -1,0 +1,15 @@
+{
+  "url": "https://download.openstreetmap.fr/extracts/russia/northwestern_federal_district/pskov_oblast-latest.osm.pbf",
+  "headers": {
+    "server": "envoy",
+    "date": "Mon, 09 Nov 2026 20:09:40 GMT",
+    "content-type": "application/octet-stream",
+    "content-length": "55234286",
+    "last-modified": "Mon, 09 Nov 2026 00:04:19 GMT",
+    "etag": "\"6af10e03-34aceee\"",
+    "accept-ranges": "bytes",
+    "permissions-policy": "interest-cohort=()",
+    "x-envoy-upstream-service-time": "107",
+    "connection": "close"
+  }
+}

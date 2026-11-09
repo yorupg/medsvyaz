@@ -1,0 +1,1343 @@
+[
+  {
+    "id": "belgorod",
+    "name": "Белгородская область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-BEL",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "bryansk",
+    "name": "Брянская область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-BRY",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "vladimir",
+    "name": "Владимирская область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-VLA",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "voronezh",
+    "name": "Воронежская область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-VOR",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "ivanovo",
+    "name": "Ивановская область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-IVA",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "kaluga",
+    "name": "Калужская область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-KLU",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "kostroma",
+    "name": "Костромская область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-KOS",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "kursk",
+    "name": "Курская область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-KRS",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "lipetsk",
+    "name": "Липецкая область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-LIP",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "moscow-oblast",
+    "name": "Московская область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-MOS",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "oryol",
+    "name": "Орловская область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-ORL",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "ryazan",
+    "name": "Рязанская область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-RYA",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "smolensk",
+    "name": "Смоленская область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-SMO",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "tambov",
+    "name": "Тамбовская область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-TAM",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "tver",
+    "name": "Тверская область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-TVE",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "tula",
+    "name": "Тульская область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-TUL",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "yaroslavl",
+    "name": "Ярославская область",
+    "districtId": "central",
+    "type": "oblast",
+    "isoCode": "RU-YAR",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "moscow",
+    "name": "Москва",
+    "districtId": "central",
+    "type": "federal-city",
+    "isoCode": "RU-MOW",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-central"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "karelia",
+    "name": "Республика Карелия",
+    "districtId": "northwestern",
+    "type": "republic",
+    "isoCode": "RU-KR",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-northwestern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "komi",
+    "name": "Республика Коми",
+    "districtId": "northwestern",
+    "type": "republic",
+    "isoCode": "RU-KO",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-northwestern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "arkhangelsk",
+    "name": "Архангельская область",
+    "districtId": "northwestern",
+    "type": "oblast",
+    "isoCode": "RU-ARK",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-northwestern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "vologda",
+    "name": "Вологодская область",
+    "districtId": "northwestern",
+    "type": "oblast",
+    "isoCode": "RU-VLG",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-northwestern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "kaliningrad",
+    "name": "Калининградская область",
+    "districtId": "northwestern",
+    "type": "oblast",
+    "isoCode": "RU-KGD",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-northwestern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "leningrad",
+    "name": "Ленинградская область",
+    "districtId": "northwestern",
+    "type": "oblast",
+    "isoCode": "RU-LEN",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-northwestern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "murmansk",
+    "name": "Мурманская область",
+    "districtId": "northwestern",
+    "type": "oblast",
+    "isoCode": "RU-MUR",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-northwestern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "novgorod",
+    "name": "Новгородская область",
+    "districtId": "northwestern",
+    "type": "oblast",
+    "isoCode": "RU-NGR",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-northwestern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "pskov",
+    "name": "Псковская область",
+    "districtId": "northwestern",
+    "type": "oblast",
+    "isoCode": "RU-PSK",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-northwestern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "saint-petersburg",
+    "name": "Санкт-Петербург",
+    "districtId": "northwestern",
+    "type": "federal-city",
+    "isoCode": "RU-SPE",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-northwestern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "nenets",
+    "name": "Ненецкий автономный округ",
+    "districtId": "northwestern",
+    "type": "autonomous-okrug",
+    "isoCode": "RU-NEN",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-northwestern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "adygea",
+    "name": "Республика Адыгея (Адыгея)",
+    "districtId": "southern",
+    "type": "republic",
+    "isoCode": "RU-AD",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-southern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "kalmykia",
+    "name": "Республика Калмыкия",
+    "districtId": "southern",
+    "type": "republic",
+    "isoCode": "RU-KL",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-southern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "crimea",
+    "name": "Республика Крым",
+    "districtId": "southern",
+    "type": "republic",
+    "isoCode": "UA-43",
+    "officialCode": null,
+    "disputed": true,
+    "statusNote": "Включён в российский административный справочник. Международно признанная принадлежность — Украина; аннексия Россией не признана ООН. Границы слоя не означают признания статуса.",
+    "sourceRefs": [
+      "constitution-65",
+      "district-southern",
+      "un-crimea"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "krasnodar",
+    "name": "Краснодарский край",
+    "districtId": "southern",
+    "type": "krai",
+    "isoCode": "RU-KDA",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-southern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "astrakhan",
+    "name": "Астраханская область",
+    "districtId": "southern",
+    "type": "oblast",
+    "isoCode": "RU-AST",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-southern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "volgograd",
+    "name": "Волгоградская область",
+    "districtId": "southern",
+    "type": "oblast",
+    "isoCode": "RU-VGG",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-southern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "rostov",
+    "name": "Ростовская область",
+    "districtId": "southern",
+    "type": "oblast",
+    "isoCode": "RU-ROS",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-southern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "sevastopol",
+    "name": "Севастополь",
+    "districtId": "southern",
+    "type": "federal-city",
+    "isoCode": "UA-40",
+    "officialCode": null,
+    "disputed": true,
+    "statusNote": "Включён в российский административный справочник. Международно признанная принадлежность — Украина; аннексия Россией не признана ООН. Границы слоя не означают признания статуса.",
+    "sourceRefs": [
+      "constitution-65",
+      "district-southern",
+      "un-crimea"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "dagestan",
+    "name": "Республика Дагестан",
+    "districtId": "north-caucasian",
+    "type": "republic",
+    "isoCode": "RU-DA",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-north-caucasian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "ingushetia",
+    "name": "Республика Ингушетия",
+    "districtId": "north-caucasian",
+    "type": "republic",
+    "isoCode": "RU-IN",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-north-caucasian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "kabardino-balkaria",
+    "name": "Кабардино-Балкарская Республика",
+    "districtId": "north-caucasian",
+    "type": "republic",
+    "isoCode": "RU-KB",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-north-caucasian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "karachay-cherkessia",
+    "name": "Карачаево-Черкесская Республика",
+    "districtId": "north-caucasian",
+    "type": "republic",
+    "isoCode": "RU-KC",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-north-caucasian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "north-ossetia-alania",
+    "name": "Республика Северная Осетия — Алания",
+    "districtId": "north-caucasian",
+    "type": "republic",
+    "isoCode": "RU-SE",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-north-caucasian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "chechnya",
+    "name": "Чеченская Республика",
+    "districtId": "north-caucasian",
+    "type": "republic",
+    "isoCode": "RU-CE",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-north-caucasian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "stavropol",
+    "name": "Ставропольский край",
+    "districtId": "north-caucasian",
+    "type": "krai",
+    "isoCode": "RU-STA",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-north-caucasian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "bashkortostan",
+    "name": "Республика Башкортостан",
+    "districtId": "volga",
+    "type": "republic",
+    "isoCode": "RU-BA",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-volga"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "mari-el",
+    "name": "Республика Марий Эл",
+    "districtId": "volga",
+    "type": "republic",
+    "isoCode": "RU-ME",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-volga"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "mordovia",
+    "name": "Республика Мордовия",
+    "districtId": "volga",
+    "type": "republic",
+    "isoCode": "RU-MO",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-volga"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "tatarstan",
+    "name": "Республика Татарстан (Татарстан)",
+    "districtId": "volga",
+    "type": "republic",
+    "isoCode": "RU-TA",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-volga"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "udmurtia",
+    "name": "Удмуртская Республика",
+    "districtId": "volga",
+    "type": "republic",
+    "isoCode": "RU-UD",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-volga"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "chuvashia",
+    "name": "Чувашская Республика — Чувашия",
+    "districtId": "volga",
+    "type": "republic",
+    "isoCode": "RU-CU",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-volga"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "perm",
+    "name": "Пермский край",
+    "districtId": "volga",
+    "type": "krai",
+    "isoCode": "RU-PER",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-volga"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "kirov",
+    "name": "Кировская область",
+    "districtId": "volga",
+    "type": "oblast",
+    "isoCode": "RU-KIR",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-volga"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "nizhny-novgorod",
+    "name": "Нижегородская область",
+    "districtId": "volga",
+    "type": "oblast",
+    "isoCode": "RU-NIZ",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-volga"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "orenburg",
+    "name": "Оренбургская область",
+    "districtId": "volga",
+    "type": "oblast",
+    "isoCode": "RU-ORE",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-volga"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "penza",
+    "name": "Пензенская область",
+    "districtId": "volga",
+    "type": "oblast",
+    "isoCode": "RU-PNZ",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-volga"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "samara",
+    "name": "Самарская область",
+    "districtId": "volga",
+    "type": "oblast",
+    "isoCode": "RU-SAM",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-volga"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "saratov",
+    "name": "Саратовская область",
+    "districtId": "volga",
+    "type": "oblast",
+    "isoCode": "RU-SAR",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-volga"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "ulyanovsk",
+    "name": "Ульяновская область",
+    "districtId": "volga",
+    "type": "oblast",
+    "isoCode": "RU-ULY",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-volga"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "kurgan",
+    "name": "Курганская область",
+    "districtId": "ural",
+    "type": "oblast",
+    "isoCode": "RU-KGN",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-ural"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "sverdlovsk",
+    "name": "Свердловская область",
+    "districtId": "ural",
+    "type": "oblast",
+    "isoCode": "RU-SVE",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-ural"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "tyumen",
+    "name": "Тюменская область",
+    "districtId": "ural",
+    "type": "oblast",
+    "isoCode": "RU-TYU",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-ural"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "chelyabinsk",
+    "name": "Челябинская область",
+    "districtId": "ural",
+    "type": "oblast",
+    "isoCode": "RU-CHE",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-ural"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "khanty-mansi",
+    "name": "Ханты-Мансийский автономный округ — Югра",
+    "districtId": "ural",
+    "type": "autonomous-okrug",
+    "isoCode": "RU-KHM",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-ural"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "yamalo-nenets",
+    "name": "Ямало-Ненецкий автономный округ",
+    "districtId": "ural",
+    "type": "autonomous-okrug",
+    "isoCode": "RU-YAN",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-ural"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "altai-republic",
+    "name": "Республика Алтай",
+    "districtId": "siberian",
+    "type": "republic",
+    "isoCode": "RU-AL",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-siberian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "tuva",
+    "name": "Республика Тыва",
+    "districtId": "siberian",
+    "type": "republic",
+    "isoCode": "RU-TY",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-siberian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "khakassia",
+    "name": "Республика Хакасия",
+    "districtId": "siberian",
+    "type": "republic",
+    "isoCode": "RU-KK",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-siberian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "altai-krai",
+    "name": "Алтайский край",
+    "districtId": "siberian",
+    "type": "krai",
+    "isoCode": "RU-ALT",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-siberian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "krasnoyarsk",
+    "name": "Красноярский край",
+    "districtId": "siberian",
+    "type": "krai",
+    "isoCode": "RU-KYA",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-siberian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "irkutsk",
+    "name": "Иркутская область",
+    "districtId": "siberian",
+    "type": "oblast",
+    "isoCode": "RU-IRK",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-siberian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "kemerovo",
+    "name": "Кемеровская область — Кузбасс",
+    "districtId": "siberian",
+    "type": "oblast",
+    "isoCode": "RU-KEM",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-siberian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "novosibirsk",
+    "name": "Новосибирская область",
+    "districtId": "siberian",
+    "type": "oblast",
+    "isoCode": "RU-NVS",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-siberian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "omsk",
+    "name": "Омская область",
+    "districtId": "siberian",
+    "type": "oblast",
+    "isoCode": "RU-OMS",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-siberian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "tomsk",
+    "name": "Томская область",
+    "districtId": "siberian",
+    "type": "oblast",
+    "isoCode": "RU-TOM",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-siberian"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "buryatia",
+    "name": "Республика Бурятия",
+    "districtId": "far-eastern",
+    "type": "republic",
+    "isoCode": "RU-BU",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-far-eastern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "sakha",
+    "name": "Республика Саха (Якутия)",
+    "districtId": "far-eastern",
+    "type": "republic",
+    "isoCode": "RU-SA",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-far-eastern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "zabaykalsky",
+    "name": "Забайкальский край",
+    "districtId": "far-eastern",
+    "type": "krai",
+    "isoCode": "RU-ZAB",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-far-eastern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "kamchatka",
+    "name": "Камчатский край",
+    "districtId": "far-eastern",
+    "type": "krai",
+    "isoCode": "RU-KAM",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-far-eastern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "primorye",
+    "name": "Приморский край",
+    "districtId": "far-eastern",
+    "type": "krai",
+    "isoCode": "RU-PRI",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-far-eastern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "khabarovsk",
+    "name": "Хабаровский край",
+    "districtId": "far-eastern",
+    "type": "krai",
+    "isoCode": "RU-KHA",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-far-eastern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "amur",
+    "name": "Амурская область",
+    "districtId": "far-eastern",
+    "type": "oblast",
+    "isoCode": "RU-AMU",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-far-eastern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "magadan",
+    "name": "Магаданская область",
+    "districtId": "far-eastern",
+    "type": "oblast",
+    "isoCode": "RU-MAG",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-far-eastern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "sakhalin",
+    "name": "Сахалинская область",
+    "districtId": "far-eastern",
+    "type": "oblast",
+    "isoCode": "RU-SAK",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-far-eastern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "jewish-autonomous",
+    "name": "Еврейская автономная область",
+    "districtId": "far-eastern",
+    "type": "autonomous-oblast",
+    "isoCode": "RU-YEV",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-far-eastern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "chukotka",
+    "name": "Чукотский автономный округ",
+    "districtId": "far-eastern",
+    "type": "autonomous-okrug",
+    "isoCode": "RU-CHU",
+    "officialCode": null,
+    "disputed": false,
+    "statusNote": null,
+    "sourceRefs": [
+      "constitution-65",
+      "district-far-eastern"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "donetsk",
+    "name": "Донецкая Народная Республика",
+    "districtId": null,
+    "type": "republic",
+    "isoCode": "UA-14",
+    "officialCode": null,
+    "disputed": true,
+    "statusNote": "Включён в российский административный справочник в 2022 году. Международно признанная принадлежность — Украина; аннексия Россией не признана ООН. Федеральный округ не назначен в используемом перечне; условное размещение в томе ОКТМО Южного ФО не является назначением округа.",
+    "sourceRefs": [
+      "constitution-65",
+      "rosstat-classifiers",
+      "un-es11-4"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "luhansk",
+    "name": "Луганская Народная Республика",
+    "districtId": null,
+    "type": "republic",
+    "isoCode": "UA-09",
+    "officialCode": null,
+    "disputed": true,
+    "statusNote": "Включён в российский административный справочник в 2022 году. Международно признанная принадлежность — Украина; аннексия Россией не признана ООН. Федеральный округ не назначен в используемом перечне; условное размещение в томе ОКТМО Южного ФО не является назначением округа.",
+    "sourceRefs": [
+      "constitution-65",
+      "rosstat-classifiers",
+      "un-es11-4"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "zaporizhzhia",
+    "name": "Запорожская область",
+    "districtId": null,
+    "type": "oblast",
+    "isoCode": "UA-23",
+    "officialCode": null,
+    "disputed": true,
+    "statusNote": "Включён в российский административный справочник в 2022 году. Международно признанная принадлежность — Украина; аннексия Россией не признана ООН. Федеральный округ не назначен в используемом перечне; условное размещение в томе ОКТМО Южного ФО не является назначением округа.",
+    "sourceRefs": [
+      "constitution-65",
+      "rosstat-classifiers",
+      "un-es11-4"
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "kherson",
+    "name": "Херсонская область",
+    "districtId": null,
+    "type": "oblast",
+    "isoCode": "UA-65",
+    "officialCode": null,
+    "disputed": true,
+    "statusNote": "Включён в российский административный справочник в 2022 году. Международно признанная принадлежность — Украина; аннексия Россией не признана ООН. Федеральный округ не назначен в используемом перечне; условное размещение в томе ОКТМО Южного ФО не является назначением округа.",
+    "sourceRefs": [
+      "constitution-65",
+      "rosstat-classifiers",
+      "un-es11-4"
+    ],
+    "verifiedAt": "2026-11-09"
+  }
+]

@@ -1,0 +1,2104 @@
+{
+  "preparedAt": "2026-11-09",
+  "nationalIndex": null,
+  "reason": "Real and synthetic datasets are never combined into a national index; selected facilities do not establish a clinical-quality ranking",
+  "reports": [
+    {
+      "regionId": "belgorod",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-belgorod",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 61.50415827096982,
+      "population": 896521,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "bryansk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-bryansk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 60.90901733501709,
+      "population": 648622,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "vladimir",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-vladimir",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 54.89149673219203,
+      "population": 878230,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "voronezh",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-voronezh",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 63.03246741956718,
+      "population": 1465836,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "kaluga",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-kaluga",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 62.06610925568445,
+      "population": 696126,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "kostroma",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-kostroma",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 62.13715913086955,
+      "population": 408930,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "kursk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-kursk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 67.08992613757064,
+      "population": 681059,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "lipetsk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-lipetsk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 66.67859696929993,
+      "population": 762378,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "moscow-oblast",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-moscow-oblast",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 54.10200713376782,
+      "population": 2757426,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "oryol",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-oryol",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 65.24113192574656,
+      "population": 452679,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "ryazan",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-ryazan",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 66.23769322522556,
+      "population": 716971,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "smolensk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-smolensk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 56.08644202878394,
+      "population": 596527,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "tambov",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-tambov",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 61.015921237660564,
+      "population": 578038,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "tver",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-tver",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 55.51924639869743,
+      "population": 751325,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "tula",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-tula",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 60.22590179619119,
+      "population": 979023,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "yaroslavl",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-yaroslavl",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 66.32381995551194,
+      "population": 950659,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "moscow",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-moscow",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 62.61178254741033,
+      "population": 477661,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "karelia",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-karelia",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 57.808190647254406,
+      "population": 400158,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "komi",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-komi",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 60.246727649007866,
+      "population": 525600,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "arkhangelsk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-arkhangelsk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 61.33167765738177,
+      "population": 725210,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "vologda",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-vologda",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 65.42005078164159,
+      "population": 773265,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "leningrad",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-leningrad",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 37.51931742757429,
+      "population": 787302,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "murmansk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-murmansk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 55.283266893353414,
+      "population": 587541,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "novgorod",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-novgorod",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 61.12613761373821,
+      "population": 395824,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "saint-petersburg",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-saint-petersburg",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 56.050901404428664,
+      "population": 27511,
+      "coverage": 1,
+      "settlements": 48
+    },
+    {
+      "regionId": "nenets",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-nenets",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 57.83179740188699,
+      "population": 41434,
+      "coverage": 1,
+      "settlements": 42
+    },
+    {
+      "regionId": "adygea",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-adygea",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 56.122903143883754,
+      "population": 361027,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "kalmykia",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-kalmykia",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 51.80306211904257,
+      "population": 195197,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "crimea",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-crimea",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 51.0863164321755,
+      "population": 993625,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "krasnodar",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-krasnodar",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 56.56676574488457,
+      "population": 2677977,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "astrakhan",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-astrakhan",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 64.43164977023929,
+      "population": 667061,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "volgograd",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-volgograd",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 67.4276763352899,
+      "population": 1728298,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "rostov",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-rostov",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 57.89287761336131,
+      "population": 2532885,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "sevastopol",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-sevastopol",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 51.13886672385919,
+      "population": 98353,
+      "coverage": 1,
+      "settlements": 42
+    },
+    {
+      "regionId": "dagestan",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-dagestan",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 60.15199255781715,
+      "population": 1384395,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "ingushetia",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-ingushetia",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 50.503609416416566,
+      "population": 509541,
+      "coverage": 1,
+      "settlements": 56
+    },
+    {
+      "regionId": "kabardino-balkaria",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-kabardino-balkaria",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 51.89372040027762,
+      "population": 655959,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "karachay-cherkessia",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-karachay-cherkessia",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 52.50349843177609,
+      "population": 320948,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "north-ossetia-alania",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-north-ossetia-alania",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 63.18829096173632,
+      "population": 532416,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "chechnya",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-chechnya",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 58.51794493308051,
+      "population": 780908,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "stavropol",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-stavropol",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 51.01410801512458,
+      "population": 1545351,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "bashkortostan",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-bashkortostan",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 57.991072671313965,
+      "population": 2266575,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "mari-el",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-mari-el",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 66.09867738245798,
+      "population": 446387,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "mordovia",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-mordovia",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 63.868873828034324,
+      "population": 471845,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "tatarstan",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-tatarstan",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 60.713381206908345,
+      "population": 2788801,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "udmurtia",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-udmurtia",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 64.69801375314738,
+      "population": 1048820,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "chuvashia",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-chuvashia",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 65.5901860903892,
+      "population": 802680,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "perm",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-perm",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 59.80718184795062,
+      "population": 1684320,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "kirov",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-kirov",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 64.9471421816324,
+      "population": 706059,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "nizhny-novgorod",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-nizhny-novgorod",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 62.279506728430924,
+      "population": 2052619,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "orenburg",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-orenburg",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 58.57660537773256,
+      "population": 1158905,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "penza",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-penza",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 63.31065936855235,
+      "population": 825139,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "samara",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-samara",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 67.30546198617564,
+      "population": 2452479,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "saratov",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-saratov",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 64.41228948772198,
+      "population": 1676119,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "ulyanovsk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-ulyanovsk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 69.01993890813692,
+      "population": 854618,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "kurgan",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-kurgan",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 64.97623352800093,
+      "population": 493170,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "sverdlovsk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-sverdlovsk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 64.17329934526477,
+      "population": 2721835,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "tyumen",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-tyumen",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 70.51231417276892,
+      "population": 1173265,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "chelyabinsk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-chelyabinsk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 59.61870465009242,
+      "population": 2449323,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "khanty-mansi",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-khanty-mansi",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 49.96845199835552,
+      "population": 1365490,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "yamalo-nenets",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-yamalo-nenets",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 47.31635742700127,
+      "population": 494580,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "altai-republic",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-altai-republic",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 51.501461764860466,
+      "population": 147642,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "tuva",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-tuva",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 54.40033861176787,
+      "population": 242218,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "khakassia",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-khakassia",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 61.10860839126421,
+      "population": 405978,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "altai-krai",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-altai-krai",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 62.61709258914401,
+      "population": 1224507,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "krasnoyarsk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-krasnoyarsk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 59.95860033827973,
+      "population": 1985354,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "irkutsk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-irkutsk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 57.22764584325707,
+      "population": 1513918,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "kemerovo",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-kemerovo",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 56.71086764832523,
+      "population": 1918100,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "novosibirsk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-novosibirsk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 71.31996676192738,
+      "population": 2043882,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "omsk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-omsk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 70.35563332584736,
+      "population": 1284954,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "tomsk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-tomsk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 67.42605392939778,
+      "population": 828178,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "buryatia",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-buryatia",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 66.11762308104493,
+      "population": 617258,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "sakha",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-sakha",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 58.05962173121756,
+      "population": 599961,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "zabaykalsky",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-zabaykalsky",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 58.88907326679559,
+      "population": 558049,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "kamchatka",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-kamchatka",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 65.75222791409169,
+      "population": 273564,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "primorye",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-primorye",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 58.57195498442849,
+      "population": 1344540,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "khabarovsk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-khabarovsk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 64.59721349615506,
+      "population": 1050535,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "amur",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-amur",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 57.92626473306429,
+      "population": 511145,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "magadan",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-magadan",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 57.97600651516727,
+      "population": 136085,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "sakhalin",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-sakhalin",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 52.00878192683277,
+      "population": 379450,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "jewish-autonomous",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-jewish-autonomous",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 54.38137764115281,
+      "population": 132694,
+      "coverage": 1,
+      "settlements": 60
+    },
+    {
+      "regionId": "chukotka",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-chukotka",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 39.86650758123806,
+      "population": 47490,
+      "coverage": 1,
+      "settlements": 46
+    },
+    {
+      "regionId": "donetsk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-donetsk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 53.862717186083785,
+      "population": 29041,
+      "coverage": 1,
+      "settlements": 48
+    },
+    {
+      "regionId": "luhansk",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-luhansk",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 41.415356152244264,
+      "population": 16920,
+      "coverage": 1,
+      "settlements": 48
+    },
+    {
+      "regionId": "zaporizhzhia",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-zaporizhzhia",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 42.50454185774915,
+      "population": 17763,
+      "coverage": 1,
+      "settlements": 48
+    },
+    {
+      "regionId": "kherson",
+      "synthetic": true,
+      "label": "Синтетическая сеть — не оценка региона",
+      "datasetId": "synthetic-kherson",
+      "version": "synthetic-v3-2026-11-09",
+      "index": 48.88446701045042,
+      "population": 18256,
+      "coverage": 1,
+      "settlements": 48
+    },
+    {
+      "regionId": "kaliningrad",
+      "synthetic": false,
+      "label": "Реальные исходники, модельное время",
+      "datasetId": "kaliningrad-real-v1",
+      "version": "pilot-2026-11-09-v1",
+      "index": 78.90433277979731,
+      "population": 1029680,
+      "coverage": 0.9997223209309822,
+      "settlements": 1098
+    },
+    {
+      "regionId": "ivanovo",
+      "synthetic": false,
+      "label": "Реальные исходники, модельное время",
+      "datasetId": "ivanovo-real-v1",
+      "version": "pilot-2026-11-09-v1",
+      "index": 59.30789516622177,
+      "population": 927592,
+      "coverage": 0.9997456425113276,
+      "settlements": 3049
+    },
+    {
+      "regionId": "pskov",
+      "synthetic": false,
+      "label": "Реальные исходники, модельное время",
+      "datasetId": "pskov-real-v1",
+      "version": "pilot-2026-11-09-v1",
+      "index": 58.99802999431322,
+      "population": 598497,
+      "coverage": 0.999020170794079,
+      "settlements": 8383
+    }
+  ],
+  "pilots": {
+    "kaliningrad": {
+      "scenarios": [
+        {
+          "edge": {
+            "id": "w43569989-364855982-1654304159",
+            "name": "Пролетарская улица",
+            "osmWayId": "43569989",
+            "lengthKm": 0.40698
+          },
+          "baseline": {
+            "index": 78.90433277979731,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 7
+          },
+          "improvement": {
+            "index": 79.02413259806421,
+            "delta": 0.11979981826689823,
+            "affectedPopulation": 500123,
+            "unreachableSettlements": 7
+          },
+          "closure": {
+            "index": 78.83976148712856,
+            "delta": -0.06457129266875938,
+            "affectedPopulation": 500123,
+            "unreachableSettlements": 7
+          }
+        },
+        {
+          "edge": {
+            "id": "w146384931-9693510924-5478905397",
+            "name": "«Приморское полукольцо»",
+            "osmWayId": "146384931",
+            "lengthKm": 4.48558
+          },
+          "baseline": {
+            "index": 78.90433277979731,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 7
+          },
+          "improvement": {
+            "index": 79.00984068679662,
+            "delta": 0.10550790699930701,
+            "affectedPopulation": 64234,
+            "unreachableSettlements": 7
+          },
+          "closure": {
+            "index": 78.66459245018923,
+            "delta": -0.23974032960808245,
+            "affectedPopulation": 59680,
+            "unreachableSettlements": 7
+          }
+        },
+        {
+          "edge": {
+            "id": "w131290271-923920301-1846475860",
+            "name": "27А-016",
+            "osmWayId": "131290271",
+            "lengthKm": 4.23384
+          },
+          "baseline": {
+            "index": 78.90433277979731,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 7
+          },
+          "improvement": {
+            "index": 78.99347464325136,
+            "delta": 0.08914186345404573,
+            "affectedPopulation": 42421,
+            "unreachableSettlements": 7
+          },
+          "closure": {
+            "index": 78.61099092635123,
+            "delta": -0.2933418534460799,
+            "affectedPopulation": 42373,
+            "unreachableSettlements": 7
+          }
+        },
+        {
+          "edge": {
+            "id": "w1290407943-11964141087-941443480",
+            "name": "проспект Ленина",
+            "osmWayId": "1290407943",
+            "lengthKm": 4.52113
+          },
+          "baseline": {
+            "index": 78.90433277979731,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 7
+          },
+          "improvement": {
+            "index": 78.96466952209072,
+            "delta": 0.06033674229340136,
+            "affectedPopulation": 26796,
+            "unreachableSettlements": 7
+          },
+          "closure": {
+            "index": 77.79466333352859,
+            "delta": -1.1096694462687253,
+            "affectedPopulation": 26796,
+            "unreachableSettlements": 8
+          }
+        },
+        {
+          "edge": {
+            "id": "w331728997-3388249281-2742249954",
+            "name": "27А-025",
+            "osmWayId": "331728997",
+            "lengthKm": 8.05705
+          },
+          "baseline": {
+            "index": 78.90433277979731,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 7
+          },
+          "improvement": {
+            "index": 78.97328982890522,
+            "delta": 0.06895704910790812,
+            "affectedPopulation": 18977,
+            "unreachableSettlements": 7
+          },
+          "closure": {
+            "index": 78.8684970277449,
+            "delta": -0.035835752052420844,
+            "affectedPopulation": 13099,
+            "unreachableSettlements": 9
+          }
+        },
+        {
+          "edge": {
+            "id": "w191875764-1989490122-13638943458",
+            "name": "27А-015",
+            "osmWayId": "191875764",
+            "lengthKm": 1.6646
+          },
+          "baseline": {
+            "index": 78.90433277979731,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 7
+          },
+          "improvement": {
+            "index": 78.95173432859795,
+            "delta": 0.04740154880063585,
+            "affectedPopulation": 48481,
+            "unreachableSettlements": 7
+          },
+          "closure": {
+            "index": 78.52566970183022,
+            "delta": -0.3786630779670901,
+            "affectedPopulation": 48377,
+            "unreachableSettlements": 7
+          }
+        },
+        {
+          "edge": {
+            "id": "w262731023-2683887925-2621029240",
+            "name": "27А-020",
+            "osmWayId": "262731023",
+            "lengthKm": 8.86523
+          },
+          "baseline": {
+            "index": 78.90433277979731,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 7
+          },
+          "improvement": {
+            "index": 78.95035782828681,
+            "delta": 0.04602504848949707,
+            "affectedPopulation": 10567,
+            "unreachableSettlements": 7
+          },
+          "closure": {
+            "index": 78.65549668429092,
+            "delta": -0.24883609550639108,
+            "affectedPopulation": 10514,
+            "unreachableSettlements": 11
+          }
+        },
+        {
+          "edge": {
+            "id": "w331697052-3387949917-3387949845",
+            "name": "27А-029",
+            "osmWayId": "331697052",
+            "lengthKm": 6.652140000000001
+          },
+          "baseline": {
+            "index": 78.90433277979731,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 7
+          },
+          "improvement": {
+            "index": 78.94691765885405,
+            "delta": 0.042584879056732916,
+            "affectedPopulation": 13064,
+            "unreachableSettlements": 7
+          },
+          "closure": {
+            "index": 78.74450205739602,
+            "delta": -0.1598307224012956,
+            "affectedPopulation": 12620,
+            "unreachableSettlements": 8
+          }
+        },
+        {
+          "edge": {
+            "id": "w121499990-1127640138-2316029702",
+            "name": "улица Гоголя",
+            "osmWayId": "121499990",
+            "lengthKm": 0.7092500000000002
+          },
+          "baseline": {
+            "index": 78.90433277979731,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 7
+          },
+          "improvement": {
+            "index": 78.9375123860491,
+            "delta": 0.03317960625177818,
+            "affectedPopulation": 36128,
+            "unreachableSettlements": 7
+          },
+          "closure": {
+            "index": 75.74038653181348,
+            "delta": -3.16394624798383,
+            "affectedPopulation": 36128,
+            "unreachableSettlements": 8
+          }
+        },
+        {
+          "edge": {
+            "id": "w1428309324-13131154544-13765063690",
+            "name": "27А-017",
+            "osmWayId": "1428309324",
+            "lengthKm": 2.6563800000000004
+          },
+          "baseline": {
+            "index": 78.90433277979731,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 7
+          },
+          "improvement": {
+            "index": 78.93506680210312,
+            "delta": 0.030734022305807684,
+            "affectedPopulation": 23315,
+            "unreachableSettlements": 7
+          },
+          "closure": {
+            "index": 78.51840928468815,
+            "delta": -0.3859234951091679,
+            "affectedPopulation": 23194,
+            "unreachableSettlements": 8
+          }
+        }
+      ],
+      "sensitivity": [
+        {
+          "threshold": 30,
+          "timeScale": 0.8,
+          "index": 67.86697159270481,
+          "withinThresholdShare": 0.9250932328490404,
+          "meanMinutes": 10.057112200259965
+        },
+        {
+          "threshold": 30,
+          "timeScale": 1,
+          "index": 62.67711848017829,
+          "withinThresholdShare": 0.8580714396705773,
+          "meanMinutes": 12.57139025032494
+        },
+        {
+          "threshold": 30,
+          "timeScale": 1.2,
+          "index": 58.41253957071559,
+          "withinThresholdShare": 0.8075003884702043,
+          "meanMinutes": 15.085668300389925
+        },
+        {
+          "threshold": 45,
+          "timeScale": 0.8,
+          "index": 77.52585131252742,
+          "withinThresholdShare": 0.9948731644782846,
+          "meanMinutes": 10.057112200259965
+        },
+        {
+          "threshold": 45,
+          "timeScale": 1,
+          "index": 72.36564373639128,
+          "withinThresholdShare": 0.9695895812291198,
+          "meanMinutes": 12.57139025032494
+        },
+        {
+          "threshold": 45,
+          "timeScale": 1.2,
+          "index": 67.86697159270484,
+          "withinThresholdShare": 0.9250932328490404,
+          "meanMinutes": 15.085668300389925
+        },
+        {
+          "threshold": 60,
+          "timeScale": 0.8,
+          "index": 83.08043167391642,
+          "withinThresholdShare": 0.9981023230518219,
+          "meanMinutes": 10.057112200259965
+        },
+        {
+          "threshold": 60,
+          "timeScale": 1,
+          "index": 78.90433277979731,
+          "withinThresholdShare": 0.9964493823323751,
+          "meanMinutes": 12.57139025032494
+        },
+        {
+          "threshold": 60,
+          "timeScale": 1.2,
+          "index": 74.8614919718936,
+          "withinThresholdShare": 0.9782204179939399,
+          "meanMinutes": 15.085668300389925
+        },
+        {
+          "threshold": 90,
+          "timeScale": 0.8,
+          "index": 88.6571277112404,
+          "withinThresholdShare": 0.9981052365783545,
+          "meanMinutes": 10.057112200259965
+        },
+        {
+          "threshold": 90,
+          "timeScale": 1,
+          "index": 85.86877872459169,
+          "withinThresholdShare": 0.9981052365783545,
+          "meanMinutes": 12.57139025032494
+        },
+        {
+          "threshold": 90,
+          "timeScale": 1.2,
+          "index": 83.08043167391642,
+          "withinThresholdShare": 0.9981023230518219,
+          "meanMinutes": 15.085668300389925
+        },
+        {
+          "threshold": 120,
+          "timeScale": 0.8,
+          "index": 91.44547669788918,
+          "withinThresholdShare": 0.9981052365783545,
+          "meanMinutes": 10.057112200259965
+        },
+        {
+          "threshold": 120,
+          "timeScale": 1,
+          "index": 89.35421495790264,
+          "withinThresholdShare": 0.9981052365783545,
+          "meanMinutes": 12.57139025032494
+        },
+        {
+          "threshold": 120,
+          "timeScale": 1.2,
+          "index": 87.26295321791608,
+          "withinThresholdShare": 0.9981052365783545,
+          "meanMinutes": 15.085668300389925
+        }
+      ],
+      "independentCheck": "data/derived/pilot-independent-check.json"
+    },
+    "ivanovo": {
+      "scenarios": [
+        {
+          "edge": {
+            "id": "w103128325-1601425477-1187491522",
+            "name": "24К-111",
+            "osmWayId": "103128325",
+            "lengthKm": 15.445820000000003
+          },
+          "baseline": {
+            "index": 59.30789516622177,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 28
+          },
+          "improvement": {
+            "index": 60.183984417776706,
+            "delta": 0.8760892515549372,
+            "affectedPopulation": 107434,
+            "unreachableSettlements": 28
+          },
+          "closure": {
+            "index": 55.36050190424756,
+            "delta": -3.947393261974206,
+            "affectedPopulation": 106857,
+            "unreachableSettlements": 35
+          }
+        },
+        {
+          "edge": {
+            "id": "w55211824-694060162-5251546143",
+            "name": "24К-260",
+            "osmWayId": "55211824",
+            "lengthKm": 10.10669
+          },
+          "baseline": {
+            "index": 59.30789516622177,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 28
+          },
+          "improvement": {
+            "index": 59.555050258929505,
+            "delta": 0.24715509270773595,
+            "affectedPopulation": 49150,
+            "unreachableSettlements": 28
+          },
+          "closure": {
+            "index": 58.574813286376255,
+            "delta": -0.7330818798455141,
+            "affectedPopulation": 47679,
+            "unreachableSettlements": 34
+          }
+        },
+        {
+          "edge": {
+            "id": "w70220711-729974912-729992361",
+            "name": "Палех — Южа",
+            "osmWayId": "70220711",
+            "lengthKm": 27.178020000000004
+          },
+          "baseline": {
+            "index": 59.30789516622177,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 28
+          },
+          "improvement": {
+            "index": 59.30789516622177,
+            "delta": 0,
+            "affectedPopulation": 15888,
+            "unreachableSettlements": 28
+          },
+          "closure": {
+            "index": 59.30789516622177,
+            "delta": 0,
+            "affectedPopulation": 15708,
+            "unreachableSettlements": 38
+          }
+        },
+        {
+          "edge": {
+            "id": "w134555569-1187491301-3428217631",
+            "name": "Кинешемская улица",
+            "osmWayId": "134555569",
+            "lengthKm": 1.77224
+          },
+          "baseline": {
+            "index": 59.30789516622177,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 28
+          },
+          "improvement": {
+            "index": 59.49020836899225,
+            "delta": 0.18231320277048013,
+            "affectedPopulation": 120221,
+            "unreachableSettlements": 28
+          },
+          "closure": {
+            "index": 58.9251457524567,
+            "delta": -0.3827494137650689,
+            "affectedPopulation": 120081,
+            "unreachableSettlements": 28
+          }
+        },
+        {
+          "edge": {
+            "id": "w550927747-1141788596-5254054773",
+            "name": "улица Любимова",
+            "osmWayId": "550927747",
+            "lengthKm": 0.46781
+          },
+          "baseline": {
+            "index": 59.30789516622177,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 28
+          },
+          "improvement": {
+            "index": 59.48274564009698,
+            "delta": 0.17485047387521035,
+            "affectedPopulation": 652462,
+            "unreachableSettlements": 28
+          },
+          "closure": {
+            "index": 57.949702542837954,
+            "delta": -1.3581926233838146,
+            "affectedPopulation": 652456,
+            "unreachableSettlements": 28
+          }
+        },
+        {
+          "edge": {
+            "id": "w504210163-822921300-4836719296",
+            "name": "Лежневская улица",
+            "osmWayId": "504210163",
+            "lengthKm": 0.58155
+          },
+          "baseline": {
+            "index": 59.30789516622177,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 28
+          },
+          "improvement": {
+            "index": 59.47375639088108,
+            "delta": 0.16586122465930941,
+            "affectedPopulation": 503258,
+            "unreachableSettlements": 28
+          },
+          "closure": {
+            "index": 58.86136712931349,
+            "delta": -0.44652803690827625,
+            "affectedPopulation": 503258,
+            "unreachableSettlements": 28
+          }
+        },
+        {
+          "edge": {
+            "id": "w48233530-612999987-7250844736",
+            "name": "Вичугская улица",
+            "osmWayId": "48233530",
+            "lengthKm": 3.2010899999999998
+          },
+          "baseline": {
+            "index": 59.30789516622177,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 28
+          },
+          "improvement": {
+            "index": 59.47581867800275,
+            "delta": 0.16792351178098386,
+            "affectedPopulation": 82857,
+            "unreachableSettlements": 28
+          },
+          "closure": {
+            "index": 58.329344747787076,
+            "delta": -0.9785504184346934,
+            "affectedPopulation": 82857,
+            "unreachableSettlements": 28
+          }
+        },
+        {
+          "edge": {
+            "id": "w103128435-1364094487-1187491301",
+            "name": "tertiary",
+            "osmWayId": "103128435",
+            "lengthKm": 1.43204
+          },
+          "baseline": {
+            "index": 59.30789516622177,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 28
+          },
+          "improvement": {
+            "index": 59.45516962633253,
+            "delta": 0.14727446011075784,
+            "affectedPopulation": 120221,
+            "unreachableSettlements": 28
+          },
+          "closure": {
+            "index": 58.9251457524567,
+            "delta": -0.3827494137650689,
+            "affectedPopulation": 120081,
+            "unreachableSettlements": 28
+          }
+        },
+        {
+          "edge": {
+            "id": "w493485112-4853972919-4853985497",
+            "name": "улица Куконковых",
+            "osmWayId": "493485112",
+            "lengthKm": 0.46911
+          },
+          "baseline": {
+            "index": 59.30789516622177,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 28
+          },
+          "improvement": {
+            "index": 59.441683728633016,
+            "delta": 0.13378856241124737,
+            "affectedPopulation": 503258,
+            "unreachableSettlements": 28
+          },
+          "closure": {
+            "index": 58.69798235429834,
+            "delta": -0.6099128119234294,
+            "affectedPopulation": 503258,
+            "unreachableSettlements": 28
+          }
+        },
+        {
+          "edge": {
+            "id": "w454243594-4508277837-863332455",
+            "name": "Иваново — Ярославль",
+            "osmWayId": "454243594",
+            "lengthKm": 12.54378
+          },
+          "baseline": {
+            "index": 59.30789516622177,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 28
+          },
+          "improvement": {
+            "index": 59.351236176936496,
+            "delta": 0.043341010714726735,
+            "affectedPopulation": 19501,
+            "unreachableSettlements": 28
+          },
+          "closure": {
+            "index": 59.189166565586106,
+            "delta": -0.11872860063566293,
+            "affectedPopulation": 19166,
+            "unreachableSettlements": 32
+          }
+        }
+      ],
+      "sensitivity": [
+        {
+          "threshold": 30,
+          "timeScale": 0.8,
+          "index": 43.489278484694424,
+          "withinThresholdShare": 0.7501573967865182,
+          "meanMinutes": 20.62655828631832
+        },
+        {
+          "threshold": 30,
+          "timeScale": 1,
+          "index": 37.67471389221914,
+          "withinThresholdShare": 0.6423858765491725,
+          "meanMinutes": 25.783197857897875
+        },
+        {
+          "threshold": 30,
+          "timeScale": 1.2,
+          "index": 33.17650472697652,
+          "withinThresholdShare": 0.5643213826768666,
+          "meanMinutes": 30.939837429477475
+        },
+        {
+          "threshold": 45,
+          "timeScale": 0.8,
+          "index": 57.153777928431936,
+          "withinThresholdShare": 0.9074776410318329,
+          "meanMinutes": 20.62655828631832
+        },
+        {
+          "threshold": 45,
+          "timeScale": 1,
+          "index": 49.411526168911195,
+          "withinThresholdShare": 0.8147871046753314,
+          "meanMinutes": 25.783197857897875
+        },
+        {
+          "threshold": 45,
+          "timeScale": 1.2,
+          "index": 43.48927848469443,
+          "withinThresholdShare": 0.7501573967865182,
+          "meanMinutes": 30.939837429477475
+        },
+        {
+          "threshold": 60,
+          "timeScale": 0.8,
+          "index": 66.37258561337455,
+          "withinThresholdShare": 0.964441262969064,
+          "meanMinutes": 20.62655828631832
+        },
+        {
+          "threshold": 60,
+          "timeScale": 1,
+          "index": 59.30789516622177,
+          "withinThresholdShare": 0.9254273430559987,
+          "meanMinutes": 25.783197857897875
+        },
+        {
+          "threshold": 60,
+          "timeScale": 1.2,
+          "index": 53.05193403961569,
+          "withinThresholdShare": 0.8910027253361391,
+          "meanMinutes": 30.939837429477475
+        },
+        {
+          "threshold": 90,
+          "timeScale": 0.8,
+          "index": 77.08345498070915,
+          "withinThresholdShare": 0.99733719135137,
+          "meanMinutes": 20.62655828631832
+        },
+        {
+          "threshold": 90,
+          "timeScale": 1,
+          "index": 71.52530000601651,
+          "withinThresholdShare": 0.9895029280114533,
+          "meanMinutes": 25.783197857897875
+        },
+        {
+          "threshold": 90,
+          "timeScale": 1.2,
+          "index": 66.37258561337455,
+          "withinThresholdShare": 0.964441262969064,
+          "meanMinutes": 30.939837429477475
+        },
+        {
+          "threshold": 120,
+          "timeScale": 0.8,
+          "index": 82.78447445860061,
+          "withinThresholdShare": 0.9996410059595167,
+          "meanMinutes": 20.62655828631832
+        },
+        {
+          "threshold": 120,
+          "timeScale": 1,
+          "index": 78.50205791431897,
+          "withinThresholdShare": 0.9982125762188548,
+          "meanMinutes": 25.783197857897875
+        },
+        {
+          "threshold": 120,
+          "timeScale": 1.2,
+          "index": 74.27749313235128,
+          "withinThresholdShare": 0.9911200182839007,
+          "meanMinutes": 30.939837429477475
+        }
+      ],
+      "independentCheck": "data/derived/ivanovo-independent-check.json"
+    },
+    "pskov": {
+      "scenarios": [
+        {
+          "edge": {
+            "id": "w233388273-2417827769-3869923",
+            "name": "Р-23",
+            "osmWayId": "233388273",
+            "lengthKm": 10.499460000000001
+          },
+          "baseline": {
+            "index": 58.99802999431322,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 88
+          },
+          "improvement": {
+            "index": 59.163006078915906,
+            "delta": 0.1649760846026851,
+            "affectedPopulation": 71600,
+            "unreachableSettlements": 88
+          },
+          "closure": {
+            "index": 58.133866007423855,
+            "delta": -0.8641639868893662,
+            "affectedPopulation": 71077,
+            "unreachableSettlements": 98
+          }
+        },
+        {
+          "edge": {
+            "id": "w34382925-394737628-394737631",
+            "name": "улица Советской Армии",
+            "osmWayId": "34382925",
+            "lengthKm": 5.46204
+          },
+          "baseline": {
+            "index": 58.99802999431322,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 88
+          },
+          "improvement": {
+            "index": 59.15689780210901,
+            "delta": 0.15886780779578658,
+            "affectedPopulation": 79080,
+            "unreachableSettlements": 88
+          },
+          "closure": {
+            "index": 58.70789705965081,
+            "delta": -0.2901329346624095,
+            "affectedPopulation": 78529,
+            "unreachableSettlements": 88
+          }
+        },
+        {
+          "edge": {
+            "id": "w32018390-718711813-718711847",
+            "name": "Великолукское шоссе",
+            "osmWayId": "32018390",
+            "lengthKm": 13.56379
+          },
+          "baseline": {
+            "index": 58.99802999431322,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 88
+          },
+          "improvement": {
+            "index": 59.02865465291858,
+            "delta": 0.030624658605361788,
+            "affectedPopulation": 26412,
+            "unreachableSettlements": 88
+          },
+          "closure": {
+            "index": 58.89689305392534,
+            "delta": -0.10113694038788168,
+            "affectedPopulation": 22520,
+            "unreachableSettlements": 90
+          }
+        },
+        {
+          "edge": {
+            "id": "w4419728-4703431072-582854583",
+            "name": "«Балтия»",
+            "osmWayId": "4419728",
+            "lengthKm": 12.00929
+          },
+          "baseline": {
+            "index": 58.99802999431322,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 88
+          },
+          "improvement": {
+            "index": 59.00885404568432,
+            "delta": 0.010824051371102428,
+            "affectedPopulation": 31659,
+            "unreachableSettlements": 88
+          },
+          "closure": {
+            "index": 58.98223337019954,
+            "delta": -0.015796624113683322,
+            "affectedPopulation": 31320,
+            "unreachableSettlements": 89
+          }
+        },
+        {
+          "edge": {
+            "id": "w229957022-2384966750-418055003",
+            "name": "А-122",
+            "osmWayId": "229957022",
+            "lengthKm": 10.04784
+          },
+          "baseline": {
+            "index": 58.99802999431322,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 88
+          },
+          "improvement": {
+            "index": 59.02991203179832,
+            "delta": 0.031882037485097214,
+            "affectedPopulation": 19343,
+            "unreachableSettlements": 88
+          },
+          "closure": {
+            "index": 58.82415813011815,
+            "delta": -0.17387186419507117,
+            "affectedPopulation": 19320,
+            "unreachableSettlements": 91
+          }
+        },
+        {
+          "edge": {
+            "id": "w87931781-1022276288-1022276336",
+            "name": "service",
+            "osmWayId": "87931781",
+            "lengthKm": 0.42312
+          },
+          "baseline": {
+            "index": 58.99802999431322,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 88
+          },
+          "improvement": {
+            "index": 59.14584080261524,
+            "delta": 0.14781080830201887,
+            "affectedPopulation": 218334,
+            "unreachableSettlements": 88
+          },
+          "closure": {
+            "index": 58.7680897255135,
+            "delta": -0.22994026879972296,
+            "affectedPopulation": 218334,
+            "unreachableSettlements": 88
+          }
+        },
+        {
+          "edge": {
+            "id": "w236132332-247391151-247391154",
+            "name": "58К-038",
+            "osmWayId": "236132332",
+            "lengthKm": 18.40694
+          },
+          "baseline": {
+            "index": 58.99802999431322,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 88
+          },
+          "improvement": {
+            "index": 59.15517940627724,
+            "delta": 0.15714941196402066,
+            "affectedPopulation": 39734,
+            "unreachableSettlements": 88
+          },
+          "closure": {
+            "index": 58.886881207670186,
+            "delta": -0.11114878664303518,
+            "affectedPopulation": 7998,
+            "unreachableSettlements": 96
+          }
+        },
+        {
+          "edge": {
+            "id": "w31371862-282082631-301303450",
+            "name": "58К-366",
+            "osmWayId": "31371862",
+            "lengthKm": 17.363350000000004
+          },
+          "baseline": {
+            "index": 58.99802999431322,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 88
+          },
+          "improvement": {
+            "index": 58.99816275920493,
+            "delta": 0.00013276489170976902,
+            "affectedPopulation": 11583,
+            "unreachableSettlements": 88
+          },
+          "closure": {
+            "index": 58.99802999431322,
+            "delta": 0,
+            "affectedPopulation": 8076,
+            "unreachableSettlements": 92
+          }
+        },
+        {
+          "edge": {
+            "id": "w160165828-247391231-906930378",
+            "name": "улица Ставского",
+            "osmWayId": "160165828",
+            "lengthKm": 0.44699
+          },
+          "baseline": {
+            "index": 58.99802999431322,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 88
+          },
+          "improvement": {
+            "index": 59.07045018830335,
+            "delta": 0.07242019399012634,
+            "affectedPopulation": 186274,
+            "unreachableSettlements": 88
+          },
+          "closure": {
+            "index": 58.94969522639906,
+            "delta": -0.048334767914163024,
+            "affectedPopulation": 186186,
+            "unreachableSettlements": 88
+          }
+        },
+        {
+          "edge": {
+            "id": "w77689942-2216651836-2216651799",
+            "name": "Октябрьский проспект",
+            "osmWayId": "77689942",
+            "lengthKm": 1.7047299999999996
+          },
+          "baseline": {
+            "index": 58.99802999431322,
+            "delta": 0,
+            "affectedPopulation": 0,
+            "unreachableSettlements": 88
+          },
+          "improvement": {
+            "index": 59.01143465539962,
+            "delta": 0.013404661086397596,
+            "affectedPopulation": 61053,
+            "unreachableSettlements": 88
+          },
+          "closure": {
+            "index": 58.89636709756939,
+            "delta": -0.10166289674383222,
+            "affectedPopulation": 60894,
+            "unreachableSettlements": 91
+          }
+        }
+      ],
+      "sensitivity": [
+        {
+          "threshold": 30,
+          "timeScale": 0.8,
+          "index": 52.079055990848175,
+          "withinThresholdShare": 0.6387116393231712,
+          "meanMinutes": 25.92989518902252
+        },
+        {
+          "threshold": 30,
+          "timeScale": 1,
+          "index": 49.30636342137555,
+          "withinThresholdShare": 0.6235536686065261,
+          "meanMinutes": 32.41236898627808
+        },
+        {
+          "threshold": 30,
+          "timeScale": 1.2,
+          "index": 47.00517497225015,
+          "withinThresholdShare": 0.6025026023522256,
+          "meanMinutes": 38.894842783533825
+        },
+        {
+          "threshold": 45,
+          "timeScale": 0.8,
+          "index": 57.895356478974215,
+          "withinThresholdShare": 0.7527205650153634,
+          "meanMinutes": 25.92989518902252
+        },
+        {
+          "threshold": 45,
+          "timeScale": 1,
+          "index": 54.19828437398832,
+          "withinThresholdShare": 0.6603575289433364,
+          "meanMinutes": 32.41236898627808
+        },
+        {
+          "threshold": 45,
+          "timeScale": 1.2,
+          "index": 52.079055990848175,
+          "withinThresholdShare": 0.6387116393231712,
+          "meanMinutes": 38.894842783533825
+        },
+        {
+          "threshold": 60,
+          "timeScale": 0.8,
+          "index": 62.99928435877316,
+          "withinThresholdShare": 0.8168060992786931,
+          "meanMinutes": 25.92989518902252
+        },
+        {
+          "threshold": 60,
+          "timeScale": 1,
+          "index": 58.99802999431322,
+          "withinThresholdShare": 0.758271135862001,
+          "meanMinutes": 32.41236898627808
+        },
+        {
+          "threshold": 60,
+          "timeScale": 1.2,
+          "index": 55.843220306829934,
+          "withinThresholdShare": 0.7235040442976323,
+          "meanMinutes": 38.894842783533825
+        },
+        {
+          "threshold": 90,
+          "timeScale": 0.8,
+          "index": 71.61200018769831,
+          "withinThresholdShare": 0.9477975662367564,
+          "meanMinutes": 25.92989518902252
+        },
+        {
+          "threshold": 90,
+          "timeScale": 1,
+          "index": 66.5595869932973,
+          "withinThresholdShare": 0.866331827895545,
+          "meanMinutes": 32.41236898627808
+        },
+        {
+          "threshold": 90,
+          "timeScale": 1.2,
+          "index": 62.999284358773174,
+          "withinThresholdShare": 0.8168060992786931,
+          "meanMinutes": 38.894842783533825
+        },
+        {
+          "threshold": 120,
+          "timeScale": 0.8,
+          "index": 78.34567471958782,
+          "withinThresholdShare": 0.9980768491738472,
+          "meanMinutes": 25.92989518902252
+        },
+        {
+          "threshold": 120,
+          "timeScale": 1,
+          "index": 73.13205273668916,
+          "withinThresholdShare": 0.9685445373995192,
+          "meanMinutes": 32.41236898627808
+        },
+        {
+          "threshold": 120,
+          "timeScale": 1.2,
+          "index": 68.83990097489159,
+          "withinThresholdShare": 0.9238442297956381,
+          "meanMinutes": 38.894842783533825
+        }
+      ],
+      "independentCheck": "data/derived/pskov-independent-check.json"
+    }
+  }
+}

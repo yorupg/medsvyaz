@@ -1,0 +1,1 @@
+{"threshold":60,"period":"day","index":59.30789516622178,"includedPopulation":927592,"includedSettlements":2727,"reachableSettlements":2699,"unweightedReachableTimeQuantiles":[19.658401099999995,32.17275880000002,47.35199970000001,65.11917730000002,83.299711],"method":"SciPy directed sparse Dijkstra independently of shared/engine.ts"}

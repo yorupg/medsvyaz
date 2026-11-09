@@ -1,0 +1,56 @@
+[
+  {
+    "id": "example-kaliningrad",
+    "regionId": "kaliningrad",
+    "regionName": "Калининградская область",
+    "title": "Эталонная учебная дорожная сеть",
+    "synthetic": true,
+    "version": "example-2026-11-09-v1",
+    "datasetUrl": "/api/examples/kaliningrad/dataset",
+    "source": "data/examples/kaliningrad.json",
+    "scenarioEdgeId": "ce",
+    "scenarioMultiplier": 1.5,
+    "units": {
+      "population": "условных жителей",
+      "edges.minutes": "минуты (условно)",
+      "index": "баллы 0–100"
+    },
+    "comparability": "Все три — учебные сети, один профиль, период и порог. Различия обусловлены придуманными временами и весами."
+  },
+  {
+    "id": "example-ivanovo",
+    "regionId": "ivanovo",
+    "regionName": "Ивановская область",
+    "title": "Условно более короткие поездки",
+    "synthetic": true,
+    "version": "example-2026-11-09-v1",
+    "datasetUrl": "/api/examples/ivanovo/dataset",
+    "source": "data/examples/ivanovo.json",
+    "scenarioEdgeId": "ce",
+    "scenarioMultiplier": 1.5,
+    "units": {
+      "population": "условных жителей",
+      "edges.minutes": "минуты (условно)",
+      "index": "баллы 0–100"
+    },
+    "comparability": "Все три — учебные сети, один профиль, период и порог. Различия обусловлены придуманными временами и весами."
+  },
+  {
+    "id": "example-tyumen",
+    "regionId": "tyumen",
+    "regionName": "Тюменская область",
+    "title": "Условно более длительные поездки",
+    "synthetic": true,
+    "version": "example-2026-11-09-v1",
+    "datasetUrl": "/api/examples/tyumen/dataset",
+    "source": "data/examples/tyumen.json",
+    "scenarioEdgeId": "ce",
+    "scenarioMultiplier": 1.5,
+    "units": {
+      "population": "условных жителей",
+      "edges.minutes": "минуты (условно)",
+      "index": "баллы 0–100"
+    },
+    "comparability": "Все три — учебные сети, один профиль, период и порог. Различия обусловлены придуманными временами и весами."
+  }
+]

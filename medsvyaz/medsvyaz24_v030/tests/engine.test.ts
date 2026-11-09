@@ -1,0 +1,26 @@
+import {describe,it,expect} from 'vitest';
+import {calculate,compareScenario,aggregate,validateDataset,accessibility} from '../shared/engine';
+import demo from '../data/examples/demo.json';
+const fixture=()=>validateDataset(structuredClone(demo));
+describe('Индекс доступности',()=>{
+ it('совпадает с независимым ручным расчётом',()=>{const r=calculate(fixture());const weighted=500*44+1200*38+800*26+700*14+1500*0+300*16;expect(r.value).toBeCloseTo(100*(5000-weighted/60)/5100,10);expect(r.unreachableSettlements).toBe(1);expect(r.population).toBe(5100);});
+ it('лежит в [0,100] для разных порогов и сценариев',()=>{for(const threshold of [1,10,20,60,120,360])for(const scenario of ['baseline','improvement','closure'] as const){const r=calculate(fixture(),{threshold,scenario,edgeId:'ce'});expect(r.value).toBeGreaterThanOrEqual(0);expect(r.value).toBeLessThanOrEqual(100);}});
+ it('сокращение времени не ухудшает индекс',()=>{for(const e of fixture().edges){const r=compareScenario(fixture(),{scenario:'improvement',edgeId:e.id,multiplier:2});expect(r.delta!).toBeGreaterThanOrEqual(0);}});
+ it('закрытие связи не улучшает индекс',()=>{for(const e of fixture().edges){expect(compareScenario(fixture(),{scenario:'closure',edgeId:e.id}).delta!).toBeLessThanOrEqual(0);}});
+ it('недостижимая точка даёт ноль с сохранением веса населения',()=>{const r=calculate(fixture());expect(r.points.find(p=>p.id==='s-u')).toMatchObject({score:0,minutes:null,status:'unreachable',population:100});});
+ it('не смешивает пропуски и недостижимость',()=>{const d=fixture();d.settlements[0].nodeId=null;d.settlements[1].population=null;const r=calculate(d);expect(r.missingSettlements).toBe(2);expect(r.population).toBe(3400);expect(r.status).toBe('partial');expect(r.unreachableSettlements).toBe(1);});
+ it('не делит на ноль',()=>{const d=fixture();d.settlements.forEach(s=>s.population=0);d.expectedPopulation=0;expect(calculate(d).value).toBeNull();expect(calculate(d).meanMinutes).toBeNull();});
+ it('все неизвестные численности дают null',()=>{const d=fixture();d.settlements.forEach(s=>s.population=null);expect(calculate(d).value).toBeNull();});
+ it('отклоняет дубли пунктов, больниц, узлов и рёбер',()=>{for(const key of ['settlements','facilities','nodes','edges'] as const){const d=fixture();(d[key] as unknown[]).push(d[key][0]);expect(()=>calculate(d)).toThrow(/Дублирующиеся/);}});
+ it('не зависит от порядка записей',()=>{const d=fixture();const before=calculate(d);d.edges.reverse();d.nodes.reverse();d.facilities.reverse();d.settlements.reverse();expect(calculate(d)).toEqual(before);});
+ it('учитывает направление дороги при движении К учреждению',()=>{const d=fixture();d.nodes=[{id:'a',x:0,y:0},{id:'h',x:1,y:1}];d.edges=[{id:'x',from:'h',to:'a',minutes:10,directed:true,allowed:true,speedSource:'test'}];d.settlements=[{id:'s',name:'S',nodeId:'a',population:1,municipality:'M',provenance:'test'}];d.facilities=[{...d.facilities[0],nodeId:'h'}];d.expectedPopulation=1;expect(calculate(d).value).toBe(0);d.edges[0].directed=false;expect(calculate(d).value).toBeCloseTo(100*5/6);});
+ it('отклоняет отрицательные времена, NaN, отсутствующие вершины',()=>{const d=fixture();d.edges[0].minutes=-1;expect(()=>calculate(d)).toThrow();d.edges[0].minutes=NaN;expect(()=>calculate(d)).toThrow();d.edges[0].minutes=10;d.edges[0].to='unknown';expect(()=>calculate(d)).toThrow(/вершина/);});
+ it('не использует запрещённую связь',()=>{const d=fixture();d.edges.filter(e=>e.from==='a'||e.to==='a').forEach(e=>e.allowed=false);expect(calculate(d).points.find(p=>p.id==='s-a')?.status).toBe('unreachable');});
+ it('дневной и ночной наборы учреждений различаются',()=>{expect(calculate(fixture(),{period:'night'}).value!).toBeLessThan(calculate(fixture()).value!);});
+ it('не публикует непроверенные реальные учреждения',()=>{const d=fixture();d.synthetic=false;expect(calculate(d).value).toBeNull();});
+ it('отклоняет неверный порог и неизвестное ребро',()=>{expect(()=>accessibility(5,0)).toThrow();expect(()=>calculate(fixture(),{scenario:'closure',edgeId:'no'})).toThrow();});
+ it('агрегирует числители и знаменатели, не среднее индексов',()=>{const a=fixture(),b=fixture();b.id='second';b.settlements=b.settlements.slice(0,1);b.expectedPopulation=500;const r1=calculate(a),r2=calculate(b);const r=aggregate([r1,r2]);expect(r.value).toBeCloseTo((r1.value!*5100+r2.value!*500)/5600);});
+ it('запрещает несовместимые агрегаты и повторный учёт',()=>{const r=calculate(fixture());expect(()=>aggregate([r,r])).toThrow();expect(()=>aggregate([r,{...r,datasetId:'another',threshold:120}])).toThrow(/Несопоставимые/);});
+ it('сохраняет исходный граф после сценария',()=>{const d=fixture(),original=structuredClone(d);compareScenario(d,{scenario:'closure',edgeId:'ce'});expect(d).toEqual(original);});
+ it('не считает относительный прирост от нуля и условную стоимость окупаемостью',()=>{const r=compareScenario(fixture(),{threshold:1,scenario:'improvement',edgeId:'ce',cost:1e6});expect(r.costQuality).toBe('scenario_assumption');expect(r.pointsPerMillion).toBe(r.delta);});
+});

@@ -1,0 +1,447 @@
+{
+  "adygea": {
+    "lat": 44.49008,
+    "lon": 40.13971,
+    "sourceISO": "RU-AD"
+  },
+  "altai-krai": {
+    "lat": 52.54717,
+    "lon": 82.69733,
+    "sourceISO": "RU-ALT"
+  },
+  "altai-republic": {
+    "lat": 50.86885,
+    "lon": 86.89027,
+    "sourceISO": "RU-AL"
+  },
+  "amur": {
+    "lat": 52.95465,
+    "lon": 130.19172,
+    "sourceISO": "RU-AMU"
+  },
+  "arkhangelsk": {
+    "lat": 63.5471,
+    "lon": 41.4717,
+    "sourceISO": "RU-ARK"
+  },
+  "astrakhan": {
+    "lat": 47.24937,
+    "lon": 47.62472,
+    "sourceISO": "RU-AST"
+  },
+  "bashkortostan": {
+    "lat": 54.05165,
+    "lon": 56.36376,
+    "sourceISO": "RU-BA"
+  },
+  "belgorod": {
+    "lat": 50.61243,
+    "lon": 37.24237,
+    "sourceISO": "RU-BEL"
+  },
+  "bryansk": {
+    "lat": 52.941,
+    "lon": 33.16758,
+    "sourceISO": "RU-BRY"
+  },
+  "buryatia": {
+    "lat": 53.61246,
+    "lon": 111.02829,
+    "sourceISO": "RU-BU"
+  },
+  "chechnya": {
+    "lat": 43.24419,
+    "lon": 45.76554,
+    "sourceISO": "RU-CE"
+  },
+  "chelyabinsk": {
+    "lat": 54.17792,
+    "lon": 61.4304,
+    "sourceISO": "RU-CHE"
+  },
+  "chukotka": {
+    "lat": 65.9645,
+    "lon": 169.51404,
+    "sourceISO": "RU-CHU"
+  },
+  "chuvashia": {
+    "lat": 55.47987,
+    "lon": 47.14896,
+    "sourceISO": "RU-CU"
+  },
+  "crimea": {
+    "lat": 45.21061,
+    "lon": 34.41777,
+    "sourceISO": "UA-43"
+  },
+  "dagestan": {
+    "lat": 43.09007,
+    "lon": 46.98207,
+    "sourceISO": "RU-DA"
+  },
+  "donetsk": {
+    "lat": 47.96067,
+    "lon": 37.83444,
+    "sourceISO": "UA-14"
+  },
+  "ingushetia": {
+    "lat": 43.11469,
+    "lon": 45.0139,
+    "sourceISO": "RU-IN"
+  },
+  "irkutsk": {
+    "lat": 57.7243,
+    "lon": 109.01563,
+    "sourceISO": "RU-IRK"
+  },
+  "ivanovo": {
+    "lat": 57.04333,
+    "lon": 41.3793,
+    "sourceISO": "RU-IVA"
+  },
+  "jewish-autonomous": {
+    "lat": 48.57633,
+    "lon": 132.66257,
+    "sourceISO": "RU-YEV"
+  },
+  "kabardino-balkaria": {
+    "lat": 43.45858,
+    "lon": 43.4358,
+    "sourceISO": "RU-KB"
+  },
+  "kaliningrad": {
+    "lat": 54.80803,
+    "lon": 21.41769,
+    "sourceISO": "RU-KGD"
+  },
+  "kalmykia": {
+    "lat": 46.51573,
+    "lon": 45.44111,
+    "sourceISO": "RU-KL"
+  },
+  "kaluga": {
+    "lat": 54.31573,
+    "lon": 35.32522,
+    "sourceISO": "RU-KLU"
+  },
+  "kamchatka": {
+    "lat": 57.90152,
+    "lon": 159.8269,
+    "sourceISO": "RU-KAM"
+  },
+  "karachay-cherkessia": {
+    "lat": 43.84207,
+    "lon": 41.69837,
+    "sourceISO": "RU-KC"
+  },
+  "karelia": {
+    "lat": 63.67454,
+    "lon": 33.30864,
+    "sourceISO": "RU-KR"
+  },
+  "kemerovo": {
+    "lat": 54.49787,
+    "lon": 86.81153,
+    "sourceISO": "RU-KEM"
+  },
+  "khabarovsk": {
+    "lat": 54.58283,
+    "lon": 133.44865,
+    "sourceISO": "RU-KHA"
+  },
+  "khakassia": {
+    "lat": 53.36261,
+    "lon": 90.4235,
+    "sourceISO": "RU-KK"
+  },
+  "khanty-mansi": {
+    "lat": 62.14701,
+    "lon": 71.93111,
+    "sourceISO": "RU-KHM"
+  },
+  "kherson": {
+    "lat": 46.6787,
+    "lon": 33.35677,
+    "sourceISO": "UA-65"
+  },
+  "kirov": {
+    "lat": 58.5635,
+    "lon": 50.18314,
+    "sourceISO": "RU-KIR"
+  },
+  "komi": {
+    "lat": 63.8138,
+    "lon": 53.09296,
+    "sourceISO": "RU-KO"
+  },
+  "kostroma": {
+    "lat": 58.44619,
+    "lon": 43.82311,
+    "sourceISO": "RU-KOS"
+  },
+  "krasnodar": {
+    "lat": 45.13276,
+    "lon": 38.06801,
+    "sourceISO": "RU-KDA"
+  },
+  "krasnoyarsk": {
+    "lat": 64.7476,
+    "lon": 95.83268,
+    "sourceISO": "RU-KYA"
+  },
+  "kurgan": {
+    "lat": 55.51693,
+    "lon": 65.45941,
+    "sourceISO": "RU-KGN"
+  },
+  "kursk": {
+    "lat": 51.67398,
+    "lon": 36.16425,
+    "sourceISO": "RU-KRS"
+  },
+  "leningrad": {
+    "lat": 59.87328,
+    "lon": 32.95117,
+    "sourceISO": "RU-LEN"
+  },
+  "lipetsk": {
+    "lat": 52.73707,
+    "lon": 38.92229,
+    "sourceISO": "RU-LIP"
+  },
+  "luhansk": {
+    "lat": 48.95636,
+    "lon": 38.89038,
+    "sourceISO": "UA-09"
+  },
+  "magadan": {
+    "lat": 62.59073,
+    "lon": 154.06105,
+    "sourceISO": "RU-MAG"
+  },
+  "mari-el": {
+    "lat": 56.58935,
+    "lon": 47.91948,
+    "sourceISO": "RU-ME"
+  },
+  "mordovia": {
+    "lat": 54.41673,
+    "lon": 44.55986,
+    "sourceISO": "RU-MO"
+  },
+  "moscow": {
+    "lat": 55.5487,
+    "lon": 37.35352,
+    "sourceISO": "RU-MOW"
+  },
+  "moscow-oblast": {
+    "lat": 55.60647,
+    "lon": 38.92741,
+    "sourceISO": "RU-MOS"
+  },
+  "murmansk": {
+    "lat": 68.00335,
+    "lon": 34.55817,
+    "sourceISO": "RU-MUR"
+  },
+  "nenets": {
+    "lat": 67.84043,
+    "lon": 56.50436,
+    "sourceISO": "RU-NEN"
+  },
+  "nizhny-novgorod": {
+    "lat": 56.27664,
+    "lon": 44.35192,
+    "sourceISO": "RU-NIZ"
+  },
+  "north-ossetia-alania": {
+    "lat": 43.19616,
+    "lon": 44.24386,
+    "sourceISO": "RU-SE"
+  },
+  "novgorod": {
+    "lat": 58.1711,
+    "lon": 31.82424,
+    "sourceISO": "RU-NGR"
+  },
+  "novosibirsk": {
+    "lat": 55.26565,
+    "lon": 80.06501,
+    "sourceISO": "RU-NVS"
+  },
+  "omsk": {
+    "lat": 56.00278,
+    "lon": 73.20117,
+    "sourceISO": "RU-OMS"
+  },
+  "orenburg": {
+    "lat": 52.43044,
+    "lon": 53.53761,
+    "sourceISO": "RU-ORE"
+  },
+  "oryol": {
+    "lat": 52.79521,
+    "lon": 36.41645,
+    "sourceISO": "RU-ORL"
+  },
+  "penza": {
+    "lat": 53.16155,
+    "lon": 44.73049,
+    "sourceISO": "RU-PNZ"
+  },
+  "perm": {
+    "lat": 58.87647,
+    "lon": 56.44064,
+    "sourceISO": "RU-PER"
+  },
+  "primorye": {
+    "lat": 45.37774,
+    "lon": 135.13889,
+    "sourceISO": "RU-PRI"
+  },
+  "pskov": {
+    "lat": 57.30533,
+    "lon": 29.19294,
+    "sourceISO": "RU-PSK"
+  },
+  "rostov": {
+    "lat": 48.0844,
+    "lon": 40.94595,
+    "sourceISO": "RU-ROS"
+  },
+  "ryazan": {
+    "lat": 54.33871,
+    "lon": 40.60188,
+    "sourceISO": "RU-RYA"
+  },
+  "saint-petersburg": {
+    "lat": 59.93874,
+    "lon": 30.35048,
+    "sourceISO": "RU-SPE"
+  },
+  "sakha": {
+    "lat": 64.74472,
+    "lon": 129.31028,
+    "sourceISO": "RU-SA"
+  },
+  "sakhalin": {
+    "lat": 50.15657,
+    "lon": 143.02806,
+    "sourceISO": "RU-SAK"
+  },
+  "samara": {
+    "lat": 53.21736,
+    "lon": 50.13231,
+    "sourceISO": "RU-SAM"
+  },
+  "saratov": {
+    "lat": 51.30358,
+    "lon": 46.58932,
+    "sourceISO": "RU-SAR"
+  },
+  "sevastopol": {
+    "lat": 44.56555,
+    "lon": 33.4596,
+    "sourceISO": "UA-40"
+  },
+  "smolensk": {
+    "lat": 54.738,
+    "lon": 32.91,
+    "sourceISO": "RU-SMO"
+  },
+  "stavropol": {
+    "lat": 44.94138,
+    "lon": 43.66309,
+    "sourceISO": "RU-STA"
+  },
+  "sverdlovsk": {
+    "lat": 58.97722,
+    "lon": 62.24993,
+    "sourceISO": "RU-SVE"
+  },
+  "tambov": {
+    "lat": 52.70326,
+    "lon": 41.56914,
+    "sourceISO": "RU-TAM"
+  },
+  "tatarstan": {
+    "lat": 55.3254,
+    "lon": 50.67996,
+    "sourceISO": "RU-TA"
+  },
+  "tomsk": {
+    "lat": 58.27961,
+    "lon": 81.56712,
+    "sourceISO": "RU-TOM"
+  },
+  "tula": {
+    "lat": 53.89881,
+    "lon": 37.39011,
+    "sourceISO": "RU-TUL"
+  },
+  "tuva": {
+    "lat": 51.73606,
+    "lon": 94.22854,
+    "sourceISO": "RU-TY"
+  },
+  "tver": {
+    "lat": 57.24777,
+    "lon": 35.32015,
+    "sourceISO": "RU-TVE"
+  },
+  "tyumen": {
+    "lat": 57.56739,
+    "lon": 67.83896,
+    "sourceISO": "RU-TYU"
+  },
+  "udmurtia": {
+    "lat": 57.19829,
+    "lon": 52.76183,
+    "sourceISO": "RU-UD"
+  },
+  "ulyanovsk": {
+    "lat": 53.71168,
+    "lon": 47.4207,
+    "sourceISO": "RU-ULY"
+  },
+  "vladimir": {
+    "lat": 55.95621,
+    "lon": 40.65223,
+    "sourceISO": "RU-VLA"
+  },
+  "volgograd": {
+    "lat": 49.34525,
+    "lon": 44.40702,
+    "sourceISO": "RU-VGG"
+  },
+  "vologda": {
+    "lat": 60.04582,
+    "lon": 40.94971,
+    "sourceISO": "RU-VLG"
+  },
+  "voronezh": {
+    "lat": 50.83067,
+    "lon": 40.03825,
+    "sourceISO": "RU-VOR"
+  },
+  "yamalo-nenets": {
+    "lat": 67.57428,
+    "lon": 69.28629,
+    "sourceISO": "RU-YAN"
+  },
+  "yaroslavl": {
+    "lat": 57.74557,
+    "lon": 39.10452,
+    "sourceISO": "RU-YAR"
+  },
+  "zabaykalsky": {
+    "lat": 53.79667,
+    "lon": 118.1391,
+    "sourceISO": "RU-ZAB"
+  },
+  "zaporizhzhia": {
+    "lat": 47.14571,
+    "lon": 35.73764,
+    "sourceISO": "UA-23"
+  }
+}
