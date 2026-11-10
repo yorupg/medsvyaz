@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 82.32682563778181,
+  "legacyIndexTau60": 90.25673457971011,
+  "includedPopulation": 1200209,
+  "sourcePopulation": 1209811,
+  "populationCoverage": 0.9920632230984839,
+  "excludedPopulation": 9602,
+  "indexBounds": {
+    "lower": 81.67341598968473,
+    "upper": 82.46709367983632
+  },
+  "includedSettlements": 1980,
+  "medianMinutes": 4.538692299999999,
+  "p90Minutes": 25.732604700000003,
+  "overMinutesShares": {
+    "60": 0.004338411060073704,
+    "90": 1.6663764394367982e-05
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 75.67120991878724
+    },
+    {
+      "threshold": 30,
+      "index": 82.32682563778181
+    },
+    {
+      "threshold": 45,
+      "index": 87.44391455794819
+    },
+    {
+      "threshold": 60,
+      "index": 90.25673457971011
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/yaroslavl-summary.json",
+  "sourceTimeFileSha256": "92c2edec822eb900c340d10e076417302b43d8f9a8686cf030f862aa9056689a",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

@@ -1,0 +1,1532 @@
+{
+  "adygea": {
+    "index": 63.81767539253567,
+    "includedSettlements": 218,
+    "includedPopulation": 496901,
+    "medianMinutes": 19.025162899999998,
+    "p90Minutes": 35.2085854,
+    "overMinutesShares": {
+      "60": 0.009174311926605505,
+      "90": 0.0
+    },
+    "indexBounds": {
+      "lower": 63.81767539253567,
+      "upper": 63.81767539253569
+    },
+    "sourceSha256": "e7856293dfa905e26bcb4e83141c3b4d2921182dfb0de63765a3d766e6ba71f8",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "altai-krai": {
+    "index": 16.854067570434914,
+    "includedSettlements": 56,
+    "includedPopulation": 1224500,
+    "medianMinutes": 117.2767133586489,
+    "p90Minutes": 221.36178800387293,
+    "overMinutesShares": {
+      "60": 0.8214285714285714,
+      "90": 0.6785714285714286
+    },
+    "indexBounds": {
+      "lower": 16.854067570434914,
+      "upper": 16.854067570434925
+    },
+    "sourceSha256": "d4b86b2caccf9b34a4fb824745020e7d2fc8147caaedf4639e9aa28293160c8e",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "altai-republic": {
+    "index": 11.30506910775509,
+    "includedSettlements": 58,
+    "includedPopulation": 147640,
+    "medianMinutes": 195.2795268723718,
+    "p90Minutes": 434.63186303472446,
+    "overMinutesShares": {
+      "60": 0.8793103448275862,
+      "90": 0.7931034482758621
+    },
+    "indexBounds": {
+      "lower": 11.30506910775509,
+      "upper": 11.305069107755077
+    },
+    "sourceSha256": "f94904f9c4379286120197631ebb26154b225aae4ff750fdf8e1c91d0c26e6ca",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "amur": {
+    "index": 10.162297271593502,
+    "includedSettlements": 56,
+    "includedPopulation": 511123,
+    "medianMinutes": 231.44487573180976,
+    "p90Minutes": 460.31781674674767,
+    "overMinutesShares": {
+      "60": 0.875,
+      "90": 0.8035714285714286
+    },
+    "indexBounds": {
+      "lower": 10.162297271593502,
+      "upper": 10.162297271593498
+    },
+    "sourceSha256": "9d04453d570683439ea249c18e534f981f119afcc018f93d53b7c170a8464696",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "arkhangelsk": {
+    "index": 15.99480809873549,
+    "includedSettlements": 44,
+    "includedPopulation": 725154,
+    "medianMinutes": 210.84714318043603,
+    "p90Minutes": 553.1566926269114,
+    "overMinutesShares": {
+      "60": 0.7954545454545454,
+      "90": 0.7954545454545454
+    },
+    "indexBounds": {
+      "lower": 15.99480809873549,
+      "upper": 15.994808098735483
+    },
+    "sourceSha256": "69790bc64f64718228fb5899e692849b9f5414110cb173425f61aae621df78b7",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "astrakhan": {
+    "index": 44.94818743046941,
+    "includedSettlements": 309,
+    "includedPopulation": 903197,
+    "medianMinutes": 38.92571500000002,
+    "p90Minutes": 78.02482350000002,
+    "overMinutesShares": {
+      "60": 0.23948220064724918,
+      "90": 0.04854368932038835
+    },
+    "indexBounds": {
+      "lower": 35.16199978737987,
+      "upper": 56.93415168611404
+    },
+    "sourceSha256": "679a1e3573570c54834b6f49d57e7cc53c81d2366435bcf0ab5073f03f471586",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "bashkortostan": {
+    "index": 20.85022238449892,
+    "includedSettlements": 54,
+    "includedPopulation": 2266556,
+    "medianMinutes": 134.06255435761182,
+    "p90Minutes": 256.0278065759894,
+    "overMinutesShares": {
+      "60": 0.7777777777777778,
+      "90": 0.5925925925925926
+    },
+    "indexBounds": {
+      "lower": 20.85022238449892,
+      "upper": 20.850222384498913
+    },
+    "sourceSha256": "a29e9d03b32c5d982a8448e4c0be5a497669d4c75bdb0e8811dc1a0e815fd0a6",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "belgorod": {
+    "index": 52.476272617428606,
+    "includedSettlements": 1359,
+    "includedPopulation": 1539795,
+    "medianMinutes": 28.677353300000014,
+    "p90Minutes": 48.841498,
+    "overMinutesShares": {
+      "60": 0.022810890360559236,
+      "90": 0.0
+    },
+    "indexBounds": {
+      "lower": 52.207360532273405,
+      "upper": 52.719805627441794
+    },
+    "sourceSha256": "8ded3b01af5d09320665bceb39a60dcd628815f820fd5b14215b400a4d0fb924",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "bryansk": {
+    "index": 47.75441784339268,
+    "includedSettlements": 1516,
+    "includedPopulation": 1165840,
+    "medianMinutes": 33.4936741,
+    "p90Minutes": 59.49546800000001,
+    "overMinutesShares": {
+      "60": 0.09696569920844327,
+      "90": 0.011213720316622692
+    },
+    "indexBounds": {
+      "lower": 47.44147932541501,
+      "upper": 48.09678732017254
+    },
+    "sourceSha256": "0c518b49408d7f7c69cd6f43e465ef30e869b740f6ba0b43d4fffc27e9d2784e",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "buryatia": {
+    "index": 12.632964389636156,
+    "includedSettlements": 52,
+    "includedPopulation": 617228,
+    "medianMinutes": 211.8886877261787,
+    "p90Minutes": 604.3300171695049,
+    "overMinutesShares": {
+      "60": 0.8461538461538461,
+      "90": 0.7692307692307693
+    },
+    "indexBounds": {
+      "lower": 12.632964389636156,
+      "upper": 12.63296438963616
+    },
+    "sourceSha256": "d82f4baf33ff02cba91f2a6bcccfee9873841278c9af301dac5633622e42227a",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "chechnya": {
+    "index": 19.399103575280918,
+    "includedSettlements": 57,
+    "includedPopulation": 780898,
+    "medianMinutes": 103.24012511426218,
+    "p90Minutes": 234.55279869642862,
+    "overMinutesShares": {
+      "60": 0.7017543859649122,
+      "90": 0.5964912280701754
+    },
+    "indexBounds": {
+      "lower": 19.399103575280918,
+      "upper": 19.399103575280932
+    },
+    "sourceSha256": "44c5bf0ae58362395132a3036348b0baf235bc419e4f4141baad175eedb58dc6",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "chelyabinsk": {
+    "index": 21.874295568449835,
+    "includedSettlements": 57,
+    "includedPopulation": 2449306,
+    "medianMinutes": 94.18084421208528,
+    "p90Minutes": 227.8977345521123,
+    "overMinutesShares": {
+      "60": 0.7719298245614035,
+      "90": 0.543859649122807
+    },
+    "indexBounds": {
+      "lower": 21.874295568449835,
+      "upper": 21.874295568449842
+    },
+    "sourceSha256": "07fab7be6c60e4f24e976a646c4344ec485378c0a534c14e996222d7de1f51b7",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "chukotka": {
+    "index": 29.878004432101484,
+    "includedSettlements": 45,
+    "includedPopulation": 47489,
+    "medianMinutes": 133.89181908294907,
+    "p90Minutes": 510.93389942218903,
+    "overMinutesShares": {
+      "60": 0.6444444444444445,
+      "90": 0.5555555555555556
+    },
+    "indexBounds": {
+      "lower": 29.878004432101484,
+      "upper": 29.878004432101477
+    },
+    "sourceSha256": "1b567f50a133a2cfa6e37bfd25e0ce2d2047a3e5ff030a5fc75a4e297ea4ee68",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "chuvashia": {
+    "index": 52.25027750810719,
+    "includedSettlements": 1640,
+    "includedPopulation": 1183434,
+    "medianMinutes": 27.862194800000005,
+    "p90Minutes": 53.21069799999999,
+    "overMinutesShares": {
+      "60": 0.06524390243902439,
+      "90": 0.01402439024390244
+    },
+    "indexBounds": {
+      "lower": 52.09146207495184,
+      "upper": 52.395413442732995
+    },
+    "sourceSha256": "28163a94eccf6c45c3e7063677d79d90412ba5c3690232ccb75fca45ab86b955",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "crimea": {
+    "index": 30.99178760116819,
+    "includedSettlements": 59,
+    "includedPopulation": 993618,
+    "medianMinutes": 57.52877331992387,
+    "p90Minutes": 103.5753383663265,
+    "overMinutesShares": {
+      "60": 0.4915254237288136,
+      "90": 0.2033898305084746
+    },
+    "indexBounds": {
+      "lower": 30.99178760116819,
+      "upper": 30.99178760116819
+    },
+    "sourceSha256": "13c1fc4f24ade4cb78cd83e5e03428d2754a2b4a54e4f23289117f3b9d10c2c1",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "dagestan": {
+    "index": 15.670454929947319,
+    "includedSettlements": 59,
+    "includedPopulation": 1384392,
+    "medianMinutes": 220.49970740204475,
+    "p90Minutes": 536.9119719129026,
+    "overMinutesShares": {
+      "60": 0.7966101694915254,
+      "90": 0.7457627118644068
+    },
+    "indexBounds": {
+      "lower": 15.670454929947319,
+      "upper": 15.670454929947317
+    },
+    "sourceSha256": "be65a342c8e28e4d187061b0ae6673acc96fc71860cc7dee8ca47cf17f792b17",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "ingushetia": {
+    "index": 27.063846072751165,
+    "includedSettlements": 48,
+    "includedPopulation": 509510,
+    "medianMinutes": 66.4594842630419,
+    "p90Minutes": 244.4705382080787,
+    "overMinutesShares": {
+      "60": 0.5625,
+      "90": 0.3958333333333333
+    },
+    "indexBounds": {
+      "lower": 27.063846072751165,
+      "upper": 27.06384607275116
+    },
+    "sourceSha256": "e2e62162068df53affa52155bf0d131dfe12e3d25bff978f92def66967802d4c",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "irkutsk": {
+    "index": 17.440997980053204,
+    "includedSettlements": 55,
+    "includedPopulation": 1513896,
+    "medianMinutes": 156.37015234138227,
+    "p90Minutes": 863.5566509384234,
+    "overMinutesShares": {
+      "60": 0.7818181818181819,
+      "90": 0.7818181818181819
+    },
+    "indexBounds": {
+      "lower": 17.440997980053204,
+      "upper": 17.4409979800532
+    },
+    "sourceSha256": "58870406af1a2715085beb6f0db6107e0e207fe6e60603a06a4ddf8bdeb408b2",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "ivanovo": {
+    "index": 37.91909147681419,
+    "includedSettlements": 1249,
+    "includedPopulation": 923698,
+    "medianMinutes": 45.64962659999998,
+    "p90Minutes": 79.2602072,
+    "overMinutesShares": {
+      "60": 0.2578062449959968,
+      "90": 0.06164931945556445
+    },
+    "indexBounds": {
+      "lower": 37.52848276904986,
+      "upper": 38.55859370407362
+    },
+    "sourceSha256": "ef37379464c95deec27c0f1736c416a9db8a0795ff4747b22dc76460b1af168a",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "jewish-autonomous": {
+    "index": 28.27777830283169,
+    "includedSettlements": 56,
+    "includedPopulation": 132669,
+    "medianMinutes": 67.45893130254535,
+    "p90Minutes": 114.17139905115557,
+    "overMinutesShares": {
+      "60": 0.6071428571428571,
+      "90": 0.32142857142857145
+    },
+    "indexBounds": {
+      "lower": 28.27777830283169,
+      "upper": 28.277778302831685
+    },
+    "sourceSha256": "e258a80ba8e2171c910d28a38ec0780c0c577a0b5859c9a2eb76ad40f70af3ff",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "kabardino-balkaria": {
+    "index": 56.01219167573902,
+    "includedSettlements": 176,
+    "includedPopulation": 904005,
+    "medianMinutes": 24.929993500000005,
+    "p90Minutes": 48.494003799999994,
+    "overMinutesShares": {
+      "60": 0.045454545454545456,
+      "90": 0.011363636363636364
+    },
+    "indexBounds": {
+      "lower": 55.695738615424105,
+      "upper": 56.26071036683653
+    },
+    "sourceSha256": "44b5a4f268849e97b5c085877f5d03bf9a244f9d6d34575217918fd573b245e9",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "kaliningrad": {
+    "index": 53.764467548084085,
+    "includedSettlements": 959,
+    "includedPopulation": 1029361,
+    "medianMinutes": 27.4170589,
+    "p90Minutes": 48.045846199999986,
+    "overMinutesShares": {
+      "60": 0.0072992700729927005,
+      "90": 0.0
+    },
+    "indexBounds": {
+      "lower": 53.48560620188033,
+      "upper": 54.00427840105045
+    },
+    "sourceSha256": "1cb2f70fa25c65cf32935a890a22cc52c548d8e4eab12a235fc21fba1fd78f7c",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "kalmykia": {
+    "index": 27.257592951814637,
+    "includedSettlements": 236,
+    "includedPopulation": 265787,
+    "medianMinutes": 69.3485625,
+    "p90Minutes": 161.03686790000006,
+    "overMinutesShares": {
+      "60": 0.5720338983050848,
+      "90": 0.4025423728813559
+    },
+    "indexBounds": {
+      "lower": 26.149560718001034,
+      "upper": 30.214601368407546
+    },
+    "sourceSha256": "4294ab4f02c58e7d77065bacbc3e60b70b3e1daeea6dfb79ddad839af2181123",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "kaluga": {
+    "index": 58.152005854226246,
+    "includedSettlements": 1715,
+    "includedPopulation": 1065407,
+    "medianMinutes": 22.5688289,
+    "p90Minutes": 44.3449082,
+    "overMinutesShares": {
+      "60": 0.02040816326530612,
+      "90": 0.0005830903790087463
+    },
+    "indexBounds": {
+      "lower": 57.54800348528448,
+      "upper": 58.58666476630005
+    },
+    "sourceSha256": "6aff5173a3b22b56a8978dfdf9ce85e86167bc62b7fae7b4b61a2131335c4879",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "kamchatka": {
+    "index": 18.99385680126816,
+    "includedSettlements": 60,
+    "includedPopulation": 273564,
+    "medianMinutes": 425.6996582352034,
+    "p90Minutes": 1142.4195926203117,
+    "overMinutesShares": {
+      "60": 0.75,
+      "90": 0.7
+    },
+    "indexBounds": {
+      "lower": 18.99385680126816,
+      "upper": 18.993856801268173
+    },
+    "sourceSha256": "c85f887c28ad80f4e1bb62189247c1863ae6e64641dfc40abbbd7bfcad69225e",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "karachay-cherkessia": {
+    "index": 20.19013396105776,
+    "includedSettlements": 60,
+    "includedPopulation": 320948,
+    "medianMinutes": 81.36453229034862,
+    "p90Minutes": 181.2607453026306,
+    "overMinutesShares": {
+      "60": 0.7333333333333333,
+      "90": 0.45
+    },
+    "indexBounds": {
+      "lower": 20.19013396105776,
+      "upper": 20.190133961057768
+    },
+    "sourceSha256": "80bcb207fcd5d411c83bbb437f2b9d6892c842ed357141974943366c0f1b0757",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "karelia": {
+    "index": 34.18254186783714,
+    "includedSettlements": 486,
+    "includedPopulation": 531621,
+    "medianMinutes": 55.16156060000001,
+    "p90Minutes": 139.84765779999998,
+    "overMinutesShares": {
+      "60": 0.4670781893004115,
+      "90": 0.2613168724279835
+    },
+    "indexBounds": {
+      "lower": 33.493377717275905,
+      "upper": 35.50950674953397
+    },
+    "sourceSha256": "b3b0023fa3a17e2853ab93428290c8af1ca3d0c980e8242c040f1cd08e903fdb",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "kemerovo": {
+    "index": 23.637072929565793,
+    "includedSettlements": 54,
+    "includedPopulation": 1918064,
+    "medianMinutes": 97.0076721388302,
+    "p90Minutes": 220.6930363195547,
+    "overMinutesShares": {
+      "60": 0.7222222222222222,
+      "90": 0.5370370370370371
+    },
+    "indexBounds": {
+      "lower": 23.637072929565793,
+      "upper": 23.637072929565786
+    },
+    "sourceSha256": "d121626e9fc5ba38859d4a17df0508079f22ccc7ab8405c92e782e3d2e4b100f",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "khabarovsk": {
+    "index": 8.027087414976236,
+    "includedSettlements": 54,
+    "includedPopulation": 1050525,
+    "medianMinutes": 378.8030423809515,
+    "p90Minutes": 2623.2817455291683,
+    "overMinutesShares": {
+      "60": 0.8888888888888888,
+      "90": 0.8703703703703703
+    },
+    "indexBounds": {
+      "lower": 8.027087414976236,
+      "upper": 8.02708741497624
+    },
+    "sourceSha256": "151df3b9461084413f3b422bb3d38014b7edf9836e2c752c8b31424ea7ca67ac",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "khakassia": {
+    "index": 21.475497010782686,
+    "includedSettlements": 54,
+    "includedPopulation": 405946,
+    "medianMinutes": 91.95347499411963,
+    "p90Minutes": 160.7255478854358,
+    "overMinutesShares": {
+      "60": 0.6481481481481481,
+      "90": 0.5185185185185185
+    },
+    "indexBounds": {
+      "lower": 21.475497010782686,
+      "upper": 21.475497010782696
+    },
+    "sourceSha256": "d50973b415fe5715c6c1eedb0f9a95baa8ffb7195c0e32f218823fce75401de5",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "khanty-mansi": {
+    "index": 15.581881061420216,
+    "includedSettlements": 58,
+    "includedPopulation": 1365480,
+    "medianMinutes": 307.1887351321095,
+    "p90Minutes": 782.8133464127728,
+    "overMinutesShares": {
+      "60": 0.7931034482758621,
+      "90": 0.7931034482758621
+    },
+    "indexBounds": {
+      "lower": 15.581881061420216,
+      "upper": 15.581881061420223
+    },
+    "sourceSha256": "9b31cb9bdd8ad478c1cb95f4e9b53438ec68f762ffa19fd29795c996a4977ec0",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "kirov": {
+    "index": 16.305336808572832,
+    "includedSettlements": 34,
+    "includedPopulation": 705959,
+    "medianMinutes": 181.58003173911607,
+    "p90Minutes": 371.3313650519069,
+    "overMinutesShares": {
+      "60": 0.8235294117647058,
+      "90": 0.6764705882352942
+    },
+    "indexBounds": {
+      "lower": 16.305336808572832,
+      "upper": 16.305336808572836
+    },
+    "sourceSha256": "cb4aaa5b7f4ca198cc3cc3fc890944a9f4d95b3ca49d1d2ab156ce3d8b212785",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "komi": {
+    "index": 12.673975270304734,
+    "includedSettlements": 49,
+    "includedPopulation": 525559,
+    "medianMinutes": 354.2598142687945,
+    "p90Minutes": 863.7573905595552,
+    "overMinutesShares": {
+      "60": 0.8163265306122449,
+      "90": 0.8163265306122449
+    },
+    "indexBounds": {
+      "lower": 12.673975270304734,
+      "upper": 12.67397527030474
+    },
+    "sourceSha256": "2f7851f508a474dd5cb0dced4e4772352e88de69b8a40821a0f594f0c3726c4a",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "kostroma": {
+    "index": 54.06985629965401,
+    "includedSettlements": 1010,
+    "includedPopulation": 575250,
+    "medianMinutes": 25.7513799,
+    "p90Minutes": 62.59675729999997,
+    "overMinutesShares": {
+      "60": 0.10891089108910891,
+      "90": 0.019801980198019802
+    },
+    "indexBounds": {
+      "lower": 53.27859010990298,
+      "upper": 54.74200474404931
+    },
+    "sourceSha256": "6aeadf9c5e39677e9feea1e79cf41ec57aa185c5835ac4c390ebab8076ddd6a8",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "krasnodar": {
+    "index": 22.568999169823307,
+    "includedSettlements": 59,
+    "includedPopulation": 2677974,
+    "medianMinutes": 81.45339291429988,
+    "p90Minutes": 189.70800623820682,
+    "overMinutesShares": {
+      "60": 0.7966101694915254,
+      "90": 0.4745762711864407
+    },
+    "indexBounds": {
+      "lower": 22.568999169823307,
+      "upper": 22.568999169823297
+    },
+    "sourceSha256": "08dc28920cbfe2611df1c317fb496fcfe8155bbf40a85ada40eaac7eac2244ae",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "krasnoyarsk": {
+    "index": 15.337792535973838,
+    "includedSettlements": 57,
+    "includedPopulation": 1985339,
+    "medianMinutes": 1003.3168378780301,
+    "p90Minutes": 3005.4084269833,
+    "overMinutesShares": {
+      "60": 0.7894736842105263,
+      "90": 0.7894736842105263
+    },
+    "indexBounds": {
+      "lower": 15.337792535973838,
+      "upper": 15.337792535973849
+    },
+    "sourceSha256": "90bd847d794943a73daec7859a2f8d56373e0aa722833fce617c2e08f2ba5b4e",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "kurgan": {
+    "index": 16.74273024717809,
+    "includedSettlements": 53,
+    "includedPopulation": 493141,
+    "medianMinutes": 116.37535697242186,
+    "p90Minutes": 229.497789496711,
+    "overMinutesShares": {
+      "60": 0.7924528301886793,
+      "90": 0.6226415094339622
+    },
+    "indexBounds": {
+      "lower": 16.74273024717809,
+      "upper": 16.74273024717809
+    },
+    "sourceSha256": "345e6367e6dcbb254d06a7bc382d0611e62de904077a356ec1f2d88549f85ab4",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "kursk": {
+    "index": 56.94031976633451,
+    "includedSettlements": 1960,
+    "includedPopulation": 1078098,
+    "medianMinutes": 24.775335999999996,
+    "p90Minutes": 44.06805919999999,
+    "overMinutesShares": {
+      "60": 0.017857142857142856,
+      "90": 0.0
+    },
+    "indexBounds": {
+      "lower": 56.08192298593751,
+      "upper": 57.58946067437973
+    },
+    "sourceSha256": "7dc5b9fa9f1bf48b96e254ccb38d8ad71d581ee7bfc1f38d1d1a1addd93b66b9",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "leningrad": {
+    "index": 28.907886496301188,
+    "includedSettlements": 47,
+    "includedPopulation": 787241,
+    "medianMinutes": 73.39379958022144,
+    "p90Minutes": 134.8970896258901,
+    "overMinutesShares": {
+      "60": 0.723404255319149,
+      "90": 0.2765957446808511
+    },
+    "indexBounds": {
+      "lower": 28.907886496301188,
+      "upper": 28.907886496301188
+    },
+    "sourceSha256": "c96c59a3c64554b8530a29ecf91bfa3bb3c269adde344a1db32c98e6e6eaa135",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "lipetsk": {
+    "index": 49.59133931128135,
+    "includedSettlements": 1213,
+    "includedPopulation": 1141907,
+    "medianMinutes": 31.720179,
+    "p90Minutes": 55.34685399999999,
+    "overMinutesShares": {
+      "60": 0.06924979389942292,
+      "90": 0.0
+    },
+    "indexBounds": {
+      "lower": 49.26641653119106,
+      "upper": 49.92161718639172
+    },
+    "sourceSha256": "21f224e386db5dbc7ef0bf81a4d9d22678537fc6572b7ac5ae1d36dbf63d5912",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "magadan": {
+    "index": 9.900636924990014,
+    "includedSettlements": 46,
+    "includedPopulation": 136049,
+    "medianMinutes": 210.12132895205076,
+    "p90Minutes": 529.9831336375328,
+    "overMinutesShares": {
+      "60": 0.8913043478260869,
+      "90": 0.8043478260869565
+    },
+    "indexBounds": {
+      "lower": 9.900636924990014,
+      "upper": 9.900636924990017
+    },
+    "sourceSha256": "420fde58019fce6abdc648313439b9be53fa1121750c83559b1e6b6e99abc74a",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "mari-el": {
+    "index": 43.07585051204646,
+    "includedSettlements": 1049,
+    "includedPopulation": 637428,
+    "medianMinutes": 38.0575087,
+    "p90Minutes": 82.46639689999998,
+    "overMinutesShares": {
+      "60": 0.25452812202097236,
+      "90": 0.06482364156339371
+    },
+    "indexBounds": {
+      "lower": 35.57997416309979,
+      "upper": 52.9815489662494
+    },
+    "sourceSha256": "43e6ae46d9fe80381eb208833828d755a2c2daf9be3344972c454c16d95978e5",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "mordovia": {
+    "index": 49.65785489739187,
+    "includedSettlements": 932,
+    "includedPopulation": 781866,
+    "medianMinutes": 31.143381599999994,
+    "p90Minutes": 60.30121159999999,
+    "overMinutesShares": {
+      "60": 0.10300429184549356,
+      "90": 0.0075107296137339056
+    },
+    "indexBounds": {
+      "lower": 49.235234855711944,
+      "upper": 50.08629868549918
+    },
+    "sourceSha256": "e858d9fe9424aad4961d9ca02137136b08c06cc6572157d53c3f91dfcf63181f",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "moscow-oblast": {
+    "index": 23.376982560625258,
+    "includedSettlements": 55,
+    "includedPopulation": 2757390,
+    "medianMinutes": 96.76347164865345,
+    "p90Minutes": 221.7257023347725,
+    "overMinutesShares": {
+      "60": 0.6727272727272727,
+      "90": 0.5636363636363636
+    },
+    "indexBounds": {
+      "lower": 23.376982560625258,
+      "upper": 23.376982560625247
+    },
+    "sourceSha256": "fbabd7797cbc69e847ff21ce87aabe011b11f8509484349e569b2770458b5cd9",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "moscow": {
+    "index": 28.510698549130165,
+    "includedSettlements": 59,
+    "includedPopulation": 12843216,
+    "medianMinutes": 62.52290089786747,
+    "p90Minutes": 159.20732921696379,
+    "overMinutesShares": {
+      "60": 0.5254237288135594,
+      "90": 0.3389830508474576
+    },
+    "indexBounds": {
+      "lower": 28.510698549130165,
+      "upper": 28.510698549130172
+    },
+    "sourceSha256": "ac739ff9d071c043ad892b23d25cf42aa1eaa7e3b9de14a21455c041c6984f78",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "murmansk": {
+    "index": 55.217894659034215,
+    "includedSettlements": 93,
+    "includedPopulation": 665782,
+    "medianMinutes": 22.991379799999997,
+    "p90Minutes": 117.32260379999998,
+    "overMinutesShares": {
+      "60": 0.1935483870967742,
+      "90": 0.15053763440860216
+    },
+    "indexBounds": {
+      "lower": 50.34572748323708,
+      "upper": 59.16925689500179
+    },
+    "sourceSha256": "4589476daaab8cec0df56af7b5d9444983f35738db5c702819d40d6e8433dbe0",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "nenets": {
+    "index": 15.942145893673414,
+    "includedSettlements": 39,
+    "includedPopulation": 41420,
+    "medianMinutes": 214.6647958828425,
+    "p90Minutes": 503.21198147834787,
+    "overMinutesShares": {
+      "60": 0.7692307692307693,
+      "90": 0.7435897435897436
+    },
+    "indexBounds": {
+      "lower": 15.942145893673414,
+      "upper": 15.942145893673418
+    },
+    "sourceSha256": "77b4c1af7aa9410fa8f99154130adcae829141377c67b5ccb17c27910845997c",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "nizhny-novgorod": {
+    "index": 23.565218757584997,
+    "includedSettlements": 46,
+    "includedPopulation": 2052565,
+    "medianMinutes": 118.61019176622435,
+    "p90Minutes": 360.5063561528955,
+    "overMinutesShares": {
+      "60": 0.717391304347826,
+      "90": 0.5217391304347826
+    },
+    "indexBounds": {
+      "lower": 23.565218757584997,
+      "upper": 23.565218757585004
+    },
+    "sourceSha256": "5ed957290199c072e98d6d4fd40d985ba1187349a66addf721802a53994b5e2b",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "north-ossetia-alania": {
+    "index": 51.241408506245456,
+    "includedSettlements": 181,
+    "includedPopulation": 687229,
+    "medianMinutes": 24.980576800000005,
+    "p90Minutes": 79.63101119999999,
+    "overMinutesShares": {
+      "60": 0.20994475138121546,
+      "90": 0.09944751381215469
+    },
+    "indexBounds": {
+      "lower": 50.959862305661694,
+      "upper": 51.50931285511224
+    },
+    "sourceSha256": "a5da7cc9a70931d28ef932d858ac011352d043e025089c6aeeb78a6492a98ffe",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "novgorod": {
+    "index": 48.871943005660995,
+    "includedSettlements": 1317,
+    "includedPopulation": 577308,
+    "medianMinutes": 33.1145332,
+    "p90Minutes": 60.90337610000001,
+    "overMinutesShares": {
+      "60": 0.10782080485952923,
+      "90": 0.009111617312072893
+    },
+    "indexBounds": {
+      "lower": 48.61355660004194,
+      "upper": 49.14225750638635
+    },
+    "sourceSha256": "fc6d9d4f79c86db46da7cac9d7b2c8815725553396a78c48cbf7d8800d893d93",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "novosibirsk": {
+    "index": 18.6675815143864,
+    "includedSettlements": 56,
+    "includedPopulation": 2043859,
+    "medianMinutes": 143.0051756120605,
+    "p90Minutes": 258.65346090505597,
+    "overMinutesShares": {
+      "60": 0.8035714285714286,
+      "90": 0.6785714285714286
+    },
+    "indexBounds": {
+      "lower": 18.6675815143864,
+      "upper": 18.667581514386402
+    },
+    "sourceSha256": "7b5e422202dea71576cc1161988d1ee370b1f30fbb82ca052bea96ec6af68e31",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "omsk": {
+    "index": 12.382321376163363,
+    "includedSettlements": 57,
+    "includedPopulation": 1284941,
+    "medianMinutes": 142.49873709901675,
+    "p90Minutes": 276.7211750626068,
+    "overMinutesShares": {
+      "60": 0.8771929824561403,
+      "90": 0.6842105263157895
+    },
+    "indexBounds": {
+      "lower": 12.382321376163363,
+      "upper": 12.382321376163356
+    },
+    "sourceSha256": "75864bae1fe27cbd7404f7da8b6b5821bc43b550ca5fd82ce94a7ee2716e7bad",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "orenburg": {
+    "index": 17.63940537205014,
+    "includedSettlements": 55,
+    "includedPopulation": 1158886,
+    "medianMinutes": 137.5437374667029,
+    "p90Minutes": 277.140024501464,
+    "overMinutesShares": {
+      "60": 0.8181818181818182,
+      "90": 0.6545454545454545
+    },
+    "indexBounds": {
+      "lower": 17.63940537205014,
+      "upper": 17.63940537205015
+    },
+    "sourceSha256": "afbdedf9c219fd7b12be8d00782a90002e6ed6e9d3c443b40fa6e37a8ff48541",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "oryol": {
+    "index": 52.02037386732887,
+    "includedSettlements": 1520,
+    "includedPopulation": 708847,
+    "medianMinutes": 28.437077,
+    "p90Minutes": 56.2407611,
+    "overMinutesShares": {
+      "60": 0.0756578947368421,
+      "90": 0.001973684210526316
+    },
+    "indexBounds": {
+      "lower": 51.07943687231259,
+      "upper": 52.888222402028354
+    },
+    "sourceSha256": "afe140968c0e6e4f2465db5d4d4463e249ece7ae874d47d29f02ffa1385d524d",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "penza": {
+    "index": 48.45958781125698,
+    "includedSettlements": 1059,
+    "includedPopulation": 1265316,
+    "medianMinutes": 31.296453700000004,
+    "p90Minutes": 63.923290300000005,
+    "overMinutesShares": {
+      "60": 0.11898016997167139,
+      "90": 0.023607176581680833
+    },
+    "indexBounds": {
+      "lower": 48.18657604894004,
+      "upper": 48.74995633063017
+    },
+    "sourceSha256": "cf870dbe34c8f6c76409797864f3423a30844ef19baf2006f545c4cb0e8e57a5",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "perm": {
+    "index": 23.77844521465699,
+    "includedSettlements": 50,
+    "includedPopulation": 1684275,
+    "medianMinutes": 89.3043384191573,
+    "p90Minutes": 260.744480652765,
+    "overMinutesShares": {
+      "60": 0.76,
+      "90": 0.5
+    },
+    "indexBounds": {
+      "lower": 23.77844521465699,
+      "upper": 23.778445214656987
+    },
+    "sourceSha256": "b66227d9f292aedba9d00330362e42590f84f2177a6266feb048312d3876cec9",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "primorye": {
+    "index": 18.741742463592942,
+    "includedSettlements": 57,
+    "includedPopulation": 1344532,
+    "medianMinutes": 149.3987190226468,
+    "p90Minutes": 449.62389523580885,
+    "overMinutesShares": {
+      "60": 0.7719298245614035,
+      "90": 0.6666666666666666
+    },
+    "indexBounds": {
+      "lower": 18.741742463592942,
+      "upper": 18.74174246359296
+    },
+    "sourceSha256": "57eb8ccd253dd3dfe99700d9b2cf306a2c3be5d8f59f13011763a8dcbe7d4a8c",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "pskov": {
+    "index": 29.984896571407955,
+    "includedSettlements": 2133,
+    "includedPopulation": 585707,
+    "medianMinutes": 63.12022819999997,
+    "p90Minutes": 116.73437599999991,
+    "overMinutesShares": {
+      "60": 0.5218002812939522,
+      "90": 0.293483356774496
+    },
+    "indexBounds": {
+      "lower": 29.7063559622913,
+      "upper": 30.635292330150104
+    },
+    "sourceSha256": "c39421415725b0da56a32ed4af7f223da1772e29f0ee0df417fede2b9b85c94c",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "rostov": {
+    "index": 19.62019638319469,
+    "includedSettlements": 59,
+    "includedPopulation": 2532884,
+    "medianMinutes": 122.23684698348758,
+    "p90Minutes": 327.7991844739487,
+    "overMinutesShares": {
+      "60": 0.7966101694915254,
+      "90": 0.6271186440677966
+    },
+    "indexBounds": {
+      "lower": 19.62019638319469,
+      "upper": 19.620196383194695
+    },
+    "sourceSha256": "d270521447e135432eeb7960ffe566c60fe0f0f5a608ce29a3678a8e33d00e6a",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "ryazan": {
+    "index": 50.06699533015139,
+    "includedSettlements": 1598,
+    "includedPopulation": 1099225,
+    "medianMinutes": 29.231265100000005,
+    "p90Minutes": 68.89517669999995,
+    "overMinutesShares": {
+      "60": 0.1520650813516896,
+      "90": 0.040675844806007506
+    },
+    "indexBounds": {
+      "lower": 49.23511294620426,
+      "upper": 50.89665140774271
+    },
+    "sourceSha256": "7c60398567a7c99482526c1c99b116228adf6f68413f7c677c296f8b8f4a682e",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "saint-petersburg": {
+    "index": 49.84292612677877,
+    "includedSettlements": 30,
+    "includedPopulation": 5545378,
+    "medianMinutes": 28.90046507935552,
+    "p90Minutes": 92.44607876467626,
+    "overMinutesShares": {
+      "60": 0.16666666666666666,
+      "90": 0.13333333333333333
+    },
+    "indexBounds": {
+      "lower": 49.84292612677877,
+      "upper": 49.84292612677876
+    },
+    "sourceSha256": "828abdb81150931ef1a7ad649db3a3329eb47824f2770eea3b609ea40f6fcc3d",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "sakha": {
+    "index": 37.20512233182618,
+    "includedSettlements": 59,
+    "includedPopulation": 599960,
+    "medianMinutes": 387.30594556635947,
+    "p90Minutes": 1436.4910991230897,
+    "overMinutesShares": {
+      "60": 0.5423728813559322,
+      "90": 0.5423728813559322
+    },
+    "indexBounds": {
+      "lower": 37.20512233182618,
+      "upper": 37.20512233182619
+    },
+    "sourceSha256": "863b87c4dce5d337032076516bd3240640d0a19322c8b24da4fc8f10be84bde0",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "sakhalin": {
+    "index": 21.581274876994154,
+    "includedSettlements": 53,
+    "includedPopulation": 379420,
+    "medianMinutes": 197.42348929165198,
+    "p90Minutes": 529.880557060534,
+    "overMinutesShares": {
+      "60": 0.6792452830188679,
+      "90": 0.6037735849056604
+    },
+    "indexBounds": {
+      "lower": 21.581274876994154,
+      "upper": 21.581274876994158
+    },
+    "sourceSha256": "59175ae3be73ec509ae19e231003b64e9d9685f74a517b61e1f926cdd39024cc",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "samara": {
+    "index": 23.949384497279432,
+    "includedSettlements": 56,
+    "includedPopulation": 2452468,
+    "medianMinutes": 97.50113225865397,
+    "p90Minutes": 216.0910183691497,
+    "overMinutesShares": {
+      "60": 0.6428571428571429,
+      "90": 0.5714285714285714
+    },
+    "indexBounds": {
+      "lower": 23.949384497279432,
+      "upper": 23.949384497279425
+    },
+    "sourceSha256": "03112746c14715af651cd14d94030a58b33b125ba56d96391d2ae4b44f12395e",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "saratov": {
+    "index": 23.52978433367106,
+    "includedSettlements": 52,
+    "includedPopulation": 1676094,
+    "medianMinutes": 89.23958458465079,
+    "p90Minutes": 215.2549293775426,
+    "overMinutesShares": {
+      "60": 0.7692307692307693,
+      "90": 0.4807692307692308
+    },
+    "indexBounds": {
+      "lower": 23.52978433367106,
+      "upper": 23.52978433367107
+    },
+    "sourceSha256": "197003984ed6b939562929a413cfc0c3c102037d8dba13829aa8f09683fa1e1a",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "sevastopol": {
+    "index": 47.9401163212093,
+    "includedSettlements": 41,
+    "includedPopulation": 98347,
+    "medianMinutes": 33.73911466540282,
+    "p90Minutes": 52.54605563607534,
+    "overMinutesShares": {
+      "60": 0.07317073170731707,
+      "90": 0.0
+    },
+    "indexBounds": {
+      "lower": 47.9401163212093,
+      "upper": 47.9401163212093
+    },
+    "sourceSha256": "09f21edb893d9a218834347bc11db6c34817fefe01b5035e6aa6e09facfc5d74",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "smolensk": {
+    "index": 56.35076216614073,
+    "includedSettlements": 1816,
+    "includedPopulation": 881703,
+    "medianMinutes": 24.414665700000004,
+    "p90Minutes": 48.159166299999995,
+    "overMinutesShares": {
+      "60": 0.03248898678414097,
+      "90": 0.0005506607929515419
+    },
+    "indexBounds": {
+      "lower": 56.07286799655428,
+      "upper": 56.56601868148578
+    },
+    "sourceSha256": "746cb9c4c3f91d26cd2138af878ed6546690139e809084613a8724d7347bda7e",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "stavropol": {
+    "index": 24.24595149100505,
+    "includedSettlements": 59,
+    "includedPopulation": 1545346,
+    "medianMinutes": 98.82109305867195,
+    "p90Minutes": 189.34842333558072,
+    "overMinutesShares": {
+      "60": 0.6440677966101694,
+      "90": 0.5423728813559322
+    },
+    "indexBounds": {
+      "lower": 24.24595149100505,
+      "upper": 24.245951491005066
+    },
+    "sourceSha256": "c476c166af223228a1412a27377a528a76c31e9e93f6f95b67297d202eb7d0be",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "sverdlovsk": {
+    "index": 18.657597533617324,
+    "includedSettlements": 54,
+    "includedPopulation": 2721801,
+    "medianMinutes": 169.4580256707136,
+    "p90Minutes": 437.80607320196606,
+    "overMinutesShares": {
+      "60": 0.7777777777777778,
+      "90": 0.7407407407407407
+    },
+    "indexBounds": {
+      "lower": 18.657597533617324,
+      "upper": 18.657597533617313
+    },
+    "sourceSha256": "af11f5e5abf66b29f5c4ff4261cb3d6ce1e189cdcd924c0b263e8194c3ae5d40",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "tambov": {
+    "index": 35.01708309494816,
+    "includedSettlements": 1191,
+    "includedPopulation": 981511,
+    "medianMinutes": 51.4706278,
+    "p90Minutes": 100.7656664,
+    "overMinutesShares": {
+      "60": 0.42065491183879095,
+      "90": 0.1570109151973132
+    },
+    "indexBounds": {
+      "lower": 34.66778550796614,
+      "upper": 35.665291742380106
+    },
+    "sourceSha256": "5cc6a1bae13dafec72fa5c1dcd3c308ce35653308fe8610b64abfc1237f2a949",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "tatarstan": {
+    "index": 22.471601162764955,
+    "includedSettlements": 58,
+    "includedPopulation": 2788789,
+    "medianMinutes": 100.3679047817394,
+    "p90Minutes": 270.31977265344796,
+    "overMinutesShares": {
+      "60": 0.7413793103448276,
+      "90": 0.5172413793103449
+    },
+    "indexBounds": {
+      "lower": 22.471601162764955,
+      "upper": 22.471601162764948
+    },
+    "sourceSha256": "f36be77e4b999776f0a8dbb26eef9e146fdb1f348a416ac0a4ee682eb2b8bcb3",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "tomsk": {
+    "index": 11.18364009424646,
+    "includedSettlements": 56,
+    "includedPopulation": 828166,
+    "medianMinutes": 211.45430295289128,
+    "p90Minutes": 437.4431128926582,
+    "overMinutesShares": {
+      "60": 0.8571428571428571,
+      "90": 0.8214285714285714
+    },
+    "indexBounds": {
+      "lower": 11.18364009424646,
+      "upper": 11.183640094246465
+    },
+    "sourceSha256": "5a74a91b54e7ffcf38f081408638aea664f7c466e2138551cbcd923729a58b65",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "tula": {
+    "index": 51.022655202678216,
+    "includedSettlements": 2119,
+    "includedPopulation": 1493932,
+    "medianMinutes": 28.038271599999995,
+    "p90Minutes": 65.6634465,
+    "overMinutesShares": {
+      "60": 0.13308164228409627,
+      "90": 0.009438414346389807
+    },
+    "indexBounds": {
+      "lower": 48.76725591992564,
+      "upper": 53.18764383151787
+    },
+    "sourceSha256": "5fb4deea0d7d16bbdb83bf75fc3366306fcd540611d1a613aa0aae2067f3a7a3",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "tuva": {
+    "index": 10.731361226556116,
+    "includedSettlements": 59,
+    "includedPopulation": 242211,
+    "medianMinutes": 260.2665277204518,
+    "p90Minutes": 599.8934523516721,
+    "overMinutesShares": {
+      "60": 0.864406779661017,
+      "90": 0.8305084745762712
+    },
+    "indexBounds": {
+      "lower": 10.731361226556116,
+      "upper": 10.731361226556125
+    },
+    "sourceSha256": "822c812b9e00c3dd6f06096e316b49ebc9538fa80d661d28aacd533e11b000c4",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "tver": {
+    "index": 51.870293176172225,
+    "includedSettlements": 3328,
+    "includedPopulation": 1210753,
+    "medianMinutes": 28.4240923,
+    "p90Minutes": 60.72125940000001,
+    "overMinutesShares": {
+      "60": 0.10426682692307693,
+      "90": 0.021033653846153848
+    },
+    "indexBounds": {
+      "lower": 51.11765936935184,
+      "upper": 52.568651374089775
+    },
+    "sourceSha256": "cd2867993cbcda43e16f1c05df6df642d735d02bec2fc5787c4ca62d8416fb38",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "tyumen": {
+    "index": 11.285958004721635,
+    "includedSettlements": 58,
+    "includedPopulation": 1173263,
+    "medianMinutes": 155.97835592013996,
+    "p90Minutes": 386.89266461421147,
+    "overMinutesShares": {
+      "60": 0.8793103448275862,
+      "90": 0.7586206896551724
+    },
+    "indexBounds": {
+      "lower": 11.285958004721635,
+      "upper": 11.28595800472163
+    },
+    "sourceSha256": "96a6020743d810b39ee25a384f3b65aae95e84f10f3985c5f211aee9dc516140",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "udmurtia": {
+    "index": 45.990846191144236,
+    "includedSettlements": 1445,
+    "includedPopulation": 1451222,
+    "medianMinutes": 34.84925470000001,
+    "p90Minutes": 69.3548682,
+    "overMinutesShares": {
+      "60": 0.16124567474048443,
+      "90": 0.01591695501730104
+    },
+    "indexBounds": {
+      "lower": 45.83225706634719,
+      "upper": 46.17708465255409
+    },
+    "sourceSha256": "bc9ff82188e963dbac30513f5433e315d4d8eb5a5c5471515bd9a25b52295935",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "ulyanovsk": {
+    "index": 50.2913998209923,
+    "includedSettlements": 830,
+    "includedPopulation": 1196379,
+    "medianMinutes": 30.2242806,
+    "p90Minutes": 61.299394400000004,
+    "overMinutesShares": {
+      "60": 0.10602409638554217,
+      "90": 0.0024096385542168677
+    },
+    "indexBounds": {
+      "lower": 50.2913998209923,
+      "upper": 50.29139982099231
+    },
+    "sourceSha256": "af422a06b599cc51454dfa0cb7d8ee4aa1c8ad5429a4f259adc2486772cd3839",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "vladimir": {
+    "index": 51.013741976102565,
+    "includedSettlements": 1643,
+    "includedPopulation": 1344627,
+    "medianMinutes": 29.50172760000002,
+    "p90Minutes": 54.72033329999999,
+    "overMinutesShares": {
+      "60": 0.06451612903225806,
+      "90": 0.005477784540474742
+    },
+    "indexBounds": {
+      "lower": 50.46091394746328,
+      "upper": 51.54459847485644
+    },
+    "sourceSha256": "2255de80145105cb57e611cabc7a18e58155d0f5f4290a83504f71eddbc25dba",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "volgograd": {
+    "index": 20.49720702526125,
+    "includedSettlements": 58,
+    "includedPopulation": 1728292,
+    "medianMinutes": 115.25525035139947,
+    "p90Minutes": 207.1722413294917,
+    "overMinutesShares": {
+      "60": 0.8103448275862069,
+      "90": 0.5517241379310345
+    },
+    "indexBounds": {
+      "lower": 20.49720702526125,
+      "upper": 20.497207025261247
+    },
+    "sourceSha256": "ed443b2b1f414f8afbcd4276106e8efa2bfcfbaa32874fbd02b25830cdc58b89",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "vologda": {
+    "index": 39.38807273540289,
+    "includedSettlements": 2520,
+    "includedPopulation": 1130950,
+    "medianMinutes": 43.7064665,
+    "p90Minutes": 104.63905189999998,
+    "overMinutesShares": {
+      "60": 0.3496031746031746,
+      "90": 0.16626984126984126
+    },
+    "indexBounds": {
+      "lower": 39.23238865344478,
+      "upper": 39.627645570440826
+    },
+    "sourceSha256": "a2e78b1635977b965f7c877a542c49922aa6c6ca92169c15f407fc47ddc5ff21",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "voronezh": {
+    "index": 45.29003322337007,
+    "includedSettlements": 1435,
+    "includedPopulation": 2306348,
+    "medianMinutes": 36.412449200000005,
+    "p90Minutes": 71.01777560000002,
+    "overMinutesShares": {
+      "60": 0.1735191637630662,
+      "90": 0.04390243902439024
+    },
+    "indexBounds": {
+      "lower": 45.070178693159534,
+      "upper": 45.5556155863634
+    },
+    "sourceSha256": "22b24cec7a5f65e6b831c5850516fc1f5237b7e8b184eec2030c72fefc35df97",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "yamalo-nenets": {
+    "index": 10.277004982725574,
+    "includedSettlements": 55,
+    "includedPopulation": 494550,
+    "medianMinutes": 415.91216510587344,
+    "p90Minutes": 1005.9505058088927,
+    "overMinutesShares": {
+      "60": 0.8727272727272727,
+      "90": 0.8363636363636363
+    },
+    "indexBounds": {
+      "lower": 10.277004982725574,
+      "upper": 10.277004982725579
+    },
+    "sourceSha256": "91f5ecac6ce02edd6565c712a58d8062b78d2ec1b8a2a9531dea068a1a44c427",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "yaroslavl": {
+    "index": 54.3831357923539,
+    "includedSettlements": 1980,
+    "includedPopulation": 1200209,
+    "medianMinutes": 26.5120108,
+    "p90Minutes": 53.675416,
+    "overMinutesShares": {
+      "60": 0.05101010101010101,
+      "90": 0.000505050505050505
+    },
+    "indexBounds": {
+      "lower": 54.00130835950888,
+      "upper": 54.70341467846577
+    },
+    "sourceSha256": "987256c092c1d0441abc31ad934fe97c290205055c7444c8ac3bc5b4f2d6a589",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  },
+  "zabaykalsky": {
+    "index": 8.016392925844793,
+    "includedSettlements": 56,
+    "includedPopulation": 558034,
+    "medianMinutes": 289.92764387237924,
+    "p90Minutes": 608.450109461991,
+    "overMinutesShares": {
+      "60": 0.9107142857142857,
+      "90": 0.9107142857142857
+    },
+    "indexBounds": {
+      "lower": 8.016392925844793,
+      "upper": 8.016392925844785
+    },
+    "sourceSha256": "e420343cbed2d82153ad6ba96c54a7f53bb3956935dd672a300ac45cdbd37378",
+    "methodologyVersion": "4.0.0",
+    "weighting": "settlement"
+  }
+}

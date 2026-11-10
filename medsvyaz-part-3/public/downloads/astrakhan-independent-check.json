@@ -1,0 +1,18 @@
+{
+  "index": 44.94818743046941,
+  "includedSettlements": 309,
+  "includedPopulation": 903197,
+  "medianMinutes": 38.92571500000002,
+  "p90Minutes": 78.02482350000002,
+  "overMinutesShares": {
+    "60": 0.23948220064724918,
+    "90": 0.04854368932038835
+  },
+  "indexBounds": {
+    "lower": 35.16199978737987,
+    "upper": 56.93415168611404
+  },
+  "sourceSha256": "679a1e3573570c54834b6f49d57e7cc53c81d2366435bcf0ab5073f03f471586",
+  "methodologyVersion": "4.0.0",
+  "weighting": "settlement"
+}

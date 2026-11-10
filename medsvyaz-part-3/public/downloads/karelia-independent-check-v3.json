@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 75.38829509646452,
+  "legacyIndexTau60": 83.72353500466774,
+  "includedPopulation": 531621,
+  "sourcePopulation": 533121,
+  "populationCoverage": 0.9971863798274688,
+  "excludedPopulation": 1500,
+  "indexBounds": {
+    "lower": 75.17618106860837,
+    "upper": 75.4575430858615
+  },
+  "includedSettlements": 486,
+  "medianMinutes": 3.3417699,
+  "p90Minutes": 68.67134580000001,
+  "overMinutesShares": {
+    "60": 0.10440896804302313,
+    "90": 0.06214389574527718
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 69.97123231175325
+    },
+    {
+      "threshold": 30,
+      "index": 75.38829509646452
+    },
+    {
+      "threshold": 45,
+      "index": 80.44528666877477
+    },
+    {
+      "threshold": 60,
+      "index": 83.72353500466774
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/karelia-summary.json",
+  "sourceTimeFileSha256": "3ef42d24cf57249d7eb06b62cc82a621193a138e498b3d0f89c11f3fcafb6a36",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

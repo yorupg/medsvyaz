@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 82.68972698989668,
+  "legacyIndexTau60": 90.3791090063159,
+  "includedPopulation": 1078098,
+  "sourcePopulation": 1082458,
+  "populationCoverage": 0.9959721300965025,
+  "excludedPopulation": 4360,
+  "indexBounds": {
+    "lower": 82.35666352722566,
+    "upper": 82.7594505175754
+  },
+  "includedSettlements": 1960,
+  "medianMinutes": 2.6202102999999997,
+  "p90Minutes": 24.568673999999998,
+  "overMinutesShares": {
+    "60": 0.0021018497390775234,
+    "90": 0.0
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 76.39876291726397
+    },
+    {
+      "threshold": 30,
+      "index": 82.68972698989668
+    },
+    {
+      "threshold": 45,
+      "index": 87.63214208461505
+    },
+    {
+      "threshold": 60,
+      "index": 90.3791090063159
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/kursk-summary.json",
+  "sourceTimeFileSha256": "35e2288740a347c534a6d594955093eceee5272d662d4106a2c1c434d375df8b",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

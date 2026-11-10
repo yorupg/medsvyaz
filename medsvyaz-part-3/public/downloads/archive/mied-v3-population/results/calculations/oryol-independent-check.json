@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 75.82717388682761,
+  "legacyIndexTau60": 86.0461962004357,
+  "includedPopulation": 708847,
+  "sourcePopulation": 713374,
+  "populationCoverage": 0.9936541000933592,
+  "excludedPopulation": 4527,
+  "indexBounds": {
+    "lower": 75.34598223113835,
+    "upper": 75.98057222180243
+  },
+  "includedSettlements": 1520,
+  "medianMinutes": 4.7283875,
+  "p90Minutes": 39.183283499999995,
+  "overMinutesShares": {
+    "60": 0.014857931260201426,
+    "90": 0.00012273452522194492
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 68.01058436283684
+    },
+    {
+      "threshold": 30,
+      "index": 75.82717388682761
+    },
+    {
+      "threshold": 45,
+      "index": 82.3052801063761
+    },
+    {
+      "threshold": 60,
+      "index": 86.0461962004357
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/oryol-summary.json",
+  "sourceTimeFileSha256": "d5a4b0d8b4b7369c729da6356fb924b9fa82744a903c3708369a0d4f3b635113",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

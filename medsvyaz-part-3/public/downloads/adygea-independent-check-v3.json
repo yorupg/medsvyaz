@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 80.38220965243735,
+  "legacyIndexTau60": 89.15890775675841,
+  "includedPopulation": 496901,
+  "sourcePopulation": 496934,
+  "populationCoverage": 0.9999335927909944,
+  "excludedPopulation": 33,
+  "indexBounds": {
+    "lower": 80.37687169424062,
+    "upper": 80.38351241514118
+  },
+  "includedSettlements": 218,
+  "medianMinutes": 7.493063099999998,
+  "p90Minutes": 23.490978999999992,
+  "overMinutesShares": {
+    "60": 0.00035620777579437355,
+    "90": 0.0
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 73.14479563527115
+    },
+    {
+      "threshold": 30,
+      "index": 80.38220965243735
+    },
+    {
+      "threshold": 45,
+      "index": 86.03396633221433
+    },
+    {
+      "threshold": 60,
+      "index": 89.15890775675841
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/adygea-summary.json",
+  "sourceTimeFileSha256": "dd72ed199734258ac106c4fece261dc8cd792a136121e0133647edca23ae8406",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

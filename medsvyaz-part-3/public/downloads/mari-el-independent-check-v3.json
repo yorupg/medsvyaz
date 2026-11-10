@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 75.18316429627156,
+  "legacyIndexTau60": 84.97089814935343,
+  "includedPopulation": 637428,
+  "sourcePopulation": 677097,
+  "populationCoverage": 0.9414131210151574,
+  "excludedPopulation": 39669,
+  "indexBounds": {
+    "lower": 70.77841734794835,
+    "upper": 76.63710524643261
+  },
+  "includedSettlements": 1049,
+  "medianMinutes": 5.3997796000000005,
+  "p90Minutes": 48.19981979999998,
+  "overMinutesShares": {
+    "60": 0.06595411560207584,
+    "90": 0.010045056069077605
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 68.22977704521959
+    },
+    {
+      "threshold": 30,
+      "index": 75.18316429627156
+    },
+    {
+      "threshold": 45,
+      "index": 81.28198031224726
+    },
+    {
+      "threshold": 60,
+      "index": 84.97089814935343
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/mari-el-summary.json",
+  "sourceTimeFileSha256": "f13971f48094afd421394bd7d6f85f7d2f7ebc99ab3251fff20bb419905edad8",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

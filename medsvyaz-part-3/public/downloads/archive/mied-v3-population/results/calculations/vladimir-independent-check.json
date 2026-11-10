@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 74.19196847166268,
+  "legacyIndexTau60": 84.92365706870837,
+  "includedPopulation": 1344627,
+  "sourcePopulation": 1348134,
+  "populationCoverage": 0.9973986265460258,
+  "excludedPopulation": 3507,
+  "indexBounds": {
+    "lower": 73.99896745438241,
+    "upper": 74.25910479977982
+  },
+  "includedSettlements": 1643,
+  "medianMinutes": 9.435635500000002,
+  "p90Minutes": 41.89406760000002,
+  "overMinutesShares": {
+    "60": 0.01217289255682059,
+    "90": 0.0031257739135090996
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 66.23103980087181
+    },
+    {
+      "threshold": 30,
+      "index": 74.19196847166268
+    },
+    {
+      "threshold": 45,
+      "index": 80.95891644588741
+    },
+    {
+      "threshold": 60,
+      "index": 84.92365706870837
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/vladimir-summary.json",
+  "sourceTimeFileSha256": "ec02b1a2055d38a41d6ab085bbc0d38cd665f7f50d8003518f1ad7120ea61359",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

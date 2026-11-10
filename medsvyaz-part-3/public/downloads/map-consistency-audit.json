@@ -1,0 +1,6393 @@
+{
+  "date": "2026-11-10T19:48:11.247Z",
+  "methodology": "4.0.0",
+  "weighting": "settlement",
+  "tau": 30,
+  "regions": 85,
+  "observed": 33,
+  "synthetic": 52,
+  "points": 45780,
+  "checks": [
+    "Full live graph versus cached catalogue index and denominator",
+    "Every map point has source coordinates and the same score colour",
+    "Equal-settlement bin contributions reproduce the index",
+    "Improvement and closure: fixed settlement cohort, index monotonicity, actual transport effects"
+  ],
+  "rows": [
+    {
+      "id": "moscow-oblast",
+      "synthetic": true,
+      "index": 23.376982560625258,
+      "catalogueIndex": 23.376982560625258,
+      "population": 2757390,
+      "mapped": 55,
+      "unweightedIndex": 23.376982560625258,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 33,
+          "population": 11877,
+          "populationShare": 0.004307334109429569,
+          "settlementShare": 0.6,
+          "contributionPoints": 3.1264212772894444
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 10,
+          "population": 8738,
+          "populationShare": 0.0031689387427966302,
+          "settlementShare": 0.18181818181818182,
+          "contributionPoints": 4.823261259838929
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 2736775,
+          "populationShare": 0.9925237271477738,
+          "settlementShare": 0.21818181818181817,
+          "contributionPoints": 15.427300023496889
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "moscow",
+      "synthetic": true,
+      "index": 28.510698549130172,
+      "catalogueIndex": 28.510698549130172,
+      "population": 12843216,
+      "mapped": 59,
+      "unweightedIndex": 28.510698549130172,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 28,
+          "population": 15390,
+          "populationShare": 0.0011982979963896894,
+          "settlementShare": 0.4745762711864407,
+          "contributionPoints": 3.691418520924758
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 14,
+          "population": 37099,
+          "populationShare": 0.00288860671657317,
+          "settlementShare": 0.23728813559322035,
+          "contributionPoints": 7.574137861480529
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 9,
+          "population": 63782,
+          "populationShare": 0.004966201611808133,
+          "settlementShare": 0.15254237288135594,
+          "contributionPoints": 7.587043907496842
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 8,
+          "population": 12726945,
+          "populationShare": 0.990946893675229,
+          "settlementShare": 0.13559322033898305,
+          "contributionPoints": 9.658098259228037
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "komi",
+      "synthetic": true,
+      "index": 12.673975270304734,
+      "catalogueIndex": 12.673975270304734,
+      "population": 525559,
+      "mapped": 49,
+      "unweightedIndex": 12.673975270304734,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 40,
+          "population": 40199,
+          "populationShare": 0.07648808221341467,
+          "settlementShare": 0.8163265306122449,
+          "contributionPoints": 0.2782383110036468
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 2,
+          "population": 18000,
+          "populationShare": 0.034249246992250154,
+          "settlementShare": 0.04081632653061224,
+          "contributionPoints": 1.8774016290238185
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 7,
+          "population": 467360,
+          "populationShare": 0.8892626707943352,
+          "settlementShare": 0.14285714285714285,
+          "contributionPoints": 10.518335330277267
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.12923048407060023,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.5607476737657855,
+          "newlyCovered": 0,
+          "lostCoverage": 10564
+        }
+      ]
+    },
+    {
+      "id": "arkhangelsk",
+      "synthetic": true,
+      "index": 15.99480809873549,
+      "catalogueIndex": 15.99480809873549,
+      "population": 725154,
+      "mapped": 44,
+      "unweightedIndex": 15.99480809873549,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 35,
+          "population": 52110,
+          "populationShare": 0.0718605978867937,
+          "settlementShare": 0.7954545454545454,
+          "contributionPoints": 1.3743635572596047
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 1,
+          "population": 10839,
+          "populationShare": 0.014947169842543791,
+          "settlementShare": 0.022727272727272728,
+          "contributionPoints": 1.0760572691609132
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 8,
+          "population": 662205,
+          "populationShare": 0.9131922322706625,
+          "settlementShare": 0.18181818181818182,
+          "contributionPoints": 13.544387272314971
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "leningrad",
+      "synthetic": true,
+      "index": 28.90788649630118,
+      "catalogueIndex": 28.90788649630118,
+      "population": 787241,
+      "mapped": 47,
+      "unweightedIndex": 28.90788649630118,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 27,
+          "population": 24351,
+          "populationShare": 0.03093207797866219,
+          "settlementShare": 0.574468085106383,
+          "contributionPoints": 6.270183511024867
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 8,
+          "population": 386,
+          "populationShare": 0.0004903199909557556,
+          "settlementShare": 0.1702127659574468,
+          "contributionPoints": 3.947031171938977
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 762504,
+          "populationShare": 0.968577602030382,
+          "settlementShare": 0.2553191489361702,
+          "contributionPoints": 18.690671813337342
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.2273257758400966,
+          "newlyCovered": 98,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.07772783859815391,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "saint-petersburg",
+      "synthetic": true,
+      "index": 49.84292612677877,
+      "catalogueIndex": 49.84292612677877,
+      "population": 5545378,
+      "mapped": 30,
+      "unweightedIndex": 49.84292612677877,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 5,
+          "population": 19295,
+          "populationShare": 0.0034794742576610646,
+          "settlementShare": 0.16666666666666666,
+          "contributionPoints": 1.651506058083246
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 2,
+          "population": 4375,
+          "populationShare": 0.0007889453162615785,
+          "settlementShare": 0.06666666666666667,
+          "contributionPoints": 1.9709488415081162
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 11,
+          "population": 72818,
+          "populationShare": 0.013131296009036715,
+          "settlementShare": 0.36666666666666664,
+          "contributionPoints": 18.125264826968742
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 5448890,
+          "populationShare": 0.9826002844170406,
+          "settlementShare": 0.4,
+          "contributionPoints": 28.095206400218665
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "nenets",
+      "synthetic": true,
+      "index": 15.942145893673414,
+      "catalogueIndex": 15.942145893673414,
+      "population": 41420,
+      "mapped": 39,
+      "unweightedIndex": 15.942145893673414,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 30,
+          "population": 7905,
+          "populationShare": 0.19084983099951713,
+          "settlementShare": 0.7692307692307693,
+          "contributionPoints": 1.5482335286579447
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 2,
+          "population": 52,
+          "populationShare": 0.0012554321583775954,
+          "settlementShare": 0.05128205128205128,
+          "contributionPoints": 1.6533558900972842
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 2,
+          "population": 7338,
+          "populationShare": 0.17716079188797682,
+          "settlementShare": 0.05128205128205128,
+          "contributionPoints": 2.607642875277997
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 2,
+          "population": 23889,
+          "populationShare": 0.5767503621438919,
+          "settlementShare": 0.05128205128205128,
+          "contributionPoints": 3.565018160826887
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 3,
+          "population": 2236,
+          "populationShare": 0.0539835828102366,
+          "settlementShare": 0.07692307692307693,
+          "contributionPoints": 6.567895438813302
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.1709830212339174,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.7477983544583857,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "crimea",
+      "synthetic": true,
+      "index": 30.991787601168195,
+      "catalogueIndex": 30.991787601168195,
+      "population": 993618,
+      "mapped": 59,
+      "unweightedIndex": 30.991787601168195,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 29,
+          "population": 48087,
+          "populationShare": 0.048395862393797215,
+          "settlementShare": 0.4915254237288136,
+          "contributionPoints": 6.672110225360245
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 18,
+          "population": 29035,
+          "populationShare": 0.02922149155913037,
+          "settlementShare": 0.3050847457627119,
+          "contributionPoints": 9.899401044885808
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 1,
+          "population": 4980,
+          "populationShare": 0.0050119864978291455,
+          "settlementShare": 0.01694915254237288,
+          "contributionPoints": 0.6982838325773669
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 11,
+          "population": 911516,
+          "populationShare": 0.9173706595492432,
+          "settlementShare": 0.1864406779661017,
+          "contributionPoints": 13.721992498344774
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.22909408184482416,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.2996635449590066,
+          "newlyCovered": 0,
+          "lostCoverage": 919
+        }
+      ]
+    },
+    {
+      "id": "krasnodar",
+      "synthetic": true,
+      "index": 22.56899916982331,
+      "catalogueIndex": 22.56899916982331,
+      "population": 2677974,
+      "mapped": 59,
+      "unweightedIndex": 22.56899916982331,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 38,
+          "population": 79206,
+          "populationShare": 0.029576836817683815,
+          "settlementShare": 0.6440677966101694,
+          "contributionPoints": 4.66331112822335
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 9,
+          "population": 25154,
+          "populationShare": 0.009392921663914587,
+          "settlementShare": 0.15254237288135594,
+          "contributionPoints": 3.3584749263704445
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 2573614,
+          "populationShare": 0.9610302415184016,
+          "settlementShare": 0.2033898305084746,
+          "contributionPoints": 14.547213115229509
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.21807871507497012,
+          "newlyCovered": 11218,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "volgograd",
+      "synthetic": true,
+      "index": 20.49720702526125,
+      "catalogueIndex": 20.49720702526125,
+      "population": 1728292,
+      "mapped": 58,
+      "unweightedIndex": 20.49720702526125,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 41,
+          "population": 34496,
+          "populationShare": 0.01995959016184765,
+          "settlementShare": 0.7068965517241379,
+          "contributionPoints": 4.618597850991845
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 6,
+          "population": 1222,
+          "populationShare": 0.0007070564464801087,
+          "settlementShare": 0.10344827586206896,
+          "contributionPoints": 2.3376951424504275
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 1,
+          "population": 16545,
+          "populationShare": 0.009573035112122256,
+          "settlementShare": 0.017241379310344827,
+          "contributionPoints": 0.9250421641642164
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 10,
+          "population": 1676029,
+          "populationShare": 0.96976031827955,
+          "settlementShare": 0.1724137931034483,
+          "contributionPoints": 12.615871867654763
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.0673675576645465,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.05543413729643376,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "rostov",
+      "synthetic": true,
+      "index": 19.62019638319468,
+      "catalogueIndex": 19.62019638319468,
+      "population": 2532884,
+      "mapped": 59,
+      "unweightedIndex": 19.62019638319468,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 44,
+          "population": 21628,
+          "populationShare": 0.008538882949238892,
+          "settlementShare": 0.7457627118644068,
+          "contributionPoints": 3.9937123352617694
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 3,
+          "population": 373,
+          "populationShare": 0.00014726296190429566,
+          "settlementShare": 0.05084745762711865,
+          "contributionPoints": 1.103608207748547
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 2510883,
+          "populationShare": 0.9913138540888569,
+          "settlementShare": 0.2033898305084746,
+          "contributionPoints": 14.52287584018437
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "sevastopol",
+      "synthetic": true,
+      "index": 47.9401163212093,
+      "catalogueIndex": 47.9401163212093,
+      "population": 98347,
+      "mapped": 41,
+      "unweightedIndex": 47.9401163212093,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 1,
+          "population": 1329,
+          "populationShare": 0.01351337610704953,
+          "settlementShare": 0.024390243902439025,
+          "contributionPoints": 0.4404867002879415
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 14,
+          "population": 13471,
+          "populationShare": 0.13697418324910776,
+          "settlementShare": 0.34146341463414637,
+          "contributionPoints": 11.549048490955917
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 18,
+          "population": 22671,
+          "populationShare": 0.2305205039299623,
+          "settlementShare": 0.43902439024390244,
+          "contributionPoints": 22.003838946671927
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 7,
+          "population": 58367,
+          "populationShare": 0.5934802281716778,
+          "settlementShare": 0.17073170731707318,
+          "contributionPoints": 11.931469183894489
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 1,
+          "population": 2509,
+          "populationShare": 0.02551170854220261,
+          "settlementShare": 0.024390243902439025,
+          "contributionPoints": 2.0152729993990235
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.23029366869602086,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.38658515579921726,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "dagestan",
+      "synthetic": true,
+      "index": 15.670454929947319,
+      "catalogueIndex": 15.670454929947319,
+      "population": 1384392,
+      "mapped": 59,
+      "unweightedIndex": 15.670454929947319,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 47,
+          "population": 57657,
+          "populationShare": 0.04164788585891857,
+          "settlementShare": 0.7966101694915254,
+          "contributionPoints": 1.9902831373343528
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 1,
+          "population": 19438,
+          "populationShare": 0.014040820807979243,
+          "settlementShare": 0.01694915254237288,
+          "contributionPoints": 0.5472153511906839
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 1,
+          "population": 18233,
+          "populationShare": 0.013170402602731019,
+          "settlementShare": 0.01694915254237288,
+          "contributionPoints": 0.7925096406709495
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 10,
+          "population": 1289064,
+          "populationShare": 0.9311408907303712,
+          "settlementShare": 0.1694915254237288,
+          "contributionPoints": 12.340446800751334
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.11555125128965216,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.2546914889083336,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "ingushetia",
+      "synthetic": true,
+      "index": 27.063846072751172,
+      "catalogueIndex": 27.063846072751172,
+      "population": 509510,
+      "mapped": 48,
+      "unweightedIndex": 27.063846072751172,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 24,
+          "population": 44447,
+          "populationShare": 0.0872347942140488,
+          "settlementShare": 0.5,
+          "contributionPoints": 2.7500068048168553
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 9,
+          "population": 55874,
+          "populationShare": 0.10966222449019647,
+          "settlementShare": 0.1875,
+          "contributionPoints": 5.701370928468443
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 8,
+          "population": 79671,
+          "populationShare": 0.15636788286785344,
+          "settlementShare": 0.16666666666666666,
+          "contributionPoints": 7.9257691244247646
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 7,
+          "population": 329518,
+          "populationShare": 0.6467350984279013,
+          "settlementShare": 0.14583333333333334,
+          "contributionPoints": 10.686699215041104
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.03471343132872917,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.7112730541534766,
+          "newlyCovered": 0,
+          "lostCoverage": 16783
+        }
+      ]
+    },
+    {
+      "id": "karachay-cherkessia",
+      "synthetic": true,
+      "index": 20.19013396105776,
+      "catalogueIndex": 20.19013396105776,
+      "population": 320948,
+      "mapped": 60,
+      "unweightedIndex": 20.19013396105776,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 38,
+          "population": 59906,
+          "populationShare": 0.1866532896294727,
+          "settlementShare": 0.6333333333333333,
+          "contributionPoints": 4.712021763100864
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 13,
+          "population": 38220,
+          "populationShare": 0.11908471154205666,
+          "settlementShare": 0.21666666666666667,
+          "contributionPoints": 5.965390791457046
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 4,
+          "population": 18734,
+          "populationShare": 0.05837082642671087,
+          "settlementShare": 0.06666666666666667,
+          "contributionPoints": 3.174566311858848
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 5,
+          "population": 204088,
+          "populationShare": 0.6358911724017597,
+          "settlementShare": 0.08333333333333333,
+          "contributionPoints": 6.338155094640998
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.2544007930139962,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -2.736580531534102,
+          "newlyCovered": 0,
+          "lostCoverage": 11161
+        }
+      ]
+    },
+    {
+      "id": "chechnya",
+      "synthetic": true,
+      "index": 19.39910357528092,
+      "catalogueIndex": 19.39910357528092,
+      "population": 780898,
+      "mapped": 57,
+      "unweightedIndex": 19.39910357528092,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 36,
+          "population": 47524,
+          "populationShare": 0.06085814024366819,
+          "settlementShare": 0.631578947368421,
+          "contributionPoints": 2.545478366298722
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 11,
+          "population": 71642,
+          "populationShare": 0.09174309576922979,
+          "settlementShare": 0.19298245614035087,
+          "contributionPoints": 5.5243288040996505
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 3,
+          "population": 54534,
+          "populationShare": 0.06983498485077437,
+          "settlementShare": 0.05263157894736842,
+          "contributionPoints": 2.2665214362803563
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 7,
+          "population": 607198,
+          "populationShare": 0.7775637791363277,
+          "settlementShare": 0.12280701754385964,
+          "contributionPoints": 9.06277496860219
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.3094713125466022,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.5711708494756174,
+          "newlyCovered": 0,
+          "lostCoverage": 3575
+        }
+      ]
+    },
+    {
+      "id": "stavropol",
+      "synthetic": true,
+      "index": 24.245951491005055,
+      "catalogueIndex": 24.245951491005055,
+      "population": 1545346,
+      "mapped": 59,
+      "unweightedIndex": 24.245951491005055,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 33,
+          "population": 54024,
+          "populationShare": 0.034959161249325396,
+          "settlementShare": 0.559322033898305,
+          "contributionPoints": 3.287227997464496
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 14,
+          "population": 16374,
+          "populationShare": 0.010595685367548756,
+          "settlementShare": 0.23728813559322035,
+          "contributionPoints": 6.124448100734162
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 1474948,
+          "populationShare": 0.9544451533831259,
+          "settlementShare": 0.2033898305084746,
+          "contributionPoints": 14.834275392806397
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "bashkortostan",
+      "synthetic": true,
+      "index": 20.85022238449892,
+      "catalogueIndex": 20.85022238449892,
+      "population": 2266556,
+      "mapped": 54,
+      "unweightedIndex": 20.85022238449892,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 42,
+          "population": 21185,
+          "populationShare": 0.00934677987219376,
+          "settlementShare": 0.7777777777777778,
+          "contributionPoints": 4.768664133401459
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 2245371,
+          "populationShare": 0.9906532201278062,
+          "settlementShare": 0.2222222222222222,
+          "contributionPoints": 16.081558251097462
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.21278135783132157,
+          "newlyCovered": 899,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.3868965283848276,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "tatarstan",
+      "synthetic": true,
+      "index": 22.471601162764955,
+      "catalogueIndex": 22.471601162764955,
+      "population": 2788789,
+      "mapped": 58,
+      "unweightedIndex": 22.471601162764955,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 38,
+          "population": 41414,
+          "populationShare": 0.014850173318956723,
+          "settlementShare": 0.6551724137931034,
+          "contributionPoints": 4.166634094535579
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 8,
+          "population": 2559,
+          "populationShare": 0.0009176025866424459,
+          "settlementShare": 0.13793103448275862,
+          "contributionPoints": 3.34023337510838
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 2744816,
+          "populationShare": 0.9842322240944008,
+          "settlementShare": 0.20689655172413793,
+          "contributionPoints": 14.964733693120996
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.20655786052440206,
+          "newlyCovered": 1705,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.23270978287613175,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "perm",
+      "synthetic": true,
+      "index": 23.778445214656987,
+      "catalogueIndex": 23.778445214656987,
+      "population": 1684275,
+      "mapped": 50,
+      "unweightedIndex": 23.778445214656987,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 37,
+          "population": 22412,
+          "populationShare": 0.013306615606121328,
+          "settlementShare": 0.74,
+          "contributionPoints": 5.75739046966782
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 1,
+          "population": 242,
+          "populationShare": 0.00014368199967345,
+          "settlementShare": 0.02,
+          "contributionPoints": 0.407518729829815
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 1661621,
+          "populationShare": 0.9865497023942053,
+          "settlementShare": 0.24,
+          "contributionPoints": 17.613536015159355
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "kirov",
+      "synthetic": true,
+      "index": 16.305336808572832,
+      "catalogueIndex": 16.305336808572832,
+      "population": 705959,
+      "mapped": 34,
+      "unweightedIndex": 16.305336808572832,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 26,
+          "population": 73141,
+          "populationShare": 0.10360516687229712,
+          "settlementShare": 0.7647058823529411,
+          "contributionPoints": 2.6793473120903815
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 2,
+          "population": 9897,
+          "populationShare": 0.014019227745520632,
+          "settlementShare": 0.058823529411764705,
+          "contributionPoints": 1.2007750774079349
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 1,
+          "population": 9024,
+          "populationShare": 0.012782612021378013,
+          "settlementShare": 0.029411764705882353,
+          "contributionPoints": 1.599126587005984
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 5,
+          "population": 613897,
+          "populationShare": 0.8695929933608042,
+          "settlementShare": 0.14705882352941177,
+          "contributionPoints": 10.826087832068533
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "nizhny-novgorod",
+      "synthetic": true,
+      "index": 23.565218757584997,
+      "catalogueIndex": 23.565218757584997,
+      "population": 2052565,
+      "mapped": 46,
+      "unweightedIndex": 23.565218757584997,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 31,
+          "population": 12024,
+          "populationShare": 0.005858036164506361,
+          "settlementShare": 0.6739130434782609,
+          "contributionPoints": 3.213562131977476
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 3,
+          "population": 612,
+          "populationShare": 0.0002981635173551142,
+          "settlementShare": 0.06521739130434782,
+          "contributionPoints": 1.5863471984365092
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 2039929,
+          "populationShare": 0.9938438003181386,
+          "settlementShare": 0.2608695652173913,
+          "contributionPoints": 18.765309427171015
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "orenburg",
+      "synthetic": true,
+      "index": 17.63940537205014,
+      "catalogueIndex": 17.63940537205014,
+      "population": 1158886,
+      "mapped": 55,
+      "unweightedIndex": 17.63940537205014,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 44,
+          "population": 79819,
+          "populationShare": 0.06887562711086337,
+          "settlementShare": 0.8,
+          "contributionPoints": 4.013144250347407
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 1,
+          "population": 128,
+          "populationShare": 0.00011045089853531754,
+          "settlementShare": 0.01818181818181818,
+          "contributionPoints": 0.38586514977497793
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 10,
+          "population": 1078939,
+          "populationShare": 0.9310139219906013,
+          "settlementShare": 0.18181818181818182,
+          "contributionPoints": 13.240395971927756
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.2859818423692069,
+          "newlyCovered": 4457,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.47115695973894844,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "samara",
+      "synthetic": true,
+      "index": 23.949384497279432,
+      "catalogueIndex": 23.949384497279432,
+      "population": 2452468,
+      "mapped": 56,
+      "unweightedIndex": 23.949384497279432,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 33,
+          "population": 20412,
+          "populationShare": 0.008323044378152946,
+          "settlementShare": 0.5892857142857143,
+          "contributionPoints": 3.0441978353644346
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 11,
+          "population": 8492,
+          "populationShare": 0.003462634374841996,
+          "settlementShare": 0.19642857142857142,
+          "contributionPoints": 5.281572099444283
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 2423564,
+          "populationShare": 0.988214321247005,
+          "settlementShare": 0.21428571428571427,
+          "contributionPoints": 15.623614562470719
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "saratov",
+      "synthetic": true,
+      "index": 23.529784333671063,
+      "catalogueIndex": 23.529784333671063,
+      "population": 1676094,
+      "mapped": 52,
+      "unweightedIndex": 23.529784333671063,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 37,
+          "population": 24866,
+          "populationShare": 0.014835683440188915,
+          "settlementShare": 0.7115384615384616,
+          "contributionPoints": 5.202590297488271
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 3,
+          "population": 681,
+          "populationShare": 0.0004063017945294238,
+          "settlementShare": 0.057692307692307696,
+          "contributionPoints": 1.2777803856294108
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 1650547,
+          "populationShare": 0.9847580147652817,
+          "settlementShare": 0.23076923076923078,
+          "contributionPoints": 17.049413650553383
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "kurgan",
+      "synthetic": true,
+      "index": 16.742730247178088,
+      "catalogueIndex": 16.742730247178088,
+      "population": 493141,
+      "mapped": 53,
+      "unweightedIndex": 16.742730247178088,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 37,
+          "population": 55329,
+          "populationShare": 0.11219712009344184,
+          "settlementShare": 0.6981132075471698,
+          "contributionPoints": 3.888519717212004
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 10,
+          "population": 10273,
+          "populationShare": 0.020831770223931897,
+          "settlementShare": 0.18867924528301888,
+          "contributionPoints": 4.942480238228516
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 1,
+          "population": 8447,
+          "populationShare": 0.017128975282931252,
+          "settlementShare": 0.018867924528301886,
+          "contributionPoints": 0.8776849496367994
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 5,
+          "population": 419092,
+          "populationShare": 0.849842134399695,
+          "settlementShare": 0.09433962264150944,
+          "contributionPoints": 7.034045342100774
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.1132090800402139,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.6874246639754134,
+          "newlyCovered": 0,
+          "lostCoverage": 8447
+        }
+      ]
+    },
+    {
+      "id": "sverdlovsk",
+      "synthetic": true,
+      "index": 18.657597533617324,
+      "catalogueIndex": 18.657597533617324,
+      "population": 2721801,
+      "mapped": 54,
+      "unweightedIndex": 18.657597533617324,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 42,
+          "population": 27520,
+          "populationShare": 0.010110952270206381,
+          "settlementShare": 0.7777777777777778,
+          "contributionPoints": 2.626012996236462
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 2694281,
+          "populationShare": 0.9898890477297936,
+          "settlementShare": 0.2222222222222222,
+          "contributionPoints": 16.031584537380862
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "tyumen",
+      "synthetic": true,
+      "index": 11.285958004721634,
+      "catalogueIndex": 11.285958004721634,
+      "population": 1173263,
+      "mapped": 58,
+      "unweightedIndex": 11.285958004721634,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 48,
+          "population": 47091,
+          "populationShare": 0.04013678092635666,
+          "settlementShare": 0.8275862068965517,
+          "contributionPoints": 2.6152916396461316
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 4,
+          "population": 24793,
+          "populationShare": 0.021131664426475565,
+          "settlementShare": 0.06896551724137931,
+          "contributionPoints": 1.7175732374023964
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 1,
+          "population": 19972,
+          "populationShare": 0.017022611298575,
+          "settlementShare": 0.017241379310344827,
+          "contributionPoints": 0.7142543425680031
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 5,
+          "population": 1081407,
+          "populationShare": 0.9217089433485928,
+          "settlementShare": 0.08620689655172414,
+          "contributionPoints": 6.238838785105103
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.2373462024285704,
+          "newlyCovered": 11627,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.30085905038634664,
+          "newlyCovered": 0,
+          "lostCoverage": 19972
+        }
+      ]
+    },
+    {
+      "id": "chelyabinsk",
+      "synthetic": true,
+      "index": 21.874295568449842,
+      "catalogueIndex": 21.874295568449842,
+      "population": 2449306,
+      "mapped": 57,
+      "unweightedIndex": 21.874295568449842,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 39,
+          "population": 29528,
+          "populationShare": 0.012055659848136575,
+          "settlementShare": 0.6842105263157895,
+          "contributionPoints": 4.337848647872589
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 6,
+          "population": 2276,
+          "populationShare": 0.0009292428140869291,
+          "settlementShare": 0.10526315789473684,
+          "contributionPoints": 2.4464976952970936
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 2417502,
+          "populationShare": 0.9870150973377765,
+          "settlementShare": 0.21052631578947367,
+          "contributionPoints": 15.08994922528015
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "khanty-mansi",
+      "synthetic": true,
+      "index": 15.581881061420214,
+      "catalogueIndex": 15.581881061420214,
+      "population": 1365480,
+      "mapped": 58,
+      "unweightedIndex": 15.581881061420214,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 46,
+          "population": 67464,
+          "populationShare": 0.04940680200369101,
+          "settlementShare": 0.7931034482758621,
+          "contributionPoints": 0.5336407812662651
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 1298016,
+          "populationShare": 0.950593197996309,
+          "settlementShare": 0.20689655172413793,
+          "contributionPoints": 15.04824028015395
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "yamalo-nenets",
+      "synthetic": true,
+      "index": 10.277004982725572,
+      "catalogueIndex": 10.277004982725572,
+      "population": 494550,
+      "mapped": 55,
+      "unweightedIndex": 10.277004982725572,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 48,
+          "population": 105221,
+          "populationShare": 0.21276109594580933,
+          "settlementShare": 0.8727272727272727,
+          "contributionPoints": 0.8708365009102546
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 7,
+          "population": 389329,
+          "populationShare": 0.7872389040541907,
+          "settlementShare": 0.12727272727272726,
+          "contributionPoints": 9.40616848181532
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.04011498766954169,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.009779595628314652,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "altai-republic",
+      "synthetic": true,
+      "index": 11.305069107755093,
+      "catalogueIndex": 11.305069107755093,
+      "population": 147640,
+      "mapped": 58,
+      "unweightedIndex": 11.305069107755093,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 50,
+          "population": 37539,
+          "populationShare": 0.2542603630452452,
+          "settlementShare": 0.8620689655172413,
+          "contributionPoints": 2.855584671281576
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 2,
+          "population": 4583,
+          "populationShare": 0.03104172311026822,
+          "settlementShare": 0.034482758620689655,
+          "contributionPoints": 0.9516549758337918
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 1,
+          "population": 16890,
+          "populationShare": 0.11439989162828501,
+          "settlementShare": 0.017241379310344827,
+          "contributionPoints": 0.7150368386795646
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 2,
+          "population": 73676,
+          "populationShare": 0.4990246545651585,
+          "settlementShare": 0.034482758620689655,
+          "contributionPoints": 2.5942234330953213
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 3,
+          "population": 14952,
+          "populationShare": 0.10127336765104308,
+          "settlementShare": 0.05172413793103448,
+          "contributionPoints": 4.188569188864835
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.1462537792440397,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.48722651225603997,
+          "newlyCovered": 0,
+          "lostCoverage": 16890
+        }
+      ]
+    },
+    {
+      "id": "tuva",
+      "synthetic": true,
+      "index": 10.731361226556114,
+      "catalogueIndex": 10.731361226556114,
+      "population": 242211,
+      "mapped": 59,
+      "unweightedIndex": 10.731361226556114,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 50,
+          "population": 50393,
+          "populationShare": 0.2080541346181635,
+          "settlementShare": 0.847457627118644,
+          "contributionPoints": 1.6587780239050753
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 3,
+          "population": 26257,
+          "populationShare": 0.10840548117137537,
+          "settlementShare": 0.05084745762711865,
+          "contributionPoints": 1.54756916518723
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 1,
+          "population": 4546,
+          "populationShare": 0.018768759470048843,
+          "settlementShare": 0.01694915254237288,
+          "contributionPoints": 0.9217397027912363
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 4,
+          "population": 159201,
+          "populationShare": 0.6572822869316423,
+          "settlementShare": 0.06779661016949153,
+          "contributionPoints": 5.205707663453192
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 1,
+          "population": 1814,
+          "populationShare": 0.007489337808770039,
+          "settlementShare": 0.01694915254237288,
+          "contributionPoints": 1.3975666712193822
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.16533379591389163,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.6674180669266523,
+          "newlyCovered": 0,
+          "lostCoverage": 19686
+        }
+      ]
+    },
+    {
+      "id": "khakassia",
+      "synthetic": true,
+      "index": 21.475497010782686,
+      "catalogueIndex": 21.475497010782686,
+      "population": 405946,
+      "mapped": 54,
+      "unweightedIndex": 21.475497010782686,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 34,
+          "population": 30619,
+          "populationShare": 0.07542628822552754,
+          "settlementShare": 0.6296296296296297,
+          "contributionPoints": 4.719545589748749
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 11,
+          "population": 9869,
+          "populationShare": 0.02431111527148931,
+          "settlementShare": 0.2037037037037037,
+          "contributionPoints": 5.651162422892503
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 2,
+          "population": 17178,
+          "populationShare": 0.04231597306045632,
+          "settlementShare": 0.037037037037037035,
+          "contributionPoints": 1.9060806865692452
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 7,
+          "population": 348280,
+          "populationShare": 0.8579466234425268,
+          "settlementShare": 0.12962962962962962,
+          "contributionPoints": 9.198708311572187
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.06118630056922569,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.07916354407120707,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "altai-krai",
+      "synthetic": true,
+      "index": 16.854067570434914,
+      "catalogueIndex": 16.854067570434914,
+      "population": 1224500,
+      "mapped": 56,
+      "unweightedIndex": 16.854067570434914,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 46,
+          "population": 48429,
+          "populationShare": 0.03955002041649653,
+          "settlementShare": 0.8214285714285714,
+          "contributionPoints": 4.608492356777203
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 2,
+          "population": 34522,
+          "populationShare": 0.028192731727235607,
+          "settlementShare": 0.03571428571428571,
+          "contributionPoints": 1.7925573251735993
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 8,
+          "population": 1141549,
+          "populationShare": 0.9322572478562678,
+          "settlementShare": 0.14285714285714285,
+          "contributionPoints": 10.453017888484112
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.10603953701648194,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.23500579447301106,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "krasnoyarsk",
+      "synthetic": true,
+      "index": 15.337792535973838,
+      "catalogueIndex": 15.337792535973838,
+      "population": 1985339,
+      "mapped": 57,
+      "unweightedIndex": 15.337792535973838,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 45,
+          "population": 25644,
+          "populationShare": 0.012916685765000335,
+          "settlementShare": 0.7894736842105263,
+          "contributionPoints": 0.011342060734580555
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 1959695,
+          "populationShare": 0.9870833142349996,
+          "settlementShare": 0.21052631578947367,
+          "contributionPoints": 15.326450475239259
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "irkutsk",
+      "synthetic": true,
+      "index": 17.4409979800532,
+      "catalogueIndex": 17.4409979800532,
+      "population": 1513896,
+      "mapped": 55,
+      "unweightedIndex": 17.4409979800532,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 43,
+          "population": 18596,
+          "populationShare": 0.012283538631451566,
+          "settlementShare": 0.7818181818181819,
+          "contributionPoints": 1.4286673510365375
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 1495300,
+          "populationShare": 0.9877164613685484,
+          "settlementShare": 0.21818181818181817,
+          "contributionPoints": 16.012330629016663
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "kemerovo",
+      "synthetic": true,
+      "index": 23.63707292956579,
+      "catalogueIndex": 23.63707292956579,
+      "population": 1918064,
+      "mapped": 54,
+      "unweightedIndex": 23.63707292956579,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 30,
+          "population": 27963,
+          "populationShare": 0.014578762752442046,
+          "settlementShare": 0.5555555555555556,
+          "contributionPoints": 2.3975567182527646
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 12,
+          "population": 5797,
+          "populationShare": 0.0030223183376571375,
+          "settlementShare": 0.2222222222222222,
+          "contributionPoints": 5.2079838447232945
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 12,
+          "population": 1884304,
+          "populationShare": 0.9823989189099008,
+          "settlementShare": 0.2222222222222222,
+          "contributionPoints": 16.03153236658973
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "novosibirsk",
+      "synthetic": true,
+      "index": 18.6675815143864,
+      "catalogueIndex": 18.6675815143864,
+      "population": 2043859,
+      "mapped": 56,
+      "unweightedIndex": 18.6675815143864,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 44,
+          "population": 30926,
+          "populationShare": 0.015131180771276297,
+          "settlementShare": 0.7857142857142857,
+          "contributionPoints": 3.769752206440323
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 1,
+          "population": 63,
+          "populationShare": 3.082404412437453e-05,
+          "settlementShare": 0.017857142857142856,
+          "contributionPoints": 0.39120654875275296
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 11,
+          "population": 2012870,
+          "populationShare": 0.9848379951845994,
+          "settlementShare": 0.19642857142857142,
+          "contributionPoints": 14.506622759193322
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "omsk",
+      "synthetic": true,
+      "index": 12.382321376163363,
+      "catalogueIndex": 12.382321376163363,
+      "population": 1284941,
+      "mapped": 57,
+      "unweightedIndex": 12.382321376163363,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 48,
+          "population": 71248,
+          "populationShare": 0.05544846027949921,
+          "settlementShare": 0.8421052631578947,
+          "contributionPoints": 4.101221260659019
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 4,
+          "population": 9333,
+          "populationShare": 0.00726336851263988,
+          "settlementShare": 0.07017543859649122,
+          "contributionPoints": 1.7316015655956305
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 5,
+          "population": 1204360,
+          "populationShare": 0.9372881712078609,
+          "settlementShare": 0.08771929824561403,
+          "contributionPoints": 6.549498549908713
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.25803564946073543,
+          "newlyCovered": 114,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.4068148298769376,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "tomsk",
+      "synthetic": true,
+      "index": 11.18364009424646,
+      "catalogueIndex": 11.18364009424646,
+      "population": 828166,
+      "mapped": 56,
+      "unweightedIndex": 11.18364009424646,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 48,
+          "population": 47843,
+          "populationShare": 0.05776981909423956,
+          "settlementShare": 0.8571428571428571,
+          "contributionPoints": 1.976139823607642
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 3,
+          "population": 32291,
+          "populationShare": 0.03899097523926363,
+          "settlementShare": 0.05357142857142857,
+          "contributionPoints": 2.6537916960521986
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 5,
+          "population": 748032,
+          "populationShare": 0.9032392056664968,
+          "settlementShare": 0.08928571428571429,
+          "contributionPoints": 6.55370857458662
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.07386496363631956,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.27878439601797567,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "buryatia",
+      "synthetic": true,
+      "index": 12.632964389636157,
+      "catalogueIndex": 12.632964389636157,
+      "population": 617228,
+      "mapped": 52,
+      "unweightedIndex": 12.632964389636157,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 43,
+          "population": 65810,
+          "populationShare": 0.1066218642057716,
+          "settlementShare": 0.8269230769230769,
+          "contributionPoints": 2.048534932371097
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 1,
+          "population": 9323,
+          "populationShare": 0.015104629083580135,
+          "settlementShare": 0.019230769230769232,
+          "contributionPoints": 0.46407050043530285
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 3,
+          "population": 37054,
+          "populationShare": 0.06003292138399424,
+          "settlementShare": 0.057692307692307696,
+          "contributionPoints": 2.806788277282637
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 4,
+          "population": 497614,
+          "populationShare": 0.8062077546708833,
+          "settlementShare": 0.07692307692307693,
+          "contributionPoints": 5.773939612593822
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 1,
+          "population": 7427,
+          "populationShare": 0.012032830655770639,
+          "settlementShare": 0.019230769230769232,
+          "contributionPoints": 1.5396310669532964
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.13773307841889348,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.19319402075140246,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "sakha",
+      "synthetic": true,
+      "index": 37.20512233182618,
+      "catalogueIndex": 37.20512233182618,
+      "population": 599960,
+      "mapped": 59,
+      "unweightedIndex": 37.20512233182618,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 32,
+          "population": 72963,
+          "populationShare": 0.1216131075405027,
+          "settlementShare": 0.5423728813559322,
+          "contributionPoints": 0.03884655357838269
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 1,
+          "population": 11436,
+          "populationShare": 0.019061270751383426,
+          "settlementShare": 0.01694915254237288,
+          "contributionPoints": 0.5057710975195294
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 6,
+          "population": 498809,
+          "populationShare": 0.8314037602506834,
+          "settlementShare": 0.1016949152542373,
+          "contributionPoints": 7.579478271467001
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 20,
+          "population": 16752,
+          "populationShare": 0.027921861457430495,
+          "settlementShare": 0.3389830508474576,
+          "contributionPoints": 29.08102640926127
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.17014964759228235,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.5054417116225594,
+          "newlyCovered": 0,
+          "lostCoverage": 11436
+        }
+      ]
+    },
+    {
+      "id": "zabaykalsky",
+      "synthetic": true,
+      "index": 8.016392925844793,
+      "catalogueIndex": 8.016392925844793,
+      "population": 558034,
+      "mapped": 56,
+      "unweightedIndex": 8.016392925844793,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 51,
+          "population": 115469,
+          "populationShare": 0.206921083661569,
+          "settlementShare": 0.9107142857142857,
+          "contributionPoints": 1.3769005417752662
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 5,
+          "population": 442565,
+          "populationShare": 0.793078916338431,
+          "settlementShare": 0.08928571428571429,
+          "contributionPoints": 6.639492384069526
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.18179345959648785,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.17053951197606843,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "kamchatka",
+      "synthetic": true,
+      "index": 18.993856801268162,
+      "catalogueIndex": 18.993856801268162,
+      "population": 273564,
+      "mapped": 60,
+      "unweightedIndex": 18.993856801268162,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 43,
+          "population": 33219,
+          "populationShare": 0.12143045137518095,
+          "settlementShare": 0.7166666666666667,
+          "contributionPoints": 0.39034933422880874
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 3,
+          "population": 3833,
+          "populationShare": 0.014011346522203214,
+          "settlementShare": 0.05,
+          "contributionPoints": 1.266950437878884
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 3,
+          "population": 6426,
+          "populationShare": 0.02348993288590604,
+          "settlementShare": 0.05,
+          "contributionPoints": 2.1576389783921224
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 3,
+          "population": 222914,
+          "populationShare": 0.8148513693322221,
+          "settlementShare": 0.05,
+          "contributionPoints": 3.705583191039276
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 8,
+          "population": 7172,
+          "populationShare": 0.026216899884487724,
+          "settlementShare": 0.13333333333333333,
+          "contributionPoints": 11.47333485972907
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.10495614892359839,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.30322249974848603,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "primorye",
+      "synthetic": true,
+      "index": 18.74174246359295,
+      "catalogueIndex": 18.74174246359295,
+      "population": 1344532,
+      "mapped": 57,
+      "unweightedIndex": 18.74174246359295,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 42,
+          "population": 37747,
+          "populationShare": 0.028074452672007807,
+          "settlementShare": 0.7368421052631579,
+          "contributionPoints": 2.682023128581169
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 3,
+          "population": 1648,
+          "populationShare": 0.0012257053011754276,
+          "settlementShare": 0.05263157894736842,
+          "contributionPoints": 1.2624548672843043
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 1,
+          "population": 19711,
+          "populationShare": 0.014660119655017508,
+          "settlementShare": 0.017543859649122806,
+          "contributionPoints": 0.7950634635936435
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 11,
+          "population": 1285426,
+          "populationShare": 0.9560397223717992,
+          "settlementShare": 0.19298245614035087,
+          "contributionPoints": 14.002201004133827
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "khabarovsk",
+      "synthetic": true,
+      "index": 8.027087414976238,
+      "catalogueIndex": 8.027087414976238,
+      "population": 1050525,
+      "mapped": 54,
+      "unweightedIndex": 8.027087414976238,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 48,
+          "population": 95785,
+          "populationShare": 0.09117822041360273,
+          "settlementShare": 0.8888888888888888,
+          "contributionPoints": 0.7146387372941289
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 1,
+          "population": 17326,
+          "populationShare": 0.01649270602793841,
+          "settlementShare": 0.018518518518518517,
+          "contributionPoints": 0.5830754390570674
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 5,
+          "population": 937414,
+          "populationShare": 0.8923290735584589,
+          "settlementShare": 0.09259259259259259,
+          "contributionPoints": 6.72937323862504
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.08258230508960196,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.034449025599943894,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "amur",
+      "synthetic": true,
+      "index": 10.162297271593502,
+      "catalogueIndex": 10.162297271593502,
+      "population": 511123,
+      "mapped": 56,
+      "unweightedIndex": 10.162297271593502,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 49,
+          "population": 83807,
+          "populationShare": 0.163966403390182,
+          "settlementShare": 0.875,
+          "contributionPoints": 2.08684570935263
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 1,
+          "population": 9345,
+          "populationShare": 0.018283270367406672,
+          "settlementShare": 0.017857142857142856,
+          "contributionPoints": 0.6402700732197822
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 1,
+          "population": 18538,
+          "populationShare": 0.036269156347884954,
+          "settlementShare": 0.017857142857142856,
+          "contributionPoints": 0.9561547597747397
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 5,
+          "population": 399433,
+          "populationShare": 0.7814811698945263,
+          "settlementShare": 0.08928571428571429,
+          "contributionPoints": 6.479026729246351
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.07709365520538825,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.9249753259956464,
+          "newlyCovered": 0,
+          "lostCoverage": 18538
+        }
+      ]
+    },
+    {
+      "id": "magadan",
+      "synthetic": true,
+      "index": 9.900636924990016,
+      "catalogueIndex": 9.900636924990016,
+      "population": 136049,
+      "mapped": 46,
+      "unweightedIndex": 9.900636924990016,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 41,
+          "population": 34137,
+          "populationShare": 0.2509169490404193,
+          "settlementShare": 0.8913043478260869,
+          "contributionPoints": 2.352944185020683
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 1,
+          "population": 651,
+          "populationShare": 0.004785040683871252,
+          "settlementShare": 0.021739130434782608,
+          "contributionPoints": 0.714956856990769
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 2,
+          "population": 95196,
+          "populationShare": 0.6997184837815787,
+          "settlementShare": 0.043478260869565216,
+          "contributionPoints": 3.3055741910866003
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 2,
+          "population": 6065,
+          "populationShare": 0.04457952649413079,
+          "settlementShare": 0.043478260869565216,
+          "contributionPoints": 3.5271616918919615
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.2826892822323508,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.1464966974486508,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "sakhalin",
+      "synthetic": true,
+      "index": 21.581274876994154,
+      "catalogueIndex": 21.581274876994154,
+      "population": 379420,
+      "mapped": 53,
+      "unweightedIndex": 21.581274876994154,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 34,
+          "population": 90799,
+          "populationShare": 0.23930999947287965,
+          "settlementShare": 0.6415094339622641,
+          "contributionPoints": 1.130718918534249
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 9,
+          "population": 13524,
+          "populationShare": 0.03564387749723262,
+          "settlementShare": 0.16981132075471697,
+          "contributionPoints": 5.333778023603769
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 0,
+          "population": 0,
+          "populationShare": 0,
+          "settlementShare": 0,
+          "contributionPoints": 0
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 4,
+          "population": 261571,
+          "populationShare": 0.6893969743292394,
+          "settlementShare": 0.07547169811320754,
+          "contributionPoints": 5.661763406427147
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 6,
+          "population": 13526,
+          "populationShare": 0.03564914870064836,
+          "settlementShare": 0.11320754716981132,
+          "contributionPoints": 9.455014528428993
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.3167606898695077,
+          "newlyCovered": 1433,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.5433339135987012,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "jewish-autonomous",
+      "synthetic": true,
+      "index": 28.277778302831685,
+      "catalogueIndex": 28.277778302831685,
+      "population": 132669,
+      "mapped": 56,
+      "unweightedIndex": 28.277778302831685,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 27,
+          "population": 20271,
+          "populationShare": 0.15279379508400606,
+          "settlementShare": 0.48214285714285715,
+          "contributionPoints": 5.081486946529988
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 14,
+          "population": 7924,
+          "populationShare": 0.05972759273078112,
+          "settlementShare": 0.25,
+          "contributionPoints": 7.098832028611222
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 10,
+          "population": 11441,
+          "populationShare": 0.08623717673307253,
+          "settlementShare": 0.17857142857142858,
+          "contributionPoints": 9.090486312052667
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 3,
+          "population": 81976,
+          "populationShare": 0.6178986801739668,
+          "settlementShare": 0.05357142857142857,
+          "contributionPoints": 4.129720118088043
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 2,
+          "population": 11057,
+          "populationShare": 0.0833427552781735,
+          "settlementShare": 0.03571428571428571,
+          "contributionPoints": 2.877252897549772
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.24566140574460604,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -3.085819915109372,
+          "newlyCovered": 0,
+          "lostCoverage": 3573
+        }
+      ]
+    },
+    {
+      "id": "chukotka",
+      "synthetic": true,
+      "index": 29.878004432101484,
+      "catalogueIndex": 29.878004432101484,
+      "population": 47489,
+      "mapped": 45,
+      "unweightedIndex": 29.878004432101484,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 29,
+          "population": 10658,
+          "populationShare": 0.22443092084482721,
+          "settlementShare": 0.6444444444444445,
+          "contributionPoints": 2.0438266239937612
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 1,
+          "population": 425,
+          "populationShare": 0.008949440923161153,
+          "settlementShare": 0.022222222222222223,
+          "contributionPoints": 0.606881988204596
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 1,
+          "population": 37,
+          "populationShare": 0.0007791277980163827,
+          "settlementShare": 0.022222222222222223,
+          "contributionPoints": 1.266227876685371
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 3,
+          "population": 21861,
+          "populationShare": 0.46033818357935524,
+          "settlementShare": 0.06666666666666667,
+          "contributionPoints": 5.277630662000515
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 11,
+          "population": 14508,
+          "populationShare": 0.30550232685464,
+          "settlementShare": 0.24444444444444444,
+          "contributionPoints": 20.68343728121724
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.03204140358494101,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": 0,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "kaliningrad",
+      "synthetic": false,
+      "index": 53.764467548084085,
+      "catalogueIndex": 53.764467548084085,
+      "population": 1029361,
+      "mapped": 964,
+      "unweightedIndex": 53.764467548084085,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 2,
+          "population": 176,
+          "populationShare": 0.00017097986032111183,
+          "settlementShare": 0.0020855057351407717,
+          "contributionPoints": 0.039294682361689516
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 203,
+          "population": 66612,
+          "populationShare": 0.06471199122562445,
+          "settlementShare": 0.2116788321167883,
+          "contributionPoints": 7.066737931108658
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 417,
+          "population": 149830,
+          "populationShare": 0.1455563208631374,
+          "settlementShare": 0.4348279457768509,
+          "contributionPoints": 21.758301620382618
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 293,
+          "population": 142891,
+          "populationShare": 0.13881524557468178,
+          "settlementShare": 0.30552659019812306,
+          "contributionPoints": 20.942839675971367
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 44,
+          "population": 669852,
+          "populationShare": 0.6507454624762352,
+          "settlementShare": 0.045881126173096975,
+          "contributionPoints": 3.9572936382597477
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.14545068779327153,
+          "newlyCovered": 49,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.1943396566837876,
+          "newlyCovered": 0,
+          "lostCoverage": 197
+        }
+      ]
+    },
+    {
+      "id": "ivanovo",
+      "synthetic": false,
+      "index": 37.91909147681426,
+      "catalogueIndex": 37.91909147681426,
+      "population": 923698,
+      "mapped": 1262,
+      "unweightedIndex": 37.91909147681426,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 204,
+          "population": 37598,
+          "populationShare": 0.04070377980681998,
+          "settlementShare": 0.1633306645316253,
+          "contributionPoints": 2.1971860228499374
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 551,
+          "population": 156821,
+          "populationShare": 0.1697751862621766,
+          "settlementShare": 0.4411529223378703,
+          "contributionPoints": 13.271627682386464
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 320,
+          "population": 242578,
+          "populationShare": 0.26261613644286336,
+          "settlementShare": 0.2562049639711769,
+          "contributionPoints": 12.493635495964856
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 146,
+          "population": 45659,
+          "populationShare": 0.04943065807222707,
+          "settlementShare": 0.11689351481184948,
+          "contributionPoints": 8.03788433628436
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 28,
+          "population": 441042,
+          "populationShare": 0.477474239415913,
+          "settlementShare": 0.02241793434747798,
+          "contributionPoints": 1.918757939328552
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.2259849226493742,
+          "newlyCovered": 2788,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -1.4214721571929445,
+          "newlyCovered": 0,
+          "lostCoverage": 100930
+        }
+      ]
+    },
+    {
+      "id": "pskov",
+      "synthetic": false,
+      "index": 29.98489657140793,
+      "catalogueIndex": 29.98489657140793,
+      "population": 585707,
+      "mapped": 2153,
+      "unweightedIndex": 29.98489657140793,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 968,
+          "population": 106560,
+          "populationShare": 0.18193397039816836,
+          "settlementShare": 0.45382090951711207,
+          "contributionPoints": 4.870413112918751
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 538,
+          "population": 95001,
+          "populationShare": 0.1621988468637049,
+          "settlementShare": 0.25222691045475853,
+          "contributionPoints": 7.412686794682152
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 338,
+          "population": 27708,
+          "populationShare": 0.04730692991546968,
+          "settlementShare": 0.1584622597280825,
+          "contributionPoints": 7.894550282895705
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 240,
+          "population": 40296,
+          "populationShare": 0.06879890457173979,
+          "settlementShare": 0.11251758087201125,
+          "contributionPoints": 7.8372186509515736
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 49,
+          "population": 316142,
+          "populationShare": 0.5397613482509173,
+          "settlementShare": 0.02297233942803563,
+          "contributionPoints": 1.9700277299597753
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.1250683603817606,
+          "newlyCovered": 644,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.8099129587735305,
+          "newlyCovered": 0,
+          "lostCoverage": 23506
+        }
+      ]
+    },
+    {
+      "id": "adygea",
+      "synthetic": false,
+      "index": 63.81767539253567,
+      "catalogueIndex": 63.81767539253567,
+      "population": 496901,
+      "mapped": 218,
+      "unweightedIndex": 63.81767539253567,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 1,
+          "population": 86,
+          "populationShare": 0.00017307270462325492,
+          "settlementShare": 0.0045871559633027525,
+          "contributionPoints": 0.07151683452547387
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 13,
+          "population": 12098,
+          "populationShare": 0.02434690209921091,
+          "settlementShare": 0.05963302752293578,
+          "contributionPoints": 1.9921953471454488
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 70,
+          "population": 56296,
+          "populationShare": 0.11329419743570651,
+          "settlementShare": 0.3211009174311927,
+          "contributionPoints": 16.90516751456165
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 110,
+          "population": 168298,
+          "populationShare": 0.33869523305447163,
+          "settlementShare": 0.5045871559633027,
+          "contributionPoints": 35.285578054555295
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 24,
+          "population": 260123,
+          "populationShare": 0.5234905947059877,
+          "settlementShare": 0.11009174311926606,
+          "contributionPoints": 9.563217641747798
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.1963949270904024,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -1.2437792633209312,
+          "newlyCovered": 0,
+          "lostCoverage": 1470
+        }
+      ]
+    },
+    {
+      "id": "astrakhan",
+      "synthetic": false,
+      "index": 44.948187430469396,
+      "catalogueIndex": 44.948187430469396,
+      "population": 903197,
+      "mapped": 395,
+      "unweightedIndex": 44.948187430469396,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 48,
+          "population": 29480,
+          "populationShare": 0.03263961239906687,
+          "settlementShare": 0.1553398058252427,
+          "contributionPoints": 2.221052096553234
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 102,
+          "population": 75674,
+          "populationShare": 0.08378460070172952,
+          "settlementShare": 0.3300970873786408,
+          "contributionPoints": 9.837360287336217
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 73,
+          "population": 95787,
+          "populationShare": 0.10605327519909831,
+          "settlementShare": 0.23624595469255663,
+          "contributionPoints": 11.75551285220763
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 57,
+          "population": 84507,
+          "populationShare": 0.09356430546159919,
+          "settlementShare": 0.18446601941747573,
+          "contributionPoints": 12.847825917302655
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 29,
+          "population": 617749,
+          "populationShare": 0.6839582062385061,
+          "settlementShare": 0.09385113268608414,
+          "contributionPoints": 8.286436277069662
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.2617064642263003,
+          "newlyCovered": 1108,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.9638712062259316,
+          "newlyCovered": 0,
+          "lostCoverage": 1994
+        }
+      ]
+    },
+    {
+      "id": "belgorod",
+      "synthetic": false,
+      "index": 52.47627261742854,
+      "catalogueIndex": 52.47627261742854,
+      "population": 1539795,
+      "mapped": 1366,
+      "unweightedIndex": 52.47627261742854,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 11,
+          "population": 1768,
+          "populationShare": 0.001148204793495238,
+          "settlementShare": 0.008094186902133923,
+          "contributionPoints": 0.15086272925332125
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 312,
+          "population": 85856,
+          "populationShare": 0.05575807169136151,
+          "settlementShare": 0.22958057395143489,
+          "contributionPoints": 7.598416888522965
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 593,
+          "population": 198890,
+          "populationShare": 0.12916654489721036,
+          "settlementShare": 0.43635025754231055,
+          "contributionPoints": 21.693697797273405
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 379,
+          "population": 301571,
+          "populationShare": 0.195851395802688,
+          "settlementShare": 0.2788815305371597,
+          "contributionPoints": 18.938307438423255
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 64,
+          "population": 951710,
+          "populationShare": 0.6180757828152449,
+          "settlementShare": 0.047093451066961,
+          "contributionPoints": 4.094987763955658
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.13497075754710863,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.3355596471158151,
+          "newlyCovered": 0,
+          "lostCoverage": 75
+        }
+      ]
+    },
+    {
+      "id": "bryansk",
+      "synthetic": false,
+      "index": 47.75441784339263,
+      "catalogueIndex": 47.75441784339263,
+      "population": 1165840,
+      "mapped": 1526,
+      "unweightedIndex": 47.75441784339263,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 77,
+          "population": 9791,
+          "populationShare": 0.008398236464694984,
+          "settlementShare": 0.05079155672823219,
+          "contributionPoints": 0.7944400418717655
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 498,
+          "population": 123792,
+          "populationShare": 0.10618266657517327,
+          "settlementShare": 0.32849604221635886,
+          "contributionPoints": 10.274768551529672
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 540,
+          "population": 205142,
+          "populationShare": 0.17596068071090373,
+          "settlementShare": 0.3562005277044855,
+          "contributionPoints": 17.573448968904845
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 325,
+          "population": 553451,
+          "populationShare": 0.47472294654498043,
+          "settlementShare": 0.21437994722955145,
+          "contributionPoints": 14.79001160046369
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 76,
+          "population": 273664,
+          "populationShare": 0.23473546970424758,
+          "settlementShare": 0.05013192612137203,
+          "contributionPoints": 4.321748680622738
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.3494555422320005,
+          "newlyCovered": 1396,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.8467353636352399,
+          "newlyCovered": 0,
+          "lostCoverage": 6508
+        }
+      ]
+    },
+    {
+      "id": "chuvashia",
+      "synthetic": false,
+      "index": 52.2502775081073,
+      "catalogueIndex": 52.2502775081073,
+      "population": 1183434,
+      "mapped": 1645,
+      "unweightedIndex": 52.2502775081073,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 64,
+          "population": 49050,
+          "populationShare": 0.041447178296381545,
+          "settlementShare": 0.03902439024390244,
+          "contributionPoints": 0.5524733911996523
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 342,
+          "population": 103610,
+          "populationShare": 0.08755029853798353,
+          "settlementShare": 0.20853658536585365,
+          "contributionPoints": 6.686250241858384
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 681,
+          "population": 138746,
+          "populationShare": 0.11724016717451079,
+          "settlementShare": 0.41524390243902437,
+          "contributionPoints": 20.915743398709537
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 455,
+          "population": 104592,
+          "populationShare": 0.08838008710244931,
+          "settlementShare": 0.2774390243902439,
+          "contributionPoints": 19.01474343185413
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 98,
+          "population": 787436,
+          "populationShare": 0.6653822688886748,
+          "settlementShare": 0.05975609756097561,
+          "contributionPoints": 5.081067044485506
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.14392722886272935,
+          "newlyCovered": 531,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.37119765206956146,
+          "newlyCovered": 0,
+          "lostCoverage": 1291
+        }
+      ]
+    },
+    {
+      "id": "kabardino-balkaria",
+      "synthetic": false,
+      "index": 56.01219167573902,
+      "catalogueIndex": 56.01219167573902,
+      "population": 904005,
+      "mapped": 177,
+      "unweightedIndex": 56.01219167573902,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 6,
+          "population": 5082,
+          "populationShare": 0.005621650322730516,
+          "settlementShare": 0.03409090909090909,
+          "contributionPoints": 0.5131815954705691
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 34,
+          "population": 83221,
+          "populationShare": 0.09205811914757109,
+          "settlementShare": 0.19318181818181818,
+          "contributionPoints": 6.4257560195217165
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 61,
+          "population": 197270,
+          "populationShare": 0.2182178195917058,
+          "settlementShare": 0.3465909090909091,
+          "contributionPoints": 17.537373817954855
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 58,
+          "population": 210291,
+          "populationShare": 0.2326215009872733,
+          "settlementShare": 0.32954545454545453,
+          "contributionPoints": 22.943088883564492
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 17,
+          "population": 408141,
+          "populationShare": 0.4514809099507193,
+          "settlementShare": 0.09659090909090909,
+          "contributionPoints": 8.592791359227393
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.21462918357760685,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.6582041015045661,
+          "newlyCovered": 0,
+          "lostCoverage": 306
+        }
+      ]
+    },
+    {
+      "id": "kalmykia",
+      "synthetic": false,
+      "index": 27.257592951814622,
+      "catalogueIndex": 27.257592951814622,
+      "population": 265787,
+      "mapped": 246,
+      "unweightedIndex": 27.257592951814622,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 117,
+          "population": 52937,
+          "populationShare": 0.19917076455959096,
+          "settlementShare": 0.4957627118644068,
+          "contributionPoints": 3.6876626143444113
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 62,
+          "population": 31235,
+          "populationShare": 0.1175189155225801,
+          "settlementShare": 0.2627118644067797,
+          "contributionPoints": 7.902921914124941
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 27,
+          "population": 12441,
+          "populationShare": 0.046808158412563444,
+          "settlementShare": 0.11440677966101695,
+          "contributionPoints": 5.990383585312664
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 20,
+          "population": 14513,
+          "populationShare": 0.0546038745311095,
+          "settlementShare": 0.0847457627118644,
+          "contributionPoints": 5.855218365756457
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 10,
+          "population": 154661,
+          "populationShare": 0.581898286974156,
+          "settlementShare": 0.0423728813559322,
+          "contributionPoints": 3.8214064722761645
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.2256082201299563,
+          "newlyCovered": 1000,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.673442275632592,
+          "newlyCovered": 0,
+          "lostCoverage": 463
+        }
+      ]
+    },
+    {
+      "id": "kaluga",
+      "synthetic": false,
+      "index": 58.15200585422629,
+      "catalogueIndex": 58.15200585422629,
+      "population": 1065407,
+      "mapped": 1733,
+      "unweightedIndex": 58.15200585422629,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 12,
+          "population": 1865,
+          "populationShare": 0.0017505047366874818,
+          "settlementShare": 0.006997084548104956,
+          "contributionPoints": 0.11196421402759482
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 237,
+          "population": 24658,
+          "populationShare": 0.023144206861790848,
+          "settlementShare": 0.13819241982507288,
+          "contributionPoints": 4.538153512189227
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 629,
+          "population": 77344,
+          "populationShare": 0.07259573102110273,
+          "settlementShare": 0.36676384839650145,
+          "contributionPoints": 18.495961783801185
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 690,
+          "population": 183735,
+          "populationShare": 0.17245522133794877,
+          "settlementShare": 0.40233236151603496,
+          "contributionPoints": 27.668106141064648
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 147,
+          "population": 777805,
+          "populationShare": 0.7300543360424702,
+          "settlementShare": 0.08571428571428572,
+          "contributionPoints": 7.337820203143589
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.08869515744740397,
+          "newlyCovered": 337,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.416996393649967,
+          "newlyCovered": 0,
+          "lostCoverage": 6049
+        }
+      ]
+    },
+    {
+      "id": "karelia",
+      "synthetic": false,
+      "index": 34.182541867837166,
+      "catalogueIndex": 34.182541867837166,
+      "population": 531621,
+      "mapped": 496,
+      "unweightedIndex": 34.182541867837166,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 202,
+          "population": 49761,
+          "populationShare": 0.09360239719649902,
+          "settlementShare": 0.4156378600823045,
+          "contributionPoints": 4.087102717186659
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 104,
+          "population": 50385,
+          "populationShare": 0.09477616572708752,
+          "settlementShare": 0.2139917695473251,
+          "contributionPoints": 6.3977756861181945
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 82,
+          "population": 44135,
+          "populationShare": 0.08301967002808391,
+          "settlementShare": 0.16872427983539096,
+          "contributionPoints": 8.355675121266842
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 62,
+          "population": 25130,
+          "populationShare": 0.047270517906553726,
+          "settlementShare": 0.12757201646090535,
+          "contributionPoints": 8.826450907478746
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 36,
+          "population": 362210,
+          "populationShare": 0.6813312491417758,
+          "settlementShare": 0.07407407407407407,
+          "contributionPoints": 6.515537435786696
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.036543289567340764,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.27892718049269405,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "kostroma",
+      "synthetic": false,
+      "index": 54.069856299654056,
+      "catalogueIndex": 54.069856299654056,
+      "population": 575250,
+      "mapped": 1025,
+      "unweightedIndex": 54.069856299654056,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 66,
+          "population": 6231,
+          "populationShare": 0.010831812255541069,
+          "settlementShare": 0.06534653465346535,
+          "contributionPoints": 0.9273195252256065
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 201,
+          "population": 33522,
+          "populationShare": 0.058273794002607564,
+          "settlementShare": 0.19900990099009902,
+          "contributionPoints": 5.948080674847747
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 315,
+          "population": 48084,
+          "populationShare": 0.08358800521512386,
+          "settlementShare": 0.3118811881188119,
+          "contributionPoints": 15.553599589758626
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 293,
+          "population": 53785,
+          "populationShare": 0.09349847892220774,
+          "settlementShare": 0.2900990099009901,
+          "contributionPoints": 20.045084168970945
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 135,
+          "population": 433628,
+          "populationShare": 0.7538079096045198,
+          "settlementShare": 0.13366336633663367,
+          "contributionPoints": 11.595772340851063
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.22713967628459386,
+          "newlyCovered": 61,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -2.3958492465939116,
+          "newlyCovered": 0,
+          "lostCoverage": 6301
+        }
+      ]
+    },
+    {
+      "id": "kursk",
+      "synthetic": false,
+      "index": 56.940319766334454,
+      "catalogueIndex": 56.940319766334454,
+      "population": 1078098,
+      "mapped": 1990,
+      "unweightedIndex": 56.940319766334454,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 8,
+          "population": 530,
+          "populationShare": 0.0004916065144356079,
+          "settlementShare": 0.004081632653061225,
+          "contributionPoints": 0.07573093572516502
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 315,
+          "population": 24434,
+          "populationShare": 0.022663987874942722,
+          "settlementShare": 0.16071428571428573,
+          "contributionPoints": 5.362511703098984
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 805,
+          "population": 102947,
+          "populationShare": 0.09548946385208024,
+          "settlementShare": 0.4107142857142857,
+          "contributionPoints": 20.678607145383943
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 650,
+          "population": 225628,
+          "populationShare": 0.20928338611146668,
+          "settlementShare": 0.33163265306122447,
+          "contributionPoints": 22.804995574187345
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 182,
+          "population": 724559,
+          "populationShare": 0.6720715556470748,
+          "settlementShare": 0.09285714285714286,
+          "contributionPoints": 8.018474407939065
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.10508948507830951,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.42522695826099977,
+          "newlyCovered": 0,
+          "lostCoverage": 2156
+        }
+      ]
+    },
+    {
+      "id": "lipetsk",
+      "synthetic": false,
+      "index": 49.591339311281395,
+      "catalogueIndex": 49.591339311281395,
+      "population": 1141907,
+      "mapped": 1221,
+      "unweightedIndex": 49.591339311281395,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 24,
+          "population": 2204,
+          "populationShare": 0.0019301046407457,
+          "settlementShare": 0.01978565539983512,
+          "contributionPoints": 0.3508963404050793
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 379,
+          "population": 80222,
+          "populationShare": 0.07025265630213319,
+          "settlementShare": 0.3124484748557296,
+          "contributionPoints": 9.862253895404631
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 465,
+          "population": 143250,
+          "populationShare": 0.12544804436788634,
+          "settlementShare": 0.38334707337180546,
+          "contributionPoints": 19.022803662683934
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 285,
+          "population": 118856,
+          "populationShare": 0.10408553411092147,
+          "settlementShare": 0.23495465787304204,
+          "contributionPoints": 16.0330263798005
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 60,
+          "population": 797375,
+          "populationShare": 0.6982836605783133,
+          "settlementShare": 0.0494641384995878,
+          "contributionPoints": 4.32235903298724
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.17865120562240833,
+          "newlyCovered": 1040,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.5337772024787384,
+          "newlyCovered": 0,
+          "lostCoverage": 1906
+        }
+      ]
+    },
+    {
+      "id": "mari-el",
+      "synthetic": false,
+      "index": 43.07585051204641,
+      "catalogueIndex": 43.07585051204641,
+      "population": 637428,
+      "mapped": 1270,
+      "unweightedIndex": 43.07585051204641,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 190,
+          "population": 30489,
+          "populationShare": 0.047831284474481824,
+          "settlementShare": 0.1811248808388942,
+          "contributionPoints": 2.555129905057459
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 316,
+          "population": 64714,
+          "populationShare": 0.10152362306017307,
+          "settlementShare": 0.30123927550047663,
+          "contributionPoints": 9.04380418072132
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 276,
+          "population": 69957,
+          "populationShare": 0.10974886575424989,
+          "settlementShare": 0.2631077216396568,
+          "contributionPoints": 13.126981018255744
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 221,
+          "population": 68616,
+          "populationShare": 0.10764509874056365,
+          "settlementShare": 0.21067683508102955,
+          "contributionPoints": 14.58286196066062
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 46,
+          "population": 403652,
+          "populationShare": 0.6332511279705316,
+          "settlementShare": 0.0438512869399428,
+          "contributionPoints": 3.7670734473513297
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.3265254021582251,
+          "newlyCovered": 527,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.8733011603550764,
+          "newlyCovered": 0,
+          "lostCoverage": 2081
+        }
+      ]
+    },
+    {
+      "id": "mordovia",
+      "synthetic": false,
+      "index": 49.65785489739193,
+      "catalogueIndex": 49.65785489739193,
+      "population": 781866,
+      "mapped": 940,
+      "unweightedIndex": 49.65785489739193,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 42,
+          "population": 7088,
+          "populationShare": 0.009065492040835642,
+          "settlementShare": 0.045064377682403435,
+          "contributionPoints": 0.694062205883298
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 268,
+          "population": 106960,
+          "populationShare": 0.1368009351986146,
+          "settlementShare": 0.2875536480686695,
+          "contributionPoints": 8.805662482312272
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 336,
+          "population": 93602,
+          "populationShare": 0.11971616619727678,
+          "settlementShare": 0.3605150214592275,
+          "contributionPoints": 17.858789643599874
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 229,
+          "population": 101250,
+          "populationShare": 0.12949789350093238,
+          "settlementShare": 0.24570815450643776,
+          "contributionPoints": 16.99913778451213
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 57,
+          "population": 472966,
+          "populationShare": 0.6049195130623406,
+          "settlementShare": 0.0611587982832618,
+          "contributionPoints": 5.300202781084291
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.16195741648407136,
+          "newlyCovered": 172,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.743085833130742,
+          "newlyCovered": 0,
+          "lostCoverage": 7818
+        }
+      ]
+    },
+    {
+      "id": "murmansk",
+      "synthetic": false,
+      "index": 55.217894659034236,
+      "catalogueIndex": 55.217894659034236,
+      "population": 665782,
+      "mapped": 102,
+      "unweightedIndex": 55.217894659034236,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 17,
+          "population": 18477,
+          "populationShare": 0.027752327338378027,
+          "settlementShare": 0.1827956989247312,
+          "contributionPoints": 1.2374094631881716
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 11,
+          "population": 3098,
+          "populationShare": 0.004653174762910382,
+          "settlementShare": 0.11827956989247312,
+          "contributionPoints": 4.010053630534389
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 19,
+          "population": 30673,
+          "populationShare": 0.04607063573361851,
+          "settlementShare": 0.20430107526881722,
+          "contributionPoints": 9.997859810660332
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 21,
+          "population": 40829,
+          "populationShare": 0.06132487811325629,
+          "settlementShare": 0.22580645161290322,
+          "contributionPoints": 15.602837132244511
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 25,
+          "population": 572705,
+          "populationShare": 0.8601989840518368,
+          "settlementShare": 0.26881720430107525,
+          "contributionPoints": 24.36973462240681
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.0818094939088212,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.31949101255083434,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "north-ossetia-alania",
+      "synthetic": false,
+      "index": 51.2414085062455,
+      "catalogueIndex": 51.2414085062455,
+      "population": 687229,
+      "mapped": 182,
+      "unweightedIndex": 51.2414085062455,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 24,
+          "population": 3601,
+          "populationShare": 0.005239883648681881,
+          "settlementShare": 0.13259668508287292,
+          "contributionPoints": 1.4746860071621888
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 39,
+          "population": 17174,
+          "populationShare": 0.024990214324482816,
+          "settlementShare": 0.2154696132596685,
+          "contributionPoints": 6.016957409231193
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 35,
+          "population": 29364,
+          "populationShare": 0.04272811537347813,
+          "settlementShare": 0.19337016574585636,
+          "contributionPoints": 9.776839468672467
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 58,
+          "population": 125916,
+          "populationShare": 0.1832227685385803,
+          "settlementShare": 0.32044198895027626,
+          "contributionPoints": 22.094480803126064
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 25,
+          "population": 511174,
+          "populationShare": 0.7438190181147769,
+          "settlementShare": 0.13812154696132597,
+          "contributionPoints": 11.878444818053545
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.19612498287710878,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.6035929845392758,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        }
+      ]
+    },
+    {
+      "id": "novgorod",
+      "synthetic": false,
+      "index": 48.871943005661066,
+      "catalogueIndex": 48.871943005661066,
+      "population": 577308,
+      "mapped": 1324,
+      "unweightedIndex": 48.871943005661066,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 59,
+          "population": 2325,
+          "populationShare": 0.004027312976781891,
+          "settlementShare": 0.044798785117691725,
+          "contributionPoints": 0.6871306957747145
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 419,
+          "population": 50068,
+          "populationShare": 0.08672666929957666,
+          "settlementShare": 0.3181473044798785,
+          "contributionPoints": 9.783031826761292
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 462,
+          "population": 46948,
+          "populationShare": 0.08132227511137902,
+          "settlementShare": 0.35079726651480636,
+          "contributionPoints": 17.23628888694937
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 269,
+          "population": 68251,
+          "populationShare": 0.11822285504444768,
+          "settlementShare": 0.20425208807896736,
+          "contributionPoints": 14.115155504589136
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 108,
+          "population": 409716,
+          "populationShare": 0.7097008875678148,
+          "settlementShare": 0.08200455580865604,
+          "contributionPoints": 7.050336091586469
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.09694079873522554,
+          "newlyCovered": 72,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.36561322764850956,
+          "newlyCovered": 0,
+          "lostCoverage": 3280
+        }
+      ]
+    },
+    {
+      "id": "oryol",
+      "synthetic": false,
+      "index": 52.020373867328885,
+      "catalogueIndex": 52.020373867328885,
+      "population": 708847,
+      "mapped": 1548,
+      "unweightedIndex": 52.020373867328885,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 40,
+          "population": 4678,
+          "populationShare": 0.006599449528600671,
+          "settlementShare": 0.02631578947368421,
+          "contributionPoints": 0.44637550238130963
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 409,
+          "population": 51975,
+          "populationShare": 0.07332329825759297,
+          "settlementShare": 0.26907894736842103,
+          "contributionPoints": 8.389419656289466
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 533,
+          "population": 108328,
+          "populationShare": 0.15282282354302126,
+          "settlementShare": 0.3506578947368421,
+          "contributionPoints": 17.59706622444761
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 437,
+          "population": 99159,
+          "populationShare": 0.13988773317796366,
+          "settlementShare": 0.2875,
+          "contributionPoints": 19.86529298009079
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 101,
+          "population": 444707,
+          "populationShare": 0.6273666954928214,
+          "settlementShare": 0.06644736842105263,
+          "contributionPoints": 5.722219504119686
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.12995872123550356,
+          "newlyCovered": 463,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.9137533833535585,
+          "newlyCovered": 0,
+          "lostCoverage": 6075
+        }
+      ]
+    },
+    {
+      "id": "penza",
+      "synthetic": false,
+      "index": 48.45958781125695,
+      "catalogueIndex": 48.45958781125695,
+      "population": 1265316,
+      "mapped": 1065,
+      "unweightedIndex": 48.45958781125695,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 87,
+          "population": 20415,
+          "populationShare": 0.016134309532164298,
+          "settlementShare": 0.0821529745042493,
+          "contributionPoints": 1.1818457068835004
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 257,
+          "population": 101801,
+          "populationShare": 0.08045500096418602,
+          "settlementShare": 0.24268177525967893,
+          "contributionPoints": 7.655376461902602
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 423,
+          "population": 149954,
+          "populationShare": 0.11851110710684129,
+          "settlementShare": 0.39943342776203966,
+          "contributionPoints": 19.894966002964015
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 240,
+          "population": 90380,
+          "populationShare": 0.0714287972332603,
+          "settlementShare": 0.22662889518413598,
+          "contributionPoints": 15.447590504848788
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 52,
+          "population": 902766,
+          "populationShare": 0.7134707851635481,
+          "settlementShare": 0.049102927289896126,
+          "contributionPoints": 4.27980913465808
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.09111395424843494,
+          "newlyCovered": 239,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.2946100265511049,
+          "newlyCovered": 0,
+          "lostCoverage": 9201
+        }
+      ]
+    },
+    {
+      "id": "ryazan",
+      "synthetic": false,
+      "index": 50.066995330151464,
+      "catalogueIndex": 50.066995330151464,
+      "population": 1099225,
+      "mapped": 1625,
+      "unweightedIndex": 50.066995330151464,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 153,
+          "population": 28032,
+          "populationShare": 0.025501603402397145,
+          "settlementShare": 0.09574468085106383,
+          "contributionPoints": 1.3246069516922236
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 352,
+          "population": 76317,
+          "populationShare": 0.06942800609520344,
+          "settlementShare": 0.2202753441802253,
+          "contributionPoints": 6.729943468167139
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 539,
+          "population": 155383,
+          "populationShare": 0.14135686506402237,
+          "settlementShare": 0.33729662077596995,
+          "contributionPoints": 16.8118742464929
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 424,
+          "population": 111060,
+          "populationShare": 0.10103481998680888,
+          "settlementShare": 0.26533166458072593,
+          "contributionPoints": 18.177402790300377
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 130,
+          "population": 728433,
+          "populationShare": 0.6626787054515682,
+          "settlementShare": 0.08135168961201501,
+          "contributionPoints": 7.0231678734987195
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.05358379827479354,
+          "newlyCovered": 1438,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.16802664409278378,
+          "newlyCovered": 0,
+          "lostCoverage": 5857
+        }
+      ]
+    },
+    {
+      "id": "smolensk",
+      "synthetic": false,
+      "index": 56.35076216614061,
+      "catalogueIndex": 56.35076216614061,
+      "population": 881703,
+      "mapped": 1825,
+      "unweightedIndex": 56.35076216614061,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 23,
+          "population": 1394,
+          "populationShare": 0.0015810312542885755,
+          "settlementShare": 0.012665198237885462,
+          "contributionPoints": 0.2102649395177094
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 341,
+          "population": 47853,
+          "populationShare": 0.05427337777006543,
+          "settlementShare": 0.18777533039647576,
+          "contributionPoints": 6.120568444581499
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 670,
+          "population": 100114,
+          "populationShare": 0.11354617144321841,
+          "settlementShare": 0.368942731277533,
+          "contributionPoints": 18.651224959739814
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 610,
+          "population": 100757,
+          "populationShare": 0.11427544195721234,
+          "settlementShare": 0.33590308370044053,
+          "contributionPoints": 23.205864322830767
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 172,
+          "population": 631585,
+          "populationShare": 0.7163239775752153,
+          "settlementShare": 0.0947136563876652,
+          "contributionPoints": 8.162839499471012
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.1263982066091458,
+          "newlyCovered": 439,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.4206574779283727,
+          "newlyCovered": 0,
+          "lostCoverage": 172
+        }
+      ]
+    },
+    {
+      "id": "tambov",
+      "synthetic": false,
+      "index": 35.017083094948134,
+      "catalogueIndex": 35.017083094948134,
+      "population": 981511,
+      "mapped": 1203,
+      "unweightedIndex": 35.017083094948134,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 392,
+          "population": 118602,
+          "populationShare": 0.1208361393810156,
+          "settlementShare": 0.32913518052057095,
+          "contributionPoints": 4.108111426188187
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 348,
+          "population": 97629,
+          "populationShare": 0.09946806505479816,
+          "settlementShare": 0.29219143576826195,
+          "contributionPoints": 8.49803709147835
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 258,
+          "population": 107259,
+          "populationShare": 0.10927946808543154,
+          "settlementShare": 0.21662468513853905,
+          "contributionPoints": 10.76258098185144
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 160,
+          "population": 120091,
+          "populationShare": 0.12235318809468258,
+          "settlementShare": 0.1343408900083963,
+          "contributionPoints": 9.228570159332836
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 33,
+          "population": 537930,
+          "populationShare": 0.5480631393840721,
+          "settlementShare": 0.027707808564231738,
+          "contributionPoints": 2.4197834360973576
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.30124214039456376,
+          "newlyCovered": 6103,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.4641692288806638,
+          "newlyCovered": 0,
+          "lostCoverage": 1211
+        }
+      ]
+    },
+    {
+      "id": "tula",
+      "synthetic": false,
+      "index": 51.0226552026783,
+      "catalogueIndex": 51.0226552026783,
+      "population": 1493932,
+      "mapped": 2217,
+      "unweightedIndex": 51.0226552026783,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 163,
+          "population": 17513,
+          "populationShare": 0.011722755788081385,
+          "settlementShare": 0.07692307692307693,
+          "contributionPoints": 1.2267084778107824
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 547,
+          "population": 199127,
+          "populationShare": 0.13329053798968094,
+          "settlementShare": 0.2581406323737612,
+          "contributionPoints": 7.9110153280551385
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 619,
+          "population": 129816,
+          "populationShare": 0.08689552134903061,
+          "settlementShare": 0.2921189240207645,
+          "contributionPoints": 14.824186871286846
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 631,
+          "population": 353948,
+          "populationShare": 0.23692376895333925,
+          "settlementShare": 0.2977819726285984,
+          "contributionPoints": 20.633250719403005
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 159,
+          "population": 793528,
+          "populationShare": 0.5311674159198678,
+          "settlementShare": 0.07503539405379896,
+          "contributionPoints": 6.427493806122428
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.11486575907147767,
+          "newlyCovered": 228,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.7933878884702139,
+          "newlyCovered": 0,
+          "lostCoverage": 49303
+        }
+      ]
+    },
+    {
+      "id": "tver",
+      "synthetic": false,
+      "index": 51.87029317617228,
+      "catalogueIndex": 51.87029317617228,
+      "population": 1210753,
+      "mapped": 3377,
+      "unweightedIndex": 51.87029317617228,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 206,
+          "population": 10880,
+          "populationShare": 0.00898614333394177,
+          "settlementShare": 0.061899038461538464,
+          "contributionPoints": 0.8673106740498311
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 822,
+          "population": 60977,
+          "populationShare": 0.05036287335236832,
+          "settlementShare": 0.24699519230769232,
+          "contributionPoints": 7.752676655560871
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 1081,
+          "population": 93532,
+          "populationShare": 0.0772510991093972,
+          "settlementShare": 0.32481971153846156,
+          "contributionPoints": 16.269246530881773
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 911,
+          "population": 135227,
+          "populationShare": 0.11168834601277057,
+          "settlementShare": 0.2737379807692308,
+          "contributionPoints": 18.999165986182614
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 308,
+          "population": 910137,
+          "populationShare": 0.7517115381915221,
+          "settlementShare": 0.09254807692307693,
+          "contributionPoints": 7.981893329497161
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.10651645683981315,
+          "newlyCovered": 21,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.3466612253684076,
+          "newlyCovered": 0,
+          "lostCoverage": 808
+        }
+      ]
+    },
+    {
+      "id": "udmurtia",
+      "synthetic": false,
+      "index": 45.99084619114427,
+      "catalogueIndex": 45.99084619114427,
+      "population": 1451222,
+      "mapped": 1450,
+      "unweightedIndex": 45.99084619114427,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 142,
+          "population": 13892,
+          "populationShare": 0.009572622245252621,
+          "settlementShare": 0.09826989619377163,
+          "contributionPoints": 1.5325461948136228
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 450,
+          "population": 111799,
+          "populationShare": 0.07703783432169578,
+          "settlementShare": 0.31141868512110726,
+          "contributionPoints": 9.52399592017201
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 481,
+          "population": 191082,
+          "populationShare": 0.13166972386030532,
+          "settlementShare": 0.3328719723183391,
+          "contributionPoints": 16.372448839130367
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 294,
+          "population": 104913,
+          "populationShare": 0.07229286766600837,
+          "settlementShare": 0.20346020761245676,
+          "contributionPoints": 13.86671125372088
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 78,
+          "population": 1029536,
+          "populationShare": 0.7094269519067379,
+          "settlementShare": 0.05397923875432526,
+          "contributionPoints": 4.6951439833073625
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.22496828571222238,
+          "newlyCovered": 2371,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.6400752629044675,
+          "newlyCovered": 0,
+          "lostCoverage": 10963
+        }
+      ]
+    },
+    {
+      "id": "ulyanovsk",
+      "synthetic": false,
+      "index": 50.29139982099225,
+      "catalogueIndex": 50.29139982099225,
+      "population": 1196379,
+      "mapped": 830,
+      "unweightedIndex": 50.29139982099225,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 51,
+          "population": 11834,
+          "populationShare": 0.009891514311100412,
+          "settlementShare": 0.06144578313253012,
+          "contributionPoints": 1.0149156920065225
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 213,
+          "population": 64104,
+          "populationShare": 0.05358168272763063,
+          "settlementShare": 0.25662650602409637,
+          "contributionPoints": 8.113962280294343
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 309,
+          "population": 124536,
+          "populationShare": 0.10409410395869537,
+          "settlementShare": 0.372289156626506,
+          "contributionPoints": 18.585466331668982
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 208,
+          "population": 97088,
+          "populationShare": 0.08115154144297083,
+          "settlementShare": 0.25060240963855424,
+          "contributionPoints": 17.396671139879732
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 49,
+          "population": 898817,
+          "populationShare": 0.7512811575596028,
+          "settlementShare": 0.05903614457831325,
+          "contributionPoints": 5.180384377142728
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.13810132847132905,
+          "newlyCovered": 977,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.24778056010533334,
+          "newlyCovered": 0,
+          "lostCoverage": 2035
+        }
+      ]
+    },
+    {
+      "id": "vladimir",
+      "synthetic": false,
+      "index": 51.01374197610256,
+      "catalogueIndex": 51.01374197610256,
+      "population": 1344627,
+      "mapped": 1661,
+      "unweightedIndex": 51.01374197610256,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 56,
+          "population": 6529,
+          "populationShare": 0.004855621670545066,
+          "settlementShare": 0.03408399269628728,
+          "contributionPoints": 0.5434661576448852
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 418,
+          "population": 152213,
+          "populationShare": 0.11320090999213908,
+          "settlementShare": 0.25441265976871574,
+          "contributionPoints": 8.083638050636088
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 653,
+          "population": 238018,
+          "populationShare": 0.17701414593043274,
+          "settlementShare": 0.39744370054777844,
+          "contributionPoints": 19.820082115088468
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 420,
+          "population": 160894,
+          "populationShare": 0.11965697550324365,
+          "settlementShare": 0.2556299452221546,
+          "contributionPoints": 17.592631354752328
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 96,
+          "population": 786973,
+          "populationShare": 0.5852723469036395,
+          "settlementShare": 0.05842970176506391,
+          "contributionPoints": 4.973924297980832
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.14954994754454276,
+          "newlyCovered": 2727,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.44496170098239674,
+          "newlyCovered": 0,
+          "lostCoverage": 1870
+        }
+      ]
+    },
+    {
+      "id": "vologda",
+      "synthetic": false,
+      "index": 39.388072735402915,
+      "catalogueIndex": 39.388072735402915,
+      "population": 1130950,
+      "mapped": 2530,
+      "unweightedIndex": 39.388072735402915,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 686,
+          "population": 95262,
+          "populationShare": 0.08423184048808524,
+          "settlementShare": 0.2722222222222222,
+          "contributionPoints": 2.950864584477935
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 679,
+          "population": 77526,
+          "populationShare": 0.06854944957778858,
+          "settlementShare": 0.26944444444444443,
+          "contributionPoints": 7.992667992809432
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 577,
+          "population": 55663,
+          "populationShare": 0.049217914142977146,
+          "settlementShare": 0.22896825396825396,
+          "contributionPoints": 11.34012003048507
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 398,
+          "population": 76971,
+          "populationShare": 0.06805871170255096,
+          "settlementShare": 0.15793650793650793,
+          "contributionPoints": 10.931210017468665
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 180,
+          "population": 825528,
+          "populationShare": 0.7299420840885981,
+          "settlementShare": 0.07142857142857142,
+          "contributionPoints": 6.1732101101617785
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.12766418382997813,
+          "newlyCovered": 451,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.8755074871427908,
+          "newlyCovered": 0,
+          "lostCoverage": 2147
+        }
+      ]
+    },
+    {
+      "id": "voronezh",
+      "synthetic": false,
+      "index": 45.290033223369996,
+      "catalogueIndex": 45.290033223369996,
+      "population": 2306348,
+      "mapped": 1442,
+      "unweightedIndex": 45.290033223369996,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 152,
+          "population": 47841,
+          "populationShare": 0.020743183595884056,
+          "settlementShare": 0.1059233449477352,
+          "contributionPoints": 1.4251387166532212
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 475,
+          "population": 213640,
+          "populationShare": 0.09263129414988544,
+          "settlementShare": 0.3310104529616725,
+          "contributionPoints": 10.103523653581025
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 440,
+          "population": 252357,
+          "populationShare": 0.10941843988851639,
+          "settlementShare": 0.30662020905923343,
+          "contributionPoints": 15.158229364662791
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 297,
+          "population": 190620,
+          "populationShare": 0.08265014646532093,
+          "settlementShare": 0.2069686411149826,
+          "contributionPoints": 14.256165249964095
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 71,
+          "population": 1601890,
+          "populationShare": 0.6945569359003931,
+          "settlementShare": 0.049477351916376304,
+          "contributionPoints": 4.34697623850896
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.13349551394472314,
+          "newlyCovered": 4156,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.6826989980647937,
+          "newlyCovered": 0,
+          "lostCoverage": 24477
+        }
+      ]
+    },
+    {
+      "id": "yaroslavl",
+      "synthetic": false,
+      "index": 54.38313579235381,
+      "catalogueIndex": 54.38313579235381,
+      "population": 1200209,
+      "mapped": 1994,
+      "unweightedIndex": 54.38313579235381,
+      "bins": [
+        {
+          "min": 0,
+          "max": 20,
+          "color": "#e07b62",
+          "settlements": 38,
+          "population": 1682,
+          "populationShare": 0.0014014225855663472,
+          "settlementShare": 0.01919191919191919,
+          "contributionPoints": 0.32099089742951564
+        },
+        {
+          "min": 20,
+          "max": 40,
+          "color": "#e9a35c",
+          "settlements": 487,
+          "population": 35180,
+          "populationShare": 0.02931156156969328,
+          "settlementShare": 0.24595959595959596,
+          "contributionPoints": 7.739085368632595
+        },
+        {
+          "min": 40,
+          "max": 60,
+          "color": "#e7c85f",
+          "settlements": 649,
+          "population": 104791,
+          "populationShare": 0.08731062673251075,
+          "settlementShare": 0.3277777777777778,
+          "contributionPoints": 16.341534160811243
+        },
+        {
+          "min": 60,
+          "max": 80,
+          "color": "#aac67d",
+          "settlements": 600,
+          "population": 70057,
+          "populationShare": 0.058370667108811884,
+          "settlementShare": 0.30303030303030304,
+          "contributionPoints": 21.088149327158337
+        },
+        {
+          "min": 80,
+          "max": 100,
+          "color": "#58ab7d",
+          "settlements": 206,
+          "population": 988499,
+          "populationShare": 0.8236057220034178,
+          "settlementShare": 0.10404040404040404,
+          "contributionPoints": 8.893376038322232
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": "improvement",
+          "delta": 0.15847373091867922,
+          "newlyCovered": 0,
+          "lostCoverage": 0
+        },
+        {
+          "scenario": "closure",
+          "delta": -0.624487865081818,
+          "newlyCovered": 0,
+          "lostCoverage": 1240
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 75.40043412223541,
+  "legacyIndexTau60": 85.26520173368074,
+  "includedPopulation": 1183434,
+  "sourcePopulation": 1186909,
+  "populationCoverage": 0.9970722271041841,
+  "excludedPopulation": 3475,
+  "indexBounds": {
+    "lower": 75.17967877487956,
+    "upper": 75.47245606446117
+  },
+  "includedSettlements": 1640,
+  "medianMinutes": 4.6029567,
+  "p90Minutes": 45.7380193,
+  "overMinutesShares": {
+    "60": 0.05410018640667752,
+    "90": 0.006182009305123902
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 68.17737015430325
+    },
+    {
+      "threshold": 30,
+      "index": 75.40043412223541
+    },
+    {
+      "threshold": 45,
+      "index": 81.5812556956818
+    },
+    {
+      "threshold": 60,
+      "index": 85.26520173368074
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/chuvashia-summary.json",
+  "sourceTimeFileSha256": "6b200c01177169a6c77b87ffa585182e083e27eacf5acc5bb2277c5557c6ceee",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

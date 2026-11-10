@@ -1,0 +1,1048 @@
+{
+  "kaliningrad": {
+    "facilityEvidence": "official-source",
+    "baselineIndex": 78.1985890856128,
+    "facilityCount": 10,
+    "officialProfileOnly": 78.1985890856128,
+    "officialProfileNote": "Подтверждены выбранные стационарные площадки; клиническое направление и фактический приём не подтверждаются.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 78.1985890856128,
+      "delta": 0,
+      "population": 1029361,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Областная клиническая больница Калининградской области",
+    "withoutDominant": {
+      "index": 75.4024607820493,
+      "delta": -2.796128303563492,
+      "population": 1029361,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9994126019693854,
+    "excludedPopulation": 605,
+    "indexBounds": {
+      "lower": 78.15265538838706,
+      "upper": 78.21139519144853
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "ivanovo": {
+    "facilityEvidence": "official-source",
+    "baselineIndex": 60.84892707611758,
+    "facilityCount": 5,
+    "officialProfileOnly": 60.84892707611758,
+    "officialProfileNote": "Подтверждены выбранные стационарные площадки; клиническое направление и фактический приём не подтверждаются.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 60.84892707611758,
+      "delta": 0,
+      "population": 923698,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Ивановская городская клиническая больница № 1",
+    "withoutDominant": {
+      "index": 28.784108340231917,
+      "delta": -32.064818735885666,
+      "population": 923698,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9955487439482318,
+    "excludedPopulation": 4130,
+    "indexBounds": {
+      "lower": 60.578072921226415,
+      "upper": 61.023198526403235
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "pskov": {
+    "facilityEvidence": "official-source",
+    "baselineIndex": 62.88395710254971,
+    "facilityCount": 6,
+    "officialProfileOnly": 62.88395710254971,
+    "officialProfileNote": "Подтверждены выбранные стационарные площадки; клиническое направление и фактический приём не подтверждаются.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 62.88395710254971,
+      "delta": 0,
+      "population": 585707,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Псковская областная клиническая больница",
+    "withoutDominant": {
+      "index": 30.790595042924124,
+      "delta": -32.09336205962558,
+      "population": 585707,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9776709109240107,
+    "excludedPopulation": 13377,
+    "indexBounds": {
+      "lower": 61.47981562295618,
+      "upper": 63.71272453055512
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "adygea": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 80.38220965243735,
+    "facilityCount": 21,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 80.38220965243735,
+      "delta": 0,
+      "population": 496901,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Военный госпиталь №419",
+    "withoutDominant": {
+      "index": 80.25984324351573,
+      "delta": -0.12236640892162143,
+      "population": 496901,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9999335927909944,
+    "excludedPopulation": 33,
+    "indexBounds": {
+      "lower": 80.37687169424062,
+      "upper": 80.38351241514118
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "astrakhan": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 78.89310593792447,
+    "facilityCount": 22,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 78.89310593792447,
+      "delta": 0,
+      "population": 903197,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Окружной Военно-Клинический Госпиталь",
+    "withoutDominant": {
+      "index": 78.85185018586898,
+      "delta": -0.04125575205549126,
+      "population": 903197,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9406910644467172,
+    "excludedPopulation": 56945,
+    "indexBounds": {
+      "lower": 74.21403980225381,
+      "upper": 80.14493335758208
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "belgorod": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 79.35770100081272,
+    "facilityCount": 31,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 79.35770100081272,
+      "delta": 0,
+      "population": 1539795,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Больница РЖД-Медицина",
+    "withoutDominant": {
+      "index": 79.07854433150821,
+      "delta": -0.27915666930451266,
+      "population": 1539795,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9995514402597622,
+    "excludedPopulation": 691,
+    "indexBounds": {
+      "lower": 79.32210433106593,
+      "upper": 79.3669603050897
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "bryansk": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 69.45781479668031,
+    "facilityCount": 29,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [
+      {
+        "id": "osm-way-102769909",
+        "name": "Больница №2. Терапевтический корпус",
+        "sourceUrl": "https://www.openstreetmap.org/way/102769909"
+      },
+      {
+        "id": "osm-way-102770830",
+        "name": "Больница №2. Хирургический корпус",
+        "sourceUrl": "https://www.openstreetmap.org/way/102770830"
+      },
+      {
+        "id": "osm-way-157371833",
+        "name": "Администрация ЦГБ Неврологическое отделение",
+        "sourceUrl": "https://www.openstreetmap.org/way/157371833"
+      }
+    ],
+    "strictSelection": {
+      "index": 68.83012766367322,
+      "delta": -0.6276871330070861,
+      "population": 1165840,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Больница №2. Терапевтический корпус",
+    "withoutDominant": {
+      "index": 69.44684166052147,
+      "delta": -0.01097313615883877,
+      "population": 1165840,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9971595015570995,
+    "excludedPopulation": 3321,
+    "indexBounds": {
+      "lower": 69.26051998190307,
+      "upper": 69.54456982619313
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "chuvashia": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 75.4004341222354,
+    "facilityCount": 21,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 75.4004341222354,
+      "delta": 0,
+      "population": 1183434,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Первая городская больница им. Осипова",
+    "withoutDominant": {
+      "index": 74.31097375153932,
+      "delta": -1.0894603706960737,
+      "population": 1183434,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9970722271041841,
+    "excludedPopulation": 3475,
+    "indexBounds": {
+      "lower": 75.17967877487956,
+      "upper": 75.47245606446116
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "kabardino-balkaria": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 69.18348082866765,
+    "facilityCount": 9,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 69.18348082866765,
+      "delta": 0,
+      "population": 904005,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Городская больница №2",
+    "withoutDominant": {
+      "index": 64.83150371119038,
+      "delta": -4.351977117477276,
+      "population": 904005,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9997843397478434,
+    "excludedPopulation": 195,
+    "indexBounds": {
+      "lower": 69.16856070174707,
+      "upper": 69.19012672696273
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "kalmykia": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 64.67048723702254,
+    "facilityCount": 10,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [
+      {
+        "id": "osm-way-59608701",
+        "name": "Республиканская больница имени П. П. Жемчуева. Блок А. Хирургический корпус",
+        "sourceUrl": "https://www.openstreetmap.org/way/59608701"
+      },
+      {
+        "id": "osm-node-7008893919",
+        "name": "Хирургический корпус Целинной районной больницы",
+        "sourceUrl": "https://www.openstreetmap.org/node/7008893919"
+      }
+    ],
+    "strictSelection": {
+      "index": 63.345395327521416,
+      "delta": -1.3250919095011255,
+      "population": 265787,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Республиканская больница имени П. П. Жемчуева. Блок В",
+    "withoutDominant": {
+      "index": 64.42689068601135,
+      "delta": -0.24359655101119415,
+      "population": 265787,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9949613114066775,
+    "excludedPopulation": 1346,
+    "indexBounds": {
+      "lower": 64.34463279065675,
+      "upper": 64.84850164998899
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "kaluga": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 83.43275626553847,
+    "facilityCount": 33,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [
+      {
+        "id": "osm-way-1553836230",
+        "name": "Отделение Центральной межрайонной больницы",
+        "sourceUrl": "https://www.openstreetmap.org/way/1553836230"
+      }
+    ],
+    "strictSelection": {
+      "index": 83.06435564915289,
+      "delta": -0.3684006163855855,
+      "population": 1065407,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Городская больница №1 имени Красного Креста",
+    "withoutDominant": {
+      "index": 83.40447572711713,
+      "delta": -0.028280538421341817,
+      "population": 1065407,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.995796819153868,
+    "excludedPopulation": 4497,
+    "indexBounds": {
+      "lower": 83.08207330246316,
+      "upper": 83.50239138707636
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "karelia": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 75.38829509646452,
+    "facilityCount": 21,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [
+      {
+        "id": "osm-way-486616244",
+        "name": "ГБУЗ Лоухская центральная районная больница, Чупинское отделение",
+        "sourceUrl": "https://www.openstreetmap.org/way/486616244"
+      }
+    ],
+    "strictSelection": {
+      "index": 75.11261773051025,
+      "delta": -0.27567736595426595,
+      "population": 531621,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Госпиталь погранвойск",
+    "withoutDominant": {
+      "index": 74.51244638990147,
+      "delta": -0.8758487065630476,
+      "population": 531621,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9971863798274688,
+    "excludedPopulation": 1500,
+    "indexBounds": {
+      "lower": 75.17618106860837,
+      "upper": 75.4575430858615
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "kostroma": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 81.77543507033613,
+    "facilityCount": 26,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 81.77543507033613,
+      "delta": 0,
+      "population": 575250,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "1-я городская больница Костромы",
+    "withoutDominant": {
+      "index": 81.36743085974408,
+      "delta": -0.40800421059205405,
+      "population": 575250,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9901441711877943,
+    "excludedPopulation": 5726,
+    "indexBounds": {
+      "lower": 80.96947038123925,
+      "upper": 81.95505326245981
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "kursk": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 82.68972698989674,
+    "facilityCount": 68,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [
+      {
+        "id": "osm-way-391984971",
+        "name": "Обуз Обоянская ЦРБ, Терапевтическое отделение",
+        "sourceUrl": "https://www.openstreetmap.org/way/391984971"
+      }
+    ],
+    "strictSelection": {
+      "index": 82.68672903578793,
+      "delta": -0.0029979541088067663,
+      "population": 1078098,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Военный госпиталь",
+    "withoutDominant": {
+      "index": 82.58609172632532,
+      "delta": -0.1036352635714195,
+      "population": 1078098,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9959721300965025,
+    "excludedPopulation": 4360,
+    "indexBounds": {
+      "lower": 82.35666352722572,
+      "upper": 82.75945051757546
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "lipetsk": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 79.6969325666383,
+    "facilityCount": 32,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [
+      {
+        "id": "osm-way-89701840",
+        "name": "Администрация больницы",
+        "sourceUrl": "https://www.openstreetmap.org/way/89701840"
+      }
+    ],
+    "strictSelection": {
+      "index": 79.6969325666383,
+      "delta": 0,
+      "population": 1141907,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Липецкая областная больница №2",
+    "withoutDominant": {
+      "index": 78.46626573768569,
+      "delta": -1.2306668289526073,
+      "population": 1141907,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9988479947936713,
+    "excludedPopulation": 1317,
+    "indexBounds": {
+      "lower": 79.6051212853931,
+      "upper": 79.72032180602596
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "mari-el": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 75.18316429627154,
+    "facilityCount": 10,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 75.18316429627154,
+      "delta": 0,
+      "population": 637428,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Стационар Медсанчасти МВД",
+    "withoutDominant": {
+      "index": 74.22295814419427,
+      "delta": -0.9602061520772764,
+      "population": 637428,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9414131210151574,
+    "excludedPopulation": 39669,
+    "indexBounds": {
+      "lower": 70.77841734794835,
+      "upper": 76.63710524643261
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "mordovia": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 75.611262870829,
+    "facilityCount": 29,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 75.611262870829,
+      "delta": 0,
+      "population": 781866,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Городская больница № 1",
+    "withoutDominant": {
+      "index": 73.73645536869641,
+      "delta": -1.8748075021325832,
+      "population": 781866,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9978482602303357,
+    "excludedPopulation": 1686,
+    "indexBounds": {
+      "lower": 75.44856710947529,
+      "upper": 75.66374108644172
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "murmansk": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 86.04811680020678,
+    "facilityCount": 27,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [
+      {
+        "id": "osm-way-77792486",
+        "name": "ГОБУЗ ЦРБ ЗАТО Североморск Патологоанатомический корпус",
+        "sourceUrl": "https://www.openstreetmap.org/way/77792486"
+      },
+      {
+        "id": "osm-way-77792524",
+        "name": "ЦРБ Хирургический корпус",
+        "sourceUrl": "https://www.openstreetmap.org/way/77792524"
+      }
+    ],
+    "strictSelection": {
+      "index": 86.04811680020678,
+      "delta": 0,
+      "population": 665782,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Городская клиническая больница скорой медицинской помощи",
+    "withoutDominant": {
+      "index": 85.52313511286792,
+      "delta": -0.5249816873388653,
+      "population": 665782,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9970617482148847,
+    "excludedPopulation": 1962,
+    "indexBounds": {
+      "lower": 85.79528576741278,
+      "upper": 86.0891109459243
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "north-ossetia-alania": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 82.21284018924959,
+    "facilityCount": 13,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 82.21284018924959,
+      "delta": 0,
+      "population": 687229,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Военный госпиталь",
+    "withoutDominant": {
+      "index": 81.23970923028037,
+      "delta": -0.9731309589692216,
+      "population": 687229,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9998137794479434,
+    "excludedPopulation": 128,
+    "indexBounds": {
+      "lower": 82.19753046876339,
+      "upper": 82.21615252396906
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "novgorod": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 76.63715451499665,
+    "facilityCount": 24,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [
+      {
+        "id": "osm-way-48991641",
+        "name": "диагностическое отделение ЦРБ",
+        "sourceUrl": "https://www.openstreetmap.org/way/48991641"
+      }
+    ],
+    "strictSelection": {
+      "index": 76.41744838719295,
+      "delta": -0.21970612780370402,
+      "population": 577308,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Больница УВД",
+    "withoutDominant": {
+      "index": 75.32621594752452,
+      "delta": -1.3109385674721352,
+      "population": 577308,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9895798157998036,
+    "excludedPopulation": 6079,
+    "indexBounds": {
+      "lower": 75.83858124837147,
+      "upper": 76.88059966839111
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "oryol": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 75.82717388682758,
+    "facilityCount": 24,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [
+      {
+        "id": "osm-way-140863084",
+        "name": "Больница Боткина Приемно-диагностическое отделение",
+        "sourceUrl": "https://www.openstreetmap.org/way/140863084"
+      },
+      {
+        "id": "osm-way-95423479",
+        "name": "Больница Боткина Главный лечебный корпус",
+        "sourceUrl": "https://www.openstreetmap.org/way/95423479"
+      }
+    ],
+    "strictSelection": {
+      "index": 75.78446459654798,
+      "delta": -0.04270929027960335,
+      "population": 708847,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Орловская областная больница (МОПРа)",
+    "withoutDominant": {
+      "index": 75.72024961016032,
+      "delta": -0.10692427666725735,
+      "population": 708847,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9936541000933592,
+    "excludedPopulation": 4527,
+    "indexBounds": {
+      "lower": 75.34598223113832,
+      "upper": 75.9805722218024
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "penza": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 79.70996792744586,
+    "facilityCount": 43,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [
+      {
+        "id": "osm-node-9257615064",
+        "name": "Стационар, приёмное отделение",
+        "sourceUrl": "https://www.openstreetmap.org/node/9257615064"
+      },
+      {
+        "id": "osm-node-9257615067",
+        "name": "Администрация больницы",
+        "sourceUrl": "https://www.openstreetmap.org/node/9257615067"
+      },
+      {
+        "id": "osm-node-9257615068",
+        "name": "Дневной стационар",
+        "sourceUrl": "https://www.openstreetmap.org/node/9257615068"
+      },
+      {
+        "id": "osm-node-9271890892",
+        "name": "Отделение стационара",
+        "sourceUrl": "https://www.openstreetmap.org/node/9271890892"
+      }
+    ],
+    "strictSelection": {
+      "index": 79.70996792744586,
+      "delta": 0,
+      "population": 1265316,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Военный клинический госпиталь МО РФ",
+    "withoutDominant": {
+      "index": 79.51872550731875,
+      "delta": -0.1912424201271108,
+      "population": 1265316,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9991850581356784,
+    "excludedPopulation": 1032,
+    "indexBounds": {
+      "lower": 79.64500893757804,
+      "upper": 79.72650312401021
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "ryazan": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 77.59543480282544,
+    "facilityCount": 39,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 77.59543480282544,
+      "delta": 0,
+      "population": 1099225,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Военный госпиталь Рязанского гарнизона",
+    "withoutDominant": {
+      "index": 77.23914188644952,
+      "delta": -0.35629291637592075,
+      "population": 1099225,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9967492133731105,
+    "excludedPopulation": 3585,
+    "indexBounds": {
+      "lower": 77.34318860106073,
+      "upper": 77.66826726374968
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "smolensk": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 81.92056361775273,
+    "facilityCount": 41,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 81.92056361775273,
+      "delta": 0,
+      "population": 881703,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Больница скорой медицинской помощи",
+    "withoutDominant": {
+      "index": 81.83591706398359,
+      "delta": -0.0846465537691472,
+      "population": 881703,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9924382696942103,
+    "excludedPopulation": 6718,
+    "indexBounds": {
+      "lower": 81.30110240917699,
+      "upper": 82.05727543975597
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "tambov": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 67.80706044014384,
+    "facilityCount": 16,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 67.80706044014384,
+      "delta": 0,
+      "population": 981511,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Педиатрический стационар",
+    "withoutDominant": {
+      "index": 64.32543738484353,
+      "delta": -3.481623055300318,
+      "population": 981511,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.998494391098189,
+    "excludedPopulation": 1480,
+    "indexBounds": {
+      "lower": 67.70496952633954,
+      "upper": 67.85553041652062
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "tula": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 75.24792222117419,
+    "facilityCount": 39,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 75.24792222117419,
+      "delta": 0,
+      "population": 1493932,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "МСЧ №8",
+    "withoutDominant": {
+      "index": 73.85034259203802,
+      "delta": -1.3975796291361746,
+      "population": 1493932,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9951492591995545,
+    "excludedPopulation": 7282,
+    "indexBounds": {
+      "lower": 74.88291405470719,
+      "upper": 75.36798813475174
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "tver": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 82.87392950486726,
+    "facilityCount": 58,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [
+      {
+        "id": "osm-node-1299337737",
+        "name": "Клиническая больница скорой медицинской помощи Приемное отделение",
+        "sourceUrl": "https://www.openstreetmap.org/node/1299337737"
+      }
+    ],
+    "strictSelection": {
+      "index": 82.85075736039047,
+      "delta": -0.023172144476788503,
+      "population": 1210753,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Городская клиническая больница № 5",
+    "withoutDominant": {
+      "index": 81.99662102133087,
+      "delta": -0.877308483536396,
+      "population": 1210753,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9842152026019146,
+    "excludedPopulation": 19418,
+    "indexBounds": {
+      "lower": 81.56578131804973,
+      "upper": 83.14426105785826
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "udmurtia": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 81.0996866093702,
+    "facilityCount": 42,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 81.0996866093702,
+      "delta": 0,
+      "population": 1451222,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Городская клиническая больница №2",
+    "withoutDominant": {
+      "index": 79.45135206002782,
+      "delta": -1.6483345493423798,
+      "population": 1451222,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9988354438046574,
+    "excludedPopulation": 1692,
+    "indexBounds": {
+      "lower": 81.00524146688892,
+      "upper": 81.12169708642317
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "ulyanovsk": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 80.48367443204029,
+    "facilityCount": 33,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [
+      {
+        "id": "osm-way-106073001",
+        "name": "Дневной стационар № 2",
+        "sourceUrl": "https://www.openstreetmap.org/way/106073001"
+      },
+      {
+        "id": "osm-node-10967502747",
+        "name": "Дневной стационар № 1",
+        "sourceUrl": "https://www.openstreetmap.org/node/10967502747"
+      },
+      {
+        "id": "osm-node-5148132131",
+        "name": "Приёмное отделение стационара",
+        "sourceUrl": "https://www.openstreetmap.org/node/5148132131"
+      }
+    ],
+    "strictSelection": {
+      "index": 80.48367443204029,
+      "delta": 0,
+      "population": 1196379,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "МСЧ МВД России по Ульяновской области",
+    "withoutDominant": {
+      "index": 79.85860962474854,
+      "delta": -0.62506480729175,
+      "population": 1196379,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9996941704373112,
+    "excludedPopulation": 366,
+    "indexBounds": {
+      "lower": 80.45906014508515,
+      "upper": 80.48964310135403
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "vladimir": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 74.19196847166259,
+    "facilityCount": 23,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 74.19196847166259,
+      "delta": 0,
+      "population": 1344627,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Клиника медицинских экспертиз. Стационар",
+    "withoutDominant": {
+      "index": 71.27135119660639,
+      "delta": -2.920617275056202,
+      "population": 1344627,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9973986265460258,
+    "excludedPopulation": 3507,
+    "indexBounds": {
+      "lower": 73.99896745438231,
+      "upper": 74.25910479977973
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "vologda": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 77.61346296564241,
+    "facilityCount": 40,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 77.61346296564241,
+      "delta": 0,
+      "population": 1130950,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Строительная больница",
+    "withoutDominant": {
+      "index": 63.057555618766614,
+      "delta": -14.555907346875799,
+      "population": 1130950,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9896073508938799,
+    "excludedPopulation": 11877,
+    "indexBounds": {
+      "lower": 76.80685347912963,
+      "upper": 77.84611838974165
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "voronezh": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 79.35533300984602,
+    "facilityCount": 58,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 79.35533300984602,
+      "delta": 0,
+      "population": 2306348,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Городская клиническая больница №17",
+    "withoutDominant": {
+      "index": 79.04967545954868,
+      "delta": -0.3056575502973402,
+      "population": 2306348,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9989414377735196,
+    "excludedPopulation": 2444,
+    "indexBounds": {
+      "lower": 79.27133045185204,
+      "upper": 79.37718667450007
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  },
+  "yaroslavl": {
+    "facilityEvidence": "osm-unverified-profile",
+    "baselineIndex": 82.32682563778177,
+    "facilityCount": 43,
+    "officialProfileOnly": null,
+    "officialProfileNote": "Официальная проверка медицинского профиля отсутствует; сценарий только подтверждённых площадок не рассчитывается.",
+    "strictExcluded": [],
+    "strictSelection": {
+      "index": 82.32682563778177,
+      "delta": 0,
+      "population": 1200209,
+      "lostRoutePopulation": 0
+    },
+    "dominantFacility": "Больница №5",
+    "withoutDominant": {
+      "index": 82.29504425705007,
+      "delta": -0.03178138073170089,
+      "population": 1200209,
+      "lostRoutePopulation": 0
+    },
+    "populationCoverage": 0.9920632230984839,
+    "excludedPopulation": 9602,
+    "indexBounds": {
+      "lower": 81.67341598968468,
+      "upper": 82.46709367983628
+    },
+    "interpretation": "Facility deletion is a sensitivity experiment on the same baseline population, not evidence of actual closure or correct medical eligibility. Name-based screening cannot validate a clinical profile."
+  }
+}

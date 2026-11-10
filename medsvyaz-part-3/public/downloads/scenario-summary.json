@@ -1,0 +1,65 @@
+[
+  {
+    "regionId": "kaliningrad",
+    "description": "СИНТЕТИКА: все времена, больницы и население вымышлены",
+    "datasetId": "example-kaliningrad",
+    "version": "example-2026-11-09-v1",
+    "sourceIds": [
+      "synthetic-v1",
+      "synthetic-regional-examples"
+    ],
+    "profile": "emergency-demo",
+    "threshold": 60,
+    "period": "day",
+    "baseline": 64.37908496732027,
+    "improved": 71.45969498910675,
+    "deltaImproved": 7.080610021786484,
+    "closed": 61.928104575163395,
+    "deltaClosed": -2.450980392156872,
+    "numerator": 3283.3333333333335,
+    "population": 5100,
+    "unreachableSettlements": 1
+  },
+  {
+    "regionId": "ivanovo",
+    "description": "СИНТЕТИКА: все времена, больницы и население вымышлены",
+    "datasetId": "example-ivanovo",
+    "version": "example-2026-11-09-v1",
+    "sourceIds": [
+      "synthetic-v1",
+      "synthetic-regional-examples"
+    ],
+    "profile": "emergency-demo",
+    "threshold": 60,
+    "period": "day",
+    "baseline": 67.576,
+    "improved": 72.67200000000001,
+    "deltaImproved": 5.096000000000018,
+    "closed": 65.81199999999998,
+    "deltaClosed": -1.76400000000001,
+    "numerator": 3378.8,
+    "population": 5000,
+    "unreachableSettlements": 1
+  },
+  {
+    "regionId": "tyumen",
+    "description": "СИНТЕТИКА: все времена, больницы и население вымышлены",
+    "datasetId": "example-tyumen",
+    "version": "example-2026-11-09-v1",
+    "sourceIds": [
+      "synthetic-v1",
+      "synthetic-regional-examples"
+    ],
+    "profile": "emergency-demo",
+    "threshold": 60,
+    "period": "day",
+    "baseline": 43.294117647058826,
+    "improved": 51.21132897603486,
+    "deltaImproved": 7.91721132897603,
+    "closed": 41.72549019607843,
+    "deltaClosed": -1.5686274509803937,
+    "numerator": 2208,
+    "population": 5100,
+    "unreachableSettlements": 1
+  }
+]

@@ -1,0 +1,376 @@
+{
+  "methodologyVersion": "2.0.0",
+  "tau": 60,
+  "files": [
+    {
+      "source": "docs/DATA_AUDIT_2026-11-10.md",
+      "file": "DATA_AUDIT_2026-11-10.md",
+      "sha256": "bc4929d5736407281ebf0f31b5e035ad974ecced3b5452dfea3dab6d985deca0"
+    },
+    {
+      "source": "shared/engine.ts",
+      "file": "engine.ts",
+      "sha256": "5c29d9314c7825993e03e65cdfb3d37e88992f863dc9ecb7b7788e36034376a9"
+    },
+    {
+      "source": "shared/schema.ts",
+      "file": "schema.ts",
+      "sha256": "9348cc9268427d73df01a7bc58469c3d04e407c892b4575bb5436044c35d8be0"
+    },
+    {
+      "source": "scripts/calculate.ts",
+      "file": "calculate.ts",
+      "sha256": "aa129756ae1005920d94f42d7c3fbc9a509afc60747c1f03c6e9df669980afc1"
+    },
+    {
+      "source": "data/derived/kaluga-calculation.csv",
+      "file": "kaluga-calculation.csv",
+      "sha256": "b55267b757806a2dba692769f027f0bb10e28ffaf2612e680ce5642032587108"
+    },
+    {
+      "source": "data/derived/penza-calculation.csv",
+      "file": "penza-calculation.csv",
+      "sha256": "7513e4dc120bbe5ef1a0a24b6aa26de353ca4afd1a9cb1782196d7e7e15c175c"
+    },
+    {
+      "source": "data/derived/astrakhan-calculation.csv",
+      "file": "astrakhan-calculation.csv",
+      "sha256": "f9b72cef8e59afd231304a5de22b640e91c775e1218cdbb7a29e2b1a4fb10cc6"
+    },
+    {
+      "source": "data/derived/tula-calculation.csv",
+      "file": "tula-calculation.csv",
+      "sha256": "a84665476be78b3d15e634f4925b74f43a77daeeb1e76ff55bf550b962ba8dc9"
+    },
+    {
+      "source": "data/derived/oryol-calculation.csv",
+      "file": "oryol-calculation.csv",
+      "sha256": "f7401846fcb3bc769419597f08cd0445103cd4fdb8bc106766f56fce22a6d8ae"
+    },
+    {
+      "source": "data/derived/bryansk-calculation.csv",
+      "file": "bryansk-calculation.csv",
+      "sha256": "1f18343c357709fa8eb8353c8fd814c28b3de2f838ff120f425c84b070ff538c"
+    },
+    {
+      "source": "data/derived/vladimir-calculation.csv",
+      "file": "vladimir-calculation.csv",
+      "sha256": "75f0a2f183bf302fc357fb2d0cc219369b9f6869a06cfdf58833bfd3875f5b18"
+    },
+    {
+      "source": "data/derived/kalmykia-calculation.csv",
+      "file": "kalmykia-calculation.csv",
+      "sha256": "83c76059ec5229607c5f9ef1a99c1eb1a73ff7cdd854e81b96cb755766ac07cf"
+    },
+    {
+      "source": "data/derived/pskov-calculation.csv",
+      "file": "pskov-calculation.csv",
+      "sha256": "73013bf1814d2b9304d6495a625bb98a59c7d225eec9aa162a82d66ac34e6894"
+    },
+    {
+      "source": "data/derived/udmurtia-calculation.csv",
+      "file": "udmurtia-calculation.csv",
+      "sha256": "b6a67ff91f6f32e1c33fdf27a888a5f010b4cd6e83667217c577b8eeb9bcef9f"
+    },
+    {
+      "source": "data/derived/kostroma-calculation.csv",
+      "file": "kostroma-calculation.csv",
+      "sha256": "7a316f9399fa066ad79647556fd3c03d1b61458a87b8c2197c6dbf63d165bdbb"
+    },
+    {
+      "source": "data/derived/karelia-calculation.csv",
+      "file": "karelia-calculation.csv",
+      "sha256": "8b2f8e7b7c7bfe1b645bed2ac5cfbe157577decb3050b21c5b0ff463eccd083f"
+    },
+    {
+      "source": "data/derived/tambov-calculation.csv",
+      "file": "tambov-calculation.csv",
+      "sha256": "b63a1a4d508e2a481f069d4ac967577ffa642ae4cd4728a9afa38552833916a0"
+    },
+    {
+      "source": "data/derived/belgorod-calculation.csv",
+      "file": "belgorod-calculation.csv",
+      "sha256": "ed7fdf134c4bfbf4db3900e3bbf3a09451d84d71e9005f07b51c9aec6ca3b3c1"
+    },
+    {
+      "source": "data/derived/voronezh-calculation.csv",
+      "file": "voronezh-calculation.csv",
+      "sha256": "ad7ae8b19e1c24dc457e3ed03b9d5fde5ca3c368163247cd037cf9d660f1aa39"
+    },
+    {
+      "source": "data/derived/mari-el-calculation.csv",
+      "file": "mari-el-calculation.csv",
+      "sha256": "ca7291f9b50d31dbdfb682bb2be58829f952a004fc6f6441ab479ee29621c8d8"
+    },
+    {
+      "source": "data/derived/north-ossetia-alania-calculation.csv",
+      "file": "north-ossetia-alania-calculation.csv",
+      "sha256": "7b2d4c647b590488c893580819b0dddfa512b7edcf6cb8624ed2c4373a78b6bc"
+    },
+    {
+      "source": "data/derived/vologda-calculation.csv",
+      "file": "vologda-calculation.csv",
+      "sha256": "c70dfa438c15af86212b805cb1de65a7822705ec7ebde3f9e622c182603d186b"
+    },
+    {
+      "source": "data/derived/adygea-calculation.csv",
+      "file": "adygea-calculation.csv",
+      "sha256": "e5536762b9d58d4e2fa39a8ed3b95f382549311b733ed25f52939c7c804980c3"
+    },
+    {
+      "source": "data/derived/murmansk-calculation.csv",
+      "file": "murmansk-calculation.csv",
+      "sha256": "6719b5689f37bf342546156e60deea28e6769e618c76df96f1207170301866f2"
+    },
+    {
+      "source": "data/derived/kabardino-balkaria-calculation.csv",
+      "file": "kabardino-balkaria-calculation.csv",
+      "sha256": "6550827070d9a9fdc4c1a33c31885c39361e799c89f854668c0d8d1b0639b3e5"
+    },
+    {
+      "source": "data/derived/ulyanovsk-calculation.csv",
+      "file": "ulyanovsk-calculation.csv",
+      "sha256": "00fad103fac1403c3abed267bad56cada229e74337e5801f87494e2819326769"
+    },
+    {
+      "source": "data/derived/mordovia-calculation.csv",
+      "file": "mordovia-calculation.csv",
+      "sha256": "a20a3c7d0faf32ad13a20bfd50e58de35c582b0b930fe8ba35f82e132760418c"
+    },
+    {
+      "source": "data/derived/tver-calculation.csv",
+      "file": "tver-calculation.csv",
+      "sha256": "3851ccf74ddf7852ce5e6cc72d5ed8a8fb36aba4c417d53958c656a70bf07d1f"
+    },
+    {
+      "source": "data/derived/novgorod-calculation.csv",
+      "file": "novgorod-calculation.csv",
+      "sha256": "4ee353510dbd99e5184c46d8d0bb2d1e70e8a7296a3ea215c53be6afce1a38f6"
+    },
+    {
+      "source": "data/derived/smolensk-calculation.csv",
+      "file": "smolensk-calculation.csv",
+      "sha256": "8116354b5fa894ca69159574aa198db12b53767bc79a8f75d75057079d044a00"
+    },
+    {
+      "source": "data/derived/lipetsk-calculation.csv",
+      "file": "lipetsk-calculation.csv",
+      "sha256": "a9028fafe5075fe4a9e24703451b99cacb6f1276fafa45bf7148c7c7ec1bf75c"
+    },
+    {
+      "source": "data/derived/kursk-calculation.csv",
+      "file": "kursk-calculation.csv",
+      "sha256": "8d417fb22839572817f755c6150af373f44ba2c8a82bfd1b5fa20d6f7428c510"
+    },
+    {
+      "source": "data/derived/yaroslavl-calculation.csv",
+      "file": "yaroslavl-calculation.csv",
+      "sha256": "382ee1b65223d20fadcf0fb21b278abd6cdee32b6858d6105999466fd25d6757"
+    },
+    {
+      "source": "data/derived/ryazan-calculation.csv",
+      "file": "ryazan-calculation.csv",
+      "sha256": "0def74c3f03a8e693029724ee7a8ce3d7ce96bb4d1209f0b5e79e778d628b4f4"
+    },
+    {
+      "source": "data/derived/ivanovo-calculation.csv",
+      "file": "ivanovo-calculation.csv",
+      "sha256": "6b907a1307361bd5dcbb3a08c5f0b04cbcf7ce89782e15c8b32a4591407ce76f"
+    },
+    {
+      "source": "data/derived/pilot-calculation.csv",
+      "file": "pilot-calculation.csv",
+      "sha256": "aab615d289ee9f41beb815e1046631619edc3ebce21fa6219e05817db0696641"
+    },
+    {
+      "source": "data/derived/chuvashia-calculation.csv",
+      "file": "chuvashia-calculation.csv",
+      "sha256": "aa69e96810822b5b47a603bb01226bf2481816ce8142800d871397c5cf0799cc"
+    },
+    {
+      "source": "data/derived/vologda-independent-check.json",
+      "file": "vologda-independent-check.json",
+      "sha256": "c02862cbbc8ff5f2ee71fb6f2c3814f831fb28727f6adc50c8f764ddd4d65e33"
+    },
+    {
+      "source": "data/derived/vladimir-independent-check.json",
+      "file": "vladimir-independent-check.json",
+      "sha256": "f87896488c8f725acec5deac76d79c472eaf93228207ac8e0e8c5c81d64815b0"
+    },
+    {
+      "source": "data/derived/astrakhan-independent-check.json",
+      "file": "astrakhan-independent-check.json",
+      "sha256": "8138662cffa01033c88999d7d8bc2c136f47b3a3c9ede95bf09e26e9d94d9d6f"
+    },
+    {
+      "source": "data/derived/kostroma-independent-check.json",
+      "file": "kostroma-independent-check.json",
+      "sha256": "1498271eca02d0396c85c09a585a08db45000e7ffd68c99e3190e6e9a3e1e90b"
+    },
+    {
+      "source": "data/derived/smolensk-independent-check.json",
+      "file": "smolensk-independent-check.json",
+      "sha256": "f8161f655145c8575390103ec80a686ec2df4291c3cbff7e8d9b9d802b546f66"
+    },
+    {
+      "source": "data/derived/voronezh-independent-check.json",
+      "file": "voronezh-independent-check.json",
+      "sha256": "7c3d9b3bc262e803262df4cc3f5a88218421681fca1444cadcf44cd23fbf6f33"
+    },
+    {
+      "source": "data/derived/novgorod-independent-check.json",
+      "file": "novgorod-independent-check.json",
+      "sha256": "2989418b70840c20a68ef9beaa50a762c40c94e8516a59b0ba3c9fc9fc16e30a"
+    },
+    {
+      "source": "data/derived/tambov-independent-check.json",
+      "file": "tambov-independent-check.json",
+      "sha256": "f56c22e4044e5174b5cb779a76d7be8a50644e214c683c3b7b7a2f30de92019a"
+    },
+    {
+      "source": "data/derived/oryol-independent-check.json",
+      "file": "oryol-independent-check.json",
+      "sha256": "ae6a1d1348e57a304704c3f174bad30a3943940df8f57d2885948ba207a4a70c"
+    },
+    {
+      "source": "data/derived/karelia-independent-check.json",
+      "file": "karelia-independent-check.json",
+      "sha256": "e79840b151a19ea3b1895ab3811aa15733dca31a71b80cf5f4c1309d7495559d"
+    },
+    {
+      "source": "data/derived/pilot-independent-check.json",
+      "file": "pilot-independent-check.json",
+      "sha256": "c9e15f0cceb40f9f6eb3274731a5fec47b7c2de7007ebcaee731c11d8149b46e"
+    },
+    {
+      "source": "data/derived/tver-independent-check.json",
+      "file": "tver-independent-check.json",
+      "sha256": "0eb9ae00cb4e19ca6b8a308e3f4c63b66ee3d27500cd4924de6412f6d7755fe3"
+    },
+    {
+      "source": "data/derived/pskov-independent-check.json",
+      "file": "pskov-independent-check.json",
+      "sha256": "1c257381d2e9189e16f3f2abe5c279228414951bf6d5e714db5483fa8159c7f4"
+    },
+    {
+      "source": "data/derived/adygea-independent-check.json",
+      "file": "adygea-independent-check.json",
+      "sha256": "04c8e1caefe6c4e19ebd994634c36b79549b123450ccd70e97ab609ae946578c"
+    },
+    {
+      "source": "data/derived/kaluga-independent-check.json",
+      "file": "kaluga-independent-check.json",
+      "sha256": "8c2dd9dfdebfcc0494137a532f23b7c580b7ecd6243e18d6d6be08fa745a322a"
+    },
+    {
+      "source": "data/derived/lipetsk-independent-check.json",
+      "file": "lipetsk-independent-check.json",
+      "sha256": "2a7ff0d5e81a74ceae0cace980e0c7ccf083860e893b8bdd89f7c97b44edab72"
+    },
+    {
+      "source": "data/derived/chuvashia-independent-check.json",
+      "file": "chuvashia-independent-check.json",
+      "sha256": "a72bf0552ae2352a85941a5a86b7c7a47fe21619b13dd08390102351f2f47e71"
+    },
+    {
+      "source": "data/derived/ivanovo-independent-check.json",
+      "file": "ivanovo-independent-check.json",
+      "sha256": "10c91db9340ec08c9dead4e157fae67db42e71b79f9a2102bbe2a3e10ca2fdd8"
+    },
+    {
+      "source": "data/derived/mari-el-independent-check.json",
+      "file": "mari-el-independent-check.json",
+      "sha256": "c3ec4285b038db92714ab377aa2901359b5a6cd20459e93f051fb89438a7cf7c"
+    },
+    {
+      "source": "data/derived/kursk-independent-check.json",
+      "file": "kursk-independent-check.json",
+      "sha256": "a00edf89e1387031f5ac0c12d1197bbd0862a68ea3efbdc890cd3bfd6288479b"
+    },
+    {
+      "source": "data/derived/mordovia-independent-check.json",
+      "file": "mordovia-independent-check.json",
+      "sha256": "bade4a1a8ca6d65b005fff1165190f945abdd8f7c6995e6f1cde3fc7e3808924"
+    },
+    {
+      "source": "data/derived/tula-independent-check.json",
+      "file": "tula-independent-check.json",
+      "sha256": "20fa1fa02aeac766f3812eb0edc15f60c47337cf2c06f9cf71960912deda30e3"
+    },
+    {
+      "source": "data/derived/yaroslavl-independent-check.json",
+      "file": "yaroslavl-independent-check.json",
+      "sha256": "616c021c612d8d00129f056a612d41e61735cc236fc8cf085c2201ff2532fc1d"
+    },
+    {
+      "source": "data/derived/north-ossetia-alania-independent-check.json",
+      "file": "north-ossetia-alania-independent-check.json",
+      "sha256": "b3c9f00553d102939cdf954d7f4cc0af32e034413c5f691fbf11f5792ea290c3"
+    },
+    {
+      "source": "data/derived/ulyanovsk-independent-check.json",
+      "file": "ulyanovsk-independent-check.json",
+      "sha256": "09d233a0fe635a29eca7e8b7e4f790422c8db99fa01068c159c7146b81e68eb1"
+    },
+    {
+      "source": "data/derived/bryansk-independent-check.json",
+      "file": "bryansk-independent-check.json",
+      "sha256": "9fcb90639efb41ce6b31e9ee7c1d095745e4baf934eec424ad22c88d9d8f3a48"
+    },
+    {
+      "source": "data/derived/ryazan-independent-check.json",
+      "file": "ryazan-independent-check.json",
+      "sha256": "44908aeb810639701aa281e54ddb366890affee1538bfb3a564147c726d2a5ac"
+    },
+    {
+      "source": "data/derived/kabardino-balkaria-independent-check.json",
+      "file": "kabardino-balkaria-independent-check.json",
+      "sha256": "850a09d66a0e2546f571a2ca6679e84f52432fe750cac0efab0c9bb9dd78dcd0"
+    },
+    {
+      "source": "data/derived/murmansk-independent-check.json",
+      "file": "murmansk-independent-check.json",
+      "sha256": "f60b9c5553f36764890c6623c1463bf302efa4091aa20d3eed9db13645ca2ed0"
+    },
+    {
+      "source": "data/derived/penza-independent-check.json",
+      "file": "penza-independent-check.json",
+      "sha256": "1e9ff5198fdcc6b1c646e5ffed4c746d8be789eaa55d57a99af9e8c1d05d5fd7"
+    },
+    {
+      "source": "data/derived/udmurtia-independent-check.json",
+      "file": "udmurtia-independent-check.json",
+      "sha256": "6ba3cbe5cdd8cc761f323c5833e4c4a9dc090ec3f5f0cde8b8cfb814ea3ae939"
+    },
+    {
+      "source": "data/derived/belgorod-independent-check.json",
+      "file": "belgorod-independent-check.json",
+      "sha256": "b9d6e1433bef8829b93c73d6f5ad060948a9274c79354aa6682b966bc47f64fb"
+    },
+    {
+      "source": "data/derived/kalmykia-independent-check.json",
+      "file": "kalmykia-independent-check.json",
+      "sha256": "912b69c92d48d5593d79734ad8cce570f82f923ae6f35465b26c304b8417d462"
+    },
+    {
+      "source": "data/derived/pilot-independent-points.json",
+      "file": "pilot-independent-points.json",
+      "sha256": "72c8c57fd71a9fc8ff117f8199e0aead1f35ea9693a145e205218b06285d221a"
+    },
+    {
+      "source": "data/derived/ivanovo-independent-points.json",
+      "file": "ivanovo-independent-points.json",
+      "sha256": "9fa0314fabd07f662f3025faa6f672c9dbdfda51878f30a8ba08b11ccd256d09"
+    },
+    {
+      "source": "data/derived/pskov-independent-points.json",
+      "file": "pskov-independent-points.json",
+      "sha256": "4bfbdad8eabe854354c1cc8687009c7dd9540430527dbb0ea3265b3c0b0cd6fd"
+    },
+    {
+      "source": "data/derived/study-summary.json",
+      "file": "study-summary.json",
+      "sha256": "fbb55391c2f244af6b13a74923dcc9303e29bb4cbd5088c72fed8310bc0fc2cd"
+    }
+  ]
+}

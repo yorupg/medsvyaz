@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 79.69693256663831,
+  "legacyIndexTau60": 88.34001138246586,
+  "includedPopulation": 1141907,
+  "sourcePopulation": 1143224,
+  "populationCoverage": 0.9988479947936713,
+  "excludedPopulation": 1317,
+  "indexBounds": {
+    "lower": 79.60512128539311,
+    "upper": 79.72032180602599
+  },
+  "includedSettlements": 1213,
+  "medianMinutes": 3.9417173000000005,
+  "p90Minutes": 36.132637200000005,
+  "overMinutesShares": {
+    "60": 0.00900598735273538,
+    "90": 0.0
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 73.00584016685214
+    },
+    {
+      "threshold": 30,
+      "index": 79.69693256663831
+    },
+    {
+      "threshold": 45,
+      "index": 85.18766719562223
+    },
+    {
+      "threshold": 60,
+      "index": 88.34001138246586
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/lipetsk-summary.json",
+  "sourceTimeFileSha256": "e1568fe851835845d7fbd3037a43eaa0af6de91f48748a894ca7d5ee2688be9c",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

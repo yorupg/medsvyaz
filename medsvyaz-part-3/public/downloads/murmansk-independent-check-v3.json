@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 86.0481168002068,
+  "legacyIndexTau60": 91.75724802877197,
+  "includedPopulation": 665782,
+  "sourcePopulation": 667744,
+  "populationCoverage": 0.9970617482148847,
+  "excludedPopulation": 1962,
+  "indexBounds": {
+    "lower": 85.79528576741278,
+    "upper": 86.0891109459243
+  },
+  "includedSettlements": 93,
+  "medianMinutes": 3.1824009,
+  "p90Minutes": 15.334279199999996,
+  "overMinutesShares": {
+    "60": 0.029734958289650365,
+    "90": 0.02748347056544034
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 81.33386208195458
+    },
+    {
+      "threshold": 30,
+      "index": 86.0481168002068
+    },
+    {
+      "threshold": 45,
+      "index": 89.69057014132383
+    },
+    {
+      "threshold": 60,
+      "index": 91.75724802877197
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/murmansk-summary.json",
+  "sourceTimeFileSha256": "70b41b02ef431068b7285c8f733d2e30638971c09a06261653ab4aa48cf8d45a",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

@@ -1,0 +1,11 @@
+name: medsvyaz24-current
+services:
+  web:
+    image: medsvyaz24:1.0.0
+    build: .
+    ports:
+      - "${MEDSVYAZ_PORT:-5180}:5173"
+    environment:
+      HOST: "0.0.0.0"
+      PORT: "5173"
+    init: true

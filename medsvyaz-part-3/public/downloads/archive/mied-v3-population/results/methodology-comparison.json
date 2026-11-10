@@ -1,0 +1,1466 @@
+{
+  "previousMethodology": {
+    "version": "2.0.0",
+    "tau": 60
+  },
+  "currentMethodology": {
+    "version": "3.0.0",
+    "tau": 30
+  },
+  "calculationRule": "Each index independently evaluated from per-origin times; unchanged road graph, facility selection and population cohort",
+  "tailShareDenominator": "Population with a finite computed route; unreachable and unresolved population reported separately",
+  "rows": [
+    {
+      "regionId": "kaliningrad",
+      "name": "Калининградская область",
+      "synthetic": false,
+      "profile": "selected-public-hospital",
+      "facilityEvidence": "official-source",
+      "before": 87.63091816573278,
+      "after": 78.19858908561282,
+      "delta": -9.432329080119956,
+      "population": 1029361,
+      "sourcePopulation": 1029966,
+      "coverage": 0.9994126019693854,
+      "excludedPopulation": 605,
+      "indexBounds": {
+        "lower": 78.15265538838709,
+        "upper": 78.21139519144856
+      },
+      "medianMinutes": 4.511483099999999,
+      "p90Minutes": 35.564303699999996,
+      "overMinutesShares": {
+        "60": 0.0012347466049325746,
+        "90": 0.0
+      },
+      "settlements": 964,
+      "facilities": 10,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 70.7690083090604
+        },
+        {
+          "threshold": 30,
+          "index": 78.19858908561282
+        },
+        {
+          "threshold": 45,
+          "index": 84.21527628627335
+        },
+        {
+          "threshold": 60,
+          "index": 87.63091816573278
+        }
+      ]
+    },
+    {
+      "regionId": "ivanovo",
+      "name": "Ивановская область",
+      "synthetic": false,
+      "profile": "selected-public-hospital",
+      "facilityEvidence": "official-source",
+      "before": 76.30353609160979,
+      "after": 60.848927076117604,
+      "delta": -15.454609015492181,
+      "population": 923698,
+      "sourcePopulation": 927828,
+      "coverage": 0.9955487439482318,
+      "excludedPopulation": 4130,
+      "indexBounds": {
+        "lower": 60.578072921226436,
+        "upper": 61.023198526403256
+      },
+      "medianMinutes": 16.208004799999998,
+      "p90Minutes": 52.05970319999999,
+      "overMinutesShares": {
+        "60": 0.07349913066824872,
+        "90": 0.01001409551606694
+      },
+      "settlements": 1262,
+      "facilities": 5,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 50.1079670953779
+        },
+        {
+          "threshold": 30,
+          "index": 60.848927076117604
+        },
+        {
+          "threshold": 45,
+          "index": 70.46079969122727
+        },
+        {
+          "threshold": 60,
+          "index": 76.30353609160979
+        }
+      ]
+    },
+    {
+      "regionId": "pskov",
+      "name": "Псковская область",
+      "synthetic": false,
+      "profile": "selected-public-hospital",
+      "facilityEvidence": "official-source",
+      "before": 75.15129661242248,
+      "after": 62.883957102549736,
+      "delta": -12.267339509872748,
+      "population": 585707,
+      "sourcePopulation": 599084,
+      "coverage": 0.9776709109240107,
+      "excludedPopulation": 13377,
+      "indexBounds": {
+        "lower": 61.47981562295621,
+        "upper": 63.71272453055514
+      },
+      "medianMinutes": 4.5276348,
+      "p90Minutes": 94.12874480000002,
+      "overMinutesShares": {
+        "60": 0.23233630467110689,
+        "90": 0.12770207629411975
+      },
+      "settlements": 2153,
+      "facilities": 6,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 55.62966672246592
+        },
+        {
+          "threshold": 30,
+          "index": 62.883957102549736
+        },
+        {
+          "threshold": 45,
+          "index": 70.20062332358115
+        },
+        {
+          "threshold": 60,
+          "index": 75.15129661242248
+        }
+      ]
+    },
+    {
+      "regionId": "belgorod",
+      "name": "Белгородская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 88.28545205897382,
+      "after": 79.3577010008127,
+      "delta": -8.927751058161121,
+      "population": 1539795,
+      "sourcePopulation": 1540486,
+      "coverage": 0.9995514402597622,
+      "excludedPopulation": 691,
+      "indexBounds": {
+        "lower": 79.3221043310659,
+        "upper": 79.36696030508968
+      },
+      "medianMinutes": 3.5452570000000003,
+      "p90Minutes": 32.440090399999995,
+      "overMinutesShares": {
+        "60": 0.0028945411564526447,
+        "90": 0.0
+      },
+      "settlements": 1366,
+      "facilities": 31,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 72.33995886308433
+        },
+        {
+          "threshold": 30,
+          "index": 79.3577010008127
+        },
+        {
+          "threshold": 45,
+          "index": 85.05136894833169
+        },
+        {
+          "threshold": 60,
+          "index": 88.28545205897382
+        }
+      ]
+    },
+    {
+      "regionId": "bryansk",
+      "name": "Брянская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 82.35987573336934,
+      "after": 69.4578147966803,
+      "delta": -12.90206093668904,
+      "population": 1165840,
+      "sourcePopulation": 1169161,
+      "coverage": 0.9971595015570995,
+      "excludedPopulation": 3321,
+      "indexBounds": {
+        "lower": 69.26051998190306,
+        "upper": 69.54456982619311
+      },
+      "medianMinutes": 10.988649000000002,
+      "p90Minutes": 40.641444899999996,
+      "overMinutesShares": {
+        "60": 0.01934227681328484,
+        "90": 0.001426439305565086
+      },
+      "settlements": 1526,
+      "facilities": 29,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 59.65866373460014
+        },
+        {
+          "threshold": 30,
+          "index": 69.4578147966803
+        },
+        {
+          "threshold": 45,
+          "index": 77.63154328897551
+        },
+        {
+          "threshold": 60,
+          "index": 82.35987573336934
+        }
+      ]
+    },
+    {
+      "regionId": "vladimir",
+      "name": "Владимирская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 84.92365706870837,
+      "after": 74.19196847166268,
+      "delta": -10.73168859704569,
+      "population": 1344627,
+      "sourcePopulation": 1348134,
+      "coverage": 0.9973986265460258,
+      "excludedPopulation": 3507,
+      "indexBounds": {
+        "lower": 73.99896745438241,
+        "upper": 74.25910479977982
+      },
+      "medianMinutes": 9.435635500000002,
+      "p90Minutes": 41.89406760000002,
+      "overMinutesShares": {
+        "60": 0.01217289255682059,
+        "90": 0.0031257739135090996
+      },
+      "settlements": 1661,
+      "facilities": 23,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 66.23103980087181
+        },
+        {
+          "threshold": 30,
+          "index": 74.19196847166268
+        },
+        {
+          "threshold": 45,
+          "index": 80.95891644588741
+        },
+        {
+          "threshold": 60,
+          "index": 84.92365706870837
+        }
+      ]
+    },
+    {
+      "regionId": "voronezh",
+      "name": "Воронежская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 87.6596693638738,
+      "after": 79.35533300984606,
+      "delta": -8.30433635402774,
+      "population": 2306348,
+      "sourcePopulation": 2308792,
+      "coverage": 0.9989414377735196,
+      "excludedPopulation": 2444,
+      "indexBounds": {
+        "lower": 79.27133045185207,
+        "upper": 79.37718667450011
+      },
+      "medianMinutes": 2.6537096000000004,
+      "p90Minutes": 41.20407210000001,
+      "overMinutesShares": {
+        "60": 0.035984161973821815,
+        "90": 0.00887507002412472
+      },
+      "settlements": 1442,
+      "facilities": 58,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 73.3186624416691
+        },
+        {
+          "threshold": 30,
+          "index": 79.35533300984606
+        },
+        {
+          "threshold": 45,
+          "index": 84.55678141668419
+        },
+        {
+          "threshold": 60,
+          "index": 87.6596693638738
+        }
+      ]
+    },
+    {
+      "regionId": "kaluga",
+      "name": "Калужская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 90.79843757428532,
+      "after": 83.43275626553849,
+      "delta": -7.365681308746829,
+      "population": 1065407,
+      "sourcePopulation": 1069904,
+      "coverage": 0.995796819153868,
+      "excludedPopulation": 4497,
+      "indexBounds": {
+        "lower": 83.08207330246319,
+        "upper": 83.50239138707639
+      },
+      "medianMinutes": 4.805468899999998,
+      "p90Minutes": 21.876257400000004,
+      "overMinutesShares": {
+        "60": 0.004060420102364636,
+        "90": 9.386084379021351e-06
+      },
+      "settlements": 1733,
+      "facilities": 33,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 77.3776233064845
+        },
+        {
+          "threshold": 30,
+          "index": 83.43275626553849
+        },
+        {
+          "threshold": 45,
+          "index": 88.17006702538839
+        },
+        {
+          "threshold": 60,
+          "index": 90.79843757428532
+        }
+      ]
+    },
+    {
+      "regionId": "kostroma",
+      "name": "Костромская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 89.51250888920673,
+      "after": 81.77543507033617,
+      "delta": -7.737073818870556,
+      "population": 575250,
+      "sourcePopulation": 580976,
+      "coverage": 0.9901441711877943,
+      "excludedPopulation": 5726,
+      "indexBounds": {
+        "lower": 80.9694703812393,
+        "upper": 81.95505326245987
+      },
+      "medianMinutes": 3.4160007,
+      "p90Minutes": 31.7585058,
+      "overMinutesShares": {
+        "60": 0.015229900043459366,
+        "90": 0.002129508909169926
+      },
+      "settlements": 1025,
+      "facilities": 26,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 75.71936658760269
+        },
+        {
+          "threshold": 30,
+          "index": 81.77543507033617
+        },
+        {
+          "threshold": 45,
+          "index": 86.69457569482404
+        },
+        {
+          "threshold": 60,
+          "index": 89.51250888920673
+        }
+      ]
+    },
+    {
+      "regionId": "kursk",
+      "name": "Курская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 90.3791090063159,
+      "after": 82.68972698989668,
+      "delta": -7.689382016419216,
+      "population": 1078098,
+      "sourcePopulation": 1082458,
+      "coverage": 0.9959721300965025,
+      "excludedPopulation": 4360,
+      "indexBounds": {
+        "lower": 82.35666352722566,
+        "upper": 82.7594505175754
+      },
+      "medianMinutes": 2.6202102999999997,
+      "p90Minutes": 24.568673999999998,
+      "overMinutesShares": {
+        "60": 0.0021018497390775234,
+        "90": 0.0
+      },
+      "settlements": 1990,
+      "facilities": 68,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 76.39876291726397
+        },
+        {
+          "threshold": 30,
+          "index": 82.68972698989668
+        },
+        {
+          "threshold": 45,
+          "index": 87.63214208461505
+        },
+        {
+          "threshold": 60,
+          "index": 90.3791090063159
+        }
+      ]
+    },
+    {
+      "regionId": "lipetsk",
+      "name": "Липецкая область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 88.34001138246586,
+      "after": 79.69693256663831,
+      "delta": -8.64307881582755,
+      "population": 1141907,
+      "sourcePopulation": 1143224,
+      "coverage": 0.9988479947936713,
+      "excludedPopulation": 1317,
+      "indexBounds": {
+        "lower": 79.60512128539311,
+        "upper": 79.72032180602599
+      },
+      "medianMinutes": 3.9417173000000005,
+      "p90Minutes": 36.132637200000005,
+      "overMinutesShares": {
+        "60": 0.00900598735273538,
+        "90": 0.0
+      },
+      "settlements": 1221,
+      "facilities": 32,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 73.00584016685214
+        },
+        {
+          "threshold": 30,
+          "index": 79.69693256663831
+        },
+        {
+          "threshold": 45,
+          "index": 85.18766719562223
+        },
+        {
+          "threshold": 60,
+          "index": 88.34001138246586
+        }
+      ]
+    },
+    {
+      "regionId": "oryol",
+      "name": "Орловская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 86.0461962004357,
+      "after": 75.82717388682761,
+      "delta": -10.219022313608093,
+      "population": 708847,
+      "sourcePopulation": 713374,
+      "coverage": 0.9936541000933592,
+      "excludedPopulation": 4527,
+      "indexBounds": {
+        "lower": 75.34598223113835,
+        "upper": 75.98057222180243
+      },
+      "medianMinutes": 4.7283875,
+      "p90Minutes": 39.183283499999995,
+      "overMinutesShares": {
+        "60": 0.014857931260201426,
+        "90": 0.00012273452522194492
+      },
+      "settlements": 1548,
+      "facilities": 24,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 68.01058436283684
+        },
+        {
+          "threshold": 30,
+          "index": 75.82717388682761
+        },
+        {
+          "threshold": 45,
+          "index": 82.3052801063761
+        },
+        {
+          "threshold": 60,
+          "index": 86.0461962004357
+        }
+      ]
+    },
+    {
+      "regionId": "ryazan",
+      "name": "Рязанская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 86.73901571731211,
+      "after": 77.59543480282541,
+      "delta": -9.143580914486705,
+      "population": 1099225,
+      "sourcePopulation": 1102810,
+      "coverage": 0.9967492133731105,
+      "excludedPopulation": 3585,
+      "indexBounds": {
+        "lower": 77.3431886010607,
+        "upper": 77.66826726374966
+      },
+      "medianMinutes": 3.0895822999999996,
+      "p90Minutes": 37.694908500000004,
+      "overMinutesShares": {
+        "60": 0.04846505492506084,
+        "90": 0.006802974823170871
+      },
+      "settlements": 1625,
+      "facilities": 39,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 70.82269276831207
+        },
+        {
+          "threshold": 30,
+          "index": 77.59543480282541
+        },
+        {
+          "threshold": 45,
+          "index": 83.34500754360054
+        },
+        {
+          "threshold": 60,
+          "index": 86.73901571731211
+        }
+      ]
+    },
+    {
+      "regionId": "smolensk",
+      "name": "Смоленская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 89.73539531854678,
+      "after": 81.92056361775273,
+      "delta": -7.814831700794045,
+      "population": 881703,
+      "sourcePopulation": 888421,
+      "coverage": 0.9924382696942103,
+      "excludedPopulation": 6718,
+      "indexBounds": {
+        "lower": 81.30110240917699,
+        "upper": 82.05727543975597
+      },
+      "medianMinutes": 3.1604745000000003,
+      "p90Minutes": 36.01112830000001,
+      "overMinutesShares": {
+        "60": 0.004628542717899338,
+        "90": 0.00010094101982186745
+      },
+      "settlements": 1825,
+      "facilities": 41,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 75.75061863063421
+        },
+        {
+          "threshold": 30,
+          "index": 81.92056361775273
+        },
+        {
+          "threshold": 45,
+          "index": 86.90577739326136
+        },
+        {
+          "threshold": 60,
+          "index": 89.73539531854678
+        }
+      ]
+    },
+    {
+      "regionId": "tambov",
+      "name": "Тамбовская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 79.56006219818293,
+      "after": 67.80706044014387,
+      "delta": -11.753001758039062,
+      "population": 981511,
+      "sourcePopulation": 982991,
+      "coverage": 0.998494391098189,
+      "excludedPopulation": 1480,
+      "indexBounds": {
+        "lower": 67.70496952633957,
+        "upper": 67.85553041652065
+      },
+      "medianMinutes": 5.6349171,
+      "p90Minutes": 77.65696610000002,
+      "overMinutesShares": {
+        "60": 0.1530609437897283,
+        "90": 0.03718246662543772
+      },
+      "settlements": 1203,
+      "facilities": 16,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 60.035663901969485
+        },
+        {
+          "threshold": 30,
+          "index": 67.80706044014387
+        },
+        {
+          "threshold": 45,
+          "index": 74.99977976484227
+        },
+        {
+          "threshold": 60,
+          "index": 79.56006219818293
+        }
+      ]
+    },
+    {
+      "regionId": "tver",
+      "name": "Тверская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 90.25964109256414,
+      "after": 82.8739295048672,
+      "delta": -7.385711587696932,
+      "population": 1210753,
+      "sourcePopulation": 1230171,
+      "coverage": 0.9842152026019146,
+      "excludedPopulation": 19418,
+      "indexBounds": {
+        "lower": 81.56578131804967,
+        "upper": 83.1442610578582
+      },
+      "medianMinutes": 4.0068783,
+      "p90Minutes": 28.919928000000002,
+      "overMinutesShares": {
+        "60": 0.013805458256143079,
+        "90": 0.002559564172048304
+      },
+      "settlements": 3377,
+      "facilities": 58,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 76.95446878332469
+        },
+        {
+          "threshold": 30,
+          "index": 82.8739295048672
+        },
+        {
+          "threshold": 45,
+          "index": 87.59158629582782
+        },
+        {
+          "threshold": 60,
+          "index": 90.25964109256414
+        }
+      ]
+    },
+    {
+      "regionId": "tula",
+      "name": "Тульская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 85.32446463230721,
+      "after": 75.24792222117432,
+      "delta": -10.076542411132891,
+      "population": 1493932,
+      "sourcePopulation": 1501214,
+      "coverage": 0.9951492591995545,
+      "excludedPopulation": 7282,
+      "indexBounds": {
+        "lower": 74.88291405470733,
+        "upper": 75.36798813475187
+      },
+      "medianMinutes": 5.587081300000001,
+      "p90Minutes": 46.70911770000002,
+      "overMinutesShares": {
+        "60": 0.027368046202906157,
+        "90": 0.0012604322017334122
+      },
+      "settlements": 2217,
+      "facilities": 39,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 67.91811986360796
+        },
+        {
+          "threshold": 30,
+          "index": 75.24792222117432
+        },
+        {
+          "threshold": 45,
+          "index": 81.56948425054385
+        },
+        {
+          "threshold": 60,
+          "index": 85.32446463230721
+        }
+      ]
+    },
+    {
+      "regionId": "yaroslavl",
+      "name": "Ярославская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 90.25673457971011,
+      "after": 82.32682563778181,
+      "delta": -7.9299089419283035,
+      "population": 1200209,
+      "sourcePopulation": 1209811,
+      "coverage": 0.9920632230984839,
+      "excludedPopulation": 9602,
+      "indexBounds": {
+        "lower": 81.67341598968473,
+        "upper": 82.46709367983632
+      },
+      "medianMinutes": 4.538692299999999,
+      "p90Minutes": 25.732604700000003,
+      "overMinutesShares": {
+        "60": 0.004338411060073704,
+        "90": 1.6663764394367982e-05
+      },
+      "settlements": 1994,
+      "facilities": 43,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 75.67120991878724
+        },
+        {
+          "threshold": 30,
+          "index": 82.32682563778181
+        },
+        {
+          "threshold": 45,
+          "index": 87.44391455794819
+        },
+        {
+          "threshold": 60,
+          "index": 90.25673457971011
+        }
+      ]
+    },
+    {
+      "regionId": "novgorod",
+      "name": "Новгородская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 86.65593425496024,
+      "after": 76.63715451499668,
+      "delta": -10.018779739963563,
+      "population": 577308,
+      "sourcePopulation": 583387,
+      "coverage": 0.9895798157998036,
+      "excludedPopulation": 6079,
+      "indexBounds": {
+        "lower": 75.8385812483715,
+        "upper": 76.88059966839114
+      },
+      "medianMinutes": 7.1068432,
+      "p90Minutes": 37.2189056,
+      "overMinutesShares": {
+        "60": 0.018381868950369647,
+        "90": 0.0004139904522369342
+      },
+      "settlements": 1324,
+      "facilities": 24,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 68.76669608725511
+        },
+        {
+          "threshold": 30,
+          "index": 76.63715451499668
+        },
+        {
+          "threshold": 45,
+          "index": 83.01842054160768
+        },
+        {
+          "threshold": 60,
+          "index": 86.65593425496024
+        }
+      ]
+    },
+    {
+      "regionId": "murmansk",
+      "name": "Мурманская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 91.75724802877197,
+      "after": 86.0481168002068,
+      "delta": -5.70913122856517,
+      "population": 665782,
+      "sourcePopulation": 667744,
+      "coverage": 0.9970617482148847,
+      "excludedPopulation": 1962,
+      "indexBounds": {
+        "lower": 85.79528576741278,
+        "upper": 86.0891109459243
+      },
+      "medianMinutes": 3.1824009,
+      "p90Minutes": 15.334279199999996,
+      "overMinutesShares": {
+        "60": 0.029734958289650365,
+        "90": 0.02748347056544034
+      },
+      "settlements": 102,
+      "facilities": 27,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 81.33386208195458
+        },
+        {
+          "threshold": 30,
+          "index": 86.0481168002068
+        },
+        {
+          "threshold": 45,
+          "index": 89.69057014132383
+        },
+        {
+          "threshold": 60,
+          "index": 91.75724802877197
+        }
+      ]
+    },
+    {
+      "regionId": "karelia",
+      "name": "Республика Карелия",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 83.72353500466774,
+      "after": 75.38829509646452,
+      "delta": -8.33523990820322,
+      "population": 531621,
+      "sourcePopulation": 533121,
+      "coverage": 0.9971863798274688,
+      "excludedPopulation": 1500,
+      "indexBounds": {
+        "lower": 75.17618106860837,
+        "upper": 75.4575430858615
+      },
+      "medianMinutes": 3.3417699,
+      "p90Minutes": 68.67134580000001,
+      "overMinutesShares": {
+        "60": 0.10440896804302313,
+        "90": 0.06214389574527718
+      },
+      "settlements": 496,
+      "facilities": 21,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 69.97123231175325
+        },
+        {
+          "threshold": 30,
+          "index": 75.38829509646452
+        },
+        {
+          "threshold": 45,
+          "index": 80.44528666877477
+        },
+        {
+          "threshold": 60,
+          "index": 83.72353500466774
+        }
+      ]
+    },
+    {
+      "regionId": "vologda",
+      "name": "Вологодская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 85.73123892093197,
+      "after": 77.61346296564241,
+      "delta": -8.11777595528956,
+      "population": 1130950,
+      "sourcePopulation": 1142827,
+      "coverage": 0.9896073508938799,
+      "excludedPopulation": 11877,
+      "indexBounds": {
+        "lower": 76.80685347912963,
+        "upper": 77.84611838974165
+      },
+      "medianMinutes": 3.3801320000000006,
+      "p90Minutes": 59.6799542,
+      "overMinutesShares": {
+        "60": 0.09558424333524913,
+        "90": 0.0593120827622795
+      },
+      "settlements": 2530,
+      "facilities": 40,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 72.02472154153183
+        },
+        {
+          "threshold": 30,
+          "index": 77.61346296564241
+        },
+        {
+          "threshold": 45,
+          "index": 82.60204064826736
+        },
+        {
+          "threshold": 60,
+          "index": 85.73123892093197
+        }
+      ]
+    },
+    {
+      "regionId": "mari-el",
+      "name": "Республика Марий Эл",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 84.97089814935343,
+      "after": 75.18316429627156,
+      "delta": -9.787733853081875,
+      "population": 637428,
+      "sourcePopulation": 677097,
+      "coverage": 0.9414131210151574,
+      "excludedPopulation": 39669,
+      "indexBounds": {
+        "lower": 70.77841734794835,
+        "upper": 76.63710524643261
+      },
+      "medianMinutes": 5.3997796000000005,
+      "p90Minutes": 48.19981979999998,
+      "overMinutesShares": {
+        "60": 0.06595411560207584,
+        "90": 0.010045056069077605
+      },
+      "settlements": 1270,
+      "facilities": 10,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 68.22977704521959
+        },
+        {
+          "threshold": 30,
+          "index": 75.18316429627156
+        },
+        {
+          "threshold": 45,
+          "index": 81.28198031224726
+        },
+        {
+          "threshold": 60,
+          "index": 84.97089814935343
+        }
+      ]
+    },
+    {
+      "regionId": "mordovia",
+      "name": "Республика Мордовия",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 85.53848143773034,
+      "after": 75.61126287082901,
+      "delta": -9.927218566901331,
+      "population": 781866,
+      "sourcePopulation": 783552,
+      "coverage": 0.9978482602303357,
+      "excludedPopulation": 1686,
+      "indexBounds": {
+        "lower": 75.4485671094753,
+        "upper": 75.66374108644173
+      },
+      "medianMinutes": 4.744332,
+      "p90Minutes": 44.44761549999999,
+      "overMinutesShares": {
+        "60": 0.02960865416836133,
+        "90": 0.0014733982549439417
+      },
+      "settlements": 940,
+      "facilities": 29,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 68.4054295920362
+        },
+        {
+          "threshold": 30,
+          "index": 75.61126287082901
+        },
+        {
+          "threshold": 45,
+          "index": 81.83776321425906
+        },
+        {
+          "threshold": 60,
+          "index": 85.53848143773034
+        }
+      ]
+    },
+    {
+      "regionId": "chuvashia",
+      "name": "Чувашская Республика — Чувашия",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 85.26520173368074,
+      "after": 75.40043412223541,
+      "delta": -9.86476761144533,
+      "population": 1183434,
+      "sourcePopulation": 1186909,
+      "coverage": 0.9970722271041841,
+      "excludedPopulation": 3475,
+      "indexBounds": {
+        "lower": 75.17967877487956,
+        "upper": 75.47245606446117
+      },
+      "medianMinutes": 4.6029567,
+      "p90Minutes": 45.7380193,
+      "overMinutesShares": {
+        "60": 0.05410018640667752,
+        "90": 0.006182009305123902
+      },
+      "settlements": 1645,
+      "facilities": 21,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 68.17737015430325
+        },
+        {
+          "threshold": 30,
+          "index": 75.40043412223541
+        },
+        {
+          "threshold": 45,
+          "index": 81.5812556956818
+        },
+        {
+          "threshold": 60,
+          "index": 85.26520173368074
+        }
+      ]
+    },
+    {
+      "regionId": "udmurtia",
+      "name": "Удмуртская Республика",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 88.86900899680369,
+      "after": 81.09968660937017,
+      "delta": -7.769322387433519,
+      "population": 1451222,
+      "sourcePopulation": 1452914,
+      "coverage": 0.9988354438046574,
+      "excludedPopulation": 1692,
+      "indexBounds": {
+        "lower": 81.00524146688889,
+        "upper": 81.12169708642314
+      },
+      "medianMinutes": 2.9001336999999996,
+      "p90Minutes": 37.6846522,
+      "overMinutesShares": {
+        "60": 0.019892201193201314,
+        "90": 0.0012740986561670096
+      },
+      "settlements": 1450,
+      "facilities": 42,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 75.38847866449328
+        },
+        {
+          "threshold": 30,
+          "index": 81.09968660937017
+        },
+        {
+          "threshold": 45,
+          "index": 85.98569541888274
+        },
+        {
+          "threshold": 60,
+          "index": 88.86900899680369
+        }
+      ]
+    },
+    {
+      "regionId": "penza",
+      "name": "Пензенская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 88.06230711628213,
+      "after": 79.70996792744585,
+      "delta": -8.352339188836282,
+      "population": 1265316,
+      "sourcePopulation": 1266348,
+      "coverage": 0.9991850581356784,
+      "excludedPopulation": 1032,
+      "indexBounds": {
+        "lower": 79.64500893757804,
+        "upper": 79.72650312401021
+      },
+      "medianMinutes": 3.140497899999999,
+      "p90Minutes": 39.51362360000001,
+      "overMinutesShares": {
+        "60": 0.02497636953930876,
+        "90": 0.0047687692244467
+      },
+      "settlements": 1065,
+      "facilities": 43,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 73.46768095487428
+        },
+        {
+          "threshold": 30,
+          "index": 79.70996792744585
+        },
+        {
+          "threshold": 45,
+          "index": 84.97286803127797
+        },
+        {
+          "threshold": 60,
+          "index": 88.06230711628213
+        }
+      ]
+    },
+    {
+      "regionId": "ulyanovsk",
+      "name": "Ульяновская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 88.88108307828396,
+      "after": 80.48367443204029,
+      "delta": -8.397408646243676,
+      "population": 1196379,
+      "sourcePopulation": 1196745,
+      "coverage": 0.9996941704373112,
+      "excludedPopulation": 366,
+      "indexBounds": {
+        "lower": 80.45906014508515,
+        "upper": 80.48964310135403
+      },
+      "medianMinutes": 4.542369600000001,
+      "p90Minutes": 32.6702963,
+      "overMinutesShares": {
+        "60": 0.016503967388260744,
+        "90": 0.0004338090187139694
+      },
+      "settlements": 830,
+      "facilities": 33,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 73.81080388266291
+        },
+        {
+          "threshold": 30,
+          "index": 80.48367443204029
+        },
+        {
+          "threshold": 45,
+          "index": 85.84073562430034
+        },
+        {
+          "threshold": 60,
+          "index": 88.88108307828396
+        }
+      ]
+    },
+    {
+      "regionId": "adygea",
+      "name": "Республика Адыгея (Адыгея)",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 89.15890775675841,
+      "after": 80.38220965243735,
+      "delta": -8.776698104321056,
+      "population": 496901,
+      "sourcePopulation": 496934,
+      "coverage": 0.9999335927909944,
+      "excludedPopulation": 33,
+      "indexBounds": {
+        "lower": 80.37687169424062,
+        "upper": 80.38351241514118
+      },
+      "medianMinutes": 7.493063099999998,
+      "p90Minutes": 23.490978999999992,
+      "overMinutesShares": {
+        "60": 0.00035620777579437355,
+        "90": 0.0
+      },
+      "settlements": 218,
+      "facilities": 21,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 73.14479563527115
+        },
+        {
+          "threshold": 30,
+          "index": 80.38220965243735
+        },
+        {
+          "threshold": 45,
+          "index": 86.03396633221433
+        },
+        {
+          "threshold": 60,
+          "index": 89.15890775675841
+        }
+      ]
+    },
+    {
+      "regionId": "kalmykia",
+      "name": "Республика Калмыкия",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 75.37083151014559,
+      "after": 64.67048723702254,
+      "delta": -10.70034427312305,
+      "population": 265787,
+      "sourcePopulation": 267133,
+      "coverage": 0.9949613114066775,
+      "excludedPopulation": 1346,
+      "indexBounds": {
+        "lower": 64.34463279065676,
+        "upper": 64.848501649989
+      },
+      "medianMinutes": 4.1884269000000005,
+      "p90Minutes": 104.93768039999999,
+      "overMinutesShares": {
+        "60": 0.2449254478209995,
+        "90": 0.12758712803861738
+      },
+      "settlements": 246,
+      "facilities": 10,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 58.38594495053861
+        },
+        {
+          "threshold": 30,
+          "index": 64.67048723702254
+        },
+        {
+          "threshold": 45,
+          "index": 71.0025844548789
+        },
+        {
+          "threshold": 60,
+          "index": 75.37083151014559
+        }
+      ]
+    },
+    {
+      "regionId": "astrakhan",
+      "name": "Астраханская область",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 87.28470987812437,
+      "after": 78.89310593792449,
+      "delta": -8.391603940199886,
+      "population": 903197,
+      "sourcePopulation": 960142,
+      "coverage": 0.9406910644467172,
+      "excludedPopulation": 56945,
+      "indexBounds": {
+        "lower": 74.21403980225382,
+        "upper": 80.14493335758209
+      },
+      "medianMinutes": 2.3846986999999995,
+      "p90Minutes": 44.323312600000015,
+      "overMinutesShares": {
+        "60": 0.05056482694251642,
+        "90": 0.014103235506760984
+      },
+      "settlements": 395,
+      "facilities": 22,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 72.84205944463153
+        },
+        {
+          "threshold": 30,
+          "index": 78.89310593792449
+        },
+        {
+          "threshold": 45,
+          "index": 84.1363279702326
+        },
+        {
+          "threshold": 60,
+          "index": 87.28470987812437
+        }
+      ]
+    },
+    {
+      "regionId": "north-ossetia-alania",
+      "name": "Республика Северная Осетия — Алания",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 90.18188165515286,
+      "after": 82.21284018924959,
+      "delta": -7.969041465903274,
+      "population": 687229,
+      "sourcePopulation": 687357,
+      "coverage": 0.9998137794479434,
+      "excludedPopulation": 128,
+      "indexBounds": {
+        "lower": 82.1975304687634,
+        "upper": 82.21615252396907
+      },
+      "medianMinutes": 4.390674799999999,
+      "p90Minutes": 19.804166900000002,
+      "overMinutesShares": {
+        "60": 0.007953680650845642,
+        "90": 0.0021230186735425893
+      },
+      "settlements": 182,
+      "facilities": 13,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 75.51180515573431
+        },
+        {
+          "threshold": 30,
+          "index": 82.21284018924959
+        },
+        {
+          "threshold": 45,
+          "index": 87.35589402673203
+        },
+        {
+          "threshold": 60,
+          "index": 90.18188165515286
+        }
+      ]
+    },
+    {
+      "regionId": "kabardino-balkaria",
+      "name": "Кабардино-Балкарская Республика",
+      "synthetic": false,
+      "profile": "mapped-hospital",
+      "facilityEvidence": "osm-unverified-profile",
+      "before": 82.21929188862016,
+      "after": 69.18348082866765,
+      "delta": -13.035811059952508,
+      "population": 904005,
+      "sourcePopulation": 904200,
+      "coverage": 0.9997843397478434,
+      "excludedPopulation": 195,
+      "indexBounds": {
+        "lower": 69.16856070174707,
+        "upper": 69.19012672696273
+      },
+      "medianMinutes": 13.970932900000001,
+      "p90Minutes": 39.200784199999994,
+      "overMinutesShares": {
+        "60": 0.008071858009634902,
+        "90": 0.0011272061548332143
+      },
+      "settlements": 177,
+      "facilities": 9,
+      "sensitivity": [
+        {
+          "threshold": 20,
+          "index": 59.32539162900178
+        },
+        {
+          "threshold": 30,
+          "index": 69.18348082866765
+        },
+        {
+          "threshold": 45,
+          "index": 77.43984394326421
+        },
+        {
+          "threshold": 60,
+          "index": 82.21929188862016
+        }
+      ]
+    }
+  ]
+}

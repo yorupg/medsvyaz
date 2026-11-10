@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "selected-public-hospital",
+  "index": 60.848927076117604,
+  "legacyIndexTau60": 76.30353609160979,
+  "includedPopulation": 923698,
+  "sourcePopulation": 927828,
+  "populationCoverage": 0.9955487439482318,
+  "excludedPopulation": 4130,
+  "indexBounds": {
+    "lower": 60.578072921226436,
+    "upper": 61.023198526403256
+  },
+  "includedSettlements": 1249,
+  "medianMinutes": 16.208004799999998,
+  "p90Minutes": 52.05970319999999,
+  "overMinutesShares": {
+    "60": 0.07349913066824872,
+    "90": 0.01001409551606694
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 50.1079670953779
+    },
+    {
+      "threshold": 30,
+      "index": 60.848927076117604
+    },
+    {
+      "threshold": 45,
+      "index": 70.46079969122727
+    },
+    {
+      "threshold": 60,
+      "index": 76.30353609160979
+    }
+  ],
+  "sourceTimeFile": "data/derived/ivanovo-independent-points.json",
+  "sourceTimeFileSha256": "9fa0314fabd07f662f3025faa6f672c9dbdfda51878f30a8ba08b11ccd256d09",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

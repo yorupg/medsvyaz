@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 82.21284018924959,
+  "legacyIndexTau60": 90.18188165515286,
+  "includedPopulation": 687229,
+  "sourcePopulation": 687357,
+  "populationCoverage": 0.9998137794479434,
+  "excludedPopulation": 128,
+  "indexBounds": {
+    "lower": 82.1975304687634,
+    "upper": 82.21615252396907
+  },
+  "includedSettlements": 181,
+  "medianMinutes": 4.390674799999999,
+  "p90Minutes": 19.804166900000002,
+  "overMinutesShares": {
+    "60": 0.007953680650845642,
+    "90": 0.0021230186735425893
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 75.51180515573431
+    },
+    {
+      "threshold": 30,
+      "index": 82.21284018924959
+    },
+    {
+      "threshold": 45,
+      "index": 87.35589402673203
+    },
+    {
+      "threshold": 60,
+      "index": 90.18188165515286
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/north-ossetia-alania-summary.json",
+  "sourceTimeFileSha256": "ab50244057c8fedf56ea84b4d81be1c8a46762a7ee790f335487c42ced4de1e1",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

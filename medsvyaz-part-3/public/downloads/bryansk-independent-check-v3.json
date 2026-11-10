@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 69.4578147966803,
+  "legacyIndexTau60": 82.35987573336934,
+  "includedPopulation": 1165840,
+  "sourcePopulation": 1169161,
+  "populationCoverage": 0.9971595015570995,
+  "excludedPopulation": 3321,
+  "indexBounds": {
+    "lower": 69.26051998190306,
+    "upper": 69.54456982619311
+  },
+  "includedSettlements": 1516,
+  "medianMinutes": 10.988649000000002,
+  "p90Minutes": 40.641444899999996,
+  "overMinutesShares": {
+    "60": 0.01934227681328484,
+    "90": 0.001426439305565086
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 59.65866373460014
+    },
+    {
+      "threshold": 30,
+      "index": 69.4578147966803
+    },
+    {
+      "threshold": 45,
+      "index": 77.63154328897551
+    },
+    {
+      "threshold": 60,
+      "index": 82.35987573336934
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/bryansk-summary.json",
+  "sourceTimeFileSha256": "823f4357c718f6c43f39788ae3210ef30a867d629e1f68f7d04266ae67fbb154",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

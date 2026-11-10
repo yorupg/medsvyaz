@@ -1,0 +1,14 @@
+{
+  "methodologyVersion": "2.0.0",
+  "tau": 60,
+  "period": "day",
+  "index": 75.15129661242248,
+  "includedPopulation": 585707,
+  "sourcePopulation": 599084,
+  "populationCoverage": 0.9776709109240107,
+  "includedSettlements": 2133,
+  "missingSettlements": 20,
+  "unverifiedRoutes": 12,
+  "reachableSettlements": 2133,
+  "method": "Independent Python heapq multi-source reverse Dijkstra on directed OSM graph; unverified routes excluded"
+}

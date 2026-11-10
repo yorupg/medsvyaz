@@ -1,0 +1,1 @@
+{"methodologyVersion":"2.0.0","tau":60,"period":"day","profile":"mapped-hospital","index":90.3791090063159,"includedPopulation":1078098,"sourcePopulation":1082458,"populationCoverage":0.9959721300965025,"includedSettlements":1960,"reachableSettlements":1960,"method":"Independent SciPy directed sparse Dijkstra; parallel arcs minimized; unverified routes excluded"}

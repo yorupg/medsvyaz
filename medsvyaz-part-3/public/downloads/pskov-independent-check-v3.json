@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "selected-public-hospital",
+  "index": 62.883957102549736,
+  "legacyIndexTau60": 75.15129661242248,
+  "includedPopulation": 585707,
+  "sourcePopulation": 599084,
+  "populationCoverage": 0.9776709109240107,
+  "excludedPopulation": 13377,
+  "indexBounds": {
+    "lower": 61.47981562295621,
+    "upper": 63.71272453055514
+  },
+  "includedSettlements": 2133,
+  "medianMinutes": 4.5276348,
+  "p90Minutes": 94.12874480000002,
+  "overMinutesShares": {
+    "60": 0.23233630467110689,
+    "90": 0.12770207629411975
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 55.62966672246592
+    },
+    {
+      "threshold": 30,
+      "index": 62.883957102549736
+    },
+    {
+      "threshold": 45,
+      "index": 70.20062332358115
+    },
+    {
+      "threshold": 60,
+      "index": 75.15129661242248
+    }
+  ],
+  "sourceTimeFile": "data/derived/pskov-independent-points.json",
+  "sourceTimeFileSha256": "4bfbdad8eabe854354c1cc8687009c7dd9540430527dbb0ea3265b3c0b0cd6fd",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

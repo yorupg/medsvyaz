@@ -1,0 +1,10 @@
+import {format,percent,useApi,Loading,ErrorBox} from '../lib';
+type Row={regionId:string;name:string;before:number;after:number;delta:number;coverage:number;medianMinutes:number|null;p90Minutes:number|null;overMinutesShares:Record<'60'|'90',number|null>;facilityEvidence:string};
+export function MethodologyComparison(){
+ const response=useApi<{rows:Row[]}>('/api/methodology-comparison');
+ return <section className="panel methodology-comparison"><h2>Региональные индексы до и после изменения весов</h2><p>МИЭД v4.0: вес — население. МИЭД v4.0: все поселения имеют одинаковый вес. В обоих расчётах τ = 30; дороги, больницы и времена поездок не изменены. Синтетические модели в эту таблицу не включены.</p>
+ <a className="btn outline small" href="/downloads/regional-indices-before-after.csv" download>Скачать таблицу CSV</a>
+ {response.error?<ErrorBox message={response.error} retry={response.retry}/>:!response.data?<Loading/>:<div className="table-scroll"><table aria-label="Индексы регионов до и после изменения методики"><thead><tr><th>Регион</th><th>v3.0 · население</th><th>v4.0 · поселения</th><th>Δ, п.п.</th><th>Покрытие поселений</th><th>Медиана, мин</th><th>P90, мин</th><th>&gt;60 мин</th><th>&gt;90 мин</th><th>Больничные площадки</th></tr></thead><tbody>{response.data.rows.map(r=><tr key={r.regionId}><td>{r.name}</td><td>{format(r.before,2)}</td><td>{format(r.after,2)}</td><td>{format(r.delta,2)}</td><td>{percent(r.coverage)}</td><td>{format(r.medianMinutes)}</td><td>{format(r.p90Minutes)}</td><td>{percent(r.overMinutesShares['60'])}</td><td>{percent(r.overMinutesShares['90'])}</td><td>{r.facilityEvidence==='osm-unverified-profile'?'OSM · медицинский профиль официально не проверен':'Официальные источники площадок'}</td></tr>)}</tbody></table></div>}
+ <p>Сравнение показывает изменение единицы взвешивания, а не рейтинг качества лечения. Больницы OSM и площадки с официальными источниками относятся к разным группам данных.</p>
+ </section>;
+}

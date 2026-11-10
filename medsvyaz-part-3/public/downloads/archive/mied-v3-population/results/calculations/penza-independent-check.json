@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 79.70996792744585,
+  "legacyIndexTau60": 88.06230711628213,
+  "includedPopulation": 1265316,
+  "sourcePopulation": 1266348,
+  "populationCoverage": 0.9991850581356784,
+  "excludedPopulation": 1032,
+  "indexBounds": {
+    "lower": 79.64500893757804,
+    "upper": 79.72650312401021
+  },
+  "includedSettlements": 1059,
+  "medianMinutes": 3.140497899999999,
+  "p90Minutes": 39.51362360000001,
+  "overMinutesShares": {
+    "60": 0.02497636953930876,
+    "90": 0.0047687692244467
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 73.46768095487428
+    },
+    {
+      "threshold": 30,
+      "index": 79.70996792744585
+    },
+    {
+      "threshold": 45,
+      "index": 84.97286803127797
+    },
+    {
+      "threshold": 60,
+      "index": 88.06230711628213
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/penza-summary.json",
+  "sourceTimeFileSha256": "1b5edd512b582c9713feb39264c1dc440d6b8379a7ba56b755c8b5da7cc4a753",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

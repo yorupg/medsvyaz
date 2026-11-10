@@ -1,0 +1,144 @@
+{
+  "release": "1.0.0-final-mied-v4-equal-settlements",
+  "methodologyVersion": "4.0.0",
+  "tau": 30,
+  "weighting": "settlement",
+  "tests": {
+    "files": 7,
+    "passed": 64
+  },
+  "independentPython": {
+    "regions": 85,
+    "passed": true
+  },
+  "fullGraphMapAudit": {
+    "regions": 85,
+    "points": 45780,
+    "passed": true
+  },
+  "browserMain": {
+    "checks": [
+      {
+        "name": "Country choropleth and provenance borders",
+        "observed": {
+          "fill": "#dfc863",
+          "weight": 2.2,
+          "dash": null,
+          "label": "Белгородская область · 52.5 / 100 · Реальные данные"
+        },
+        "synthetic": {
+          "fill": "#e8b05d",
+          "weight": 0.7,
+          "dash": "4 3",
+          "label": "Республика Саха (Якутия) · 37.2 / 100 · Синтетическая модель"
+        },
+        "noData": {
+          "fill": "#c5ced4",
+          "weight": 0.55,
+          "dash": "2 5",
+          "label": "Херсонская область · Нет данных"
+        }
+      },
+      {
+        "name": "Catalogue filters and synthetic indices",
+        "syntheticRows": 52
+      },
+      {
+        "name": "Real region, selected settlement route and closure scenario",
+        "before": "47,8/ 100",
+        "after": "46,9/ 100",
+        "settlement": "s-15701000001"
+      },
+      {
+        "name": "Saint Petersburg actual localities in synthetic model"
+      },
+      {
+        "name": "Four no-data pages without maps or status notes"
+      },
+      {
+        "name": "Final v4 methodology, population independence and before/after comparison for 33 observed regions"
+      },
+      {
+        "name": "All observed datasets available in materials"
+      },
+      {
+        "name": "Mobile layout without page overflow",
+        "viewport": 390,
+        "width": 390
+      }
+    ],
+    "pageErrors": []
+  },
+  "browserEconomics": {
+    "checks": [
+      {
+        "name": "Yaroslavl equal weights, contributions and size toggle",
+        "index": 54.3831357924
+      },
+      {
+        "name": "No invented initial costs or financial values"
+      },
+      {
+        "name": "Budget ranking and actual transport engine equality",
+        "delta": 0.14545068779327153,
+        "additionalResidents": 49
+      },
+      {
+        "name": "Finance input focus and financial/social separation",
+        "testOnlyInputs": true,
+        "financialNPV": -1061445.6710570466,
+        "socialNPV": 9839608.787274504
+      },
+      {
+        "name": "Alternative state preserved and tau synchronized with main engine"
+      },
+      {
+        "name": "CSV and JSON exports include results and scenario inputs"
+      },
+      {
+        "name": "Travel losses prevent unsupported societal NPV; financial cash stream remains separate"
+      },
+      {
+        "name": "Economics mobile layout",
+        "width": 390,
+        "viewport": 390
+      },
+      {
+        "name": "Synthetic economic results explicitly marked as models"
+      }
+    ],
+    "pageErrors": []
+  },
+  "docker": {
+    "health": {
+      "status": "ok",
+      "version": "1.0.0-final-mied-v4-equal-settlements",
+      "realDatasets": 33,
+      "syntheticDatasets": 52
+    },
+    "checks": [
+      "Docker production server responds with v4",
+      "Yaroslavl equal-settlement index",
+      "Compressed-only Kaliningrad graph and map",
+      "Five team roles; Anna Grezina is team lead",
+      "PDF download from About and Materials"
+    ],
+    "pageErrors": []
+  },
+  "submissionCheck": {
+    "sha256FilesVerified": "All files listed in SUBMISSION_MANIFEST.json",
+    "compressedPilotGraphsOnly": true,
+    "buildPassed": true,
+    "verifyPassed": true,
+    "dependencyInstallation": "Docker npm ci; local extracted bundle reused installed dependencies"
+  },
+  "passport": {
+    "pages": 3,
+    "language": "ru",
+    "teamMembers": 5,
+    "teamLead": "Грезина Анна",
+    "textAndLayoutChecked": true
+  },
+  "build": true,
+  "verify": true
+}

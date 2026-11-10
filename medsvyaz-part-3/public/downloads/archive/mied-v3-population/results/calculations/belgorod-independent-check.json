@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 79.3577010008127,
+  "legacyIndexTau60": 88.28545205897382,
+  "includedPopulation": 1539795,
+  "sourcePopulation": 1540486,
+  "populationCoverage": 0.9995514402597622,
+  "excludedPopulation": 691,
+  "indexBounds": {
+    "lower": 79.3221043310659,
+    "upper": 79.36696030508968
+  },
+  "includedSettlements": 1359,
+  "medianMinutes": 3.5452570000000003,
+  "p90Minutes": 32.440090399999995,
+  "overMinutesShares": {
+    "60": 0.0028945411564526447,
+    "90": 0.0
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 72.33995886308433
+    },
+    {
+      "threshold": 30,
+      "index": 79.3577010008127
+    },
+    {
+      "threshold": 45,
+      "index": 85.05136894833169
+    },
+    {
+      "threshold": 60,
+      "index": 88.28545205897382
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/belgorod-summary.json",
+  "sourceTimeFileSha256": "255370488637c8ec57688e33b1abaca4a2f4f248e4bf3985c458d0dc8423d764",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}
