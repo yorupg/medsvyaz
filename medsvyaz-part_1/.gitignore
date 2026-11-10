@@ -1,0 +1,29 @@
+node_modules/
+dist/
+.env
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+tmp/
+test-results/
+playwright-report/
+.sites-*
+.openai/*local*
+
+__pycache__/
+*.pyc
+
+# Final delivery: preserve local originals; commit compressed runtime graphs.
+.DS_Store
+.openai/
+submission/
+data/processed/kaliningrad-pilot.json
+data/processed/ivanovo-pilot.json
+data/processed/pskov-pilot.json
+data/processed/expanded/catalogue.json
+# Primary downloads remain local. Keep provenance and coordinate decisions.
+data/raw/**
+!data/raw/**/
+!data/raw/**/*.source.json
+!data/raw/expanded/selection.json
+!data/raw/**/coordinate-overrides.json

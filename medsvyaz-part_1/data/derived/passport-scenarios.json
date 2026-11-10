@@ -1,0 +1,322 @@
+{
+  "formulaVersion": "economics-2.0-settlement-index",
+  "regionId": "kaliningrad",
+  "title": "Калининградская область · реальные исходные данные",
+  "request": {
+    "regionId": "kaliningrad",
+    "threshold": 30,
+    "accessLimit": 60,
+    "timeScale": 1,
+    "budget": null,
+    "scenarios": [
+      {
+        "id": "v0",
+        "name": "27А-025",
+        "edgeId": "w331728997-3388249281-2742249954",
+        "scenario": "improvement",
+        "multiplier": 1.5,
+        "cost": null,
+        "costSourceUrl": null,
+        "costNote": "Стоимость проекта не подтверждена; паспорт не задаёт финансовые допущения.",
+        "finance": {
+          "investment": null,
+          "annualTrips": null,
+          "valueOfTime": null,
+          "annualOperatingCost": null,
+          "annualCashBenefit": null,
+          "horizon": null,
+          "discountRate": null
+        }
+      },
+      {
+        "id": "v1",
+        "name": "27А-029",
+        "edgeId": "w331697052-3387949917-3387949845",
+        "scenario": "improvement",
+        "multiplier": 1.5,
+        "cost": null,
+        "costSourceUrl": null,
+        "costNote": "Стоимость проекта не подтверждена; паспорт не задаёт финансовые допущения.",
+        "finance": {
+          "investment": null,
+          "annualTrips": null,
+          "valueOfTime": null,
+          "annualOperatingCost": null,
+          "annualCashBenefit": null,
+          "horizon": null,
+          "discountRate": null
+        }
+      }
+    ]
+  },
+  "rows": [
+    {
+      "id": "v0",
+      "name": "27А-025",
+      "edgeId": "w331728997-3388249281-2742249954",
+      "scenario": "improvement",
+      "multiplier": 1.5,
+      "transport": {
+        "baselineIndex": 53.764467548084085,
+        "afterIndex": 53.909918235877356,
+        "deltaIndex": 0.14545068779327153,
+        "baselineMeanMinutes": 28.771388907194996,
+        "afterMeanMinutes": 28.604145327215864,
+        "populationMinutesSaved": 40302.50302106663,
+        "meanMinutesSaved": 0.039152933733711134,
+        "meanMinutesSavedForBeneficiaries": 2.128915694948319,
+        "benefitingPopulation": 18931,
+        "newlyCoveredPopulation": 49,
+        "lostCoveragePopulation": 0,
+        "benefitingSettlements": 71,
+        "newlyCoveredSettlements": 1,
+        "lostCoverageSettlements": 0,
+        "settlements": 959,
+        "settlementCoverage": 0.9948132780082988,
+        "weighting": "settlement",
+        "baselineCoveredPopulation": 1028090,
+        "afterCoveredPopulation": 1028139,
+        "accessLimit": 60,
+        "population": 1029361,
+        "populationCoverage": 0.9994126019693854,
+        "unreachableBefore": 0,
+        "unreachableAfter": 0,
+        "timeSavingDefinition": "Population-weighted time saving for one hypothetical trip per resident with finite times in both variants; not an annual trip count",
+        "annualTripBasis": "Annual trips of residents whose travel time improves; the annual volume must be entered as a scenario assumption"
+      },
+      "budget": {
+        "cost": null,
+        "costPerAdditionalSettlement": null,
+        "costPerIndexPoint": null,
+        "costPerAdditionalResident": null,
+        "withinBudget": null,
+        "status": "missing_cost"
+      },
+      "finance": {
+        "inputs": {
+          "investment": null,
+          "annualTrips": null,
+          "valueOfTime": null,
+          "annualOperatingCost": null,
+          "annualCashBenefit": null,
+          "horizon": null,
+          "discountRate": null
+        },
+        "financial": null,
+        "economic": null,
+        "financialMissing": [
+          "investment",
+          "annualOperatingCost",
+          "horizon",
+          "discountRate",
+          "annualCashBenefit"
+        ],
+        "economicMissing": [
+          "investment",
+          "annualOperatingCost",
+          "horizon",
+          "discountRate",
+          "annualTrips",
+          "valueOfTime"
+        ],
+        "annualTimeBenefit": null,
+        "financialDefinition": "Direct annual cash inflows or budget cash savings minus operating costs. Time valuation is excluded.",
+        "economicDefinition": "Value of saved travel time minus operating costs; a societal benefit, not revenue or budget profit.",
+        "assumptions": [
+          "All entered financial parameters are scenario assumptions unless separately documented.",
+          "Constant annual volumes and costs; end-of-year flows; upfront investment at year 0.",
+          "Prices and discount rate must be consistent (all real or all nominal); no automatic inflation adjustment.",
+          "No terminal value, tax, financing structure or induced-trip benefits are assumed."
+        ]
+      },
+      "costEvidence": {
+        "kind": "scenario_assumption",
+        "url": null,
+        "note": "Стоимость проекта не подтверждена; паспорт не задаёт финансовые допущения.",
+        "officialProjectMatchVerified": false
+      },
+      "provenance": {
+        "regionId": "kaliningrad",
+        "datasetId": "kaliningrad-real-v1",
+        "datasetVersion": "pilot-2026-11-10-mied-v2",
+        "methodologyVersion": "4.0.0",
+        "threshold": 30,
+        "profile": "selected-public-hospital",
+        "synthetic": false,
+        "facilityEvidence": "official-source",
+        "sourceIds": [
+          "tochno-allsettlements-2021",
+          "geofabrik-kaliningrad-20261108",
+          "tfoms-hospitals-2026",
+          "osrm-speed-model",
+          "osm-place-coordinate-audit"
+        ]
+      }
+    },
+    {
+      "id": "v1",
+      "name": "27А-029",
+      "edgeId": "w331697052-3387949917-3387949845",
+      "scenario": "improvement",
+      "multiplier": 1.5,
+      "transport": {
+        "baselineIndex": 53.764467548084085,
+        "afterIndex": 53.85126530253943,
+        "deltaIndex": 0.08679775445534688,
+        "baselineMeanMinutes": 28.771388907194996,
+        "afterMeanMinutes": 28.6617256168926,
+        "populationMinutesSaved": 26284.308626933365,
+        "meanMinutesSaved": 0.025534587600398076,
+        "meanMinutesSavedForBeneficiaries": 2.016750450927136,
+        "benefitingPopulation": 13033,
+        "newlyCoveredPopulation": 49,
+        "lostCoveragePopulation": 0,
+        "benefitingSettlements": 53,
+        "newlyCoveredSettlements": 1,
+        "lostCoverageSettlements": 0,
+        "settlements": 959,
+        "settlementCoverage": 0.9948132780082988,
+        "weighting": "settlement",
+        "baselineCoveredPopulation": 1028090,
+        "afterCoveredPopulation": 1028139,
+        "accessLimit": 60,
+        "population": 1029361,
+        "populationCoverage": 0.9994126019693854,
+        "unreachableBefore": 0,
+        "unreachableAfter": 0,
+        "timeSavingDefinition": "Population-weighted time saving for one hypothetical trip per resident with finite times in both variants; not an annual trip count",
+        "annualTripBasis": "Annual trips of residents whose travel time improves; the annual volume must be entered as a scenario assumption"
+      },
+      "budget": {
+        "cost": null,
+        "costPerAdditionalSettlement": null,
+        "costPerIndexPoint": null,
+        "costPerAdditionalResident": null,
+        "withinBudget": null,
+        "status": "missing_cost"
+      },
+      "finance": {
+        "inputs": {
+          "investment": null,
+          "annualTrips": null,
+          "valueOfTime": null,
+          "annualOperatingCost": null,
+          "annualCashBenefit": null,
+          "horizon": null,
+          "discountRate": null
+        },
+        "financial": null,
+        "economic": null,
+        "financialMissing": [
+          "investment",
+          "annualOperatingCost",
+          "horizon",
+          "discountRate",
+          "annualCashBenefit"
+        ],
+        "economicMissing": [
+          "investment",
+          "annualOperatingCost",
+          "horizon",
+          "discountRate",
+          "annualTrips",
+          "valueOfTime"
+        ],
+        "annualTimeBenefit": null,
+        "financialDefinition": "Direct annual cash inflows or budget cash savings minus operating costs. Time valuation is excluded.",
+        "economicDefinition": "Value of saved travel time minus operating costs; a societal benefit, not revenue or budget profit.",
+        "assumptions": [
+          "All entered financial parameters are scenario assumptions unless separately documented.",
+          "Constant annual volumes and costs; end-of-year flows; upfront investment at year 0.",
+          "Prices and discount rate must be consistent (all real or all nominal); no automatic inflation adjustment.",
+          "No terminal value, tax, financing structure or induced-trip benefits are assumed."
+        ]
+      },
+      "costEvidence": {
+        "kind": "scenario_assumption",
+        "url": null,
+        "note": "Стоимость проекта не подтверждена; паспорт не задаёт финансовые допущения.",
+        "officialProjectMatchVerified": false
+      },
+      "provenance": {
+        "regionId": "kaliningrad",
+        "datasetId": "kaliningrad-real-v1",
+        "datasetVersion": "pilot-2026-11-10-mied-v2",
+        "methodologyVersion": "4.0.0",
+        "threshold": 30,
+        "profile": "selected-public-hospital",
+        "synthetic": false,
+        "facilityEvidence": "official-source",
+        "sourceIds": [
+          "tochno-allsettlements-2021",
+          "geofabrik-kaliningrad-20261108",
+          "tfoms-hospitals-2026",
+          "osrm-speed-model",
+          "osm-place-coordinate-audit"
+        ]
+      }
+    }
+  ],
+  "recommendation": {
+    "mostIndexGainWithinBudget": null,
+    "lowestCostPerIndexPoint": null,
+    "lowestCostPerAdditionalResident": null,
+    "excludedUnknownCosts": [
+      "v0",
+      "v1"
+    ],
+    "rule": "Mutually exclusive alternatives: maximize accessibility gain among affordable alternatives. Benefits of different roads are not added; a combined project requires a new transport calculation."
+  },
+  "formulas": {
+    "version": "economics-2.0-settlement-index",
+    "indexCost": "C / ΔI (руб. за 1 балл из 100)",
+    "residentCost": "C / N_added, where t_before > accessLimit and t_after <= accessLimit",
+    "timeBenefit": "annualTrips_of_beneficiaries × meanMinutesSavedForBeneficiaries / 60 × valueOfTimeRubPerHour",
+    "npv": "−I₀ + Σₜ₌₁ᴴ CFₜ/(1+r)^t",
+    "roi": "(Σₜ₌₁ᴴ CFₜ − I₀)/I₀; undiscounted horizon ROI",
+    "payback": "I₀ / constant positive annual CF, only if within the selected horizon"
+  },
+  "sources": [
+    {
+      "id": "mintrans-vologda-2021-budget",
+      "title": "Минтранс РФ: дополнительное финансирование трассы Тотьма — Никольск",
+      "publisher": "Министерство транспорта Российской Федерации",
+      "url": "https://mintrans.gov.ru/press-center/news/10033",
+      "publicationDate": "2021-09-15",
+      "retrievalDate": "2026-11-10",
+      "amountRub": 449500000,
+      "amountKind": "additional_budget_allocation",
+      "scope": "Дополнительные федеральные средства на увеличение ремонтируемого участка с 12,9 до 32,8 км в Никольском районе; цены и бюджет 2021 года.",
+      "usage": "Исторический бюджетный ориентир для обоснования сценарных предположений. Не смета выбранного OSM-way, не цена за километр и не полная цена всего проекта. Автоматически в стоимость сценария не переносится."
+    },
+    {
+      "id": "mintrans-karelia-2021-reference",
+      "title": "Минтранс РФ: ремонт 21,5 км Олонец — Питкяранта — Леппясилта",
+      "publisher": "Министерство транспорта Российской Федерации",
+      "url": "https://mintrans.gov.ru/press-center/news/10033",
+      "publicationDate": "2021-09-15",
+      "retrievalDate": "2026-11-10",
+      "amountRub": 290000000,
+      "amountKind": "lower_bound_more_than",
+      "scope": "В публикации указана стоимость более 290 млн рублей за 21,5 км ремонта; это нижняя граница в ценах 2021 года.",
+      "usage": "Справочный пример. Нельзя считать 290 млн точной ценой контракта или автоматически оценивать по этой сумме текущую модельную дорогу."
+    },
+    {
+      "id": "eib-economic-appraisal-2023",
+      "title": "EIB: The Economic Appraisal of Investment Projects, 2nd edition",
+      "publisher": "European Investment Bank",
+      "url": "https://www.eib.org/en/publications/20220169-the-economic-appraisal-of-investment-projects-at-the-eib",
+      "publicationDate": "2023-03-28",
+      "retrievalDate": "2026-11-10",
+      "amountRub": null,
+      "amountKind": "methodology",
+      "scope": "Разделение финансового результата инвестора и общественно-экономического эффекта для пользователей и общества.",
+      "usage": "Методическое пояснение; не источник ставок дисконтирования, стоимости времени или денежных потоков этого проекта."
+    }
+  ],
+  "caveats": [
+    "Транспортные эффекты получены расчётным движком из сценарного изменения дорожного времени, а не измерением эффекта реальных работ.",
+    "Ни одного подтверждённого совпадения выбранных модельных OSM-way с проектной сметой нет. Стоимость и финансовые вводные остаются сценарными; официальные бюджетные публикации доступны как ориентиры.",
+    "Затронутые жители не являются годовым пассажиропотоком. Экономия времени не является прямым денежным доходом."
+  ]
+}

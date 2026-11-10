@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 82.8739295048672,
+  "legacyIndexTau60": 90.25964109256414,
+  "includedPopulation": 1210753,
+  "sourcePopulation": 1230171,
+  "populationCoverage": 0.9842152026019146,
+  "excludedPopulation": 19418,
+  "indexBounds": {
+    "lower": 81.56578131804967,
+    "upper": 83.1442610578582
+  },
+  "includedSettlements": 3328,
+  "medianMinutes": 4.0068783,
+  "p90Minutes": 28.919928000000002,
+  "overMinutesShares": {
+    "60": 0.013805458256143079,
+    "90": 0.002559564172048304
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 76.95446878332469
+    },
+    {
+      "threshold": 30,
+      "index": 82.8739295048672
+    },
+    {
+      "threshold": 45,
+      "index": 87.59158629582782
+    },
+    {
+      "threshold": 60,
+      "index": 90.25964109256414
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/tver-summary.json",
+  "sourceTimeFileSha256": "9b53cdb0fea1785bf7282c19b3de3ef1cf9841b2810f45f186fdcdaa8d6c663e",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

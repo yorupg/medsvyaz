@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 83.43275626553849,
+  "legacyIndexTau60": 90.79843757428532,
+  "includedPopulation": 1065407,
+  "sourcePopulation": 1069904,
+  "populationCoverage": 0.995796819153868,
+  "excludedPopulation": 4497,
+  "indexBounds": {
+    "lower": 83.08207330246319,
+    "upper": 83.50239138707639
+  },
+  "includedSettlements": 1715,
+  "medianMinutes": 4.805468899999998,
+  "p90Minutes": 21.876257400000004,
+  "overMinutesShares": {
+    "60": 0.004060420102364636,
+    "90": 9.386084379021351e-06
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 77.3776233064845
+    },
+    {
+      "threshold": 30,
+      "index": 83.43275626553849
+    },
+    {
+      "threshold": 45,
+      "index": 88.17006702538839
+    },
+    {
+      "threshold": 60,
+      "index": 90.79843757428532
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/kaluga-summary.json",
+  "sourceTimeFileSha256": "1ee47cf841076e8501b2ff435cdb07246db9a1b4062a350791a8eab8f4ad7df2",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

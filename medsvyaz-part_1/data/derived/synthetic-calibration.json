@@ -1,0 +1,11 @@
+{
+  "pilotRegions": [
+    "kaliningrad",
+    "ivanovo",
+    "pskov"
+  ],
+  "routeSampleSize": 4274,
+  "medianDetour": 1.2850314138922356,
+  "medianEffectiveSpeedKmh": 54.302162154680566,
+  "medianLargeSettlementMinutes": 22.165023999999992
+}

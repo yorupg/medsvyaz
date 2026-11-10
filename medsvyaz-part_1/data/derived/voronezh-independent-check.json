@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 79.35533300984606,
+  "legacyIndexTau60": 87.6596693638738,
+  "includedPopulation": 2306348,
+  "sourcePopulation": 2308792,
+  "populationCoverage": 0.9989414377735196,
+  "excludedPopulation": 2444,
+  "indexBounds": {
+    "lower": 79.27133045185207,
+    "upper": 79.37718667450011
+  },
+  "includedSettlements": 1435,
+  "medianMinutes": 2.6537096000000004,
+  "p90Minutes": 41.20407210000001,
+  "overMinutesShares": {
+    "60": 0.035984161973821815,
+    "90": 0.00887507002412472
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 73.3186624416691
+    },
+    {
+      "threshold": 30,
+      "index": 79.35533300984606
+    },
+    {
+      "threshold": 45,
+      "index": 84.55678141668419
+    },
+    {
+      "threshold": 60,
+      "index": 87.6596693638738
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/voronezh-summary.json",
+  "sourceTimeFileSha256": "20afeb0f9e3555a8cc709cc1e076d09654f7cdd68bc047e34197db7ff1bd7de7",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

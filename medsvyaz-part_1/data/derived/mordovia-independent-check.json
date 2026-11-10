@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 75.61126287082901,
+  "legacyIndexTau60": 85.53848143773034,
+  "includedPopulation": 781866,
+  "sourcePopulation": 783552,
+  "populationCoverage": 0.9978482602303357,
+  "excludedPopulation": 1686,
+  "indexBounds": {
+    "lower": 75.4485671094753,
+    "upper": 75.66374108644173
+  },
+  "includedSettlements": 932,
+  "medianMinutes": 4.744332,
+  "p90Minutes": 44.44761549999999,
+  "overMinutesShares": {
+    "60": 0.02960865416836133,
+    "90": 0.0014733982549439417
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 68.4054295920362
+    },
+    {
+      "threshold": 30,
+      "index": 75.61126287082901
+    },
+    {
+      "threshold": 45,
+      "index": 81.83776321425906
+    },
+    {
+      "threshold": 60,
+      "index": 85.53848143773034
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/mordovia-summary.json",
+  "sourceTimeFileSha256": "e63324dd904f075bf613784d7164ecddb073bb6847680be12cbda7642c4c72eb",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

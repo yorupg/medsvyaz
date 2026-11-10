@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 64.67048723702254,
+  "legacyIndexTau60": 75.37083151014559,
+  "includedPopulation": 265787,
+  "sourcePopulation": 267133,
+  "populationCoverage": 0.9949613114066775,
+  "excludedPopulation": 1346,
+  "indexBounds": {
+    "lower": 64.34463279065676,
+    "upper": 64.848501649989
+  },
+  "includedSettlements": 236,
+  "medianMinutes": 4.1884269000000005,
+  "p90Minutes": 104.93768039999999,
+  "overMinutesShares": {
+    "60": 0.2449254478209995,
+    "90": 0.12758712803861738
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 58.38594495053861
+    },
+    {
+      "threshold": 30,
+      "index": 64.67048723702254
+    },
+    {
+      "threshold": 45,
+      "index": 71.0025844548789
+    },
+    {
+      "threshold": 60,
+      "index": 75.37083151014559
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/kalmykia-summary.json",
+  "sourceTimeFileSha256": "a7f575fa226e7732c759ed29670497dfbca28eb63937d4e80d3868dca5474092",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 69.18348082866765,
+  "legacyIndexTau60": 82.21929188862016,
+  "includedPopulation": 904005,
+  "sourcePopulation": 904200,
+  "populationCoverage": 0.9997843397478434,
+  "excludedPopulation": 195,
+  "indexBounds": {
+    "lower": 69.16856070174707,
+    "upper": 69.19012672696273
+  },
+  "includedSettlements": 176,
+  "medianMinutes": 13.970932900000001,
+  "p90Minutes": 39.200784199999994,
+  "overMinutesShares": {
+    "60": 0.008071858009634902,
+    "90": 0.0011272061548332143
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 59.32539162900178
+    },
+    {
+      "threshold": 30,
+      "index": 69.18348082866765
+    },
+    {
+      "threshold": 45,
+      "index": 77.43984394326421
+    },
+    {
+      "threshold": 60,
+      "index": 82.21929188862016
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/kabardino-balkaria-summary.json",
+  "sourceTimeFileSha256": "d35388cc0646f7562000344a1e4b913b2adc9a3ab32a49346fc3717cfed5254a",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

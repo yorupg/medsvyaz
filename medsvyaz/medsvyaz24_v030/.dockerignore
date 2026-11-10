@@ -1,8 +1,0 @@
-node_modules/
-dist/
-.git/
-.env
-*.sqlite-shm
-*.sqlite-wal
-test-results/
-playwright-report/

@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 81.77543507033617,
+  "legacyIndexTau60": 89.51250888920673,
+  "includedPopulation": 575250,
+  "sourcePopulation": 580976,
+  "populationCoverage": 0.9901441711877943,
+  "excludedPopulation": 5726,
+  "indexBounds": {
+    "lower": 80.9694703812393,
+    "upper": 81.95505326245987
+  },
+  "includedSettlements": 1010,
+  "medianMinutes": 3.4160007,
+  "p90Minutes": 31.7585058,
+  "overMinutesShares": {
+    "60": 0.015229900043459366,
+    "90": 0.002129508909169926
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 75.71936658760269
+    },
+    {
+      "threshold": 30,
+      "index": 81.77543507033617
+    },
+    {
+      "threshold": 45,
+      "index": 86.69457569482404
+    },
+    {
+      "threshold": 60,
+      "index": 89.51250888920673
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/kostroma-summary.json",
+  "sourceTimeFileSha256": "ca6c1f460990691d77b102e0351ccd909fe89de783a81b07531b506fbfb75bed",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

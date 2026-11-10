@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 81.09968660937017,
+  "legacyIndexTau60": 88.86900899680369,
+  "includedPopulation": 1451222,
+  "sourcePopulation": 1452914,
+  "populationCoverage": 0.9988354438046574,
+  "excludedPopulation": 1692,
+  "indexBounds": {
+    "lower": 81.00524146688889,
+    "upper": 81.12169708642314
+  },
+  "includedSettlements": 1445,
+  "medianMinutes": 2.9001336999999996,
+  "p90Minutes": 37.6846522,
+  "overMinutesShares": {
+    "60": 0.019892201193201314,
+    "90": 0.0012740986561670096
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 75.38847866449328
+    },
+    {
+      "threshold": 30,
+      "index": 81.09968660937017
+    },
+    {
+      "threshold": 45,
+      "index": 85.98569541888274
+    },
+    {
+      "threshold": 60,
+      "index": 88.86900899680369
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/udmurtia-summary.json",
+  "sourceTimeFileSha256": "a2c16cdfcadb635d3da8d89cbfca0512b3995f805b2ffa74b4e7b9feae21e7e4",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

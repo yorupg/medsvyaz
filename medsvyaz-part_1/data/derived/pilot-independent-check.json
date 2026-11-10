@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "selected-public-hospital",
+  "index": 78.19858908561282,
+  "legacyIndexTau60": 87.63091816573278,
+  "includedPopulation": 1029361,
+  "sourcePopulation": 1029966,
+  "populationCoverage": 0.9994126019693854,
+  "excludedPopulation": 605,
+  "indexBounds": {
+    "lower": 78.15265538838709,
+    "upper": 78.21139519144856
+  },
+  "includedSettlements": 959,
+  "medianMinutes": 4.511483099999999,
+  "p90Minutes": 35.564303699999996,
+  "overMinutesShares": {
+    "60": 0.0012347466049325746,
+    "90": 0.0
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 70.7690083090604
+    },
+    {
+      "threshold": 30,
+      "index": 78.19858908561282
+    },
+    {
+      "threshold": 45,
+      "index": 84.21527628627335
+    },
+    {
+      "threshold": 60,
+      "index": 87.63091816573278
+    }
+  ],
+  "sourceTimeFile": "data/derived/pilot-independent-points.json",
+  "sourceTimeFileSha256": "72c8c57fd71a9fc8ff117f8199e0aead1f35ea9693a145e205218b06285d221a",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

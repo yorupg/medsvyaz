@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 77.59543480282541,
+  "legacyIndexTau60": 86.73901571731211,
+  "includedPopulation": 1099225,
+  "sourcePopulation": 1102810,
+  "populationCoverage": 0.9967492133731105,
+  "excludedPopulation": 3585,
+  "indexBounds": {
+    "lower": 77.3431886010607,
+    "upper": 77.66826726374966
+  },
+  "includedSettlements": 1598,
+  "medianMinutes": 3.0895822999999996,
+  "p90Minutes": 37.694908500000004,
+  "overMinutesShares": {
+    "60": 0.04846505492506084,
+    "90": 0.006802974823170871
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 70.82269276831207
+    },
+    {
+      "threshold": 30,
+      "index": 77.59543480282541
+    },
+    {
+      "threshold": 45,
+      "index": 83.34500754360054
+    },
+    {
+      "threshold": 60,
+      "index": 86.73901571731211
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/ryazan-summary.json",
+  "sourceTimeFileSha256": "6ca41a091952f27e2755ffc22683311d69a78ac59031b0d592ae3b0c074e180c",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

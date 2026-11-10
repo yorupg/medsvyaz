@@ -1,0 +1,38 @@
+[
+  {
+    "id": "mintrans-vologda-2021-budget",
+    "title": "Минтранс РФ: дополнительное финансирование трассы Тотьма — Никольск",
+    "publisher": "Министерство транспорта Российской Федерации",
+    "url": "https://mintrans.gov.ru/press-center/news/10033",
+    "publicationDate": "2021-09-15",
+    "retrievalDate": "2026-11-10",
+    "amountRub": 449500000,
+    "amountKind": "additional_budget_allocation",
+    "scope": "Дополнительные федеральные средства на увеличение ремонтируемого участка с 12,9 до 32,8 км в Никольском районе; цены и бюджет 2021 года.",
+    "usage": "Исторический бюджетный ориентир для обоснования сценарных предположений. Не смета выбранного OSM-way, не цена за километр и не полная цена всего проекта. Автоматически в стоимость сценария не переносится."
+  },
+  {
+    "id": "mintrans-karelia-2021-reference",
+    "title": "Минтранс РФ: ремонт 21,5 км Олонец — Питкяранта — Леппясилта",
+    "publisher": "Министерство транспорта Российской Федерации",
+    "url": "https://mintrans.gov.ru/press-center/news/10033",
+    "publicationDate": "2021-09-15",
+    "retrievalDate": "2026-11-10",
+    "amountRub": 290000000,
+    "amountKind": "lower_bound_more_than",
+    "scope": "В публикации указана стоимость более 290 млн рублей за 21,5 км ремонта; это нижняя граница в ценах 2021 года.",
+    "usage": "Справочный пример. Нельзя считать 290 млн точной ценой контракта или автоматически оценивать по этой сумме текущую модельную дорогу."
+  },
+  {
+    "id": "eib-economic-appraisal-2023",
+    "title": "EIB: The Economic Appraisal of Investment Projects, 2nd edition",
+    "publisher": "European Investment Bank",
+    "url": "https://www.eib.org/en/publications/20220169-the-economic-appraisal-of-investment-projects-at-the-eib",
+    "publicationDate": "2023-03-28",
+    "retrievalDate": "2026-11-10",
+    "amountRub": null,
+    "amountKind": "methodology",
+    "scope": "Разделение финансового результата инвестора и общественно-экономического эффекта для пользователей и общества.",
+    "usage": "Методическое пояснение; не источник ставок дисконтирования, стоимости времени или денежных потоков этого проекта."
+  }
+]

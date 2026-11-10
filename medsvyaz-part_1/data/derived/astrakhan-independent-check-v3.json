@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 78.89310593792449,
+  "legacyIndexTau60": 87.28470987812437,
+  "includedPopulation": 903197,
+  "sourcePopulation": 960142,
+  "populationCoverage": 0.9406910644467172,
+  "excludedPopulation": 56945,
+  "indexBounds": {
+    "lower": 74.21403980225382,
+    "upper": 80.14493335758209
+  },
+  "includedSettlements": 309,
+  "medianMinutes": 2.3846986999999995,
+  "p90Minutes": 44.323312600000015,
+  "overMinutesShares": {
+    "60": 0.05056482694251642,
+    "90": 0.014103235506760984
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 72.84205944463153
+    },
+    {
+      "threshold": 30,
+      "index": 78.89310593792449
+    },
+    {
+      "threshold": 45,
+      "index": 84.1363279702326
+    },
+    {
+      "threshold": 60,
+      "index": 87.28470987812437
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/astrakhan-summary.json",
+  "sourceTimeFileSha256": "68d50a38f2edcf548af3312b056b5211fb03e85eb772137dc48c06b99d07f9f8",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

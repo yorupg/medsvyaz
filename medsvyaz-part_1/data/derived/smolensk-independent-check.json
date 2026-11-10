@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 81.92056361775273,
+  "legacyIndexTau60": 89.73539531854678,
+  "includedPopulation": 881703,
+  "sourcePopulation": 888421,
+  "populationCoverage": 0.9924382696942103,
+  "excludedPopulation": 6718,
+  "indexBounds": {
+    "lower": 81.30110240917699,
+    "upper": 82.05727543975597
+  },
+  "includedSettlements": 1816,
+  "medianMinutes": 3.1604745000000003,
+  "p90Minutes": 36.01112830000001,
+  "overMinutesShares": {
+    "60": 0.004628542717899338,
+    "90": 0.00010094101982186745
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 75.75061863063421
+    },
+    {
+      "threshold": 30,
+      "index": 81.92056361775273
+    },
+    {
+      "threshold": 45,
+      "index": 86.90577739326136
+    },
+    {
+      "threshold": 60,
+      "index": 89.73539531854678
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/smolensk-summary.json",
+  "sourceTimeFileSha256": "1aefc0a8a61717ff8c1ef1a4e360a68c017f0ef9757de5e5d5c1ff95319ec7bf",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

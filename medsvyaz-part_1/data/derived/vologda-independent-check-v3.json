@@ -1,0 +1,44 @@
+{
+  "methodologyVersion": "3.0.0",
+  "tau": 30,
+  "period": "day",
+  "profile": "mapped-hospital",
+  "index": 77.61346296564241,
+  "legacyIndexTau60": 85.73123892093197,
+  "includedPopulation": 1130950,
+  "sourcePopulation": 1142827,
+  "populationCoverage": 0.9896073508938799,
+  "excludedPopulation": 11877,
+  "indexBounds": {
+    "lower": 76.80685347912963,
+    "upper": 77.84611838974165
+  },
+  "includedSettlements": 2520,
+  "medianMinutes": 3.3801320000000006,
+  "p90Minutes": 59.6799542,
+  "overMinutesShares": {
+    "60": 0.09558424333524913,
+    "90": 0.0593120827622795
+  },
+  "sensitivity": [
+    {
+      "threshold": 20,
+      "index": 72.02472154153183
+    },
+    {
+      "threshold": 30,
+      "index": 77.61346296564241
+    },
+    {
+      "threshold": 45,
+      "index": 82.60204064826736
+    },
+    {
+      "threshold": 60,
+      "index": 85.73123892093197
+    }
+  ],
+  "sourceTimeFile": "data/processed/expanded/vologda-summary.json",
+  "sourceTimeFileSha256": "d86d22adcf3241078acb2558687df68041c49ed9b1549e87ce9503ed1758e7ab",
+  "method": "Independent Python sum of population × 2**(-origin_minutes/tau); stored point scores and regional indices are not inputs"
+}

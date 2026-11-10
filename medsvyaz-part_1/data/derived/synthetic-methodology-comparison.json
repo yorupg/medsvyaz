@@ -1,0 +1,837 @@
+{
+  "synthetic": true,
+  "rows": [
+    {
+      "regionId": "moscow-oblast",
+      "name": "Московская область",
+      "synthetic": true,
+      "before": 69.62971352287329,
+      "after": 23.376982560625258,
+      "delta": -46.25273096224803,
+      "coverage": 1,
+      "medianMinutes": 96.76347164865345,
+      "p90Minutes": 221.7257023347725,
+      "overMinutesShares": {
+        "60": 0.6727272727272727,
+        "90": 0.5636363636363636
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "moscow",
+      "name": "Москва",
+      "synthetic": true,
+      "before": 63.65839664167595,
+      "after": 28.510698549130172,
+      "delta": -35.14769809254578,
+      "coverage": 1,
+      "medianMinutes": 62.52290089786747,
+      "p90Minutes": 159.20732921696379,
+      "overMinutesShares": {
+        "60": 0.5254237288135594,
+        "90": 0.3389830508474576
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "komi",
+      "name": "Республика Коми",
+      "synthetic": true,
+      "before": 65.1095527669966,
+      "after": 12.673975270304734,
+      "delta": -52.43557749669186,
+      "coverage": 1,
+      "medianMinutes": 354.2598142687945,
+      "p90Minutes": 863.7573905595552,
+      "overMinutesShares": {
+        "60": 0.8163265306122449,
+        "90": 0.8163265306122449
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "arkhangelsk",
+      "name": "Архангельская область",
+      "synthetic": true,
+      "before": 67.16510139287439,
+      "after": 15.99480809873549,
+      "delta": -51.1702932941389,
+      "coverage": 1,
+      "medianMinutes": 210.84714318043603,
+      "p90Minutes": 553.1566926269114,
+      "overMinutesShares": {
+        "60": 0.7954545454545454,
+        "90": 0.7954545454545454
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "leningrad",
+      "name": "Ленинградская область",
+      "synthetic": true,
+      "before": 71.3032793032989,
+      "after": 28.90788649630118,
+      "delta": -42.39539280699771,
+      "coverage": 1,
+      "medianMinutes": 73.39379958022144,
+      "p90Minutes": 134.8970896258901,
+      "overMinutesShares": {
+        "60": 0.723404255319149,
+        "90": 0.2765957446808511
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "saint-petersburg",
+      "name": "Санкт-Петербург",
+      "synthetic": true,
+      "before": 61.94817158896667,
+      "after": 49.84292612677877,
+      "delta": -12.105245462187902,
+      "coverage": 1,
+      "medianMinutes": 28.90046507935552,
+      "p90Minutes": 92.44607876467626,
+      "overMinutesShares": {
+        "60": 0.16666666666666666,
+        "90": 0.13333333333333333
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "nenets",
+      "name": "Ненецкий автономный округ",
+      "synthetic": true,
+      "before": 58.246025086695575,
+      "after": 15.942145893673414,
+      "delta": -42.30387919302216,
+      "coverage": 1,
+      "medianMinutes": 214.6647958828425,
+      "p90Minutes": 503.21198147834787,
+      "overMinutesShares": {
+        "60": 0.7692307692307693,
+        "90": 0.7435897435897436
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "crimea",
+      "name": "Республика Крым",
+      "synthetic": true,
+      "before": 66.84229879076166,
+      "after": 30.991787601168195,
+      "delta": -35.85051118959346,
+      "coverage": 1,
+      "medianMinutes": 57.52877331992387,
+      "p90Minutes": 103.5753383663265,
+      "overMinutesShares": {
+        "60": 0.4915254237288136,
+        "90": 0.2033898305084746
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "krasnodar",
+      "name": "Краснодарский край",
+      "synthetic": true,
+      "before": 66.31916162724742,
+      "after": 22.56899916982331,
+      "delta": -43.75016245742411,
+      "coverage": 1,
+      "medianMinutes": 81.45339291429988,
+      "p90Minutes": 189.70800623820682,
+      "overMinutesShares": {
+        "60": 0.7966101694915254,
+        "90": 0.4745762711864407
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "volgograd",
+      "name": "Волгоградская область",
+      "synthetic": true,
+      "before": 65.54844620509382,
+      "after": 20.49720702526125,
+      "delta": -45.05123917983258,
+      "coverage": 1,
+      "medianMinutes": 115.25525035139947,
+      "p90Minutes": 207.1722413294917,
+      "overMinutesShares": {
+        "60": 0.8103448275862069,
+        "90": 0.5517241379310345
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "rostov",
+      "name": "Ростовская область",
+      "synthetic": true,
+      "before": 68.36101660265561,
+      "after": 19.62019638319468,
+      "delta": -48.74082021946093,
+      "coverage": 1,
+      "medianMinutes": 122.23684698348758,
+      "p90Minutes": 327.7991844739487,
+      "overMinutesShares": {
+        "60": 0.7966101694915254,
+        "90": 0.6271186440677966
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "sevastopol",
+      "name": "Севастополь",
+      "synthetic": true,
+      "before": 62.9634410742635,
+      "after": 47.9401163212093,
+      "delta": -15.023324753054197,
+      "coverage": 1,
+      "medianMinutes": 33.73911466540282,
+      "p90Minutes": 52.54605563607534,
+      "overMinutesShares": {
+        "60": 0.07317073170731707,
+        "90": 0
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "dagestan",
+      "name": "Республика Дагестан",
+      "synthetic": true,
+      "before": 67.31264410336635,
+      "after": 15.670454929947319,
+      "delta": -51.642189173419034,
+      "coverage": 1,
+      "medianMinutes": 220.49970740204475,
+      "p90Minutes": 536.9119719129026,
+      "overMinutesShares": {
+        "60": 0.7966101694915254,
+        "90": 0.7457627118644068
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "ingushetia",
+      "name": "Республика Ингушетия",
+      "synthetic": true,
+      "before": 58.89380799320199,
+      "after": 27.063846072751172,
+      "delta": -31.829961920450817,
+      "coverage": 1,
+      "medianMinutes": 66.4594842630419,
+      "p90Minutes": 244.4705382080787,
+      "overMinutesShares": {
+        "60": 0.5625,
+        "90": 0.3958333333333333
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "karachay-cherkessia",
+      "name": "Карачаево-Черкесская Республика",
+      "synthetic": true,
+      "before": 56.073460808518206,
+      "after": 20.19013396105776,
+      "delta": -35.883326847460445,
+      "coverage": 1,
+      "medianMinutes": 81.36453229034862,
+      "p90Minutes": 181.2607453026306,
+      "overMinutesShares": {
+        "60": 0.7333333333333333,
+        "90": 0.45
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "chechnya",
+      "name": "Чеченская Республика",
+      "synthetic": true,
+      "before": 61.1134633167187,
+      "after": 19.39910357528092,
+      "delta": -41.714359741437775,
+      "coverage": 1,
+      "medianMinutes": 103.24012511426218,
+      "p90Minutes": 234.55279869642862,
+      "overMinutesShares": {
+        "60": 0.7017543859649122,
+        "90": 0.5964912280701754
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "stavropol",
+      "name": "Ставропольский край",
+      "synthetic": true,
+      "before": 68.83151296016129,
+      "after": 24.245951491005055,
+      "delta": -44.58556146915623,
+      "coverage": 1,
+      "medianMinutes": 98.82109305867195,
+      "p90Minutes": 189.34842333558072,
+      "overMinutesShares": {
+        "60": 0.6440677966101694,
+        "90": 0.5423728813559322
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "bashkortostan",
+      "name": "Республика Башкортостан",
+      "synthetic": true,
+      "before": 69.28269109310085,
+      "after": 20.85022238449892,
+      "delta": -48.43246870860193,
+      "coverage": 1,
+      "medianMinutes": 134.06255435761182,
+      "p90Minutes": 256.0278065759894,
+      "overMinutesShares": {
+        "60": 0.7777777777777778,
+        "90": 0.5925925925925926
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "tatarstan",
+      "name": "Республика Татарстан (Татарстан)",
+      "synthetic": true,
+      "before": 68.02712465515944,
+      "after": 22.471601162764955,
+      "delta": -45.555523492394485,
+      "coverage": 1,
+      "medianMinutes": 100.3679047817394,
+      "p90Minutes": 270.31977265344796,
+      "overMinutesShares": {
+        "60": 0.7413793103448276,
+        "90": 0.5172413793103449
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "perm",
+      "name": "Пермский край",
+      "synthetic": true,
+      "before": 69.12229348045032,
+      "after": 23.778445214656987,
+      "delta": -45.34384826579334,
+      "coverage": 1,
+      "medianMinutes": 89.3043384191573,
+      "p90Minutes": 260.744480652765,
+      "overMinutesShares": {
+        "60": 0.76,
+        "90": 0.5
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "kirov",
+      "name": "Кировская область",
+      "synthetic": true,
+      "before": 61.70020423160159,
+      "after": 16.305336808572832,
+      "delta": -45.39486742302876,
+      "coverage": 1,
+      "medianMinutes": 181.58003173911607,
+      "p90Minutes": 371.3313650519069,
+      "overMinutesShares": {
+        "60": 0.8235294117647058,
+        "90": 0.6764705882352942
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "nizhny-novgorod",
+      "name": "Нижегородская область",
+      "synthetic": true,
+      "before": 67.50017135723861,
+      "after": 23.565218757584997,
+      "delta": -43.93495259965361,
+      "coverage": 1,
+      "medianMinutes": 118.61019176622435,
+      "p90Minutes": 360.5063561528955,
+      "overMinutesShares": {
+        "60": 0.717391304347826,
+        "90": 0.5217391304347826
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "orenburg",
+      "name": "Оренбургская область",
+      "synthetic": true,
+      "before": 64.72531896928774,
+      "after": 17.63940537205014,
+      "delta": -47.08591359723761,
+      "coverage": 1,
+      "medianMinutes": 137.5437374667029,
+      "p90Minutes": 277.140024501464,
+      "overMinutesShares": {
+        "60": 0.8181818181818182,
+        "90": 0.6545454545454545
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "samara",
+      "name": "Самарская область",
+      "synthetic": true,
+      "before": 66.955980151363,
+      "after": 23.949384497279432,
+      "delta": -43.00659565408356,
+      "coverage": 1,
+      "medianMinutes": 97.50113225865397,
+      "p90Minutes": 216.0910183691497,
+      "overMinutesShares": {
+        "60": 0.6428571428571429,
+        "90": 0.5714285714285714
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "saratov",
+      "name": "Саратовская область",
+      "synthetic": true,
+      "before": 68.91692691451321,
+      "after": 23.529784333671063,
+      "delta": -45.38714258084215,
+      "coverage": 1,
+      "medianMinutes": 89.23958458465079,
+      "p90Minutes": 215.2549293775426,
+      "overMinutesShares": {
+        "60": 0.7692307692307693,
+        "90": 0.4807692307692308
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "kurgan",
+      "name": "Курганская область",
+      "synthetic": true,
+      "before": 60.36291616039107,
+      "after": 16.742730247178088,
+      "delta": -43.620185913212985,
+      "coverage": 1,
+      "medianMinutes": 116.37535697242186,
+      "p90Minutes": 229.497789496711,
+      "overMinutesShares": {
+        "60": 0.7924528301886793,
+        "90": 0.6226415094339622
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "sverdlovsk",
+      "name": "Свердловская область",
+      "synthetic": true,
+      "before": 68.31514923744284,
+      "after": 18.657597533617324,
+      "delta": -49.65755170382552,
+      "coverage": 1,
+      "medianMinutes": 169.4580256707136,
+      "p90Minutes": 437.80607320196606,
+      "overMinutesShares": {
+        "60": 0.7777777777777778,
+        "90": 0.7407407407407407
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "tyumen",
+      "name": "Тюменская область",
+      "synthetic": true,
+      "before": 65.38947921918545,
+      "after": 11.285958004721634,
+      "delta": -54.10352121446381,
+      "coverage": 1,
+      "medianMinutes": 155.97835592013996,
+      "p90Minutes": 386.89266461421147,
+      "overMinutesShares": {
+        "60": 0.8793103448275862,
+        "90": 0.7586206896551724
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "chelyabinsk",
+      "name": "Челябинская область",
+      "synthetic": true,
+      "before": 66.84244058237852,
+      "after": 21.874295568449842,
+      "delta": -44.96814501392868,
+      "coverage": 1,
+      "medianMinutes": 94.18084421208528,
+      "p90Minutes": 227.8977345521123,
+      "overMinutesShares": {
+        "60": 0.7719298245614035,
+        "90": 0.543859649122807
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "khanty-mansi",
+      "name": "Ханты-Мансийский автономный округ — Югра",
+      "synthetic": true,
+      "before": 67.61711834756899,
+      "after": 15.581881061420214,
+      "delta": -52.03523728614878,
+      "coverage": 1,
+      "medianMinutes": 307.1887351321095,
+      "p90Minutes": 782.8133464127728,
+      "overMinutesShares": {
+        "60": 0.7931034482758621,
+        "90": 0.7931034482758621
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "yamalo-nenets",
+      "name": "Ямало-Ненецкий автономный округ",
+      "synthetic": true,
+      "before": 57.79278198536017,
+      "after": 10.277004982725572,
+      "delta": -47.5157770026346,
+      "coverage": 1,
+      "medianMinutes": 415.91216510587344,
+      "p90Minutes": 1005.9505058088927,
+      "overMinutesShares": {
+        "60": 0.8727272727272727,
+        "90": 0.8363636363636363
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "altai-republic",
+      "name": "Республика Алтай",
+      "synthetic": true,
+      "before": 51.0951528537894,
+      "after": 11.305069107755093,
+      "delta": -39.790083746034306,
+      "coverage": 1,
+      "medianMinutes": 195.2795268723718,
+      "p90Minutes": 434.63186303472446,
+      "overMinutesShares": {
+        "60": 0.8793103448275862,
+        "90": 0.7931034482758621
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "tuva",
+      "name": "Республика Тыва",
+      "synthetic": true,
+      "before": 54.106152728588754,
+      "after": 10.731361226556114,
+      "delta": -43.374791502032636,
+      "coverage": 1,
+      "medianMinutes": 260.2665277204518,
+      "p90Minutes": 599.8934523516721,
+      "overMinutesShares": {
+        "60": 0.864406779661017,
+        "90": 0.8305084745762712
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "khakassia",
+      "name": "Республика Хакасия",
+      "synthetic": true,
+      "before": 65.523655941644,
+      "after": 21.475497010782686,
+      "delta": -44.048158930861305,
+      "coverage": 1,
+      "medianMinutes": 91.95347499411963,
+      "p90Minutes": 160.7255478854358,
+      "overMinutesShares": {
+        "60": 0.6481481481481481,
+        "90": 0.5185185185185185
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "altai-krai",
+      "name": "Алтайский край",
+      "synthetic": true,
+      "before": 67.10691043864293,
+      "after": 16.854067570434914,
+      "delta": -50.25284286820801,
+      "coverage": 1,
+      "medianMinutes": 117.2767133586489,
+      "p90Minutes": 221.36178800387293,
+      "overMinutesShares": {
+        "60": 0.8214285714285714,
+        "90": 0.6785714285714286
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "krasnoyarsk",
+      "name": "Красноярский край",
+      "synthetic": true,
+      "before": 66.80466778360446,
+      "after": 15.337792535973838,
+      "delta": -51.46687524763062,
+      "coverage": 1,
+      "medianMinutes": 1003.3168378780301,
+      "p90Minutes": 3005.4084269833,
+      "overMinutesShares": {
+        "60": 0.7894736842105263,
+        "90": 0.7894736842105263
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "irkutsk",
+      "name": "Иркутская область",
+      "synthetic": true,
+      "before": 70.1709216933691,
+      "after": 17.4409979800532,
+      "delta": -52.7299237133159,
+      "coverage": 1,
+      "medianMinutes": 156.37015234138227,
+      "p90Minutes": 863.5566509384234,
+      "overMinutesShares": {
+        "60": 0.7818181818181819,
+        "90": 0.7818181818181819
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "kemerovo",
+      "name": "Кемеровская область — Кузбасс",
+      "synthetic": true,
+      "before": 68.46929804334899,
+      "after": 23.63707292956579,
+      "delta": -44.832225113783196,
+      "coverage": 1,
+      "medianMinutes": 97.0076721388302,
+      "p90Minutes": 220.6930363195547,
+      "overMinutesShares": {
+        "60": 0.7222222222222222,
+        "90": 0.5370370370370371
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "novosibirsk",
+      "name": "Новосибирская область",
+      "synthetic": true,
+      "before": 65.84685268641111,
+      "after": 18.6675815143864,
+      "delta": -47.17927117202471,
+      "coverage": 1,
+      "medianMinutes": 143.0051756120605,
+      "p90Minutes": 258.65346090505597,
+      "overMinutesShares": {
+        "60": 0.8035714285714286,
+        "90": 0.6785714285714286
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "omsk",
+      "name": "Омская область",
+      "synthetic": true,
+      "before": 65.68237605169045,
+      "after": 12.382321376163363,
+      "delta": -53.30005467552709,
+      "coverage": 1,
+      "medianMinutes": 142.49873709901675,
+      "p90Minutes": 276.7211750626068,
+      "overMinutesShares": {
+        "60": 0.8771929824561403,
+        "90": 0.6842105263157895
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "tomsk",
+      "name": "Томская область",
+      "synthetic": true,
+      "before": 63.70209032357302,
+      "after": 11.18364009424646,
+      "delta": -52.51845022932656,
+      "coverage": 1,
+      "medianMinutes": 211.45430295289128,
+      "p90Minutes": 437.4431128926582,
+      "overMinutesShares": {
+        "60": 0.8571428571428571,
+        "90": 0.8214285714285714
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "buryatia",
+      "name": "Республика Бурятия",
+      "synthetic": true,
+      "before": 61.392542785120014,
+      "after": 12.632964389636157,
+      "delta": -48.75957839548386,
+      "coverage": 1,
+      "medianMinutes": 211.8886877261787,
+      "p90Minutes": 604.3300171695049,
+      "overMinutesShares": {
+        "60": 0.8461538461538461,
+        "90": 0.7692307692307693
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "sakha",
+      "name": "Республика Саха (Якутия)",
+      "synthetic": true,
+      "before": 62.9018836060728,
+      "after": 37.20512233182618,
+      "delta": -25.69676127424662,
+      "coverage": 1,
+      "medianMinutes": 387.30594556635947,
+      "p90Minutes": 1436.4910991230897,
+      "overMinutesShares": {
+        "60": 0.5423728813559322,
+        "90": 0.5423728813559322
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "zabaykalsky",
+      "name": "Забайкальский край",
+      "synthetic": true,
+      "before": 56.032258971481376,
+      "after": 8.016392925844793,
+      "delta": -48.015866045636585,
+      "coverage": 1,
+      "medianMinutes": 289.92764387237924,
+      "p90Minutes": 608.450109461991,
+      "overMinutesShares": {
+        "60": 0.9107142857142857,
+        "90": 0.9107142857142857
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "kamchatka",
+      "name": "Камчатский край",
+      "synthetic": true,
+      "before": 61.88728575736807,
+      "after": 18.993856801268162,
+      "delta": -42.89342895609991,
+      "coverage": 1,
+      "medianMinutes": 425.6996582352034,
+      "p90Minutes": 1142.4195926203117,
+      "overMinutesShares": {
+        "60": 0.75,
+        "90": 0.7
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "primorye",
+      "name": "Приморский край",
+      "synthetic": true,
+      "before": 67.79291647567537,
+      "after": 18.74174246359295,
+      "delta": -49.05117401208242,
+      "coverage": 1,
+      "medianMinutes": 149.3987190226468,
+      "p90Minutes": 449.62389523580885,
+      "overMinutesShares": {
+        "60": 0.7719298245614035,
+        "90": 0.6666666666666666
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "khabarovsk",
+      "name": "Хабаровский край",
+      "synthetic": true,
+      "before": 61.856532020911,
+      "after": 8.027087414976238,
+      "delta": -53.82944460593476,
+      "coverage": 1,
+      "medianMinutes": 378.8030423809515,
+      "p90Minutes": 2623.2817455291683,
+      "overMinutesShares": {
+        "60": 0.8888888888888888,
+        "90": 0.8703703703703703
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "amur",
+      "name": "Амурская область",
+      "synthetic": true,
+      "before": 57.32306241579751,
+      "after": 10.162297271593502,
+      "delta": -47.16076514420401,
+      "coverage": 1,
+      "medianMinutes": 231.44487573180976,
+      "p90Minutes": 460.31781674674767,
+      "overMinutesShares": {
+        "60": 0.875,
+        "90": 0.8035714285714286
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "magadan",
+      "name": "Магаданская область",
+      "synthetic": true,
+      "before": 56.26942424979095,
+      "after": 9.900636924990016,
+      "delta": -46.368787324800934,
+      "coverage": 1,
+      "medianMinutes": 210.12132895205076,
+      "p90Minutes": 529.9831336375328,
+      "overMinutesShares": {
+        "60": 0.8913043478260869,
+        "90": 0.8043478260869565
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "sakhalin",
+      "name": "Сахалинская область",
+      "synthetic": true,
+      "before": 55.32851020464511,
+      "after": 21.581274876994154,
+      "delta": -33.747235327650955,
+      "coverage": 1,
+      "medianMinutes": 197.42348929165198,
+      "p90Minutes": 529.880557060534,
+      "overMinutesShares": {
+        "60": 0.6792452830188679,
+        "90": 0.6037735849056604
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "jewish-autonomous",
+      "name": "Еврейская автономная область",
+      "synthetic": true,
+      "before": 60.26205183958951,
+      "after": 28.277778302831685,
+      "delta": -31.984273536757826,
+      "coverage": 1,
+      "medianMinutes": 67.45893130254535,
+      "p90Minutes": 114.17139905115557,
+      "overMinutesShares": {
+        "60": 0.6071428571428571,
+        "90": 0.32142857142857145
+      },
+      "facilityEvidence": "synthetic"
+    },
+    {
+      "regionId": "chukotka",
+      "name": "Чукотский автономный округ",
+      "synthetic": true,
+      "before": 62.83691471100485,
+      "after": 29.878004432101484,
+      "delta": -32.95891027890337,
+      "coverage": 1,
+      "medianMinutes": 133.89181908294907,
+      "p90Minutes": 510.93389942218903,
+      "overMinutesShares": {
+        "60": 0.6444444444444445,
+        "90": 0.5555555555555556
+      },
+      "facilityEvidence": "synthetic"
+    }
+  ]
+}

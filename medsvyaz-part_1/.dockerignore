@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.git/
+.env
+*.sqlite-shm
+*.sqlite-wal
+test-results/
+playwright-report/
+submission/
+.DS_Store
+.openai/
+data/raw/
+data/processed/kaliningrad-pilot.json
+data/processed/ivanovo-pilot.json
+data/processed/pskov-pilot.json
+data/processed/expanded/catalogue.json

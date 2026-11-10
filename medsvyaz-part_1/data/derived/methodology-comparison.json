@@ -1,0 +1,542 @@
+{
+  "before": {
+    "version": "3.0.0",
+    "weighting": "population",
+    "tau": 30
+  },
+  "after": {
+    "version": "4.0.0",
+    "weighting": "settlement",
+    "tau": 30
+  },
+  "rows": [
+    {
+      "regionId": "kaliningrad",
+      "name": "Калининградская область",
+      "synthetic": false,
+      "before": 78.1985890856128,
+      "after": 53.764467548084085,
+      "delta": -24.43412153752871,
+      "coverage": 0.9948132780082988,
+      "medianMinutes": 27.4170589,
+      "p90Minutes": 48.045846199999986,
+      "overMinutesShares": {
+        "60": 0.0072992700729927005,
+        "90": 0
+      },
+      "facilityEvidence": "official-source"
+    },
+    {
+      "regionId": "ivanovo",
+      "name": "Ивановская область",
+      "synthetic": false,
+      "before": 60.84892707611758,
+      "after": 37.91909147681426,
+      "delta": -22.929835599303324,
+      "coverage": 0.9896988906497622,
+      "medianMinutes": 45.64962659999998,
+      "p90Minutes": 79.2602072,
+      "overMinutesShares": {
+        "60": 0.2578062449959968,
+        "90": 0.06164931945556445
+      },
+      "facilityEvidence": "official-source"
+    },
+    {
+      "regionId": "pskov",
+      "name": "Псковская область",
+      "synthetic": false,
+      "before": 62.88395710254971,
+      "after": 29.98489657140793,
+      "delta": -32.89906053114178,
+      "coverage": 0.990710636321412,
+      "medianMinutes": 63.12022819999997,
+      "p90Minutes": 116.73437599999991,
+      "overMinutesShares": {
+        "60": 0.5218002812939522,
+        "90": 0.293483356774496
+      },
+      "facilityEvidence": "official-source"
+    },
+    {
+      "regionId": "adygea",
+      "name": "Республика Адыгея (Адыгея)",
+      "synthetic": false,
+      "before": 80.38220965243735,
+      "after": 63.81767539253567,
+      "delta": -16.564534259901684,
+      "coverage": 1,
+      "medianMinutes": 19.025162899999998,
+      "p90Minutes": 35.2085854,
+      "overMinutesShares": {
+        "60": 0.009174311926605505,
+        "90": 0
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "astrakhan",
+      "name": "Астраханская область",
+      "synthetic": false,
+      "before": 78.89310593792447,
+      "after": 44.948187430469396,
+      "delta": -33.94491850745508,
+      "coverage": 0.7822784810126582,
+      "medianMinutes": 38.92571500000002,
+      "p90Minutes": 78.02482350000002,
+      "overMinutesShares": {
+        "60": 0.23948220064724918,
+        "90": 0.04854368932038835
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "belgorod",
+      "name": "Белгородская область",
+      "synthetic": false,
+      "before": 79.35770100081272,
+      "after": 52.47627261742854,
+      "delta": -26.881428383384183,
+      "coverage": 0.9948755490483162,
+      "medianMinutes": 28.677353300000014,
+      "p90Minutes": 48.841498,
+      "overMinutesShares": {
+        "60": 0.022810890360559236,
+        "90": 0
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "bryansk",
+      "name": "Брянская область",
+      "synthetic": false,
+      "before": 69.45781479668031,
+      "after": 47.75441784339263,
+      "delta": -21.70339695328768,
+      "coverage": 0.9934469200524246,
+      "medianMinutes": 33.4936741,
+      "p90Minutes": 59.49546800000001,
+      "overMinutesShares": {
+        "60": 0.09696569920844327,
+        "90": 0.011213720316622692
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "chuvashia",
+      "name": "Чувашская Республика — Чувашия",
+      "synthetic": false,
+      "before": 75.4004341222354,
+      "after": 52.2502775081073,
+      "delta": -23.150156614128093,
+      "coverage": 0.9969604863221885,
+      "medianMinutes": 27.862194800000005,
+      "p90Minutes": 53.21069799999999,
+      "overMinutesShares": {
+        "60": 0.06524390243902439,
+        "90": 0.01402439024390244
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "kabardino-balkaria",
+      "name": "Кабардино-Балкарская Республика",
+      "synthetic": false,
+      "before": 69.18348082866765,
+      "after": 56.01219167573902,
+      "delta": -13.171289152928637,
+      "coverage": 0.9943502824858758,
+      "medianMinutes": 24.929993500000005,
+      "p90Minutes": 48.494003799999994,
+      "overMinutesShares": {
+        "60": 0.045454545454545456,
+        "90": 0.011363636363636364
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "kalmykia",
+      "name": "Республика Калмыкия",
+      "synthetic": false,
+      "before": 64.67048723702254,
+      "after": 27.257592951814622,
+      "delta": -37.41289428520792,
+      "coverage": 0.959349593495935,
+      "medianMinutes": 69.3485625,
+      "p90Minutes": 161.03686790000006,
+      "overMinutesShares": {
+        "60": 0.5720338983050848,
+        "90": 0.4025423728813559
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "kaluga",
+      "name": "Калужская область",
+      "synthetic": false,
+      "before": 83.43275626553847,
+      "after": 58.15200585422629,
+      "delta": -25.280750411312184,
+      "coverage": 0.9896133871898442,
+      "medianMinutes": 22.5688289,
+      "p90Minutes": 44.3449082,
+      "overMinutesShares": {
+        "60": 0.02040816326530612,
+        "90": 0.0005830903790087463
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "karelia",
+      "name": "Республика Карелия",
+      "synthetic": false,
+      "before": 75.38829509646452,
+      "after": 34.182541867837166,
+      "delta": -41.20575322862735,
+      "coverage": 0.9798387096774194,
+      "medianMinutes": 55.16156060000001,
+      "p90Minutes": 139.84765779999998,
+      "overMinutesShares": {
+        "60": 0.4670781893004115,
+        "90": 0.2613168724279835
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "kostroma",
+      "name": "Костромская область",
+      "synthetic": false,
+      "before": 81.77543507033613,
+      "after": 54.069856299654056,
+      "delta": -27.705578770682074,
+      "coverage": 0.9853658536585366,
+      "medianMinutes": 25.7513799,
+      "p90Minutes": 62.59675729999997,
+      "overMinutesShares": {
+        "60": 0.10891089108910891,
+        "90": 0.019801980198019802
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "kursk",
+      "name": "Курская область",
+      "synthetic": false,
+      "before": 82.68972698989674,
+      "after": 56.940319766334454,
+      "delta": -25.749407223562287,
+      "coverage": 0.9849246231155779,
+      "medianMinutes": 24.775335999999996,
+      "p90Minutes": 44.06805919999999,
+      "overMinutesShares": {
+        "60": 0.017857142857142856,
+        "90": 0
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "lipetsk",
+      "name": "Липецкая область",
+      "synthetic": false,
+      "before": 79.6969325666383,
+      "after": 49.591339311281395,
+      "delta": -30.1055932553569,
+      "coverage": 0.9934479934479934,
+      "medianMinutes": 31.720179,
+      "p90Minutes": 55.34685399999999,
+      "overMinutesShares": {
+        "60": 0.06924979389942292,
+        "90": 0
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "mari-el",
+      "name": "Республика Марий Эл",
+      "synthetic": false,
+      "before": 75.18316429627154,
+      "after": 43.07585051204641,
+      "delta": -32.107313784225134,
+      "coverage": 0.8259842519685039,
+      "medianMinutes": 38.0575087,
+      "p90Minutes": 82.46639689999998,
+      "overMinutesShares": {
+        "60": 0.25452812202097236,
+        "90": 0.06482364156339371
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "mordovia",
+      "name": "Республика Мордовия",
+      "synthetic": false,
+      "before": 75.611262870829,
+      "after": 49.65785489739193,
+      "delta": -25.953407973437066,
+      "coverage": 0.9914893617021276,
+      "medianMinutes": 31.143381599999994,
+      "p90Minutes": 60.30121159999999,
+      "overMinutesShares": {
+        "60": 0.10300429184549356,
+        "90": 0.0075107296137339056
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "murmansk",
+      "name": "Мурманская область",
+      "synthetic": false,
+      "before": 86.04811680020678,
+      "after": 55.217894659034236,
+      "delta": -30.83022214117255,
+      "coverage": 0.9117647058823529,
+      "medianMinutes": 22.991379799999997,
+      "p90Minutes": 117.32260379999998,
+      "overMinutesShares": {
+        "60": 0.1935483870967742,
+        "90": 0.15053763440860216
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "north-ossetia-alania",
+      "name": "Республика Северная Осетия — Алания",
+      "synthetic": false,
+      "before": 82.21284018924959,
+      "after": 51.2414085062455,
+      "delta": -30.97143168300409,
+      "coverage": 0.9945054945054945,
+      "medianMinutes": 24.980576800000005,
+      "p90Minutes": 79.63101119999999,
+      "overMinutesShares": {
+        "60": 0.20994475138121546,
+        "90": 0.09944751381215469
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "novgorod",
+      "name": "Новгородская область",
+      "synthetic": false,
+      "before": 76.63715451499665,
+      "after": 48.871943005661066,
+      "delta": -27.765211509335586,
+      "coverage": 0.9947129909365559,
+      "medianMinutes": 33.1145332,
+      "p90Minutes": 60.90337610000001,
+      "overMinutesShares": {
+        "60": 0.10782080485952923,
+        "90": 0.009111617312072893
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "oryol",
+      "name": "Орловская область",
+      "synthetic": false,
+      "before": 75.82717388682758,
+      "after": 52.020373867328885,
+      "delta": -23.806800019498695,
+      "coverage": 0.9819121447028424,
+      "medianMinutes": 28.437077,
+      "p90Minutes": 56.2407611,
+      "overMinutesShares": {
+        "60": 0.0756578947368421,
+        "90": 0.001973684210526316
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "penza",
+      "name": "Пензенская область",
+      "synthetic": false,
+      "before": 79.70996792744586,
+      "after": 48.45958781125695,
+      "delta": -31.250380116188907,
+      "coverage": 0.9943661971830986,
+      "medianMinutes": 31.296453700000004,
+      "p90Minutes": 63.923290300000005,
+      "overMinutesShares": {
+        "60": 0.11898016997167139,
+        "90": 0.023607176581680833
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "ryazan",
+      "name": "Рязанская область",
+      "synthetic": false,
+      "before": 77.59543480282544,
+      "after": 50.066995330151464,
+      "delta": -27.528439472673973,
+      "coverage": 0.9833846153846154,
+      "medianMinutes": 29.231265100000005,
+      "p90Minutes": 68.89517669999995,
+      "overMinutesShares": {
+        "60": 0.1520650813516896,
+        "90": 0.040675844806007506
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "smolensk",
+      "name": "Смоленская область",
+      "synthetic": false,
+      "before": 81.92056361775273,
+      "after": 56.35076216614061,
+      "delta": -25.569801451612122,
+      "coverage": 0.9950684931506849,
+      "medianMinutes": 24.414665700000004,
+      "p90Minutes": 48.159166299999995,
+      "overMinutesShares": {
+        "60": 0.03248898678414097,
+        "90": 0.0005506607929515419
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "tambov",
+      "name": "Тамбовская область",
+      "synthetic": false,
+      "before": 67.80706044014384,
+      "after": 35.017083094948134,
+      "delta": -32.78997734519571,
+      "coverage": 0.9900249376558603,
+      "medianMinutes": 51.4706278,
+      "p90Minutes": 100.7656664,
+      "overMinutesShares": {
+        "60": 0.42065491183879095,
+        "90": 0.1570109151973132
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "tula",
+      "name": "Тульская область",
+      "synthetic": false,
+      "before": 75.24792222117419,
+      "after": 51.0226552026783,
+      "delta": -24.22526701849589,
+      "coverage": 0.9557961208840776,
+      "medianMinutes": 28.038271599999995,
+      "p90Minutes": 65.6634465,
+      "overMinutesShares": {
+        "60": 0.13308164228409627,
+        "90": 0.009438414346389807
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "tver",
+      "name": "Тверская область",
+      "synthetic": false,
+      "before": 82.87392950486726,
+      "after": 51.87029317617228,
+      "delta": -31.00363632869498,
+      "coverage": 0.9854900799526207,
+      "medianMinutes": 28.4240923,
+      "p90Minutes": 60.72125940000001,
+      "overMinutesShares": {
+        "60": 0.10426682692307693,
+        "90": 0.021033653846153848
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "udmurtia",
+      "name": "Удмуртская Республика",
+      "synthetic": false,
+      "before": 81.0996866093702,
+      "after": 45.99084619114427,
+      "delta": -35.108840418225924,
+      "coverage": 0.996551724137931,
+      "medianMinutes": 34.84925470000001,
+      "p90Minutes": 69.3548682,
+      "overMinutesShares": {
+        "60": 0.16124567474048443,
+        "90": 0.01591695501730104
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "ulyanovsk",
+      "name": "Ульяновская область",
+      "synthetic": false,
+      "before": 80.48367443204029,
+      "after": 50.29139982099225,
+      "delta": -30.192274611048042,
+      "coverage": 1,
+      "medianMinutes": 30.2242806,
+      "p90Minutes": 61.299394400000004,
+      "overMinutesShares": {
+        "60": 0.10602409638554217,
+        "90": 0.0024096385542168677
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "vladimir",
+      "name": "Владимирская область",
+      "synthetic": false,
+      "before": 74.19196847166259,
+      "after": 51.01374197610256,
+      "delta": -23.178226495560033,
+      "coverage": 0.9891631547260686,
+      "medianMinutes": 29.50172760000002,
+      "p90Minutes": 54.72033329999999,
+      "overMinutesShares": {
+        "60": 0.06451612903225806,
+        "90": 0.005477784540474742
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "vologda",
+      "name": "Вологодская область",
+      "synthetic": false,
+      "before": 77.61346296564241,
+      "after": 39.388072735402915,
+      "delta": -38.2253902302395,
+      "coverage": 0.9960474308300395,
+      "medianMinutes": 43.7064665,
+      "p90Minutes": 104.63905189999998,
+      "overMinutesShares": {
+        "60": 0.3496031746031746,
+        "90": 0.16626984126984126
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "voronezh",
+      "name": "Воронежская область",
+      "synthetic": false,
+      "before": 79.35533300984602,
+      "after": 45.290033223369996,
+      "delta": -34.065299786476025,
+      "coverage": 0.9951456310679612,
+      "medianMinutes": 36.412449200000005,
+      "p90Minutes": 71.01777560000002,
+      "overMinutesShares": {
+        "60": 0.1735191637630662,
+        "90": 0.04390243902439024
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    },
+    {
+      "regionId": "yaroslavl",
+      "name": "Ярославская область",
+      "synthetic": false,
+      "before": 82.32682563778177,
+      "after": 54.38313579235381,
+      "delta": -27.943689845427954,
+      "coverage": 0.9929789368104313,
+      "medianMinutes": 26.5120108,
+      "p90Minutes": 53.675416,
+      "overMinutesShares": {
+        "60": 0.05101010101010101,
+        "90": 0.000505050505050505
+      },
+      "facilityEvidence": "osm-unverified-profile"
+    }
+  ]
+}

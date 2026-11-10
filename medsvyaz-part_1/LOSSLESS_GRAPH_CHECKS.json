@@ -1,0 +1,255 @@
+{
+  "codec": "Brotli lossless, native Node.js support",
+  "allGraphsVerified": true,
+  "graphs": [
+    {
+      "originalGzip": 4447606,
+      "compressed": 3033771,
+      "rawSha256": "93d6d3fe0b470ecef1ee76a086cc2d2d653bc1fef41bed00d21581fd4736bb82",
+      "source": "data/processed/expanded/adygea.json.gz",
+      "target": "data/processed/expanded/adygea.json.br"
+    },
+    {
+      "originalGzip": 4906547,
+      "compressed": 3337821,
+      "rawSha256": "ce6065bfc5de3c8c627e81812de5fc5d3812d536b58a4142d38a95ac99ddf71e",
+      "source": "data/processed/expanded/astrakhan.json.gz",
+      "target": "data/processed/expanded/astrakhan.json.br"
+    },
+    {
+      "originalGzip": 9092181,
+      "compressed": 6212580,
+      "rawSha256": "fc0640517001d259723cea5ac64f8a568af8388fccf46f8ed3e9253aa3f795d6",
+      "source": "data/processed/expanded/belgorod.json.gz",
+      "target": "data/processed/expanded/belgorod.json.br"
+    },
+    {
+      "originalGzip": 8377530,
+      "compressed": 5706043,
+      "rawSha256": "8b10257d719d4fb220d059531779994af65519e0cda3b0c99e2e0c6c24ad57e3",
+      "source": "data/processed/expanded/bryansk.json.gz",
+      "target": "data/processed/expanded/bryansk.json.br"
+    },
+    {
+      "originalGzip": 7873366,
+      "compressed": 5429865,
+      "rawSha256": "35d4f3c908482dbfc5bf2d941615cfe284c7dfe9596c59222ed51d3641bbc95a",
+      "source": "data/processed/expanded/chuvashia.json.gz",
+      "target": "data/processed/expanded/chuvashia.json.br"
+    },
+    {
+      "originalGzip": 3433148,
+      "compressed": 2307878,
+      "rawSha256": "9ec67916ff9e728ea0ce6d35e1e270d6ca77512f367f5d9ac377a302c17a8ea1",
+      "source": "data/processed/expanded/kabardino-balkaria.json.gz",
+      "target": "data/processed/expanded/kabardino-balkaria.json.br"
+    },
+    {
+      "originalGzip": 1625855,
+      "compressed": 1090056,
+      "rawSha256": "9596b1506298c643700ff0337fc12a0bb10b630bdcbac3b756ee785c96dc2cfb",
+      "source": "data/processed/expanded/kalmykia.json.gz",
+      "target": "data/processed/expanded/kalmykia.json.br"
+    },
+    {
+      "originalGzip": 10200615,
+      "compressed": 6983432,
+      "rawSha256": "57e784de78096a7c9f42138a88908d3b860c0eef752061d08fef730d3e1d6b5a",
+      "source": "data/processed/expanded/kaluga.json.gz",
+      "target": "data/processed/expanded/kaluga.json.br"
+    },
+    {
+      "originalGzip": 7754517,
+      "compressed": 5206415,
+      "rawSha256": "9bc3b3e6bf001d65936057e6b363c799f39df4a9bb9d8fab4e08e15428a6c565",
+      "source": "data/processed/expanded/karelia.json.gz",
+      "target": "data/processed/expanded/karelia.json.br"
+    },
+    {
+      "originalGzip": 5350222,
+      "compressed": 3636891,
+      "rawSha256": "6975371cfa7c2562dc0d896158f09eef81dd834f78d8993f0d5e0e1935e9e5f7",
+      "source": "data/processed/expanded/kostroma.json.gz",
+      "target": "data/processed/expanded/kostroma.json.br"
+    },
+    {
+      "originalGzip": 10088646,
+      "compressed": 6883175,
+      "rawSha256": "778a15f5fdd65a9d7f02f1b36b1cad51a129aa0160f29a66d0a737d977f5bbcd",
+      "source": "data/processed/expanded/kursk.json.gz",
+      "target": "data/processed/expanded/kursk.json.br"
+    },
+    {
+      "originalGzip": 8637254,
+      "compressed": 5929982,
+      "rawSha256": "36cc713ae943da3ac58c159133ebaf2cd6dfbf0d6b0ae73941f76fed45d8eb8c",
+      "source": "data/processed/expanded/lipetsk.json.gz",
+      "target": "data/processed/expanded/lipetsk.json.br"
+    },
+    {
+      "originalGzip": 5115949,
+      "compressed": 3496490,
+      "rawSha256": "2a83b4db4853f99acea28fb0842a7a4569adad5790af6dd3982be905505eeb91",
+      "source": "data/processed/expanded/mari-el.json.gz",
+      "target": "data/processed/expanded/mari-el.json.br"
+    },
+    {
+      "originalGzip": 5175705,
+      "compressed": 3521975,
+      "rawSha256": "e873c6c68e1800778e092e0fdb606dc4e13e69f152f24051e0d47499c086fc53",
+      "source": "data/processed/expanded/mordovia.json.gz",
+      "target": "data/processed/expanded/mordovia.json.br"
+    },
+    {
+      "originalGzip": 4718297,
+      "compressed": 3180818,
+      "rawSha256": "4c546b67842673dd88d6ed21065c9a2f9c1dc6452566805f857b0ae32bac9b58",
+      "source": "data/processed/expanded/murmansk.json.gz",
+      "target": "data/processed/expanded/murmansk.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 2546470,
+      "compressed": 2288353,
+      "rawSha256": "119126873de476fa8da9d1397ebfa50b6434da7baced6e06c8a4d3a6d7dac1f9",
+      "source": "data/processed/expanded/north-ossetia-alania.json.gz",
+      "target": "data/processed/expanded/north-ossetia-alania.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 6123833,
+      "compressed": 5709076,
+      "rawSha256": "7a44243fcf7d0286c0324d0e4a17475162d261b742b4aa4421d9d45112c6437e",
+      "source": "data/processed/expanded/novgorod.json.gz",
+      "target": "data/processed/expanded/novgorod.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 6165796,
+      "compressed": 5799820,
+      "rawSha256": "b0ce9488ea778a11d5b4006c9ab84fe847c0e074f52a279fa6f1ffe2259db570",
+      "source": "data/processed/expanded/oryol.json.gz",
+      "target": "data/processed/expanded/oryol.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 7665764,
+      "compressed": 7168317,
+      "rawSha256": "16e776bcf614226f61be25364ec21ee2a18c5217ee8a261facf2c9d3491c6307",
+      "source": "data/processed/expanded/penza.json.gz",
+      "target": "data/processed/expanded/penza.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 7354863,
+      "compressed": 6854621,
+      "rawSha256": "b6edd8cd11c6c4b6307125b612c7dcff1ab0b0635c440e41fd0f2d4e047a67f2",
+      "source": "data/processed/expanded/ryazan.json.gz",
+      "target": "data/processed/expanded/ryazan.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 8376854,
+      "compressed": 7880271,
+      "rawSha256": "40d2417ad8f3a3110e04ec15dd3245417a052adbbc2a658c849121321502efac",
+      "source": "data/processed/expanded/smolensk.json.gz",
+      "target": "data/processed/expanded/smolensk.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 7518026,
+      "compressed": 7056339,
+      "rawSha256": "bf5e88d43bb314a7acf0be9ce866859e5c800f06a49bfcdaae03096c21d879da",
+      "source": "data/processed/expanded/tambov.json.gz",
+      "target": "data/processed/expanded/tambov.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 9271555,
+      "compressed": 8710047,
+      "rawSha256": "7952114ccdcdf42074e358455358368dfc1b5608318da968ddff4ea75e620291",
+      "source": "data/processed/expanded/tula.json.gz",
+      "target": "data/processed/expanded/tula.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 14760976,
+      "compressed": 13944064,
+      "rawSha256": "aefe8efd64a6e2c5584d138374a35965743f72e6ad694a71cf65898ae652b50c",
+      "source": "data/processed/expanded/tver.json.gz",
+      "target": "data/processed/expanded/tver.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 9886549,
+      "compressed": 9195677,
+      "rawSha256": "15387856591d4edf7cb99f8f01d6b49d7025a2b222aab0b359e4acaf5f538e88",
+      "source": "data/processed/expanded/udmurtia.json.gz",
+      "target": "data/processed/expanded/udmurtia.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 10520109,
+      "compressed": 9858884,
+      "rawSha256": "c8c489bfda14ecfc01d55d8b82994488842d286129cd86f8539967bd19dd242e",
+      "source": "data/processed/expanded/ulyanovsk.json.gz",
+      "target": "data/processed/expanded/ulyanovsk.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 10704048,
+      "compressed": 9959991,
+      "rawSha256": "0ed6e5ba692ef74a3a0752a3ddae114fd8e92208285eca4c10308872256c72f4",
+      "source": "data/processed/expanded/vladimir.json.gz",
+      "target": "data/processed/expanded/vladimir.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 11803505,
+      "compressed": 11175229,
+      "rawSha256": "e7e18275711ce8c122e0c6fc53d4ebbaac9992c47838bb7893fbff6cce321678",
+      "source": "data/processed/expanded/vologda.json.gz",
+      "target": "data/processed/expanded/vologda.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 13271416,
+      "compressed": 12394372,
+      "rawSha256": "f10f8af65f0e04332ca354e27e61d3b29baf33f1ba793b6d043d6f44ad229269",
+      "source": "data/processed/expanded/voronezh.json.gz",
+      "target": "data/processed/expanded/voronezh.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 10321816,
+      "compressed": 9711432,
+      "rawSha256": "fd7297667b658909e4522e1fe6721846b6ff9902e1742dcfa41137f78b5f52af",
+      "source": "data/processed/expanded/yaroslavl.json.gz",
+      "target": "data/processed/expanded/yaroslavl.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 6072861,
+      "compressed": 5833174,
+      "rawSha256": "90ffb321d04ce23f8a206a8aefc59e8e6fe4c99b615b37ac3e11f6cbc8b20978",
+      "source": "data/processed/ivanovo-pilot.json.gz",
+      "target": "data/processed/ivanovo-pilot.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 6064634,
+      "compressed": 5776170,
+      "rawSha256": "949bfad6afb60f3614e401a57feab8078503a0dd97bdcdebac0b754ef59c3155",
+      "source": "data/processed/kaliningrad-pilot.json.gz",
+      "target": "data/processed/kaliningrad-pilot.json.br"
+    },
+    {
+      "quality": 9,
+      "originalGzip": 9297514,
+      "compressed": 9087800,
+      "rawSha256": "22f6d7219b643fb0cc7ac43d24a9aa148cf35021577d0404e20ed50c783f545e",
+      "source": "data/processed/pskov-pilot.json.gz",
+      "target": "data/processed/pskov-pilot.json.br"
+    }
+  ]
+}
