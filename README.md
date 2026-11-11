@@ -101,27 +101,8 @@ docker compose -p medsvyaz24-lite logs --tail=100 web
 
 ---
 
-## 📚 Материалы для преподавателей и жюри
-
-Все перечисленные материалы лежат в папке [`jury_materials`](jury_materials/) и доступны без запуска сайта.
-
-| Материал | Посмотреть |
-|---|---|
-| Презентация интерфейса и работы сайта | [PDF](jury_materials/00_Презентация_интерфейса_для_жюри.pdf) · [PPTX](jury_materials/00_Презентация_интерфейса_для_жюри.pptx) |
-| Паспорт проекта и практическая ценность | [PDF](jury_materials/01_Паспорт_и_ценность.pdf) |
-| Формула, логика и ограничения индекса | [PDF](jury_materials/02_Методика_и_расчет_индекса.pdf) |
-| Датасеты, происхождение и качество данных | [PDF](jury_materials/03_Датасеты_и_источники.pdf) |
-| Экономика, затраты, NPV и окупаемость | [PDF](jury_materials/04_Экономика_окупаемость.pdf) |
-| Аналогичные подходы в других странах | [PDF](jury_materials/05_Зарубежный_опыт.pdf) |
-| Возможные решения на основе индекса | [PDF](jury_materials/06_Решения_по_индексу.pdf) |
-| Матрица рисков и безопасность проектов | [PDF](jury_materials/07_Риски_и_безопасность.pdf) |
-| Воспроизводимость расчётов и проверки | [PDF](jury_materials/08_Воспроизводимость_тесты.pdf) |
-
-
----
-
 ### 📦 **[СКАЧАТЬ ПОЛНЫЙ ПРОЕКТ ОДНИМ ZIP (≈ 228 МБ)](https://github.com/yorupg/medsvyaz/releases/download/v5.0-final/MedSvyaz24_FULL_FINAL.zip)**
 
-**[Google Drive — альтернативный доступ к материалам](https://drive.google.com/drive/folders/1D5UZqbgkR8K_rqdtr2DUe6ZbP72rQ-vJ?usp=drive_link)**
+**[Google Drive — материалы](https://drive.google.com/drive/folders/1D5UZqbgkR8K_rqdtr2DUe6ZbP72rQ-vJ?usp=drive_link)**
 
 *Команда HTTPS · МАИ · кейс A2 · 2026*
