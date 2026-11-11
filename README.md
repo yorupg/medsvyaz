@@ -1,6 +1,19 @@
 
 # 🏥 МедСвязь 24/7
 
+
+<div align="center">
+
+### 👇 Главное для экспертизы
+
+**[📦 СКАЧАТЬ ПОЛНЫЙ ПРОЕКТ v5.1](https://github.com/yorupg/medsvyaz/releases/download/v5.1/MedSvyaz24_FULL_v5_1.zip)**  
+**[🎞️ ОТКРЫТЬ ПРЕЗЕНТАЦИЮ САЙТА](jury_materials/00_Презентация_интерфейса_для_жюри.pdf)**  
+**[📁 GOOGLE DRIVE — ВСЕ МАТЕРИАЛЫ](https://drive.google.com/drive/folders/1D5UZqbgkR8K_rqdtr2DUe6ZbP72rQ-vJ?usp=drive_link)**
+
+**Команда HTTPS · Московский авиационный институт · Кейс A2**
+
+</div>
+
 ### От транспортных данных — к решениям, улучшающим доступность медицинской помощи
 
 **Интерактивная аналитическая система · команда HTTPS · МАИ · кейс A2 «Индекс транспортной связанности»**
@@ -163,14 +176,3 @@ docker compose -p medsvyaz24-full logs --tail=100 web
 
 ---
 
-<div align="center">
-
-### 👇 Главное для экспертизы
-
-**[📦 СКАЧАТЬ ПОЛНЫЙ ПРОЕКТ v5.1](https://github.com/yorupg/medsvyaz/releases/download/v5.1/MedSvyaz24_FULL_v5_1.zip)**  
-**[🎞️ ОТКРЫТЬ ПРЕЗЕНТАЦИЮ САЙТА](jury_materials/00_Презентация_интерфейса_для_жюри.pdf)**  
-**[📁 GOOGLE DRIVE — ВСЕ МАТЕРИАЛЫ](https://drive.google.com/drive/folders/1D5UZqbgkR8K_rqdtr2DUe6ZbP72rQ-vJ?usp=drive_link)**
-
-**Команда HTTPS · Московский авиационный институт · Кейс A2**
-
-</div>
