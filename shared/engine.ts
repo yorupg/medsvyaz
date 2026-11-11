@@ -1,4 +1,6 @@
+import {z} from 'zod';
 import roadCorridors from '../data/planning/approved-road-corridors.json';
+import preliminaryRoadCandidates from '../data/planning/algorithmic-road-candidates.json';
 import {CalculationSchema, DatasetSchema, METHODOLOGY, type CalculationOptions, type Dataset, type IndexResult, type PointResult} from './schema';
 
 /** Min-heap makes multi-source Dijkstra O((V+E) log V), not O(V²). */
@@ -179,6 +181,94 @@ export type ScreenedRoadCorridor={
  landRights:boolean;terrainAndSafety:boolean;municipalPlan:boolean;sourceUrls:string[]};
 };
 const screenedRegistry=roadCorridors as {version:number;corridors:ScreenedRoadCorridor[]};
+
+/** Automatically generated short street-network infill hypotheses, NEVER an approved
+ * alignment. The underlying OSM graph does not contain a complete military/land-use,
+ * cadastral, water or geotechnical exclusion layer. We therefore state the limits in
+ * both results and UI instead of labelling these projects as safe for construction. */
+export type PreliminaryRoadCandidate={
+ id:string;datasetId:string;fromNodeId:string;toNodeId:string;title:string;
+ geometry:[number,number][];modelSpeedKmh:number;lengthKmEstimate:number;
+ candidateType:'urban-street-infill';originHub:string;originHubId:string;
+ originHubPopulation:number;predictedLocalMinutesSaved:number;
+ verifiedModelDelta:number;verifiedAffectedSettlements:number;
+ screening:{maxLengthKm:number;withinSettlementCenterKm:number;minSettlementPopulation:number;
+ existingRoadAnchors:boolean;nearExistingRoadAtMidpointMeters:number;
+ militaryZonesVerified:false;protectedAreasVerified:false;waterAndBridgesVerified:false;
+ landRightsVerified:false;terrainAndSafetyVerified:false};
+ status:'PRELIMINARY_UNVERIFIED_DO_NOT_BUILD';
+};
+// JSON inference widens [longitude, latitude] coordinates to number[].
+// Parse the source instead of asserting that arbitrary arrays are coordinate pairs.
+const CoordinateSchema=z.tuple([
+ z.number().finite().min(-180).max(180),
+ z.number().finite().min(-90).max(90)
+]);
+const PreliminaryRoadCandidateSchema=z.object({
+ id:z.string().min(1),datasetId:z.string().min(1),fromNodeId:z.string().min(1),
+ toNodeId:z.string().min(1),title:z.string().min(1),
+ geometry:z.array(CoordinateSchema).length(3),
+ modelSpeedKmh:z.number().finite(),lengthKmEstimate:z.number().finite(),
+ candidateType:z.literal('urban-street-infill'),
+ originHub:z.string(),originHubId:z.string(),
+ originHubPopulation:z.number().finite(),predictedLocalMinutesSaved:z.number().finite(),
+ verifiedModelDelta:z.number().finite(),verifiedAffectedSettlements:z.number().int(),
+ screening:z.object({
+  maxLengthKm:z.number().finite(),withinSettlementCenterKm:z.number().finite(),
+  minSettlementPopulation:z.number().finite(),existingRoadAnchors:z.boolean(),
+  nearExistingRoadAtMidpointMeters:z.number().finite(),
+  militaryZonesVerified:z.literal(false),protectedAreasVerified:z.literal(false),
+  waterAndBridgesVerified:z.literal(false),landRightsVerified:z.literal(false),
+  terrainAndSafetyVerified:z.literal(false)
+ }),
+ status:z.literal('PRELIMINARY_UNVERIFIED_DO_NOT_BUILD')
+}).passthrough();
+/** Validate externally generated planning data and preserve tuple coordinate types. */
+export function parsePreliminaryRoadCandidate(input:unknown):PreliminaryRoadCandidate {
+ return PreliminaryRoadCandidateSchema.parse(input);
+}
+const autoRoads=z.object({
+ version:z.number().int(),
+ corridors:z.array(PreliminaryRoadCandidateSchema)
+}).parse(preliminaryRoadCandidates);
+const forbiddenAreaWords=/военн|полигон|гарнизон|казарм|военный лагерь|v[oо]en|military|airfield|airport|аэродром|погранич|чернышевск|балтийск/i;
+/** A defensively narrow *geometric plausibility* filter, NOT a safety clearance. */
+export function validatePreliminaryRoad(c:PreliminaryRoadCandidate,d:Dataset):string[]{
+ const errors:string[]=[];
+ const nodes=new Map(d.nodes.map(n=>[n.id,n]));
+ const a=nodes.get(c.fromNodeId),b=nodes.get(c.toNodeId);
+ const hub=d.settlements.find(s=>s.id===c.originHubId);
+ if(d.synthetic||c.datasetId!==d.id||c.status!=='PRELIMINARY_UNVERIFIED_DO_NOT_BUILD')errors.push('Неверный набор/статус');
+ if(c.candidateType!=='urban-street-infill'||!a||!b||a.id===b.id||!a.id.startsWith('n')||!b.id.startsWith('n'))errors.push('Нужны два разных дорожных узла OSM');
+ if(!hub||!hub.population||hub.population<200||hub.lat==null||hub.lon==null||forbiddenAreaWords.test(`${hub.name} ${hub.municipality}`))errors.push('Слишком неопределённый/чувствительный населённый пункт');
+ if(!Array.isArray(c.geometry)||c.geometry.length!==3||c.geometry.some(p=>!Array.isArray(p)||p.length!==2||p.some(v=>!Number.isFinite(v))))errors.push('Не задана простая локальная полилиния');
+ if(a&&b&&hub&&hub.lat!=null&&hub.lon!=null){
+  const length=kmDistance(a,b);
+  if(length<.15||length>1||Math.abs(length-c.lengthKmEstimate)>.03)errors.push('Не является короткой дорожной связью');
+  const centre={x:hub.lon,y:hub.lat};
+  if(kmDistance(a,centre)>1.05||kmDistance(b,centre)>1.05)errors.push('Дорожная связь вне населённого пункта');
+  if(d.edges.some(e=>(e.from===a.id&&e.to===b.id)||(e.from===b.id&&e.to===a.id)))errors.push('Это уже существующее ребро графа');
+  if(c.geometry.length===3){
+   if(kmDistance(a,{x:c.geometry[0][0],y:c.geometry[0][1]})>.03||kmDistance(b,{x:c.geometry[2][0],y:c.geometry[2][1]})>.03)errors.push('Концы эскиза не совпадают с дорожными узлами');
+   const m=c.geometry[1];if(kmDistance({x:m[0],y:m[1]},{x:(a.x+b.x)/2,y:(a.y+b.y)/2})>.1)errors.push('Необъяснимый изгиб эскиза');
+  }
+ }
+ if(c.modelSpeedKmh<15||c.modelSpeedKmh>40||!Number.isFinite(c.modelSpeedKmh))errors.push('Скорость не соответствует локальной улице');
+ if(!c.screening?.existingRoadAnchors||c.screening.nearExistingRoadAtMidpointMeters>180||
+ c.screening.militaryZonesVerified!==false||c.screening.protectedAreasVerified!==false||
+ c.screening.waterAndBridgesVerified!==false||c.screening.landRightsVerified!==false||
+ c.screening.terrainAndSafetyVerified!==false)errors.push('Недостоверная степень проверки ограничений');
+ return errors;
+}
+function withPreliminaryRoad(d:Dataset,c:PreliminaryRoadCandidate):{dataset:Dataset;edge:Dataset['edges'][number]}{
+ const length=c.geometry.slice(1).reduce((sum,v,i)=>sum+kmDistance({x:c.geometry[i][0],y:c.geometry[i][1]},{x:v[0],y:v[1]}),0);
+ const edge:Dataset['edges'][number]={id:'__proposal__road',from:c.fromNodeId,to:c.toNodeId,
+  minutes:length/c.modelSpeedKmh*60,directed:false,allowed:true,kind:'road',lengthKm:length,
+  name:'ЭСКИЗ НОВОЙ СВЯЗИ: '+c.title,geometry:c.geometry,
+  speedSource:'Расчётная локальная улица (25 км/ч). Предварительная геометрическая фильтрация OSM; ограничения военных зон, воды, земель и экологии НЕ проверены'};
+ return {dataset:{...d,edges:[...d.edges,edge]},edge};
+}
+
 export function validateRoadCorridor(candidate:ScreenedRoadCorridor,d:Dataset):string[]{
  const reasons:string[]=[];
  if(d.synthetic)reasons.push('Тестовые сети нельзя помечать реальными согласованными коридорами');
@@ -241,28 +331,36 @@ function proposeInvestment(d:Dataset,base:IndexResult,o:CalculationOptions){
   }
  }else{
   if(!d.synthetic){
-   // Deliberately fail closed: missing safety layers cannot be interpreted as clear land.
-   // Only manually documented polylines listed in approved-road-corridors.json may be modeled.
-   const candidates=screenedRegistry.corridors.filter(c=>c.datasetId===d.id&&validateRoadCorridor(c,d).length===0);
-   let best:ReturnType<typeof calculate>|undefined,bestEdge:Dataset['edges'][number]|undefined,bestScore=-Infinity;
-   for(const c of candidates){
-    const {dataset,edge}=withScreenedRoad(d,c),result=calculate(dataset,{...o,scenario:'baseline'});
-    const local=o.scope==='point'&&target?(result.points.find(p=>p.id===target.id)?.score??0)-(target.score??0):0;
+   // First consider expert-documented corridors. Then test conservatively short
+   // OSM-derived hypotheses. These two groups have DIFFERENT evidence standards.
+   const approved=screenedRegistry.corridors.filter(c=>c.datasetId===d.id&&validateRoadCorridor(c,d).length===0);
+   const preliminary=autoRoads.corridors.filter(c=>c.datasetId===d.id&&validatePreliminaryRoad(c,d).length===0);
+   const candidates:[Dataset,Dataset['edges'][number],boolean][]=[
+     ...approved.map(c=>{const {dataset,edge}=withScreenedRoad(d,c);return [dataset,edge,true] as [Dataset,Dataset['edges'][number],boolean];}),
+     ...preliminary.map(c=>{const {dataset,edge}=withPreliminaryRoad(d,c);return [dataset,edge,false] as [Dataset,Dataset['edges'][number],boolean];})
+   ];
+   let best:ReturnType<typeof calculate>|undefined,bestEdge:Dataset['edges'][number]|undefined;
+   let bestScore=-Infinity,bestDocumented=false;
+   for(const [dataset,edge,documented] of candidates){
+    const result=calculate(dataset,{...o,scenario:'baseline'});
     const regional=result.value===null||base.value===null?0:result.value-base.value;
     const selectedAfter=o.scope==='point'&&target?result.points.find(p=>p.id===target.id):null;
-    if(o.scope==='point'&&target&&(local<=1e-8||!selectedAfter?.path.includes(edge.id)))continue;
+    const local=target&&selectedAfter&&selectedAfter.score!==null&&target.score!==null?(selectedAfter.score-target.score):0;
+    if(regional<=1e-9||o.scope==='point'&&(local<=1e-9||!selectedAfter?.path.includes(edge.id)))continue;
     const gain=o.scope==='point'?local*100+regional:regional;
-    if(gain>bestScore+1e-10){best=result;bestEdge=edge;bestScore=gain;}
+    if(gain>bestScore+1e-10){best=result;bestEdge=edge;bestScore=gain;bestDocumented=documented;}
    }
-   if(!best||!bestEdge||bestScore<=1e-10)return {after:base,proposedEdges:[] as Dataset['edges'],proposedFacilities:[] as Dataset['facilities'],suggestion:null as InvestmentSuggestion|null,
-    rule:'Новая дорога НЕ предлагается автоматически: отсутствует проверенный безопасный коридор, который улучшает выбранные маршруты. Прямая между поселениями может проходить через военные и охраняемые территории, воду и участки с ограничениями. Для расчёта новой дороги нужно добавить документированный коридор в data/planning/approved-road-corridors.json после проверок; до этого можно рассчитать реконструкцию существующих дорог или дополнительную медицинскую площадку.'};
-   const altered=best.points.filter((x,i)=>base.points[i]?.minutes!==x.minutes);
+   if(!best||!bestEdge)return {after:base,proposedEdges:[] as Dataset['edges'],proposedFacilities:[] as Dataset['facilities'],suggestion:null as InvestmentSuggestion|null,
+    rule:'В этом масштабе проверенные/предварительно отфильтрованные короткие новые дорожные связи не улучшили индекс. Не предлагаем искусственный объезд и не рисуем дорогу через неподтверждённую территорию. Попробуйте региональный масштаб, другую медплощадку или инженерную проверку дополнительных коридоров.'};
+   const altered=best.points.filter((p,i)=>p.minutes!==base.points[i]?.minutes&&p.minutes!==null&&base.points[i]?.minutes!==null&&p.minutes<base.points[i]!.minutes!-0.001);
    return {after:best,proposedEdges:[bestEdge],proposedFacilities:[] as Dataset['facilities'],
-    suggestion:{kind:'new_road' as const,title:bestEdge.name??'Документированный коридор',rationale:'Только предварительно проверенный и отдельно документированный планировочный коридор, прошедший контроль ограничений, используется для модельного пересчёта. Не является готовым проектом строительства.',distanceKm:bestEdge.lengthKm??null,
-     technicalWarning:'Предпроверка GIS и документов не заменяет официальных согласований, проектирования, геологии и экологической экспертизы. Модельная экономия времени не доказывает реализуемость.',
-     estimatedBeneficiaries:altered.reduce((n,p)=>n+(p.population??0),0),affectedSettlements:altered.length},
-    rule:'Для реальных территорий допускаются только документированные ломаные с подтверждениями проверки военных ограничений, ООПТ, воды/мостов, прав на землю, рельефа и схем планирования. Для каждого кандидата пересчитывается граф; выбирается максимальный эффект. Пока реестр пуст, новых дорожных линий на карте нет.'};
-  }
+    suggestion:{kind:'new_road' as const,title:bestEdge.name??'Новая дорожная связь',
+     rationale:bestDocumented?'Документированный предварительно проверенный коридор, не проект строительства.':'Короткая новая связь между существующими дорожными узлами вблизи населённого пункта; предварительный эскиз по OSM, реально меняет кратчайшие маршруты в расчётном графе. НЕ удостоверены отсутствие военных ограничений, водных преград, охранных зон и законность строительства.',
+     distanceKm:bestEdge.lengthKm??null,
+     technicalWarning:bestDocumented?'Предварительный документированный коридор — нужны инженерные согласования.':proposalWarning,
+     estimatedBeneficiaries:altered.reduce((sum,p)=>sum+(p.population??0),0),affectedSettlements:altered.length},
+    rule:bestDocumented?'Из документированных коридоров выбран вариант с максимальным фактическим приростом индекса.':'Автоматически проверены короткие кандидаты соединения существующих дорожных узлов у населённых пунктов (до 1 км). Исключены названия военных объектов, уже существующие связи и долгие прямые трассы; каждый кандидат проверен полным пересчётом кратчайших маршрутов. Выбран максимальный подтверждённый моделью прирост индекса. ВНИМАНИЕ: военные зоны, вода, ООПТ, землепользование и инженерная безопасность НЕ проверены по официальным картам. Линия — предварительный эскиз для изучения, не рекомендация к строительству.'};
+   }
   const starting=o.scope==='point'&&target?active.filter(s=>s.id===target.id):
    [...active].sort((a,b)=>((b.population??0)+100)*Math.max(0,(pointById.get(b.id)?.minutes??0)-40)-((a.population??0)+100)*Math.max(0,(pointById.get(a.id)?.minutes??0)-40)).slice(0,45);
   const ranked:{from:Dataset['settlements'][number];to:Dataset['settlements'][number];gain:number;distance:number}[]=[];

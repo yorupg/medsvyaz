@@ -1,5 +1,9 @@
 import {describe,it,expect} from 'vitest';
-import {calculate,compareScenario,validateDataset,validateRoadCorridor} from '../shared/engine';
+import {calculate,compareScenario,validateDataset,validateRoadCorridor,validatePreliminaryRoad,parsePreliminaryRoadCandidate} from '../shared/engine';
+import {readFileSync} from 'node:fs';
+import {brotliDecompressSync} from 'node:zlib';
+import {resolve} from 'node:path';
+import autoCandidates from '../data/planning/algorithmic-road-candidates.json';
 
 // Small fully synthetic graph. Coordinates are WGS84 solely for evaluating
 // the simplified new-road planning candidate, not a real alignment.
@@ -68,4 +72,27 @@ describe('Инвестиционные проектные сценарии',()=>
   expect(c.investmentSuggestion?.technicalWarning).toMatch(/гипотез/i);
   expect(c.pointsPerMillion).toBeNull();
  });
+});
+
+// Integration regression: a real-regional scenario must produce a genuinely new
+// graph edge, a changed route, and a nonzero index delta. This is NOT a test of
+// legal construction safety; authoritative exclusion polygons are unavailable.
+describe('Новые дорожные связки на реальных пилотах',()=>{
+ for(const id of ['kaliningrad','ivanovo','pskov'] as const){
+  it(`${id}: проектный короткий участок действительно меняет маршруты`,()=>{
+   const d=validateDataset(JSON.parse(brotliDecompressSync(readFileSync(resolve(`data/processed/${id}-pilot.json.br`))).toString('utf8')));
+   const candidates=autoCandidates.corridors.filter(c=>c.datasetId===d.id);
+   expect(candidates.length).toBeGreaterThan(0);
+   const first=parsePreliminaryRoadCandidate(candidates[0]);
+   // Directly evaluate a candidate with the runtime safety-screening validator.
+   expect(validatePreliminaryRoad(first,d)).toEqual([]);
+   const result=compareScenario(d,{scenario:'new_road',scope:'region'});
+   expect(result.proposedEdges).toHaveLength(1);
+   expect(result.delta).toBeGreaterThan(0);
+   expect(result.proposedEdges[0].id).toBe('__proposal__road');
+   expect(result.proposedEdges[0].lengthKm).toBeLessThanOrEqual(1);
+   expect(result.after.points.some((p,i)=>p.path.includes('__proposal__road')&&p.minutes!==null&&result.baseline.points[i].minutes!==null&&p.minutes<result.baseline.points[i].minutes!)).toBe(true);
+   expect(result.investmentSuggestion?.technicalWarning).toMatch(/гипотез|ограничени|провер/i);
+  },120000);
+ }
 });
