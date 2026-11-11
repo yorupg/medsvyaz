@@ -1,6 +1,6 @@
 ﻿# ⬇️ СКАЧАТЬ ПОЛНЫЙ ПРОЕКТ «МЕДСВЯЗЬ 24/7»
 
-## 📦 [СКАЧАТЬ FULL v5.1 — САЙТ + ВСЕ ДОРОЖНЫЕ ДАННЫЕ](https://github.com/yorupg/medsvyaz/releases/download/v5.1-roads-ts-fixed/MedSvyaz24_FULL_NewRoads_v5_1_TS_FIXED.zip)
+## 📦 [СКАЧАТЬ FULL v5.1 — САЙТ + ВСЕ ДОРОЖНЫЕ ДАННЫЕ](https://github.com/yorupg/medsvyaz/releases/download/v5.1-roads-ts-fixed/MedSvyaz24_FULL_v5_1.zip)
 
 **Полная версия проекта для преподавателей — 238 МБ.**
 
