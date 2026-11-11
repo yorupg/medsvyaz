@@ -3,7 +3,7 @@
 
 ## 📦 [СКАЧАТЬ ПОЛНЫЙ ПРОЕКТ ОДНИМ ZIP](https://github.com/yorupg/medsvyaz/releases/latest)
 
-## 📦 **ВСЕ МАТЕРИАЛЫ ПРОЕКТА — [ОТКРЫТЬ ПАПКУ GOOGLE DRIVE](https://drive.google.com/drive/folders/1D5UZqbgkR8K_rqdtr2DUe6ZbP72rQ-vJ?usp=drive_link)**
+## 📦 **ВСЕ МАТЕРИАЛЫ ПРОЕКТА — [ОТКРЫТЬ ПАПКУ GOOGLE DRIVE](https://drive.google.com/drive/folders/1D5UZqbgkR8K_rqdtr2DUe6ZbP72rQ-vJ?usp=sharing)**
 
 > **⬆️ Это основная ссылка для преподавателей:** код, исходные данные, презентация интерфейса, методика, экономика, зарубежные аналоги, источники и результаты исследований. Если на GitHub не хватает больших файлов данных, загрузите полный комплект из Google Drive.
 >
