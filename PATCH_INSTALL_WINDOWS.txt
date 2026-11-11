@@ -1,0 +1,22 @@
+МЕДСВЯЗЬ 24/7 — УСТАНОВКА МАЛЕНЬКОГО ПАТЧА К v5
+
+1) Не удаляйте текущий проект и не трогайте большую папку data/.
+2) Найдите ПАПКУ-РОДИТЕЛЬ, внутри которой уже есть папка medsvyaz24.
+   Пример: C:\Projects\medsvyaz24\package.json -> родитель C:\Projects.
+3) Распакуйте MedSvyaz24_Investment_Patch.zip в ПАПКУ-РОДИТЕЛЬ (C:\Projects),
+   разрешив замену файлов. ZIP содержит пути medsvyaz24\shared\...
+   Не распаковывайте прямо внутрь medsvyaz24 — появится двойная вложенность.
+4) В PowerShell:
+   cd "C:\Projects\medsvyaz24"
+   $env:MEDSVYAZ_PORT="5181"
+   docker compose -p medsvyaz24-v5 up --build -d
+5) Откройте http://localhost:5181/scenarios?region=pskov
+6) На сайте выберите «Предложить новую дорогу» или «Добавить медплощадку»;
+   нажмите «Показать пункт с изменённым маршрутом» и «Сравнить на карте».
+7) Проверяйте: docker compose -p medsvyaz24-v5 logs --tail=50 web
+
+Пояснения по экономике: docs\ECONOMIC_JUSTIFICATION_A2_2026-11-11.md
+Внешний PDF: MedSvyaz24_Economics_A2_2026-11-11.pdf
+
+ПРОЕКТНЫЕ объекты — гипотезы, не существующие дороги/больницы.
+Проверка npm test и npm run build должна быть выполнена на вашей машине.

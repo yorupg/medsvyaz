@@ -1,9 +1,38 @@
-[README.md](https://github.com/user-attachments/files/34664793/README.md)
+# МедСвязь 24/7 — САМОСТОЯТЕЛЬНАЯ LITE-ВЕРСИЯ
+
+**[📁 Все данные и полный архив — Google Drive](https://drive.google.com/drive/folders/1D5UZqbgkR8K_rqdtr2DUe6ZbP72rQ-vJ?usp=drive_link)**
+
+> **Важно:** эта версия запускается самостоятельно. Полноценные маршруты и сценарии работают на **трёх реальных пилотах** — Калининградской, Ивановской и Псковской областях, а также на синтетических учебных сетях. Для **30 дополнительных регионов** сохранены реальные ранее вычисленные индексы и сводки, но маршрутизация и проектные сценарии недоступны без полных дорожных графов. Это не техническая ошибка, а сознательное уменьшение размера.
+
+## Запуск Lite через Docker (ничего копировать из полного архива не нужно)
+
+В PowerShell в папке, где лежит `docker-compose.yml`:
+
+```powershell
+docker compose -p medsvyaz24-lite up --build -d
+docker compose -p medsvyaz24-lite ps
+```
+
+Открыть **http://localhost:5182**. Старая версия на порту 5180 или 5181 останется нетронутой. Проверка сервера:
+
+```powershell
+Invoke-RestMethod http://localhost:5182/api/health
+```
+
+Если браузер пишет ERR_CONNECTION_REFUSED:
+
+```powershell
+docker compose -p medsvyaz24-lite ps -a
+docker compose -p medsvyaz24-lite logs --tail=100 web
+```
+
+**Не переносите всю `data/processed` из Full в Lite** — это увеличит размер до сотен МБ. Полная версия имеет отдельный архив и предназначена для пересчёта всех 33 дорожных моделей.
+
+---
+
 # 🏥 МедСвязь 24/7 — индекс транспортной доступности медицинской помощи
 
-## 📦 [СКАЧАТЬ ПОЛНЫЙ ПРОЕКТ ОДНИМ ZIP](https://github.com/yorupg/medsvyaz/releases/latest)
-
-## 📦 **ВСЕ МАТЕРИАЛЫ ПРОЕКТА — [ОТКРЫТЬ ПАПКУ GOOGLE DRIVE](https://drive.google.com/drive/folders/1D5UZqbgkR8K_rqdtr2DUe6ZbP72rQ-vJ?usp=sharing)**
+## 📦 **ВСЕ МАТЕРИАЛЫ ПРОЕКТА — [ОТКРЫТЬ ПАПКУ GOOGLE DRIVE](https://drive.google.com/drive/folders/1D5UZqbgkR8K_rqdtr2DUe6ZbP72rQ-vJ?usp=drive_link)**
 
 > **⬆️ Это основная ссылка для преподавателей:** код, исходные данные, презентация интерфейса, методика, экономика, зарубежные аналоги, источники и результаты исследований. Если на GitHub не хватает больших файлов данных, загрузите полный комплект из Google Drive.
 >

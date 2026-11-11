@@ -1,8 +1,0 @@
-import type {MapDistribution} from '../../shared/map-metrics';
-import {format,percent} from '../lib';
-export function MapDistributionPanel({distribution:d,threshold}:{distribution:MapDistribution;threshold:number}){
- return <div className="map-distribution"><strong>Как точки образуют индекс {format(d.index,2)}</strong><p>Каждое поселение имеет одинаковый вес: I = Σ(баллы точки) / N. Население не влияет на индекс. Цвет точки определяется временем поездки по дорогам до выбранной больницы.</p>
- <div className="table-scroll"><table aria-label="Согласование карты с индексом"><thead><tr><th>Баллы точки</th><th>Поселений</th><th>Доля поселений</th><th>Вклад в индекс</th></tr></thead><tbody>{d.bins.map(b=><tr key={b.min}><td><i className="economics-color" style={{background:b.color}}/>{b.min}–{b.max===100?'100':'<'+b.max}</td><td>{b.settlements}</td><td>{percent(b.settlementShare)}</td><td>{format(b.contributionPoints,2)}</td></tr>)}</tbody><tfoot><tr><td>Сумма</td><td>{d.settlements}</td><td>{d.settlements?'100%':'—'}</td><td>{format(d.index,2)}</td></tr></tfoot></table></div>
- <p>Вес каждого поселения — 1/{d.settlements}. Баллы точки — 100 × 2^(−t/{threshold}); вклад — баллы / {d.settlements}. Размер населения не участвует в вычислении.</p>
- <details><summary>Примеры вкладов поселений</summary>{d.largest.map(p=><p key={p.id}>{p.name}: {format(p.minutes)} мин, {format((p.score??0)*100,2)} балла, вклад {format(p.contributionPoints,4)}.</p>)}<p>Поселение представлено одной координатой; внутригородское время от каждого дома не измеряется. Индекс характеризует доступность больниц по дорожной сети, а не все свойства графа дорог.</p></details></div>;
-}

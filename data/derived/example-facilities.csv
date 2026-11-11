@@ -1,0 +1,7 @@
+﻿datasetId,regionId,synthetic,version,id,name,nodeId,profile,periods,verified,provenance
+example-kaliningrad,kaliningrad,True,example-2026-11-09-v1,demo-hospital-a,Вымышленный учебный центр а,h,emergency-demo,day|night,False,synthetic-v1; учреждение не существует
+example-kaliningrad,kaliningrad,True,example-2026-11-09-v1,demo-hospital-b,Вымышленный учебный центр б,e,emergency-demo,day,False,synthetic-v1; учреждение не существует
+example-ivanovo,ivanovo,True,example-2026-11-09-v1,demo-hospital-a,Вымышленный учебный центр а,h,emergency-demo,day|night,False,synthetic-v1; учреждение не существует
+example-ivanovo,ivanovo,True,example-2026-11-09-v1,demo-hospital-b,Вымышленный учебный центр б,e,emergency-demo,day,False,synthetic-v1; учреждение не существует
+example-tyumen,tyumen,True,example-2026-11-09-v1,demo-hospital-a,Вымышленный учебный центр а,h,emergency-demo,day|night,False,synthetic-v1; учреждение не существует
+example-tyumen,tyumen,True,example-2026-11-09-v1,demo-hospital-b,Вымышленный учебный центр б,e,emergency-demo,day,False,synthetic-v1; учреждение не существует

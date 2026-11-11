@@ -1,0 +1,22 @@
+﻿datasetId,regionId,synthetic,version,id,name,nodeId,population,municipality,provenance
+example-kaliningrad,kaliningrad,True,example-2026-11-09-v1,s-a,Условный пункт а,a,500,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-kaliningrad,kaliningrad,True,example-2026-11-09-v1,s-b,Условный пункт б,b,1200,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-kaliningrad,kaliningrad,True,example-2026-11-09-v1,s-c,Условный пункт в,c,800,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-kaliningrad,kaliningrad,True,example-2026-11-09-v1,s-d,Условный пункт г,d,700,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-kaliningrad,kaliningrad,True,example-2026-11-09-v1,s-e,Условный пункт д,e,1500,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-kaliningrad,kaliningrad,True,example-2026-11-09-v1,s-j,Условный пункт е,j,300,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-kaliningrad,kaliningrad,True,example-2026-11-09-v1,s-u,Условный изолированный пункт,u,100,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-ivanovo,ivanovo,True,example-2026-11-09-v1,s-a,Условный пункт а,a,700,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-ivanovo,ivanovo,True,example-2026-11-09-v1,s-b,Условный пункт б,b,900,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-ivanovo,ivanovo,True,example-2026-11-09-v1,s-c,Условный пункт в,c,850,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-ivanovo,ivanovo,True,example-2026-11-09-v1,s-d,Условный пункт г,d,900,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-ivanovo,ivanovo,True,example-2026-11-09-v1,s-e,Условный пункт д,e,700,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-ivanovo,ivanovo,True,example-2026-11-09-v1,s-j,Условный пункт е,j,650,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-ivanovo,ivanovo,True,example-2026-11-09-v1,s-u,Условный изолированный пункт,u,300,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-tyumen,tyumen,True,example-2026-11-09-v1,s-a,Условный пункт а,a,350,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-tyumen,tyumen,True,example-2026-11-09-v1,s-b,Условный пункт б,b,700,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-tyumen,tyumen,True,example-2026-11-09-v1,s-c,Условный пункт в,c,1000,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-tyumen,tyumen,True,example-2026-11-09-v1,s-d,Условный пункт г,d,500,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-tyumen,tyumen,True,example-2026-11-09-v1,s-e,Условный пункт д,e,900,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-tyumen,tyumen,True,example-2026-11-09-v1,s-j,Условный пункт е,j,1200,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py
+example-tyumen,tyumen,True,example-2026-11-09-v1,s-u,Условный изолированный пункт,u,450,Учебная зона (не муниципалитет),synthetic-v1; генератор scripts/build_examples.py

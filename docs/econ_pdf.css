@@ -1,0 +1,16 @@
+@page {size:A4;margin:20mm 18mm 19mm 18mm; @bottom-right{content:'МедСвязь 24/7 · A2  |  ' counter(page);font:9px 'DejaVu Sans';color:#64788b}}
+html {font-family:'DejaVu Sans',Arial,sans-serif;font-size:10pt;color:#183043;line-height:1.43}
+body {margin:0}
+h1{font-size:20pt;color:#16475b;line-height:1.2;letter-spacing:-.35px;margin:0 0 .2em;border-bottom:3px solid #15817d;padding-bottom:14px;}
+h2{font-size:13pt;color:#12645e;margin:1.4em 0 .5em;page-break-after:avoid;}
+h3{font-size:11pt;color:#12645e;page-break-after:avoid;}
+p{margin:.48em 0 .75em;}
+strong{color:#173e52}
+blockquote{margin:12px 0;background:#eff7f5;border-left:4px solid #198d82;padding:8px 14px}
+table{width:100%;border-collapse:collapse;font-size:8.6pt;page-break-inside:avoid;margin:12px 0 16px;}
+th{background:#16475b;color:white;text-align:left;padding:8px 7px;line-height:1.25}
+td{border-bottom:1px solid #dae2e7;padding:7px 6px;vertical-align:top}
+tr:nth-child(even) td{background:#f3f7f8}
+code{font-family:'DejaVu Sans Mono',monospace;font-size:8.9pt;background:#f1f4f5;padding:1px 3px;white-space:pre-wrap;overflow-wrap:anywhere;}
+li{margin:.33em 0} ul{padding-left:19px}
+a{color:#137f82;text-decoration:none;overflow-wrap:anywhere;}

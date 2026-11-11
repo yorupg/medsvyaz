@@ -1,4 +1,0 @@
-﻿regionId;datasetId;version;profile;threshold;period;baseline;improved;deltaImproved;closed;deltaClosed;numerator;population;unreachableSettlements
-"kaliningrad";"example-kaliningrad";"example-2026-11-09-v1";"emergency-demo";"60";"day";"64.37908496732027";"71.45969498910675";"7.080610021786484";"61.928104575163395";"-2.450980392156872";"3283.3333333333335";"5100";"1"
-"ivanovo";"example-ivanovo";"example-2026-11-09-v1";"emergency-demo";"60";"day";"67.576";"72.67200000000001";"5.096000000000018";"65.81199999999998";"-1.76400000000001";"3378.8";"5000";"1"
-"tyumen";"example-tyumen";"example-2026-11-09-v1";"emergency-demo";"60";"day";"43.294117647058826";"51.21132897603486";"7.91721132897603";"41.72549019607843";"-1.5686274509803937";"2208";"5100";"1"

@@ -1,0 +1,80 @@
+{
+  "project": "МедСвязь 24/7",
+  "version": "v5.0",
+  "merged_uploads": [
+    "medsvyaz-part_1.zip",
+    "medsvyaz-part-2.zip",
+    "medsvyaz-part-3.zip"
+  ],
+  "data_sets": {
+    "real_geodata": 33,
+    "synthetic": 52,
+    "without_index": 4
+  },
+  "changes": [
+    "Полное сравнение базового/улучшенного маршрута на карте",
+    "Автоматические сценарии для поселения и региона с повторной маршрутизацией",
+    "МИЭД v5: комфортный порог 15 минут и tau=40 по умолчанию",
+    "Сохранение и аудит исходных данных и старых версий методик"
+  ],
+  "validation": {
+    "python_recalculation": "PASS: 85 datasets, time-to-index independently recalculated",
+    "typescript_syntax": "PASS: 50 active TS/TSX/JS source files parsed with TypeScript",
+    "npm_test": "NOT RUN: npm registry unavailable; offline cache incomplete",
+    "npm_build": "NOT RUN: npm dependencies unavailable",
+    "browser_tests": "NOT RUN: browser dependencies unavailable",
+    "actual_engine_smoke": "PASS: demo and Pskov graph, point and whole-region scenarios; no runtime schema validation in the smoke harness"
+  },
+  "files": {
+    "shared/engine.ts": {
+      "sha256": "74fb5ccd2b9f864b0f9d212b2a7b5d4d7cda32c617d7304b2a19186c73c3d077",
+      "bytes": 19898
+    },
+    "shared/schema.ts": {
+      "sha256": "aeac66ed42cd556031295ed00ca2d9fd0badb1af9ae01a174a16b1a3615687ff",
+      "bytes": 7369
+    },
+    "server/study.ts": {
+      "sha256": "4d35d57e1d61d2cb33aaf813ce2f336ecf8cee9f38f466aca5acc213ec673678",
+      "bytes": 8169
+    },
+    "server/expanded.ts": {
+      "sha256": "617a102243e94a3ee9f06abfd47af3a528f03ad3a7a064e19b434782f5ea5a19",
+      "bytes": 2119
+    },
+    "server/api.ts": {
+      "sha256": "9e07e11755d37c668871ee5857d00e70ed69da63ec6d590621b64bebc41dbf59",
+      "bytes": 17448
+    },
+    "src/components/StudyMap.tsx": {
+      "sha256": "fb7131a2c721bf9154ee4af866bcdbfa7177d3f9dbfb5c13d8392afb9d741d44",
+      "bytes": 11222
+    },
+    "src/components/StudyWorkspace.tsx": {
+      "sha256": "1de3695760fa31b05ead7895c0888adb9c70f8e2f38c362909764bded37bc121",
+      "bytes": 17302
+    },
+    "src/pages/Methodology.tsx": {
+      "sha256": "304be6e654097dfaeb065e8d79910fbc290cfd07922c0c644492fdeb4b10ba30",
+      "bytes": 12779
+    },
+    "scripts/verify_v5.py": {
+      "sha256": "3c6a3e8b36741efd291260e53ec64887ed0b0e4de61e63ea63f81b0cfb4e4190",
+      "bytes": 6640
+    },
+    "tests/methodology-v5.test.ts": {
+      "sha256": "4bb824b0757205072739257411d09a2e68c84c224ca8b12bae9fc78af2a8d796",
+      "bytes": 3411
+    },
+    "docs/A2_FUNCTIONAL_AUDIT_v5.md": {
+      "sha256": "7f4d0344e29cf4796ba8b719f10117e2ee7e44acf166c6f58428e2679a5dffd9",
+      "bytes": 9160
+    },
+    "README.md": {
+      "sha256": "1ef20ad520e40828daf7316e6ff711e3df03cc8801878a3005224f092ac17857",
+      "bytes": 12202
+    }
+  },
+  "notes": "Содержит данные и исходный проект без node_modules. Для запуска: npm ci && npm test && npm run build && npm start.",
+  "audit_file": "docs/VALIDATION_V5_DELIVERY.md"
+}
