@@ -2,9 +2,10 @@ import {gunzipSync,brotliDecompressSync} from 'node:zlib';
 import {auditResultMap} from '../shared/map-metrics';
 import {readFileSync,existsSync} from 'node:fs';
 import {resolve} from 'node:path';
-import {calculate,compareScenario,validateDataset,aggregate} from '../shared/engine';
+import {type RoadListOptions,calculate,compareScenario,settlementRoadOptions,validateDataset,aggregate} from '../shared/engine';
+import {METHODOLOGY} from '../shared/schema';
 import type {CalculationOptions,Dataset,IndexResult} from '../shared/schema';
-import {expandedSummaries,expandedDataset,expandedBaseline,hasExpandedGraph} from './expanded';
+import {expandedSummaries,expandedDataset,expandedBaseline} from './expanded';
 
 const originalReal=Object.fromEntries(['kaliningrad','ivanovo','pskov'].map(id=>[id,validateDataset(JSON.parse(existsSync(resolve('data/processed/'+id+'-pilot.json'))?readFileSync(resolve('data/processed/'+id+'-pilot.json'),'utf8'):(existsSync(resolve('data/processed/'+id+'-pilot.json.gz'))?gunzipSync(readFileSync(resolve('data/processed/'+id+'-pilot.json.gz'))):brotliDecompressSync(readFileSync(resolve('data/processed/'+id+'-pilot.json.br')))).toString('utf8')))]));
 export const realRegionIds=[...Object.keys(originalReal),...Object.keys(expandedSummaries)];
@@ -13,7 +14,7 @@ export const pilot=originalReal.kaliningrad;
 const generated=JSON.parse(readFileSync(resolve('data/processed/synthetic-regions.json'),'utf8')) as Record<string,Dataset>;
 export const syntheticDatasets=Object.fromEntries(Object.entries(generated).filter(([id])=>!realRegionIds.includes(id)));
 export const studyDatasets:Record<string,Dataset>={...syntheticDatasets,...Object.fromEntries(Object.entries(originalReal).map(([id,d])=>[id,{...d,edges:d.edges.map(({geometry,...edge})=>edge)}]))};
-for(const id of Object.keys(expandedSummaries).filter(hasExpandedGraph)){
+for(const id of Object.keys(expandedSummaries)){
  Object.defineProperty(realDatasets,id,{enumerable:true,get:()=>expandedDataset(id)});
  Object.defineProperty(studyDatasets,id,{enumerable:true,get:()=>expandedDataset(id,false)});
 }
@@ -50,10 +51,27 @@ export function studyComparison(regionId:string,options:Partial<CalculationOptio
  const key=JSON.stringify([regionId,{...options,edgeId}]);if(cache.has(key))return cache.get(key)!;
  const result=compareScenario(d,{...options,edgeId});if(cache.size>=8)cache.delete(cache.keys().next().value!);cache.set(key,result);return result;
 }
+const roadOptionCache=new Map<string,ReturnType<typeof settlementRoadOptions>>();
+type SavedRoadOptions={methodology:string;threshold:number;timeScale:number;regions:Record<string,ReturnType<typeof settlementRoadOptions>>};
+const optionsFile=resolve('data/derived/road-options-v5.json');
+const defaults:SavedRoadOptions|null=existsSync(optionsFile)?JSON.parse(readFileSync(optionsFile,'utf8')):null;
+export function studyRoadOptions(id:string,options:RoadListOptions){
+ if(id!=='kaliningrad' && defaults?.methodology===METHODOLOGY.version && defaults.threshold===options.threshold && defaults.timeScale===options.timeScale && Object.hasOwn(defaults.regions,id)){
+  return defaults.regions[id];
+ }
+ const key=JSON.stringify([id,options.threshold,options.timeScale,options.minRoadMinutes,options.minRoadPercent]);
+ const cached=roadOptionCache.get(key);
+ if(cached)return cached;
+ const rows=settlementRoadOptions(studyDatasets[id],options);
+ if(roadOptionCache.size>=100)roadOptionCache.delete(roadOptionCache.keys().next().value!);
+ roadOptionCache.set(key,rows);
+ return rows;
+}
+
 export function studyDescription(regionId:string){
  const summary=studyCatalogue[regionId];if(!summary)return null;
  const d=studyDatasets[regionId];
- return {hasRouting:Boolean(d),id:summary.id,regionId,synthetic:summary.synthetic,title:summary.title,profile:summary.profile,profileLabel:summary.profileLabel,date:summary.date,version:summary.version,sourceIds:summary.sourceIds,assumptions:summary.assumptions,metadata:summary.metadata,coverageLabel:summary.coverageLabel,settlementCount:summary.settlementCount,facilityCount:summary.facilityCount,nodes:summary.nodes,edges:summary.edges,scenarios:d?scenariosFor(d):[],baseline:baselineResults[regionId],facilities:summary.facilities};
+ return {id:summary.id,regionId,synthetic:summary.synthetic,title:summary.title,profile:summary.profile,profileLabel:summary.profileLabel,date:summary.date,version:summary.version,sourceIds:summary.sourceIds,assumptions:summary.assumptions,metadata:summary.metadata,coverageLabel:summary.coverageLabel,settlementCount:summary.settlementCount,facilityCount:summary.facilityCount,nodes:summary.nodes,edges:summary.edges,scenarios:scenariosFor(d),baseline:baselineResults[regionId],facilities:summary.facilities};
 }
 export function studyMap(regionId:string,options:Partial<CalculationOptions>={}){
  const d=realDatasets[regionId],c=studyComparison(regionId,options)!;

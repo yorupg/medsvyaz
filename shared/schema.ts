@@ -15,27 +15,30 @@ export const DatasetSchema = z.object({
   facilities: z.array(z.object({id, name: z.string(), nodeId: id, profile: id, periods: z.array(z.enum(['day','night'])).min(1), verified: z.boolean(), provenance: z.string().min(1),facilityType:z.string().optional(),careProfile:z.string().optional(),administrativeArea:z.string().optional(),lat:finite.optional(),lon:finite.optional(),officialAddress:z.string().optional(),sourceUrl:z.string().optional(),osmId:z.string().optional()})).max(10000)
 });
 export type Dataset = z.infer<typeof DatasetSchema>;
+export const PILOT_ROAD_DEFAULTS = {minRoadMinutes:5, minRoadPercent:10};
 export const CalculationSchema = z.object({
-  methodologyVersion:z.enum(['2.0.0','3.0.0','4.0.0','5.0.0']).default('5.0.0'),
+  methodologyVersion:z.enum(['2.0.0','3.0.0','4.0.0','5.0.0','6.1.0']).default('6.1.0'),
   threshold: z.number().finite().min(1).max(360).optional(),
   facilityIds:z.array(id).max(10000).optional(),
   period: z.enum(['day', 'night']).default('day'),
   scenario: z.enum(['baseline', 'improvement', 'closure', 'new_road', 'new_facility']).default('baseline'),
   scope:z.enum(['edge','point','region']).default('edge'),pointId:id.optional(),
+  minRoadMinutes:z.number().finite().min(0).max(360).optional(),
+  minRoadPercent:z.number().finite().min(0).max(100).optional(),
   improvementEdgeIds:z.array(id).max(30000).optional(),
   timeScale:z.number().finite().min(0.5).max(2).default(1),
   edgeId: id.optional(), multiplier: z.number().finite().min(1).max(3).default(1.5),
   cost: z.number().finite().positive().max(1e12).nullable().default(null)
-}).strict().transform(o=>({...o,threshold:o.threshold??(o.methodologyVersion==='2.0.0'?60:o.methodologyVersion==='5.0.0'?40:30)})).refine(o=>o.methodologyVersion!=='5.0.0'||o.threshold>15,'Для МИЭД v5 параметр τ должен быть больше 15 минут');
+}).strict().transform(o=>({...o,threshold:o.threshold??(o.methodologyVersion==='2.0.0'?60:['5.0.0','6.1.0'].includes(o.methodologyVersion)?40:30)})).refine(o=>!['5.0.0','6.1.0'].includes(o.methodologyVersion)||o.threshold>15,'Для МИЭД v5/v6.1 параметр τ должен быть больше 15 минут');
 export type CalculationOptions = z.infer<typeof CalculationSchema>;
 export type QualityStatus = 'verified' | 'partial' | 'needs_review' | 'no_data' | 'calculation_error';
 export type Region = { id:string; slug:string; name:string; districtId:string|null; type:string; isoCode:string|null; officialCode?:string|null; disputed?:boolean; geometryId?:string|null; geometryStatus?:string; population?:number|null; dataStatus?:QualityStatus; synthetic?:boolean; indexValue?:number|null; datasetId?:string; profileLabel?:string; settlementCount?:number; studyLabel?:string;facilityEvidence?:FacilityEvidence;populationCoverage?:number|null;indexBounds?:{lower:number|null;upper:number|null}; };
 export type FacilityEvidence='official-source'|'osm-unverified-profile'|'synthetic';
-export type PointResult = {id:string; name:string; municipality:string; population:number|null; minutes:number|null; score:number|null; status:'reachable'|'unreachable'|'route_unverified'|'missing_population'|'missing_node'; facilityId:string|null; path:string[]};
+export type PointResult = {id:string; name:string; municipality:string; population:number|null; minutes:number|null; score:number|null; status:'reachable'|'unreachable'|'route_unverified'|'missing_population'|'missing_node'; facilityId:string|null; path:string[]; backupMinutes?:number|null; backupFacilityId?:string|null; robustMinutes?:number|null};
 export type IndexResult = {
   value:number|null; unit:'points'; status:QualityStatus; synthetic:boolean; methodologyVersion:string;
   datasetId:string; datasetVersion:string; sourceIds:string[]; period:'day'|'night'; profile:string; threshold:number;
-  weighting:'settlement'|'population'; denominator:number; expectedSettlements:number; settlementCoverage:number|null; reachableSettlements:number; withinThresholdSettlements:number;
+  weighting:'settlement'|'population'|'hybrid'; denominator:number; expectedSettlements:number; settlementCoverage:number|null; reachableSettlements:number; withinThresholdSettlements:number;
   numerator:number; population:number; populationCoverage:number|null; expectedPopulation:number|null;
   includedSettlements:number; missingSettlements:number; unreachableSettlements:number;
   unverifiedRoutes:number;
@@ -44,11 +47,11 @@ export type IndexResult = {
   meanMinutes:number|null; medianMinutes:number|null; points:PointResult[]; warnings:string[];
   p90Minutes:number|null;overMinutesShares:Record<'60'|'90',number|null>;
   excludedPopulation:number|null;unreachablePopulation:number;
-  indexBounds:{lower:number|null;upper:number|null};facilityEvidence:FacilityEvidence;
+  indexBounds:{lower:number|null;upper:number|null};facilityEvidence:FacilityEvidence; territorialIndex?:number|null; populationIndex?:number|null; isolatedSettlementsShare?:number|null; isolatedPopulationShare?:number|null; backupWithin60Share?:number|null; stressWayIds?:string[];
 };
 export const LEGACY_METHODOLOGY={id:'mied-car-v2',version:'2.0.0',defaultThreshold:60,allowedThresholds:[30,45,60,90],formula:'Iᴿ(car)=100 × Σ[pᵢ 2^(−tᵢ/60)] / Σpᵢ'};
 export const POPULATION_METHODOLOGY={id:'mied-car-v3',version:'3.0.0',defaultThreshold:30,formula:'I=100 × Σ[pᵢ 2^(−tᵢ/30)] / Σpᵢ'};
-export const METHODOLOGY = {id:'mied-car-v5',version:'5.0.0',status:'Доступность поселений с зоной комфортной поездки · равные веса поселений',defaultThreshold:40,comfortMinutes:15,allowedThresholds:[30,40,50,60],thresholdUnit:'минуты',profileRule:'Сравниваются только одинаковые профили, периоды, параметры τ и версии данных',formula:'Iᴿ(car)=100 × Σ A(tᵢ) / N; A=1 при t≤15, иначе 2^(-(t-15)/(τ-15))'};
+export const METHODOLOGY = {id:'mied-car-v6.1',version:'6.1.0',status:'75,2% территория + 24,8% население; 85% ближайшая площадка + 10% резервная + 5% модельный стресс-тест',defaultThreshold:40,comfortMinutes:15,longTripMinutes:60,longTripGamma:2,allowedThresholds:[30,40,50,60],thresholdUnit:'минуты',profileRule:'Сопоставимы только одинаковые профили, периоды, τ, версии данных и схемы стресс-теста',formula:'I = 100 × Σᵢ(0.752/N + 0.248 pᵢ/P)[0.85 A(t₁ᵢ) + 0.10 A(t₂ᵢ) + 0.05 Uᵢ]; A(t)=1 до 15 мин; затем экспонента; снижение ускорено после 60 мин'};
 export const DISTRICTS = [
   {id:'central',name:'Центральный',short:'ЦФО'}, {id:'northwestern',name:'Северо-Западный',short:'СЗФО'},
   {id:'southern',name:'Южный',short:'ЮФО'}, {id:'north-caucasian',name:'Северо-Кавказский',short:'СКФО'},

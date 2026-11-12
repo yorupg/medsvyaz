@@ -20,8 +20,9 @@ import sources from '../data/sources.json';
 import {DISTRICTS,METHODOLOGY,LEGACY_METHODOLOGY,POPULATION_METHODOLOGY,CalculationSchema,type Dataset,type Region} from '../shared/schema';
 import {calculate,compareScenario,validateDataset,summarizePoints} from '../shared/engine';
 import {openapi} from './openapi';
+import {analyzeAccessibilityGaps} from './ml';
 import {RELEASE} from '../shared/release';
-import {realDatasets,pilot,studyDatasets,baselineResults,studyDescription,studyComparison,studyMap,studyRoute,studyCatalogue,studyDatasetIds,realRegionIds,isRealRegion,aggregateCohorts} from './study';
+import {realDatasets,pilot,studyDatasets,baselineResults,studyDescription,studyComparison,studyMap,studyRoute,studyCatalogue,studyRoadOptions,studyDatasetIds,realRegionIds,isRealRegion,aggregateCohorts} from './study';
 
 export interface RunStore {save(id:string,payload:unknown):Promise<void>;get(id:string):Promise<unknown|null>}
 const examples:Record<string,Dataset>={kaliningrad:validateDataset(exampleKaliningrad),ivanovo:validateDataset(exampleIvanovo),tyumen:validateDataset(exampleTyumen)};
@@ -32,6 +33,7 @@ export const regions:Region[]=regionsRaw.map(r=>{const d=studyCatalogue[r.id];re
 const missing=(regionId:string|null=null)=>({value:null,unit:'points',status:'no_data',coverage:{population:null,regions:0},methodologyVersion:METHODOLOGY.version,sourceIds:[],period:null,profile:null,regionId,warnings:['Для расчёта нужны согласованные данные населения, графа и подходящих медицинских учреждений.']});
 const aliases:Record<string,string>={'kaliningrad-oblast':'kaliningrad','moscow-region':'moscow-oblast'};
 function lookup(id:string){return regions.find(r=>r.id===id)??regions.find(r=>r.id===aliases[id]);}
+const mlReportCache=new Map<string,ReturnType<typeof analyzeAccessibilityGaps>>();
 export function createApi(store?:RunStore){
  const app=new Hono();
  app.use('*',secureHeaders());
@@ -39,8 +41,8 @@ export function createApi(store?:RunStore){
  app.use('*',bodyLimit({maxSize:2*1024*1024,onError:c=>c.json({error:'Размер запроса превышает 2 МБ'},413)}));
  app.onError((err,c)=>{if(err instanceof z.ZodError)return c.json({error:'Некорректные параметры',details:err.issues.map(i=>({path:i.path,message:i.message}))},400);console.error('[api]',err.message);return c.json({error:'Не удалось выполнить запрос. Проверьте параметры и повторите попытку.'},500);});
  app.get('/economics/sources',c=>c.json(economicSources));
- app.post('/economics/evaluate',async c=>{const input=EconomicRequestSchema.parse(await c.req.json());if(!studyCatalogue[input.regionId])return c.json({error:'Регион не содержит расчётного набора'},404);const d=studyDatasets[input.regionId];if(!d)return c.json({error:'В Lite экономика сценариев требует полноценного дорожного графа региона.'},409);if(input.scenarios.some(s=>!d.edges.some(e=>e.id===s.edgeId)))return c.json({error:'Дорожный участок не найден'},400);return c.json(evaluateEconomics(input));});
- app.get('/health',c=>c.json({status:'ok',version:RELEASE,edition:'self-contained-lite',realDatasets:Object.keys(realDatasets).length,regionSnapshots:realRegionIds.length,syntheticDatasets:studyDatasetIds.length-Object.keys(realDatasets).length}));
+ app.post('/economics/evaluate',async c=>{const input=EconomicRequestSchema.parse(await c.req.json());if(!studyCatalogue[input.regionId])return c.json({error:'Регион не содержит расчётного набора'},404);const d=studyDatasets[input.regionId];if(input.scenarios.some(s=>!d.edges.some(e=>e.id===s.edgeId)))return c.json({error:'Дорожный участок не найден'},400);return c.json(evaluateEconomics(input));});
+ app.get('/health',c=>c.json({status:'ok',version:RELEASE,realDatasets:Object.keys(realDatasets).length,syntheticDatasets:studyDatasetIds.length-realRegionIds.length}));
  app.get('/openapi.json',c=>c.json(openapi));
  app.get('/regions',c=>{const q=c.req.query('q')?.toLocaleLowerCase('ru'),district=c.req.query('district');return c.json(regions.filter(r=>(!q||r.name.toLocaleLowerCase('ru').includes(q))&&(!district||r.districtId===district||(district==='unassigned'&&r.districtId===null))));});
  app.get('/study-scope',c=>c.json({methodologyVersion:METHODOLOGY.version,regions:targetRegions.map(item=>({id:item.id,reason:item.reason,region:lookup(item.id),result:baselineResults[item.id]??missing(item.id)}))}));
@@ -49,15 +51,41 @@ export function createApi(store?:RunStore){
  app.get('/examples',c=>c.json({synthetic:true,examples:exampleList,warning:'Три географически подписанных примера используют вымышленные сети, население и учреждения. Нельзя интерпретировать как рейтинг субъектов.'}));
  app.get('/examples/:regionId/dataset',c=>{const id=c.req.param('regionId');return examples[id]?c.json(examples[id]):c.json({error:'Учебный набор не найден'},404);});
  app.get('/examples/:regionId/compare',c=>{const id=c.req.param('regionId'),d=examples[id];if(!d)return c.json({error:'Учебный набор не найден'},404);const opts=CalculationSchema.parse({methodologyVersion:c.req.query('methodologyVersion'),...(c.req.query('threshold')?{threshold:Number(c.req.query('threshold'))}:{}),period:c.req.query('period')??'day',scenario:c.req.query('scenario')??'improvement',edgeId:'ce',multiplier:1.5});return c.json({regionId:id,synthetic:true,...compareScenario(d,opts)});});
- const studyOptions=(query:Record<string,string>)=>CalculationSchema.parse({methodologyVersion:query.methodologyVersion,...(query.threshold?{threshold:Number(query.threshold)}:{}),period:query.period??'day',scenario:query.scenario??'baseline',scope:query.scope??'edge',...(query.pointId?{pointId:query.pointId}:{}),...(query.edgeId?{edgeId:query.edgeId}:{}),multiplier:Number(query.multiplier??1.5),timeScale:Number(query.timeScale??1),cost:query.cost?Number(query.cost):null});
+ const roadBenefit=(q:Record<string,string>)=>({
+  ...(q.minRoadMinutes===undefined?{}:{minRoadMinutes:Number(q.minRoadMinutes)}),
+  ...(q.minRoadPercent===undefined?{}:{minRoadPercent:Number(q.minRoadPercent)})
+ });
+ const studyOptions=(query:Record<string,string>)=>CalculationSchema.parse({...roadBenefit(query),methodologyVersion:query.methodologyVersion,...(query.threshold?{threshold:Number(query.threshold)}:{}),period:query.period??'day',scenario:query.scenario??'baseline',scope:query.scope??'edge',...(query.pointId?{pointId:query.pointId}:{}),...(query.edgeId?{edgeId:query.edgeId}:{}),multiplier:Number(query.multiplier??1.5),timeScale:Number(query.timeScale??1),cost:query.cost?Number(query.cost):null});
 
  app.get('/methodology-comparison',c=>c.json(existsSync('data/derived/methodology-comparison.json')?JSON.parse(readFileSync('data/derived/methodology-comparison.json','utf8')):{rows:[]}));
  app.get('/study/:id/bias-audit',c=>{const all=existsSync('data/derived/facility-selection-audit.json')?JSON.parse(readFileSync('data/derived/facility-selection-audit.json','utf8')):{};return c.json(all[c.req.param('id')]??null);});
  app.get('/study/:id',c=>{const d=studyDescription(c.req.param('id'));return d?c.json(d):c.json({error:'Набор не найден'},404);});
- app.get('/study/:id/compare',c=>{const id=c.req.param('id');if(!studyDatasets[id])return c.json({error:studyCatalogue[id]?'В Lite для этого региона доступна сводка индекса, но нет дорожного графа для новых сценариев.':'Набор не найден'},studyCatalogue[id]?409:404);const options=studyOptions(c.req.query());if(options.edgeId&&!studyDatasets[id].edges.some(e=>e.id===options.edgeId))return c.json({error:'Участок не найден'},400);if(!studyDatasets[id].synthetic&&options.period==='night')return c.json({error:'Ночной режим учреждений не подтверждён'},400);return c.json({regionId:id,synthetic:studyDatasets[id].synthetic,...studyComparison(id,options)});});
+ app.get('/study/:id/road-options',c=>{
+  const region=lookup(c.req.param('id'));
+  if(!region)return c.json({error:'Регион не найден'},404);
+  if(!studyCatalogue[region.id])return c.json({status:'no_data',rows:[]});
+  const params=c.req.query();
+  const options=CalculationSchema.parse({...roadBenefit(params),threshold:params.threshold?Number(params.threshold):undefined,timeScale:Number(params.timeScale??1)});
+  return c.json({status:'available',rows:studyRoadOptions(region.id,options)});
+ });
+ app.get('/study/:id/anomalies',c=>{
+  const id=c.req.param('id'),d=studyDatasets[id];
+  if(!d||d.synthetic)return c.json({status:'unavailable',message:'Нужны реальный расчётный набор и дорожный граф. Для региона без графа используйте FULL-версию.'},409);
+  const options=CalculationSchema.parse({threshold:Number(c.req.query('threshold')??METHODOLOGY.defaultThreshold),timeScale:Number(c.req.query('timeScale')??1),period:'day',scenario:'baseline'});
+  const key=JSON.stringify([id,options.threshold,options.timeScale,d.version]);
+  let report=mlReportCache.get(key);
+  if(!report){
+   const baseline=options.threshold===METHODOLOGY.defaultThreshold&&options.timeScale===1?baselineResults[id]:calculate(d,{threshold:options.threshold,timeScale:options.timeScale,period:'day',scenario:'baseline'});
+   report=analyzeAccessibilityGaps(d,baseline);
+   if(mlReportCache.size>=12)mlReportCache.delete(mlReportCache.keys().next().value!);
+   mlReportCache.set(key,report);
+  }
+  return c.json(report);
+ });
+ app.get('/study/:id/compare',c=>{const id=c.req.param('id');if(!studyDatasets[id])return c.json({error:'Набор не найден'},404);const options=studyOptions(c.req.query());if(options.edgeId&&!studyDatasets[id].edges.some(e=>e.id===options.edgeId))return c.json({error:'Участок не найден'},400);if(!studyDatasets[id].synthetic&&options.period==='night')return c.json({error:'Ночной режим учреждений не подтверждён'},400);return c.json({regionId:id,synthetic:studyDatasets[id].synthetic,...studyComparison(id,options)});});
  app.get('/study/:id/dataset',c=>{const d=realDatasets[c.req.param('id')]??studyDatasets[c.req.param('id')];if(!d)return c.json({error:'Набор не найден'},404);c.header('Content-Disposition','attachment; filename="'+d.id+'.json"');return c.json(d);});
- app.get('/study/:id/map',c=>{if(!isRealRegion(c.req.param('id')))return c.json({error:'Для этого набора используется карта модельной сети'},400);if(!studyDatasets[c.req.param('id')])return c.json({error:'В Lite доступны итоговые показатели этого региона, но детальный дорожный граф не включён. Для маршрутов используйте полный архив.'},409);const o=studyOptions(c.req.query());if(o.period==='night')return c.json({error:'Ночной режим не подтверждён'},400);return c.json(studyMap(c.req.param('id'),o));});
- app.get('/study/:id/route/:pointId',c=>{if(!isRealRegion(c.req.param('id')))return c.json({error:'Для этого набора используется карта модельной сети'},400);if(!studyDatasets[c.req.param('id')])return c.json({error:'В Lite доступны итоговые показатели этого региона, но детальный дорожный граф не включён. Для маршрутов используйте полный архив.'},409);const o=studyOptions(c.req.query());if(o.period==='night')return c.json({error:'Ночной режим не подтверждён'},400);const r=studyRoute(c.req.param('id'),c.req.param('pointId'),o);return r?c.json(r):c.json({error:'Пункт не найден'},404);});
+ app.get('/study/:id/map',c=>{if(!isRealRegion(c.req.param('id')))return c.json({error:'Для этого набора используется карта модельной сети'},400);const o=studyOptions(c.req.query());if(o.period==='night')return c.json({error:'Ночной режим не подтверждён'},400);return c.json(studyMap(c.req.param('id'),o));});
+ app.get('/study/:id/route/:pointId',c=>{if(!isRealRegion(c.req.param('id')))return c.json({error:'Для этого набора используется карта модельной сети'},400);const o=studyOptions(c.req.query());if(o.period==='night')return c.json({error:'Ночной режим не подтверждён'},400);const r=studyRoute(c.req.param('id'),c.req.param('pointId'),o);return r?c.json(r):c.json({error:'Пункт не найден'},404);});
  app.get('/geometry',c=>{c.header('Cache-Control','public, max-age=86400');return c.json(geometry);});
  app.get('/regions/:id',c=>{const r=lookup(c.req.param('id'));return r?c.json(r):c.json({error:'Регион не найден'},404);});
  app.get('/regions/:id/settlement-sample',c=>{const r=lookup(c.req.param('id'));if(!r)return c.json({error:'Регион не найден'},404);return c.json(targetSettlementSamples[r.id as keyof typeof targetSettlementSamples]??{status:'no_data',warning:'Выборка не подготовлена.',sourceId:null,settlements:[]});});
@@ -74,13 +102,9 @@ export function createApi(store?:RunStore){
   if(scope==='demo'){const o=CalculationSchema.parse({methodologyVersion:c.req.query('methodologyVersion'),...(c.req.query('threshold')?{threshold:Number(c.req.query('threshold'))}:{}),period:c.req.query('period')??'day',scenario:c.req.query('scenario')??'baseline',edgeId:c.req.query('edgeId')??'ce',multiplier:Number(c.req.query('multiplier')??1.5)});return c.json({scope:'demo',synthetic:true,...compareScenario(validateDataset(demoRaw),o)});}
   const region=lookup(scope);
   if(region){
-   const options=studyOptions(c.req.query());
+   const options=studyOptions({...c.req.query(),scope:'edge'});
    // Older clients sent the demo-only ce edge for every territory.
-   if(!studyDatasets[region.id]){
-    const snapshot=baselineResults[region.id];
-    if(options.scenario!=='baseline')return c.json({error:'Для сценариев этого региона нужен полный дорожный граф. Lite содержит только проверенную исходную сводку.'},409);
-    return c.json({scope:region.id,regions:[region],results:snapshot?[snapshot]:[],summary:snapshot??missing(region.id),calculatedRegions:snapshot?1:0,readOnly:true,notice:'Лёгкая версия: индекс рассчитан заранее; для перерасчёта необходим полный дорожный граф.'});
-   }
+   if(!studyDatasets[region.id])return c.json({scope:region.id,regions:[region],results:[],summary:missing(region.id),calculatedRegions:0});
    if(options.edgeId==='ce'&&!studyDatasets[region.id].edges.some(e=>e.id==='ce'))options.edgeId=undefined;
    if(options.edgeId&&!studyDatasets[region.id].edges.some(e=>e.id===options.edgeId))return c.json({error:'Участок не найден'},400);
    if(!studyDatasets[region.id].synthetic&&options.period==='night')return c.json({error:'Ночной режим учреждений не подтверждён'},400);

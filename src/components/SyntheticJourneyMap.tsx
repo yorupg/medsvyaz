@@ -28,7 +28,7 @@ export function SyntheticJourneyMap({dataset,pointId,route,edgeId,onPoint,result
   const tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>'}).addTo(m);
   tiles.on('tileerror',()=>setTilesFailed(true));
   const resize=new ResizeObserver(()=>m.invalidateSize());resize.observe(container.current);
-  return()=>{resize.disconnect();m.remove();map.current=null;};
+  return()=>{resize.disconnect(); layers.current?.remove(); boundary.current?.remove(); m.remove(); map.current=null;};
  },[]);
  useEffect(()=>{
   const m=map.current;
@@ -57,8 +57,8 @@ export function SyntheticJourneyMap({dataset,pointId,route,edgeId,onPoint,result
    if(!a||!b)continue;
    const highlight=inRoute.has(e.id),selected=e.id===edgeId;
    const line=L.polyline([[a.y,longitude(a.x)],[b.y,longitude(b.x)]],{
-    color:highlight?'#0d857f':selected?'#c78b31':'#648a90',weight:highlight?5:selected?3.5:1.4,
-    opacity:highlight?1:(selected?0.9:0.42),dashArray:highlight?undefined:'5 5',interactive:highlight||selected
+    color:e.id==='__proposal__road'?'#bf4e88':highlight?'#0d857f':selected?'#c78b31':'#648a90',weight:highlight?5:selected?3.5:1.4,
+    opacity:highlight?1:(selected?0.9:0.42),dashArray:e.id==='__proposal__road'?'8 5':highlight?undefined:'5 5',interactive:highlight||selected
    }).addTo(group);
    if(highlight||selected)line.bindTooltip((e.name??'Условная связь')+(selected&&scenario==='closure'?' · закрыто в сценарии':' · '+format(e.minutes*timeScale/(selected&&scenario==='improvement'?multiplier:1))+' мин'));
   }

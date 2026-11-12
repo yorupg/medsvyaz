@@ -66,6 +66,14 @@ describe('Инвестиционные проектные сценарии',()=>
    else expect(after.facilityId).toBe('__proposal__facility');
   }
  });
+ for (const scenario of ['new_road','new_facility','improvement'] as const) {
+  it(scenario+': локальный запрос требует пункт из этой территории',()=>{
+   const d=fixture();
+   for (const pointId of [undefined,'other-region']){
+    expect(()=>compareScenario(d,{scenario,scope:'point',pointId})).toThrow();
+   }
+  });
+ }
  it('сценарии не заменяют отсутствующие фактические денежные данные',()=>{
   const c=compareScenario(fixture(),{scenario:'new_facility',scope:'region'});
   expect(c.cost).toBeNull();
@@ -78,6 +86,16 @@ describe('Инвестиционные проектные сценарии',()=>
 // graph edge, a changed route, and a nonzero index delta. This is NOT a test of
 // legal construction safety; authoritative exclusion polygons are unavailable.
 describe('Новые дорожные связки на реальных пилотах',()=>{
+ it('Изобильное: отсутствие локального кандидата сохраняет исходную поездку',()=>{
+  const d=validateDataset(JSON.parse(brotliDecompressSync(readFileSync('data/processed/kaliningrad-pilot.json.br')).toString()));
+  const pointId='s-27518000261';
+  const c=compareScenario(d,{scenario:'new_road',scope:'point',pointId});
+  expect(c.investmentSuggestion).toBeNull();
+  expect(c.proposedEdges).toEqual([]);
+  const origin=c.baseline.points.find(p=>p.id===pointId)!;
+  expect(origin.name).toContain('Изобильное');
+  expect(c.after.points.find(p=>p.id===pointId)).toEqual(origin);
+ },120000);
  for(const id of ['kaliningrad','ivanovo','pskov'] as const){
   it(`${id}: проектный короткий участок действительно меняет маршруты`,()=>{
    const d=validateDataset(JSON.parse(brotliDecompressSync(readFileSync(resolve(`data/processed/${id}-pilot.json.br`))).toString('utf8')));

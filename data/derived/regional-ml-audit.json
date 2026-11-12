@@ -1,0 +1,332 @@
+{
+  "kaliningrad": {
+    "status": "available",
+    "included": 959,
+    "total": 964,
+    "facilities": 10,
+    "municipalities": 22,
+    "mae": 8.32,
+    "medianBaselineMae": 19.6,
+    "evidence": "official-selected-sites"
+  },
+  "ivanovo": {
+    "status": "available",
+    "included": 1249,
+    "total": 1262,
+    "facilities": 5,
+    "municipalities": 27,
+    "mae": 9.49,
+    "medianBaselineMae": 22.26,
+    "evidence": "official-selected-sites"
+  },
+  "pskov": {
+    "status": "available",
+    "included": 2133,
+    "total": 2153,
+    "facilities": 6,
+    "municipalities": 26,
+    "mae": 7.86,
+    "medianBaselineMae": 27.07,
+    "evidence": "official-selected-sites"
+  },
+  "adygea": {
+    "status": "available",
+    "included": 218,
+    "total": 218,
+    "facilities": 21,
+    "municipalities": 9,
+    "mae": 8.29,
+    "medianBaselineMae": 14.76,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "astrakhan": {
+    "status": "available",
+    "included": 309,
+    "total": 395,
+    "facilities": 22,
+    "municipalities": 12,
+    "mae": 16.69,
+    "medianBaselineMae": 28.31,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "belgorod": {
+    "status": "available",
+    "included": 1359,
+    "total": 1366,
+    "facilities": 31,
+    "municipalities": 22,
+    "mae": 9.41,
+    "medianBaselineMae": 19.29,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "bryansk": {
+    "status": "available",
+    "included": 1516,
+    "total": 1526,
+    "facilities": 29,
+    "municipalities": 31,
+    "mae": 10.62,
+    "medianBaselineMae": 22.77,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "chuvashia": {
+    "status": "available",
+    "included": 1640,
+    "total": 1645,
+    "facilities": 21,
+    "municipalities": 26,
+    "mae": 9.96,
+    "medianBaselineMae": 21.47,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "kabardino-balkaria": {
+    "status": "available",
+    "included": 176,
+    "total": 177,
+    "facilities": 9,
+    "municipalities": 13,
+    "mae": 10.31,
+    "medianBaselineMae": 21.28,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "kalmykia": {
+    "status": "available",
+    "included": 236,
+    "total": 246,
+    "facilities": 10,
+    "municipalities": 14,
+    "mae": 8.75,
+    "medianBaselineMae": 28.1,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "kaluga": {
+    "status": "available",
+    "included": 1715,
+    "total": 1733,
+    "facilities": 33,
+    "municipalities": 26,
+    "mae": 8.81,
+    "medianBaselineMae": 18.51,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "karelia": {
+    "status": "available",
+    "included": 486,
+    "total": 496,
+    "facilities": 21,
+    "municipalities": 18,
+    "mae": 10.78,
+    "medianBaselineMae": 31.05,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "kostroma": {
+    "status": "available",
+    "included": 1010,
+    "total": 1025,
+    "facilities": 26,
+    "municipalities": 29,
+    "mae": 11.4,
+    "medianBaselineMae": 24.99,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "kursk": {
+    "status": "available",
+    "included": 1960,
+    "total": 1990,
+    "facilities": 68,
+    "municipalities": 33,
+    "mae": 9.19,
+    "medianBaselineMae": 18.47,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "lipetsk": {
+    "status": "available",
+    "included": 1213,
+    "total": 1221,
+    "facilities": 32,
+    "municipalities": 20,
+    "mae": 9.77,
+    "medianBaselineMae": 21.19,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "mari-el": {
+    "status": "available",
+    "included": 1049,
+    "total": 1270,
+    "facilities": 10,
+    "municipalities": 16,
+    "mae": 12.13,
+    "medianBaselineMae": 29.18,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "mordovia": {
+    "status": "available",
+    "included": 932,
+    "total": 940,
+    "facilities": 29,
+    "municipalities": 23,
+    "mae": 12.14,
+    "medianBaselineMae": 23.57,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "murmansk": {
+    "status": "available",
+    "included": 93,
+    "total": 102,
+    "facilities": 27,
+    "municipalities": 16,
+    "mae": 11.75,
+    "medianBaselineMae": 31.05,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "north-ossetia-alania": {
+    "status": "available",
+    "included": 181,
+    "total": 182,
+    "facilities": 13,
+    "municipalities": 9,
+    "mae": 19.53,
+    "medianBaselineMae": 31.51,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "novgorod": {
+    "status": "available",
+    "included": 1317,
+    "total": 1324,
+    "facilities": 24,
+    "municipalities": 22,
+    "mae": 9.86,
+    "medianBaselineMae": 23.3,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "oryol": {
+    "status": "available",
+    "included": 1520,
+    "total": 1548,
+    "facilities": 24,
+    "municipalities": 27,
+    "mae": 9.94,
+    "medianBaselineMae": 22.9,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "penza": {
+    "status": "available",
+    "included": 1059,
+    "total": 1065,
+    "facilities": 43,
+    "municipalities": 30,
+    "mae": 10.57,
+    "medianBaselineMae": 22.54,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "ryazan": {
+    "status": "available",
+    "included": 1598,
+    "total": 1625,
+    "facilities": 39,
+    "municipalities": 29,
+    "mae": 10.54,
+    "medianBaselineMae": 24.77,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "smolensk": {
+    "status": "available",
+    "included": 1816,
+    "total": 1825,
+    "facilities": 41,
+    "municipalities": 26,
+    "mae": 9.54,
+    "medianBaselineMae": 20.12,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "tambov": {
+    "status": "available",
+    "included": 1191,
+    "total": 1203,
+    "facilities": 16,
+    "municipalities": 30,
+    "mae": 10.5,
+    "medianBaselineMae": 27.61,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "tula": {
+    "status": "available",
+    "included": 2119,
+    "total": 2217,
+    "facilities": 39,
+    "municipalities": 26,
+    "mae": 9.47,
+    "medianBaselineMae": 25.74,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "tver": {
+    "status": "available",
+    "included": 3328,
+    "total": 3377,
+    "facilities": 58,
+    "municipalities": 41,
+    "mae": 10.22,
+    "medianBaselineMae": 23.73,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "udmurtia": {
+    "status": "available",
+    "included": 1445,
+    "total": 1450,
+    "facilities": 42,
+    "municipalities": 30,
+    "mae": 10.49,
+    "medianBaselineMae": 23.77,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "ulyanovsk": {
+    "status": "available",
+    "included": 830,
+    "total": 830,
+    "facilities": 33,
+    "municipalities": 24,
+    "mae": 9.9,
+    "medianBaselineMae": 22.61,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "vladimir": {
+    "status": "available",
+    "included": 1643,
+    "total": 1661,
+    "facilities": 23,
+    "municipalities": 21,
+    "mae": 10.18,
+    "medianBaselineMae": 21.4,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "vologda": {
+    "status": "available",
+    "included": 2520,
+    "total": 2530,
+    "facilities": 40,
+    "municipalities": 28,
+    "mae": 10.09,
+    "medianBaselineMae": 29.47,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "voronezh": {
+    "status": "available",
+    "included": 1435,
+    "total": 1442,
+    "facilities": 58,
+    "municipalities": 34,
+    "mae": 10.11,
+    "medianBaselineMae": 24.73,
+    "evidence": "osm-unverified-medical-profile"
+  },
+  "yaroslavl": {
+    "status": "available",
+    "included": 1980,
+    "total": 1994,
+    "facilities": 43,
+    "municipalities": 19,
+    "mae": 10.47,
+    "medianBaselineMae": 23.13,
+    "evidence": "osm-unverified-medical-profile"
+  }
+}

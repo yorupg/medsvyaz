@@ -14,7 +14,7 @@ describe('Observed regional data, catalogue and maps',()=>{
   for(const [id,r] of Object.entries(baselineResults)){
    const old=summarizePoints(studyCatalogue[id],r.points,{methodologyVersion:'2.0.0'});
    expect(old.value,id).toBeCloseTo(previous.get(id) as number,9);
-   expect(r.methodologyVersion,id).toBe('5.0.0');expect(r.threshold).toBe(40);expect(r.value!,id).toBeGreaterThanOrEqual(0);
+   expect(r.methodologyVersion,id).toBe('6.1.0');expect(r.threshold).toBe(40);expect(r.value!,id).toBeGreaterThanOrEqual(0);
    expect(r.p90Minutes===null||r.p90Minutes>=r.medianMinutes!).toBe(true);
   }
  });
@@ -47,7 +47,7 @@ describe('Observed regional data, catalogue and maps',()=>{
  });
  it('publishes the selected 33 with source-backed calculations',async()=>{
   const scope=await (await app.request('/study-scope')).json();
-  expect(scope.methodologyVersion).toBe('5.0.0');expect(scope.regions).toHaveLength(33);
+  expect(scope.methodologyVersion).toBe('6.1.0');expect(scope.regions).toHaveLength(33);
   expect(scope.regions.every((r:{result:{value:number|null;synthetic:boolean}})=>r.result.value!==null&&!r.result.synthetic)).toBe(true);
  });
  it('has live dashboard results matching the catalogue in representative observed and synthetic regions',async()=>{
@@ -60,9 +60,9 @@ describe('Observed regional data, catalogue and maps',()=>{
  it('matches the independently computed population and index for all 33 observed regions',async()=>{
   const sources=new Set((await (await app.request('/sources')).json()).map((s:{id:string})=>s.id));
   for(const id of realRegionIds){
-   const check=JSON.parse(readFileSync('data/derived/v5-independent-checks.json','utf8'))[id];
+   const check=JSON.parse(readFileSync('data/derived/v6-extended/'+id+'.json','utf8'));
    const r=baselineResults[id],d=studyCatalogue[id];
-   expect(r.value,id).toBeCloseTo(check.index,9);expect(r.population,id).toBe(check.includedPopulation);
+   expect(r.value,id).toBeCloseTo(check.value,9);expect(r.population,id).toBe(check.includedPopulation);
    expect(r.includedSettlements,id).toBe(check.includedSettlements);expect(r.synthetic).toBe(false);
    expect(d.sourceIds.every(s=>sources.has(s)),id).toBe(true);
    expect(d.facilities.every(f=>f.verified&&f.sourceUrl&&f.osmId&&Number.isFinite(f.lat)&&Number.isFinite(f.lon)),id).toBe(true);

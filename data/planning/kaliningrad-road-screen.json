@@ -1,0 +1,175 @@
+{
+  "source": "https://download.geofabrik.de/russia/kaliningrad-261108.osm.pbf",
+  "sha256": "34bfa49e9a30282f83bbc022eba87450eef4a83dc4f2a615f8a9090955fac8aa",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0 · Geofabrik 2026-11-08",
+  "roadWidthMeters": 8,
+  "sideMarginMeters": 2,
+  "corridors": [
+    {
+      "id": "auto-infill-kaliningrad-5",
+      "fromNodeId": "n1919587548",
+      "toNodeId": "n1526809497",
+      "origin": "посёлок Холмы",
+      "status": "screened",
+      "directObstacles": [
+        "water"
+      ],
+      "buildingPolygons": 48,
+      "geometry": [
+        [
+          20.4732019,
+          54.9142388
+        ],
+        [
+          20.4772273010299,
+          54.91659271614825
+        ],
+        [
+          20.4796831,
+          54.9172325
+        ]
+      ],
+      "bridgeWayIds": [],
+      "lengthMeters": 540.47
+    },
+    {
+      "id": "auto-infill-kaliningrad-12",
+      "fromNodeId": "n10878541375",
+      "toNodeId": "n11453217602",
+      "origin": "г. Славск",
+      "status": "screened",
+      "directObstacles": [
+        "building"
+      ],
+      "buildingPolygons": 191,
+      "geometry": [
+        [
+          21.6780039,
+          55.0452424
+        ],
+        [
+          21.679260399875293,
+          55.04550509880352
+        ],
+        [
+          21.679412329880662,
+          55.04523465389156
+        ],
+        [
+          21.67924671419127,
+          55.044696383780604
+        ],
+        [
+          21.679088704069144,
+          55.04460739957752
+        ],
+        [
+          21.6789708,
+          55.0437094
+        ]
+      ],
+      "bridgeWayIds": [],
+      "lengthMeters": 292.25
+    },
+    {
+      "id": "auto-infill-kaliningrad-7",
+      "fromNodeId": "n857211127",
+      "toNodeId": "n857211132",
+      "origin": "г. Светлогорск",
+      "status": "blocked",
+      "directObstacles": [
+        "building"
+      ],
+      "buildingPolygons": 178,
+      "geometry": [],
+      "bridgeWayIds": []
+    },
+    {
+      "id": "auto-infill-kaliningrad-9",
+      "fromNodeId": "n13921099126",
+      "toNodeId": "n1168126417",
+      "origin": "посёлок Малинники",
+      "status": "screened",
+      "directObstacles": [],
+      "buildingPolygons": 38,
+      "geometry": [
+        [
+          20.7456852,
+          54.727342
+        ],
+        [
+          20.7436658,
+          54.7285211
+        ]
+      ],
+      "bridgeWayIds": [],
+      "lengthMeters": 184.74
+    },
+    {
+      "id": "auto-infill-kaliningrad-17",
+      "fromNodeId": "n1265255191",
+      "toNodeId": "n1968624308",
+      "origin": "посёлок Грачевка",
+      "status": "screened",
+      "directObstacles": [
+        "building"
+      ],
+      "buildingPolygons": 91,
+      "geometry": [
+        [
+          20.122691,
+          54.898994
+        ],
+        [
+          20.11998396553007,
+          54.89741630444983
+        ],
+        [
+          20.119672143781976,
+          54.89741404568502
+        ],
+        [
+          20.119526034418897,
+          54.8969636403757
+        ],
+        [
+          20.119024,
+          54.8913881
+        ]
+      ],
+      "bridgeWayIds": [],
+      "lengthMeters": 939.19
+    },
+    {
+      "id": "auto-infill-kaliningrad-13",
+      "fromNodeId": "n7524074492",
+      "toNodeId": "n1371022869",
+      "origin": "посёлок Низовье",
+      "status": "screened",
+      "directObstacles": [
+        "building"
+      ],
+      "buildingPolygons": 40,
+      "geometry": [
+        [
+          20.7459594,
+          54.6972007
+        ],
+        [
+          20.74585396578831,
+          54.6969168412438
+        ],
+        [
+          20.74600968508051,
+          54.696827298621514
+        ],
+        [
+          20.7435453,
+          54.6939463
+        ]
+      ],
+      "bridgeWayIds": [],
+      "lengthMeters": 404.22
+    }
+  ]
+}

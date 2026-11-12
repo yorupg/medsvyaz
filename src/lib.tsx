@@ -8,9 +8,23 @@ export const percent=(n:number|null|undefined)=>n==null?'—':format(n*100)+'%';
 export const districtName=(id:string|null,ds:{id:string;name:string}[])=>ds.find(d=>d.id===id)?.name??'Вне перечня ФО';
 export const statusLabels:Record<string,string>={verified:'Проверено',partial:'Частично проверено',needs_review:'Требует проверки',no_data:'Нет данных',calculation_error:'Ошибка расчёта',synthetic:'Синтетические данные',observed:'Официальные источники площадок',osm:'OSM · профиль не проверен'};
 export function useApi<T>(url:string|null){
- const [data,setData]=useState<T|null>(null),[error,setError]=useState(''),[loading,setLoading]=useState(true),[attempt,setAttempt]=useState(0);
- useEffect(()=>{if(!url){setData(null);setLoading(false);setError('');return;}const c=new AbortController();setLoading(true);setError('');setData(null);fetch(url+(url.includes('?')?'&':'?')+'release='+RELEASE,{signal:c.signal,cache:'no-store'}).then(async r=>{if(!r.ok)throw new Error((await r.json()).error??`Ошибка API ${r.status}`);return r.json();}).then(body=>{if(!c.signal.aborted)setData(body);}).catch(e=>{if(!c.signal.aborted&&e.name!=='AbortError')setError(e.message);}).finally(()=>{if(!c.signal.aborted)setLoading(false);});return()=>c.abort();},[url,attempt]);
- return {data,error,loading,retry:()=>setAttempt(n=>n+1)};
+ const [result,setResult]=useState<{url:string;attempt:number;data:T|null;error:string}|null>(null);
+ const [attempt,setAttempt]=useState(0);
+ useEffect(()=>{
+  if(!url) return;
+  const controller=new AbortController();
+  fetch(url+(url.includes('?')?'&':'?')+'release='+RELEASE,{signal:controller.signal,cache:'no-store'})
+   .then(async response=>{
+    const body=await response.json();
+    if(!response.ok) throw new Error(body.error??('Ошибка API '+response.status));
+    if(!controller.signal.aborted) setResult({url,attempt,data:body,error:''});
+   }).catch(reason=>{
+    if(!controller.signal.aborted) setResult({url,attempt,data:null,error:reason.message});
+   });
+  return ()=>controller.abort();
+ },[url,attempt]);
+ const current=result?.url===url && result.attempt===attempt ? result : null;
+ return {data:current?.data??null,error:current?.error??'',loading:Boolean(url&&!current),retry:()=>setAttempt(n=>n+1)};
 }
 const RegionContext=createContext<Region[]>([]);
 export function RegionProvider({children}:{children:ReactNode}){const r=useApi<Region[]>('/api/regions');return <RegionContext.Provider value={r.data??[]}>{r.error&&<div className="global-error">Не удалось получить каталог. <button onClick={r.retry}>Повторить</button></div>}{children}</RegionContext.Provider>;}

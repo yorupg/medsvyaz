@@ -1,12 +1,12 @@
 import {z} from 'zod';
-import type {IndexResult} from './schema';
+import {METHODOLOGY, type IndexResult} from './schema';
 
 const amount=z.number().finite().min(0).max(1e12).nullable();
 const webUrl=z.string().max(2000).url().refine(value=>['https:','http:'].includes(new URL(value).protocol)).nullable();
 export const FinanceSchema=z.object({investment:amount,annualTrips:z.number().finite().min(0).max(1e10).nullable(),valueOfTime:amount,annualOperatingCost:amount,annualCashBenefit:amount,horizon:z.number().int().min(1).max(50).nullable(),discountRate:z.number().finite().min(0).max(1).nullable()}).strict();
 export type FinanceInput=z.infer<typeof FinanceSchema>;
 export const emptyFinance:FinanceInput={investment:null,annualTrips:null,valueOfTime:null,annualOperatingCost:null,annualCashBenefit:null,horizon:null,discountRate:null};
-export const EconomicRequestSchema=z.object({regionId:z.string().min(1).max(120),threshold:z.number().finite().min(1).max(360).default(30),accessLimit:z.number().finite().min(1).max(360).default(60),timeScale:z.number().finite().min(.5).max(2).default(1),budget:amount,
+export const EconomicRequestSchema=z.object({regionId:z.string().min(1).max(120),threshold:z.number().finite().gt(METHODOLOGY.comfortMinutes).max(360).default(METHODOLOGY.defaultThreshold),accessLimit:z.number().finite().min(1).max(360).default(60),timeScale:z.number().finite().min(.5).max(2).default(1),budget:amount,
  scenarios:z.array(z.object({id:z.string().min(1).max(100),name:z.string().min(1).max(150),edgeId:z.string().min(1).max(120),scenario:z.enum(['improvement','closure']).default('improvement'),multiplier:z.number().finite().min(1).max(3),cost:amount,costSourceUrl:webUrl,costNote:z.string().max(2000),finance:FinanceSchema}).strict()).min(1).max(5)
 }).strict().refine(o=>new Set(o.scenarios.map(s=>s.id)).size===o.scenarios.length,'Идентификаторы вариантов должны быть уникальны');
 export type EconomicRequest=z.infer<typeof EconomicRequestSchema>;

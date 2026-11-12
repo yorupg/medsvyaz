@@ -1,0 +1,295 @@
+{
+  "method": "SciPy directed Dijkstra / min duplicate arc",
+  "reports": [
+    {
+      "region": "kaliningrad",
+      "status": "checked",
+      "baseline": 70.650653,
+      "matchesLiveEngine": true,
+      "testedCandidates": 6,
+      "improvingCandidates": 5,
+      "best": {
+        "id": "auto-infill-kaliningrad-5",
+        "hub": "посёлок Холмы",
+        "roadKm": 0.5334,
+        "before": 70.650653,
+        "after": 70.678222,
+        "delta": 0.027569,
+        "affected": 2,
+        "examples": [
+          {
+            "name": "посёлок Холмы",
+            "savedMinutes": 8.085
+          },
+          {
+            "name": "посёлок Моховое",
+            "savedMinutes": 4.36
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "auto-infill-kaliningrad-5",
+          "hub": "посёлок Холмы",
+          "roadKm": 0.5334,
+          "before": 70.650653,
+          "after": 70.678222,
+          "delta": 0.027569,
+          "affected": 2,
+          "examples": [
+            {
+              "name": "посёлок Холмы",
+              "savedMinutes": 8.085
+            },
+            {
+              "name": "посёлок Моховое",
+              "savedMinutes": 4.36
+            }
+          ]
+        },
+        {
+          "id": "auto-infill-kaliningrad-12",
+          "hub": "г. Славск",
+          "roadKm": 0.1816,
+          "before": 70.650653,
+          "after": 70.654101,
+          "delta": 0.003448,
+          "affected": 1,
+          "examples": [
+            {
+              "name": "г. Славск",
+              "savedMinutes": 1.414
+            }
+          ]
+        },
+        {
+          "id": "auto-infill-kaliningrad-17",
+          "hub": "посёлок Грачевка",
+          "roadKm": 0.8789,
+          "before": 70.650653,
+          "after": 70.653641,
+          "delta": 0.002987,
+          "affected": 1,
+          "examples": [
+            {
+              "name": "посёлок Ракитное",
+              "savedMinutes": 2.287
+            }
+          ]
+        },
+        {
+          "id": "auto-infill-kaliningrad-7",
+          "hub": "г. Светлогорск",
+          "roadKm": 0.1816,
+          "before": 70.650653,
+          "after": 70.652171,
+          "delta": 0.001517,
+          "affected": 1,
+          "examples": [
+            {
+              "name": "г. Светлогорск",
+              "savedMinutes": 1.033
+            }
+          ]
+        },
+        {
+          "id": "auto-infill-kaliningrad-9",
+          "hub": "посёлок Малинники",
+          "roadKm": 0.1846,
+          "before": 70.650653,
+          "after": 70.651378,
+          "delta": 0.000724,
+          "affected": 1,
+          "examples": [
+            {
+              "name": "посёлок Малинники",
+              "savedMinutes": 0.334
+            }
+          ]
+        }
+      ],
+      "caution": "Checks travel-time mathematics, not legal or physical feasibility of the proposed road."
+    },
+    {
+      "region": "ivanovo",
+      "status": "checked",
+      "baseline": 47.802422,
+      "matchesLiveEngine": true,
+      "testedCandidates": 7,
+      "improvingCandidates": 5,
+      "best": {
+        "id": "auto-infill-ivanovo-3",
+        "hub": "деревня Луговое",
+        "roadKm": 0.4791,
+        "before": 47.802422,
+        "after": 47.813504,
+        "delta": 0.011082,
+        "affected": 3,
+        "examples": [
+          {
+            "name": "деревня Луговое",
+            "savedMinutes": 5.866
+          },
+          {
+            "name": "деревня Кориха",
+            "savedMinutes": 3.112
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "auto-infill-ivanovo-3",
+          "hub": "деревня Луговое",
+          "roadKm": 0.4791,
+          "before": 47.802422,
+          "after": 47.813504,
+          "delta": 0.011082,
+          "affected": 3,
+          "examples": [
+            {
+              "name": "деревня Луговое",
+              "savedMinutes": 5.866
+            },
+            {
+              "name": "деревня Кориха",
+              "savedMinutes": 3.112
+            }
+          ]
+        },
+        {
+          "id": "auto-infill-ivanovo-16",
+          "hub": "пгт Петровский",
+          "roadKm": 0.6631,
+          "before": 47.802422,
+          "after": 47.805996,
+          "delta": 0.003574,
+          "affected": 3,
+          "examples": [
+            {
+              "name": "село Костромиха",
+              "savedMinutes": 0.951
+            },
+            {
+              "name": "село Петрово-Городище",
+              "savedMinutes": 0.951
+            }
+          ]
+        },
+        {
+          "id": "auto-infill-ivanovo-11",
+          "hub": "село Обжериха",
+          "roadKm": 0.3927,
+          "before": 47.802422,
+          "after": 47.803433,
+          "delta": 0.001011,
+          "affected": 1,
+          "examples": [
+            {
+              "name": "деревня Жары",
+              "savedMinutes": 0.851
+            }
+          ]
+        },
+        {
+          "id": "auto-infill-ivanovo-5",
+          "hub": "деревня Железнодорожной Станции Ермолино",
+          "roadKm": 0.1907,
+          "before": 47.802422,
+          "after": 47.803162,
+          "delta": 0.00074,
+          "affected": 1,
+          "examples": [
+            {
+              "name": "деревня Опольное",
+              "savedMinutes": 0.677
+            }
+          ]
+        },
+        {
+          "id": "auto-infill-ivanovo-18",
+          "hub": "пгт Петровский",
+          "roadKm": 0.5638,
+          "before": 47.802422,
+          "after": 47.803121,
+          "delta": 0.0007,
+          "affected": 2,
+          "examples": [
+            {
+              "name": "село Петрово-Городище",
+              "savedMinutes": 0.316
+            },
+            {
+              "name": "деревня Уронда Большая",
+              "savedMinutes": 0.316
+            }
+          ]
+        }
+      ],
+      "caution": "Checks travel-time mathematics, not legal or physical feasibility of the proposed road."
+    },
+    {
+      "region": "pskov",
+      "status": "checked",
+      "baseline": 37.047329,
+      "matchesLiveEngine": true,
+      "testedCandidates": 2,
+      "improvingCandidates": 2,
+      "best": {
+        "id": "auto-infill-pskov-12",
+        "hub": "село Карамышево",
+        "roadKm": 0.1932,
+        "before": 37.047329,
+        "after": 37.049248,
+        "delta": 0.001919,
+        "affected": 2,
+        "examples": [
+          {
+            "name": "деревня Язва",
+            "savedMinutes": 2.215
+          },
+          {
+            "name": "село Карамышево",
+            "savedMinutes": 0.7
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "auto-infill-pskov-12",
+          "hub": "село Карамышево",
+          "roadKm": 0.1932,
+          "before": 37.047329,
+          "after": 37.049248,
+          "delta": 0.001919,
+          "affected": 2,
+          "examples": [
+            {
+              "name": "деревня Язва",
+              "savedMinutes": 2.215
+            },
+            {
+              "name": "село Карамышево",
+              "savedMinutes": 0.7
+            }
+          ]
+        },
+        {
+          "id": "auto-infill-pskov-15",
+          "hub": "деревня Городище",
+          "roadKm": 0.7009,
+          "before": 37.047329,
+          "after": 37.047394,
+          "delta": 6.6e-05,
+          "affected": 1,
+          "examples": [
+            {
+              "name": "деревня Рядобжа",
+              "savedMinutes": 0.143
+            }
+          ]
+        }
+      ],
+      "caution": "Checks travel-time mathematics, not legal or physical feasibility of the proposed road."
+    }
+  ]
+}

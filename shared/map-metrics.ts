@@ -6,10 +6,16 @@ export function populationRadius(population:number|null,maxPopulation:number,wei
  if(!weighted)return 4;
  return Math.max(1.8,26*Math.sqrt(Math.max(0,population??0)/Math.max(1,maxPopulation)));
 }
-export function mapDistribution(points:PointResult[],expectedIndex?:number|null,weighting:'settlement'|'population'='settlement'){
+export function mapDistribution(points:PointResult[],expectedIndex?:number|null,weighting:IndexResult['weighting']='settlement'){
  const included=points.filter(p=>p.score!==null);
- const population=included.reduce((sum,p)=>sum+p.population!,0);
- const weight=(p:PointResult)=>weighting==='settlement'?1:(p.population??0),denominator=included.reduce((sum,p)=>sum+weight(p),0);
+ const population=included.reduce((sum,p)=>sum+(p.population??0),0);
+ // Must match summarizePoints() exactly for MIED v6.1. The hybrid
+ // index combines 75.2% equal settlement weights with 24.8% population weights.
+ const n=included.length;
+ const weight=(p:PointResult)=>weighting==='settlement'?1
+  :weighting==='population'?(p.population??0)
+  :n>0&&population>0 ? (.752/n+.248*(p.population??0)/population) : 0;
+ const denominator=weighting==='hybrid'?(n>0&&population>0?1:0):included.reduce((sum,p)=>sum+weight(p),0);
  const numerator=included.reduce((sum,p)=>sum+weight(p)*p.score!,0);
  const index=denominator?100*numerator/denominator:null;
  if(expectedIndex!=null&&(index===null||Math.abs(index-expectedIndex)>1e-9))throw new Error('Точки карты не воспроизводят региональный индекс');

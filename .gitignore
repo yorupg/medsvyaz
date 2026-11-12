@@ -28,15 +28,9 @@ data/raw/**
 !data/raw/expanded/selection.json
 !data/raw/**/coordinate-overrides.json
 
-# Self-contained Lite: commit required small processed datasets.
-# Large expanded road graphs are intentionally NOT bundled.
-data/raw/**
-!data/raw/**/
-!data/raw/**/*.source.json
-# Retain small derived audit outputs and calculated CSV reports, not binary graph sets.
+# Full deliverable: compressed processed graphs are kept in the repository unless
+# publishing via a separate GitHub Release. Do not accidentally ignore them.
 *.osm.pbf
 *.osm.pbf.gz
-
-# Local development artifacts
 *.route-ui-backup
 *.bak

@@ -7,7 +7,7 @@ const metadata={id:'times',version:'unchanged-input',sourceIds:['test'],syntheti
 const point=(id:string,minutes:number|null,population:number,status:PointResult['status']='reachable'):PointResult=>({id,name:id,municipality:'m',population,minutes,status,score:999,facilityId:'h',path:[]});
 describe('МИЭД v3.0: independent origin-time evaluation',()=>{
  it('versions the new default and preserves the previous methodology',()=>{
-  expect(METHODOLOGY.version).toBe('5.0.0');expect(METHODOLOGY.allowedThresholds).toEqual([30,40,50,60]);
+  expect(METHODOLOGY.version).toBe('6.1.0');expect(METHODOLOGY.allowedThresholds).toEqual([30,40,50,60]);
   expect(CalculationSchema.parse({}).threshold).toBe(40);
   expect(CalculationSchema.parse({methodologyVersion:'2.0.0'}).threshold).toBe(60);
   expect(LEGACY_METHODOLOGY.defaultThreshold).toBe(60);

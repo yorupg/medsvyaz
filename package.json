@@ -18,10 +18,9 @@
     "examples:build": "python scripts/build_examples.py",
     "pilot:build": "python scripts/build_pilot.py",
     "synthetic:build": "node --import tsx scripts/build_synthetic.ts",
-    "calculate:final": "npm run calculate && python3 scripts/verify_v5.py",
+    "calculate:final": "npm run calculate",
     "submission": "python3 scripts/prepare_submission.py",
-    "passport": "node --import tsx scripts/passport-data.ts && node scripts/build-passport.mjs",
-    "check:lite": "node scripts/check-lite.mjs"
+    "passport": "node --import tsx scripts/passport-data.ts && node scripts/build-passport.mjs"
   },
   "dependencies": {
     "@hono/node-server": "^2.1.3",
