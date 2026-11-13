@@ -62,7 +62,7 @@ export function calculate(input:Dataset, options:Partial<CalculationOptions>={})
 
 function routeValidatedDataset(d:Dataset,o:CalculationOptions):IndexResult {
   if(['improvement','closure'].includes(o.scenario)&&!o.improvementEdgeIds?.length&&(!o.edgeId||!d.edges.some(e=>e.id===o.edgeId)))throw new Error('Выберите существующее ребро графа');
-  const facilities=d.facilities.filter(f=>(d.synthetic||f.verified||f.id==='__proposal__facility')&&f.profile===d.profile&&f.periods.includes(o.period)&&(!o.facilityIds||o.facilityIds.includes(f.id))).sort((a,b)=>a.id.localeCompare(b.id));
+  const facilities=d.facilities.filter(f=>(d.synthetic||f.verified||f.id==='__proposal__facility'||f.provenance==='osm-classified-public-medical-catalog')&&f.profile===d.profile&&f.periods.includes(o.period)&&(!o.facilityIds||o.facilityIds.includes(f.id))).sort((a,b)=>a.id.localeCompare(b.id));
   const result=emptyResult(d,o);
   if(!facilities.length){result.warnings.push('Нет подтверждённого набора подходящих учреждений для выбранного профиля и периода.');return result;}
   type Arc={node:string;time:number;edge:string};
@@ -83,13 +83,30 @@ function routeValidatedDataset(d:Dataset,o:CalculationOptions):IndexResult {
     const routeStatus=t===undefined?(d.synthetic||confirmedUnreachable.has(s.id)?'unreachable':'route_unverified'):'reachable';
     return {id:s.id,name:s.name,municipality:s.municipality,population:s.population,minutes:missing?null:t??null,score:missing||routeStatus==='route_unverified'?null:accessibility(t??null,o.threshold,comfortFor(o.methodologyVersion)),status:missing??routeStatus,facilityId:!missing&&s.nodeId?target.get(s.nodeId)??null:null,path:missing?[]:path};
   });
-  return summarizePoints(d,o.methodologyVersion==='6.1.0'?enrichV61Routing(d,o,points):points,o);
+  const v6=o.methodologyVersion==='6.1.0'||o.methodologyVersion==='6.2.0';
+  let enriched=v6?enrichV61Routing(d,o,points):points;
+  if(o.methodologyVersion==='6.2.0'){
+   const rawClinics=d.metadata?.clinicNodeIds;
+   const ids=Array.isArray(rawClinics)?rawClinics.filter((v):v is string=>typeof v==='string'):[];
+   const clinicSources=new Set(ids);
+   if(d.facilities.some(f=>f.id==='__proposal__facility'))clinicSources.add(d.facilities.find(f=>f.id==='__proposal__facility')!.nodeId);
+   const hasClinicEvidence=clinicSources.size>0;
+   const dist=new Map<string,number>();
+   const clinicHeap=new MinHeap();
+   for(const id of clinicSources){if(!reverse.has(id))continue;dist.set(id,0);clinicHeap.push([0,id]);}
+   while(clinicHeap.data.length){const [t,node]=clinicHeap.pop()!;if(dist.get(node)!==t)continue;
+    for(const arc of reverse.get(node)??[]){const alt=t+arc.time;if(alt<(dist.get(arc.node)??Infinity)){dist.set(arc.node,alt);clinicHeap.push([alt,arc.node]);}}
+   }
+   const settlementNodes=new Map(d.settlements.map(p=>[p.id,p.nodeId]));
+   enriched=enriched.map(p=>{const node=settlementNodes.get(p.id);return {...p,clinicMinutes:hasClinicEvidence?(node?(dist.get(node)??null):null):undefined};});
+  }
+  return summarizePoints(d,enriched,o);
 }
 
 
 export type ResultDataset=Pick<Dataset,'id'|'version'|'sourceIds'|'synthetic'|'profile'|'expectedPopulation'|'metadata'>&{regionId?:string};
 function emptyResult(d:ResultDataset,o:CalculationOptions):IndexResult{
-  return {value:null,unit:'points',status:'no_data',synthetic:d.synthetic,methodologyVersion:o.methodologyVersion,datasetId:d.id,datasetVersion:d.version,sourceIds:d.sourceIds,period:o.period,profile:d.profile,threshold:o.threshold,weighting:o.methodologyVersion==='6.1.0'?'hybrid':['4.0.0','5.0.0'].includes(o.methodologyVersion)?'settlement':'population',denominator:0,expectedSettlements:0,settlementCoverage:null,reachableSettlements:0,withinThresholdSettlements:0,numerator:0,population:0,populationCoverage:null,expectedPopulation:d.expectedPopulation,includedSettlements:0,missingSettlements:0,unreachableSettlements:0,unverifiedRoutes:0,reachablePopulation:0,withinThresholdPopulation:0,withinThresholdShare:null,withinMinutesShares:{'30':null,'60':null,'90':null,'120':null},meanMinutes:null,medianMinutes:null,points:[],warnings:[],p90Minutes:null,overMinutesShares:{'60':null,'90':null},excludedPopulation:d.expectedPopulation,unreachablePopulation:0,indexBounds:{lower:null,upper:null},territorialIndex:null,populationIndex:null,isolatedSettlementsShare:null,isolatedPopulationShare:null,backupWithin60Share:null,stressWayIds:[],facilityEvidence:d.synthetic?'synthetic':d.profile==='mapped-hospital'?'osm-unverified-profile':'official-source'};
+  return {value:null,unit:'points',status:'no_data',synthetic:d.synthetic,methodologyVersion:o.methodologyVersion,datasetId:d.id,datasetVersion:d.version,sourceIds:d.sourceIds,period:o.period,profile:d.profile,threshold:o.threshold,weighting:['6.1.0','6.2.0'].includes(o.methodologyVersion)?'hybrid':['4.0.0','5.0.0'].includes(o.methodologyVersion)?'settlement':'population',denominator:0,expectedSettlements:0,settlementCoverage:null,reachableSettlements:0,withinThresholdSettlements:0,numerator:0,population:0,populationCoverage:null,expectedPopulation:d.expectedPopulation,includedSettlements:0,missingSettlements:0,unreachableSettlements:0,unverifiedRoutes:0,reachablePopulation:0,withinThresholdPopulation:0,withinThresholdShare:null,withinMinutesShares:{'30':null,'60':null,'90':null,'120':null},meanMinutes:null,medianMinutes:null,points:[],warnings:[],p90Minutes:null,overMinutesShares:{'60':null,'90':null},excludedPopulation:d.expectedPopulation,unreachablePopulation:0,indexBounds:{lower:null,upper:null},territorialIndex:null,populationIndex:null,isolatedSettlementsShare:null,isolatedPopulationShare:null,backupWithin60Share:null,stressWayIds:[],facilityEvidence:d.synthetic?'synthetic':d.profile==='mapped-hospital'?'osm-unverified-profile':'official-source'};
 }
 
 export function weightedTimeQuantile(points:PointResult[],quantile:number,unitWeights=false){
@@ -101,14 +118,18 @@ export function weightedTimeQuantile(points:PointResult[],quantile:number,unitWe
 }
 /** Always evaluate each origin's time. Saved scores and aggregate indices are not inputs. */
 export function summarizePoints(d:ResultDataset,inputPoints:PointResult[],options:Partial<CalculationOptions>={}):IndexResult{
- const o=CalculationSchema.parse(options),result=emptyResult(d,o),v61=o.methodologyVersion==='6.1.0',unit=['4.0.0','5.0.0'].includes(o.methodologyVersion);
+ const o=CalculationSchema.parse(options),result=emptyResult(d,o),v61=['6.1.0','6.2.0'].includes(o.methodologyVersion),v62=o.methodologyVersion==='6.2.0',unit=['4.0.0','5.0.0'].includes(o.methodologyVersion);
  const points=inputPoints.map(p=>{
   // V6.1 demands a common, population-known cohort for BOTH territorial and demographic terms.
   // A graph-unverified route remains unknown, never a confirmed zero.
   const status=unit&&p.status==='missing_population'?(p.minutes!==null?'reachable':'route_unverified'):p.status;
   const excluded=['missing_population','missing_node','route_unverified'].includes(status)||(v61&&p.population===null);
-  const score=excluded?null:status==='unreachable'?0:v61?
-   (p.backupMinutes===undefined||p.robustMinutes===undefined?null:
+  const score=excluded?null:v62?
+   (p.clinicMinutes===undefined||p.robustMinutes===undefined?null:
+    .55*accessibility(p.minutes,o.threshold,15,2)+
+    .35*accessibility(p.clinicMinutes,o.threshold,15,2)+
+    .10*accessibility(p.robustMinutes,o.threshold,15,2)):
+   status==='unreachable'?0:v61?(p.backupMinutes===undefined||p.robustMinutes===undefined?null:
     .85*accessibility(p.minutes,o.threshold,15,2)+
     .10*accessibility(p.backupMinutes,o.threshold,15,2)+
     .05*accessibility(p.robustMinutes,o.threshold,15,2)):
@@ -116,6 +137,13 @@ export function summarizePoints(d:ResultDataset,inputPoints:PointResult[],option
   return {...p,status,score} as PointResult;
  });
  result.points=points;
+ if(v62){
+  const clinicReachable=points.map(p=>p.clinicMinutes).filter((t):t is number=>t!=null && Number.isFinite(t)).sort((a,b)=>a-b);
+  const clinicPercentile=(q:number)=>clinicReachable.length?clinicReachable[Math.max(0,Math.ceil(q*clinicReachable.length)-1)]:null;
+  result.clinicMedianMinutes=clinicPercentile(.5);
+  result.clinicP90Minutes=clinicPercentile(.9);
+  result.hospitalP90Minutes=weightedTimeQuantile(points,.9,true);
+ }
  const included=points.filter(p=>p.score!==null),N=included.length;
  const includedPopulation=included.reduce((sum,p)=>sum+(p.population??0),0);
  const hybridValid=!v61||includedPopulation>0;
@@ -163,15 +191,18 @@ export function summarizePoints(d:ResultDataset,inputPoints:PointResult[],option
   if(full&&result.value!==null)result.indexBounds={lower:100*result.numerator/full,upper:100*(result.numerator+(unit?result.missingSettlements:result.excludedPopulation!))/full};
  }
  result.status=result.value===null?'no_data':result.missingSettlements>0||(!unit&&!v61&&result.populationCoverage!==1)?'partial':d.synthetic?'needs_review':d.metadata?.regionalScopeVerified===true?'verified':'partial';
- if(!d.synthetic)result.warnings.push('Модель на реальных исходных данных: население ВПН-2021, дороги OSM-2026, выбранные больницы. Времена рассчитаны, не измерены. Это не время прибытия скорой помощи или начала лечения.');
+ if(!d.synthetic)result.warnings.push('Модель на реальных исходных данных: население ВПН-2021, дороги OSM-2026, выбранные больницы и классифицированные бесплатные поликлиники. Времена рассчитаны, не измерены. Это не время прибытия скорой помощи или начала лечения.');
  if(d.synthetic)result.warnings.push('Синтетические дорожные связи и условные центры. Индекс относится к выборке модели; происхождение населения и координат указано у каждой точки.');
  if(result.missingSettlements)result.warnings.push(`${result.missingSettlements} пунктов исключено из-за пропусков. Индекс описывает только включённые поселения.`);
  if(result.unreachableSettlements)result.warnings.push(d.metadata?.scenarioUnreachability===true?'Потерянные в сценарии закрытия маршруты получают ноль при сохранении базового состава поселений. Среднее и медиана относятся к оставшимся достижимым точкам.':'Подтверждённо недостижимые пункты включены с нулевой доступностью. Среднее и медиана времени относятся к достижимым поселениям.');
  if(result.unverifiedRoutes)result.warnings.push(`${result.unverifiedRoutes} пунктов без пути в ограниченном графе исключены: фактическая автомобильная изоляция не подтверждена. Требуется проверить дороги и больницы соседних регионов.`);
  if(result.populationCoverage===null)result.warnings.push('Полный знаменатель населения не подтверждён; доля покрытия неизвестна.');
- if(v61){
-  result.warnings.push('МИЭД v6.1 — эксперимент: 75,2% веса по поселениям, 24,8% по населению; 85% ближайшая площадка, 10% резервная, 5% три модельных перекрытия. Полнота списка больниц и правдоподобие выбранных перекрытий не гарантированы.');
-  result.warnings.push('Вторая больница определяется как отдельный графовый узел. Отсутствие второй включённой больницы в графе штрафуется нулём: это не доказательство отсутствия реальной больницы.');
+ if(v62){
+  result.warnings.push('МИЭД v6.2: 55% ближайшая больница, 35% ближайшая поликлиника, 10% устойчивость больничного маршрута; клинические профили OSM нуждаются в проверке. Возрастные группы не входят в индекс.');
+  if(!points.some(p=>p.clinicMinutes!==null&&p.clinicMinutes!==undefined))result.warnings.push('Нет подтверждённых маршрутов к поликлиникам: базовые результаты v6.2 нельзя интерпретировать как оценку реально существующей амбулаторной помощи.');
+ }else if(v61){
+  result.warnings.push('МИЭД v6.1: 75,2% веса по поселениям и 24,8% по населению; 85% ближайшая и 10% вторая ближайшая разные бесплатные больница/поликлиника, 5% устойчивость при модельных перекрытиях. ОМС-профиль и полнота перечня OSM-учреждений требуют проверки.');
+  result.warnings.push('Второе бесплатное медучреждение определяется как отдельный дорожный узел. Отсутствие второго объекта в наборе даёт ноль за резерв, но не доказывает отсутствие учреждения в действительности.');
  }
  return result;
 }
@@ -511,14 +542,20 @@ function proposeInvestment(d:Dataset,base:IndexResult,o:CalculationOptions){
   }
   if(!best||!bestEdge||bestScore<=1e-10)return {after:base,proposedEdges:[] as Dataset['edges'],proposedFacilities:[] as Dataset['facilities'],
    suggestion:null as InvestmentSuggestion|null,rule:'Ни один проверенный проектный коридор 1–28 км не улучшает выбранный маршрут по заданным условиям. Не изображаем существующую дорогу как новую. Выберите сценарий медицинской площадки или другой пункт; нужно проверить рельеф, мосты и ограничения строительства.'};
-  const altered=best.points.filter((x,i)=>base.points[i]?.minutes!==x.minutes);
+  const altered=best.points.filter((x,i)=>base.points[i]?.minutes!==x.minutes || (x.score!==null&&base.points[i]?.score!==null&&x.score!>base.points[i]!.score!+1e-9));
   return {after:best,proposedEdges:[bestEdge],proposedFacilities:[] as Dataset['facilities'],
    suggestion:{kind:'new_road' as const,title:bestEdge.name??'Проектируемая дорога',rationale:'ДЕМОНСТРАЦИЯ на СИНТЕТИЧЕСКОЙ СЕТИ. Это НОВАЯ, отсутствующая в исходном дорожном графе связь. Из кандидатных коридоров выбран тот, который после пересчёта действительно используется маршрутами и улучшает доступность. Указана оценочная длина, не проверенная трасса строительства.',distanceKm:bestEdge.lengthKm??null,technicalWarning:proposalWarning,
     estimatedBeneficiaries:altered.reduce((s,p)=>s+(p.population??0),0),affectedSettlements:altered.length},
    rule:'ТОЛЬКО ДЛЯ СИНТЕТИЧЕСКИХ СЕТЕЙ. Кандидаты: соединения 1–28 км между отдалённым поселением и лучше обеспеченным дорожным узлом; отсев, если ожидаемая экономия менее 6 минут. Среди не более 12 кандидатов на графе пересчитываются все маршруты; выбирается максимальный прирост МИЭД (для выбранного пункта — его доступности). Геометрия — гипотетическая прямая, не проект дороги.'};
  }
+ // Avoid duplicate proposed hospitals on or immediately next to an existing eligible
+ // site; nearby alternatives must be verified with the local facilities registry.
+ const existingMedicalSites=d.facilities.filter(f=>f.verified||d.synthetic||f.id==='__proposal__facility')
+  .map(f=>nodeMap.get(f.nodeId)).filter((n):n is Dataset['nodes'][number]=>Boolean(n));
  let best:ReturnType<typeof calculate>|undefined,bestSite:Dataset['settlements'][number]|undefined,bestScore=-Infinity;
- for(const s of choices){if(d.facilities.some(f=>f.nodeId===s.nodeId))continue;
+ for(const s of choices){
+  const candidateNode=nodeMap.get(s.nodeId!)!;
+  if(existingMedicalSites.some(n=>kmDistance(n,candidateNode)<2))continue;
   const result=calculate(withProposedFacility(d,s),{...o,scenario:'baseline'});
   const local=o.scope==='point'&&target?(result.points.find(p=>p.id===target.id)?.score??0)-(target.score??0):0;
   const regional=result.value===null||base.value===null?0:result.value-base.value;
@@ -530,11 +567,11 @@ function proposeInvestment(d:Dataset,base:IndexResult,o:CalculationOptions){
  }
  if(!best||!bestSite||bestScore<=1e-10)return {after:base,proposedEdges:[] as Dataset['edges'],proposedFacilities:[] as Dataset['facilities'],suggestion:null as InvestmentSuggestion|null,rule:'Ни одна из рассмотренных новых медицинских площадок не улучшает доступность выбранного пункта. Строительство не предлагается автоматически; можно проверить реконструкцию существующих учреждений или другой населённый пункт.'};
  const facility=withProposedFacility(d,bestSite).facilities.at(-1)!;
- const altered=best.points.filter((x,i)=>base.points[i]?.minutes!==x.minutes);
+ const altered=best.points.filter((x,i)=>base.points[i]?.minutes!==x.minutes || (x.score!==null&&base.points[i]?.score!==null&&x.score!>base.points[i]!.score!+1e-9));
  return {after:best,proposedEdges:[] as Dataset['edges'],proposedFacilities:[facility],
   suggestion:{kind:'new_facility' as const,title:facility.name,rationale:'Это НОВАЯ, отсутствующая в исходном наборе медицинская площадка, а не предложение объезда. Выбрана среди населённых пунктов, привязанных к дорожной сети; для каждого кандидата пересчитаны маршруты к существующим и проектному объектам. Перед реализацией требуется полный аудит действующих больниц и профиль помощи.',distanceKm:null,technicalWarning:proposalWarning,
    estimatedBeneficiaries:altered.reduce((sum,p)=>sum+(p.population??0),0),affectedSettlements:altered.length},
-  rule:'Кандидаты — существующие населённые пункты с плохой доступностью; преимущество отдаётся населённым узлам с населением и разным муниципалитетам. Проверяются до 12 площадок: рассчитывается новая кратчайшая поездка к существующим или к проектной площадке; выбирается максимальный прирост индекса (или доступности выбранного пункта). Это не доказательство медицинской или экономической целесообразности.'};
+  rule:'Кандидаты — населённые пункты с низкой исходной доступностью; отсеиваются точки в радиусе 2 км от уже учтённого учреждения. Из не более 12 альтернатив каждая проверяется полноценным пересчётом МИЭД 85/10/5; выбирается наибольший фактический прирост. Возрастные оценки и бизнес-показатели не подмешиваются в основной индекс. Полноту действующих медицинских площадок необходимо проверить перед строительством.'};
 }
 export function compareScenario(d:Dataset,o:Partial<CalculationOptions>={}) {
   const options=CalculationSchema.parse(o);
@@ -561,7 +598,7 @@ export function compareScenario(d:Dataset,o:Partial<CalculationOptions>={}) {
   const comparable=baseline.includedSettlements===after.includedSettlements&&baseline.denominator===after.denominator&&baseline.points.every((p,i)=>(p.score===null)===(after.points[i]?.score===null));
   const delta=comparable&&baseline.value!==null&&after.value!==null?after.value-baseline.value:null;
   const beforeById=new Map(baseline.points.map(p=>[p.id,p]));
-  const affectedPopulation=after.points.reduce((sum,p)=>sum+((p.minutes!==beforeById.get(p.id)?.minutes)?p.population??0:0),0);
+  const affectedPopulation=after.points.reduce((sum,p)=>{const before=beforeById.get(p.id);const improved=before&&p.score!==null&&before.score!==null&&p.score>before.score+1e-9;return sum+((p.minutes!==before?.minutes||improved)?p.population??0:0);},0);
   return {baseline,after,delta,comparisonWarning:!comparable?'Состав поселений изменился: изменение индекса между сценариями не сопоставимо.':null,relativeChange:delta!==null&&baseline.value!==null&&baseline.value!==0?100*delta/baseline.value:null,affectedPopulation,cost:options.cost,costQuality:options.cost===null?'not_provided':'scenario_assumption',pointsPerMillion:delta!==null&&options.cost!==null?delta/(options.cost/1e6):null,selectedRoads,proposedEdges:proposal?.proposedEdges??[],proposedFacilities:proposal?.proposedFacilities??[],investmentSuggestion:proposal?.suggestion??null,selectionRule:proposal?proposal.rule:options.scope==='point'?'Один участок исходного пути выбран по максимальному прогнозному приросту доступности (при равенстве — экономия времени). После изменения пересчитана вся сеть.':options.scope==='region'?'Выбраны до четырёх дорожных объектов по сумме прогнозных приростов доступности всех поселений; затем все маршруты и индекс пересчитаны на изменённой сети.':'Выбранный пользователем дорожный объект; пересчёт всей сети.',options};
 }
 

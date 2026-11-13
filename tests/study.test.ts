@@ -22,7 +22,11 @@ describe('Observed regional data, catalogue and maps',()=>{
   const current=await (await app.request('/regions/bryansk/index')).json();
   const old=await (await app.request('/regions/bryansk/index?methodologyVersion=2.0.0')).json();
   expect(current.threshold).toBe(40);expect(old.threshold).toBe(60);expect(current.value).toBeLessThan(old.value);
-  expect(current.facilityEvidence).toBe('osm-unverified-profile');expect(current.indexBounds.lower).toBeLessThanOrEqual(current.value);
+  expect(current.facilityEvidence).toBe('osm-unverified-profile');
+  // Hybrid v6.1 cannot identify missing-settlement bounds without their weights.
+  expect(current.missingSettlements).toBeGreaterThan(0);
+  expect(current.indexBounds).toEqual({lower:null,upper:null});
+  expect(old.indexBounds.lower).toBeLessThanOrEqual(old.value);
   const comparison=await (await app.request('/methodology-comparison')).json();expect(comparison.rows).toHaveLength(33);
   expect(comparison.rows.every((r:{synthetic:boolean})=>!r.synthetic)).toBe(true);
  });

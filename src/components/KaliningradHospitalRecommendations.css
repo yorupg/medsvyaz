@@ -1,0 +1,33 @@
+.kaliningrad-proposals-action{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:12px 18px;background:#fffaf0;border-bottom:1px solid #eadbba}
+.kaliningrad-proposals-action button{border:0;background:#b67522;color:white;border-radius:9px;padding:12px 18px;cursor:pointer;font-weight:800;font-size:13px;box-shadow:0 3px 10px #64421c30}
+.kaliningrad-proposals-action button.private{background:#2b9b56;box-shadow:0 3px 10px #1d603630}
+.kaliningrad-proposals-action button[aria-expanded="true"]{background:#80500b}
+.kaliningrad-proposals-action button.private[aria-expanded="true"]{background:#1f7440}
+.kaliningrad-proposals-action small{font-size:11px;color:#5c6874;max-width:520px;line-height:1.4}
+.kaliningrad-hospital-layout{display:grid;grid-template-columns:minmax(0,1fr);width:100%;min-width:0}
+.kaliningrad-hospital-layout.is-open{grid-template-columns:minmax(0,1.75fr) minmax(310px,1fr);align-items:stretch}
+.kaliningrad-hospital-layout>.study-map-canvas{min-width:0;min-height:520px;height:auto}
+.kaliningrad-hospital-side{min-width:0;max-height:620px;overflow:auto;border-left:1px solid #d7e3e5;background:#fdfefe;color:#243944;padding:16px 14px}
+.kaliningrad-hospital-head{display:flex;justify-content:space-between;gap:10px;align-items:start;margin-bottom:6px}.kaliningrad-hospital-head h3{font-size:20px;margin:5px 0 0;line-height:1.2}
+.kaliningrad-hospital-close{border:1px solid #cbd8db;border-radius:7px;cursor:pointer;background:#fff;font-size:25px;width:30px;height:30px;line-height:25px}
+.kaliningrad-hospital-description{font-size:11px;line-height:1.5;color:#526775;margin:10px 0}
+.kaliningrad-hospital-portfolio{display:grid;gap:5px;border-radius:9px;padding:12px;background:#edf8f6;border:1px solid #bbdcd2;margin-bottom:12px}
+.kaliningrad-hospital-portfolio>span{font-size:11px;color:#4b7375}.kaliningrad-hospital-portfolio>strong{font-size:21px;font-variant-numeric:tabular-nums}.kaliningrad-hospital-portfolio>b{color:#087e78;font-size:15px}.kaliningrad-hospital-portfolio>small{font-size:10px;line-height:1.4}
+.kaliningrad-hospital-cards{display:grid;gap:9px}.kaliningrad-hospital-card{display:grid;gap:8px;text-align:left;background:#fff;border:1px solid #d4e1e5;border-radius:10px;padding:11px;cursor:pointer;color:inherit}
+.kaliningrad-hospital-card:hover,.kaliningrad-hospital-card.is-selected{border-color:#d19a36;background:#fffaf0;box-shadow:0 0 0 2px #e4c8804d}
+.kaliningrad-hospital-card-title{display:flex;align-items:start;gap:8px}.kaliningrad-hospital-card-title>span:nth-child(2){min-width:0;flex:1;display:grid;gap:3px}.kaliningrad-hospital-card-title strong{font-size:12px;line-height:1.25}.kaliningrad-hospital-card-title small{font-size:10px;color:#61737b}.kaliningrad-hospital-card-title>b{font-size:12px;color:#0b7e73;white-space:nowrap}
+.kaliningrad-hospital-star{display:grid;place-items:center;width:27px;height:27px;border-radius:7px;background:#f4ca5b;color:#744702;font-size:21px;flex:0 0 auto}.kaliningrad-hospital-star.is-private{background:#bde8c8;color:#1c6b39}
+.kaliningrad-hospital-card-stats{display:flex;gap:8px;justify-content:space-between;flex-wrap:wrap;font-size:10px}.kaliningrad-hospital-card>small{font-size:10px;color:#60747e;line-height:1.4}.kaliningrad-hospital-link{font-size:11px;color:#9d6609;font-weight:800}
+.kaliningrad-hospital-method{font-size:10px;line-height:1.5;margin-top:12px;border-top:1px dashed #cad8dc;padding-top:10px}.kaliningrad-hospital-method summary{cursor:pointer;font-size:11px;font-weight:bold}.kaliningrad-hospital-method a{overflow-wrap:anywhere;color:#156a94}
+.kaliningrad-proposed-star{background:transparent;border:0}.kaliningrad-proposed-star>span{display:grid;place-items:center;width:38px;height:38px;background:#fff4c7;border:3px solid #b77c17;color:#b47712;border-radius:50%;font-size:27px;line-height:1;box-shadow:0 2px 8px #1e293b7a}.kaliningrad-proposed-star.is-private>span{background:#dff7e5;border-color:#2b9b56;color:#2b9b56}.kaliningrad-proposed-star.is-selected>span{background:#f5d475;border-color:#6e460e}.kaliningrad-proposed-star.is-private.is-selected>span{background:#c9eed4;border-color:#1f7440;color:#1f7440}
+.study-visuals-pilot{grid-template-columns:minmax(0,1fr)!important}
+@media(max-width:900px){.kaliningrad-hospital-layout.is-open{grid-template-columns:1fr}.kaliningrad-hospital-layout.is-open>.study-map-canvas{height:410px;min-height:410px}.kaliningrad-hospital-side{border-left:0;border-top:1px solid #d7e3e5;max-height:480px}}
+@media(max-width:640px){.kaliningrad-hospital-layout>.study-map-canvas{min-height:350px}.kaliningrad-proposals-action{padding:10px}.kaliningrad-proposals-action button{width:100%}}
+.kaliningrad-age-summary{background:#f3f8fa;border-top:1px solid #dce9ed;border-bottom:1px solid #dce9ed;padding:10px 16px;font-size:11px;color:#49606d;line-height:1.5}
+.kaliningrad-age-summary summary{cursor:pointer;font-weight:700;font-size:12px;color:#2d4f5e}
+.kaliningrad-age-summary p{margin:7px 0}
+.study-age-point{background:#edf6fa;border-radius:6px;padding:5px 9px;color:#315767}
+
+.kaliningrad-proposal-kind{font-size:11px;color:#305a67;font-weight:750;background:#eef5f6;border-radius:6px;padding:5px 7px}.kaliningrad-comparison-note{padding:9px 10px;border-radius:8px;background:#edf8f4;border:1px solid #bddcd1;color:#35635a;font-size:12px;margin-bottom:12px}.study-map-index-summary small{display:block;color:#476977;font-size:11px}
+
+.kaliningrad-proposal-export{font-size:11px;margin:8px 0}.kaliningrad-proposal-export a{color:#117b82;text-decoration:underline;text-underline-offset:2px;font-weight:700}

@@ -1,0 +1,145 @@
+{
+  "regionId": "kaliningrad",
+  "policy": "Selected public general-hospital sites with officially documented OMS care only",
+  "sourceUrl": "https://tfoms39.ru/upload/iblock/0ff/ngdlejrjod17ygfc107yi1c8oshk5h41/июль_ТРМО%202026.xlsx",
+  "retrievedAt": "2026-11-13",
+  "facilities": [
+    {
+      "id": "gvardeysk-crb",
+      "osmId": "way/85828784",
+      "catalogId": "osm-way-85828784",
+      "registryRows": [
+        788,
+        789,
+        794
+      ],
+      "freeCareAvailable": true
+    },
+    {
+      "id": "kaliningrad-bsmp",
+      "osmId": "relation/1380933",
+      "catalogId": "osm-relation-1380933",
+      "registryRows": [
+        145,
+        146,
+        147,
+        148,
+        149
+      ],
+      "freeCareAvailable": true
+    },
+    {
+      "id": "gusev-crb",
+      "osmId": "way/93183659",
+      "catalogId": "osm-way-93183659",
+      "registryRows": [
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194
+      ],
+      "freeCareAvailable": true
+    },
+    {
+      "id": "mamonovo-gb",
+      "osmId": "way/146612412",
+      "catalogId": "osm-way-146612412",
+      "registryRows": [
+        781,
+        782
+      ],
+      "freeCareAvailable": true
+    },
+    {
+      "id": "nesterov-crb",
+      "osmId": "way/716314808",
+      "catalogId": "osm-way-716314808",
+      "registryRows": [
+        587,
+        588,
+        589
+      ],
+      "freeCareAvailable": true
+    },
+    {
+      "id": "kaliningrad-okb",
+      "osmId": "relation/1395318",
+      "catalogId": "osm-relation-1395318",
+      "registryRows": [
+        889,
+        890,
+        891,
+        892,
+        893,
+        894,
+        895,
+        896,
+        897,
+        898,
+        899,
+        900,
+        901,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908
+      ],
+      "freeCareAvailable": true
+    },
+    {
+      "id": "ozyorsk-crb",
+      "osmId": "way/210719462",
+      "catalogId": "osm-way-210719462",
+      "registryRows": [
+        829,
+        830
+      ],
+      "freeCareAvailable": true
+    },
+    {
+      "id": "svetly-crb",
+      "osmId": "way/93772994",
+      "catalogId": "osm-way-93772994",
+      "registryRows": [
+        970,
+        971,
+        972,
+        973,
+        974,
+        975,
+        976,
+        977,
+        978
+      ],
+      "freeCareAvailable": true
+    },
+    {
+      "id": "sovetsk-crb",
+      "osmId": "way/379692422",
+      "catalogId": "osm-way-379692422",
+      "registryRows": [
+        614,
+        615
+      ],
+      "freeCareAvailable": true
+    },
+    {
+      "id": "chernyakhovsk-crb",
+      "osmId": "way/223576153",
+      "catalogId": "osm-way-223576153",
+      "registryRows": [
+        731,
+        732
+      ],
+      "freeCareAvailable": true
+    }
+  ]
+}

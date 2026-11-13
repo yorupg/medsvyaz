@@ -1,4 +1,4 @@
-/** V6.1 routing diagnostics. Two DIFFERENT facility nodes, and worst of three
+/** V6.1 routing diagnostics. Two DIFFERENT eligible public medical facility nodes, and worst of three
  * reproducible, predetermined road-closure scenarios. Not observed failure risk.
  * Both flows use the same directed and weighted graph as calculate().
  */
@@ -30,7 +30,7 @@ export function enrichV61Routing(d:Dataset,options:CalculationOptions,points:Poi
   reverse[v].push({to:u,minutes,key});
   if(!e.directed)reverse[u].push({to:v,minutes,key});
  }
- const facilities=d.facilities.filter(f=>(d.synthetic||f.verified||f.id==='__proposal__facility')&&f.profile===d.profile&&f.periods.includes(options.period)&&(!options.facilityIds||options.facilityIds.includes(f.id)));
+ const facilities=d.facilities.filter(f=>(d.synthetic||f.verified||f.id==='__proposal__facility'||f.provenance==='osm-classified-public-medical-catalog')&&f.profile===d.profile&&f.periods.includes(options.period)&&(!options.facilityIds||options.facilityIds.includes(f.id)));
  const sourceFacility=new Map<number,string>();
  for(const f of facilities){const u=nodes.get(f.nodeId);if(u!==undefined&&!sourceFacility.has(u))sourceFacility.set(u,f.id);}
  const sources=[...sourceFacility.keys()];

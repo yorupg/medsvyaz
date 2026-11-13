@@ -1,0 +1,380 @@
+{
+  "checkedAt": "2026-11-13",
+  "note": "HTTP checks are supplementary; search-index excerpts and TFOMS evidence were also read. An unreachable website is not proof that a provider ceased to exist.",
+  "checks": [
+    {
+      "url": "https://alzoria.ru/",
+      "finalUrl": "https://alzoria.ru/",
+      "status": 200,
+      "title": "Клиника Альзория в Калининграде: урология, гинекология, маммология. Лечение кист, мастита, эндометрита, аденомы простаты и других заболеваний",
+      "indicators": {
+        "ооо|общество с ограниченной": true,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://arsmedica39.ru/price/",
+      "finalUrl": "https://arsmedica39.ru/price/",
+      "status": 403,
+      "title": "403 Forbidden",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": false,
+        "Калининград|Гурьевск|Черняховск": false
+      }
+    },
+    {
+      "url": "https://clinic-brazil.ru/",
+      "finalUrl": "https://clinic-brazil.ru/",
+      "status": 200,
+      "title": "Пластическая хирургия и косметология в Калининграде — «Бразилия»",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://edkar.ru/kontakty",
+      "finalUrl": "https://edkar.ru/kontakty",
+      "status": 403,
+      "title": "Access forbidden!",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": false,
+        "Калининград|Гурьевск|Черняховск": false
+      }
+    },
+    {
+      "url": "https://edkarik.ru/",
+      "finalUrl": "https://edkarik.ru/",
+      "status": 403,
+      "title": "Access forbidden!",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": false,
+        "Калининград|Гурьевск|Черняховск": false
+      }
+    },
+    {
+      "url": "https://ekamed39.ru/",
+      "finalUrl": "https://ekamed39.ru/",
+      "status": 200,
+      "title": "Главная страница - Медицинский центр &quot;Ека-мед&quot;. Калининград",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://glaz39.ru/",
+      "error": "HTTPSConnectionPool(host='glaz39.ru', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='glaz39.ru', port=443): F",
+      "rejectedAsEvidence": true,
+      "correctedSourceUrl": "https://glaza39.ru/kontakty/"
+    },
+    {
+      "url": "https://goodpoli.clinic/",
+      "finalUrl": "https://goodpoli.clinic/",
+      "status": 200,
+      "title": "Медицинский центр в Калининграде - Хорошая поликлиника",
+      "indicators": {
+        "ооо|общество с ограниченной": true,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://kaliningrad.rzd-medicine.ru/",
+      "finalUrl": "https://kaliningrad.rzd-medicine.ru/",
+      "status": 200,
+      "title": "",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": false,
+        "Калининград|Гурьевск|Черняховск": false
+      }
+    },
+    {
+      "url": "https://mastersluh.ru/",
+      "finalUrl": "https://mastersluh.ru/",
+      "status": 200,
+      "title": "Центр коррекции слуха и речи Мастерслух",
+      "indicators": {
+        "ооо|общество с ограниченной": true,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://mc-novomed.ru/contacts/",
+      "finalUrl": "https://mc-novomed.ru/contacts/",
+      "status": 200,
+      "title": "Контакты медцентра &quot;Новомед&quot;",
+      "indicators": {
+        "ооо|общество с ограниченной": true,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://mdc39.ru/",
+      "finalUrl": "https://mdc39.ru/",
+      "status": 200,
+      "title": "Диагностический центр в Калининграде | Доверие Мед",
+      "indicators": {
+        "ооо|общество с ограниченной": true,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://med-aprel.ru/",
+      "finalUrl": "https://med-aprel.ru/",
+      "status": 200,
+      "title": "Медицинские центры в Калининграде | Апрель",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://med-expert.ru/patients/",
+      "finalUrl": "https://med-expert.ru/patients/",
+      "status": 503,
+      "title": "Технические работы — МедЭксперт",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": false,
+        "Калининград|Гурьевск|Черняховск": false
+      }
+    },
+    {
+      "url": "https://medosmotr39.ru/contact",
+      "finalUrl": "https://medosmotr39.ru/contact",
+      "status": 403,
+      "title": "403 Forbidden",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": false,
+        "Калининград|Гурьевск|Черняховск": false
+      }
+    },
+    {
+      "url": "https://mestam.info/ru/kaliningrad/address/kosmonavta-leonova-74",
+      "finalUrl": "https://mestam.info/ru/kaliningrad/address/kosmonavta-leonova-74",
+      "status": 200,
+      "title": "Места и организации по адресу Космонавта Леонова, 74, Калининград",
+      "indicators": {
+        "ооо|общество с ограниченной": true,
+        "платн|прайс|цен[аы]|стоимость": false,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://mvcprodvigenie.ru/",
+      "finalUrl": "https://mvcprodvigenie.ru/",
+      "status": 200,
+      "title": "Медицинский восстановительный центр «МВЦ Продвижение» Калининград",
+      "indicators": {
+        "ооо|общество с ограниченной": true,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://napopravku.ru/kaliningrad/clinics/meditsinskij-tsentr-medprofi-na-dzerzhinskogo/",
+      "finalUrl": "https://napopravku.ru/kaliningrad/clinics/meditsinskij-tsentr-medprofi-na-dzerzhinskogo/",
+      "status": 403,
+      "title": "",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": false,
+        "Калининград|Гурьевск|Черняховск": false
+      }
+    },
+    {
+      "url": "https://napopravku.ru/kaliningrad/doctors/kardiolog/",
+      "finalUrl": "https://napopravku.ru/kaliningrad/doctors/kardiolog/",
+      "status": 403,
+      "title": "",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": false,
+        "Калининград|Гурьевск|Черняховск": false
+      }
+    },
+    {
+      "url": "https://neyrodinamika.ru/contacts/",
+      "finalUrl": "https://neyrodinamika.ru/contacts/",
+      "status": 200,
+      "title": "Контакты - Нейродинамика",
+      "indicators": {
+        "ооо|общество с ограниченной": true,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://osobystatus.ru/informatsiya-dlya-potrebitelya",
+      "finalUrl": "https://osobystatus.ru/informatsiya-dlya-potrebitelya",
+      "status": 200,
+      "title": "Информация для потребителя",
+      "indicators": {
+        "ооо|общество с ограниченной": true,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://prodoctorov.ru/kaliningrad/lpu/36095-klinika-zdorovya/",
+      "finalUrl": "https://prodoctorov.ru/kaliningrad/lpu/36095-klinika-zdorovya/",
+      "status": 403,
+      "title": "",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": false,
+        "Калининград|Гурьевск|Черняховск": false
+      }
+    },
+    {
+      "url": "https://prognozmc.com/rules/",
+      "error": "HTTPSConnectionPool(host='prognozmc.com', port=443): Read timed out. (read timeout=15)"
+    },
+    {
+      "url": "https://prozrenie.ru/",
+      "finalUrl": "https://prozrenie.ru/",
+      "status": 200,
+      "title": "«Ясный взор» - детские глазные клиники офтальмолога Игоря Азнауряна",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": false
+      }
+    },
+    {
+      "url": "https://ravnovesie39.ru/price/",
+      "finalUrl": "https://ravnovesie39.ru/price/",
+      "status": 200,
+      "title": "Цены на услуги клиники психологической помощи «Ментальное Равновесие» в Калининграде",
+      "indicators": {
+        "ооо|общество с ограниченной": true,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://reac39.ru/",
+      "finalUrl": "https://reac39.ru/",
+      "status": 200,
+      "title": "Реацентр Калининград",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://sakrummed.wixsite.com/website",
+      "finalUrl": "https://sakrummed.wixsite.com/website",
+      "status": 200,
+      "title": "САКРУММЕД-ВЫСОКОЭФФЕКТИВНОЕ ЛЕЧЕНИЕ ПРОБЛЕМ ПОЗВОНОЧНИКА И СУСТАВОВ - УВТ Калининград",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": false,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://sigmamedic.ru/",
+      "finalUrl": "https://sigmamedic.ru/",
+      "status": 200,
+      "title": "СигмаМед Калининград",
+      "indicators": {
+        "ооо|общество с ограниченной": true,
+        "платн|прайс|цен[аы]|стоимость": false,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://terve39.ru/pravilappmu",
+      "error": "HTTPSConnectionPool(host='terve39.ru', port=443): Max retries exceeded with url: /pravilappmu (Caused by NameResolutionError(\"HTTPSConnection(host='terve39.ru',"
+    },
+    {
+      "url": "https://tfoms39.ru/upload/iblock/0ff/ngdlejrjod17ygfc107yi1c8oshk5h41/июль_ТРМО%202026.xlsx",
+      "finalUrl": "https://tfoms39.ru/upload/iblock/0ff/ngdlejrjod17ygfc107yi1c8oshk5h41/%D0%B8%D1%8E%D0%BB%D1%8C_%D0%A2%D0%A0%D0%9C%D0%9E%202026.xlsx",
+      "status": 200,
+      "title": "",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": false,
+        "Калининград|Гурьевск|Черняховск": false
+      }
+    },
+    {
+      "url": "https://varikozanet39.ru/",
+      "finalUrl": "https://varikozanet39.ru/",
+      "status": 200,
+      "title": "Лечение варикозного расширения вен в Калининграде",
+      "indicators": {
+        "ооо|общество с ограниченной": true,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://viomar.ru/",
+      "finalUrl": "https://viomar.ru/",
+      "status": 200,
+      "title": "Сеть медицинских центров &quot;ВИОМАР&quot;",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://www.classclinic.ru/ceni/",
+      "error": "HTTPSConnectionPool(host='www.classclinic.ru', port=443): Max retries exceeded with url: /ceni/ (Caused by NameResolutionError(\"HTTPSConnection(host='www.classc"
+    },
+    {
+      "url": "https://www.eliksir39.ru/",
+      "error": "HTTPSConnectionPool(host='www.eliksir39.ru', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.eliksir39.ru'"
+    },
+    {
+      "url": "https://www.illenclinic.ru/",
+      "finalUrl": "https://www.illenclinic.ru/",
+      "status": 403,
+      "title": "403",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": false,
+        "Калининград|Гурьевск|Черняховск": false
+      }
+    },
+    {
+      "url": "https://www.kmc39.ru/contacts/",
+      "finalUrl": "https://www.kmc39.ru/contacts/",
+      "status": 200,
+      "title": "Контакты | Калининградский маммологический центр",
+      "indicators": {
+        "ооо|общество с ограниченной": true,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    },
+    {
+      "url": "https://ya-zdorova39.ru/",
+      "finalUrl": "https://ya-zdorova39.ru/",
+      "status": 200,
+      "title": "Медицинская Клиника женского здоровья - детская и взрослая гинекология в Калининграде",
+      "indicators": {
+        "ооо|общество с ограниченной": false,
+        "платн|прайс|цен[аы]|стоимость": true,
+        "Калининград|Гурьевск|Черняховск": true
+      }
+    }
+  ]
+}

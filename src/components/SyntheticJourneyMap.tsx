@@ -5,6 +5,8 @@ import type {Dataset,PointResult} from '../../shared/schema';
 import {populationRadius,pointMapColor,mapDistribution} from '../../shared/map-metrics';
 import {MapDistributionPanel} from './MapDistribution';
 import {format,useApi} from '../lib';
+import type {MedicalCatalog} from './KaliningradMedicalOverlay';
+import './KaliningradMedicalOverlay.css';
 import 'leaflet/dist/leaflet.css';
 
 type ShapeProps={regionId:string;name:string};
@@ -19,6 +21,7 @@ export function SyntheticJourneyMap({dataset,pointId,route,edgeId,onPoint,result
  const [tilesFailed,setTilesFailed]=useState(false);
  const longitude=(lon:number)=>lon<0?lon+360:lon;
  const geometry=useApi<FeatureCollection<Geometry,ShapeProps>>('/api/regions/'+encodeURIComponent(dataset.regionId)+'/geometry');
+ const medical=useApi<MedicalCatalog>('/data/medical-catalogs/'+encodeURIComponent(dataset.regionId)+'.json');
  useEffect(()=>{
   if(!container.current)return;
   const m=L.map(container.current,{scrollWheelZoom:false,minZoom:3,maxZoom:15,preferCanvas:true});
@@ -71,9 +74,16 @@ export function SyntheticJourneyMap({dataset,pointId,route,edgeId,onPoint,result
   }
   for(const f of dataset.facilities){
    const n=nodes.get(f.nodeId);if(!n)continue;
-   L.marker([n.y,longitude(n.x)],{icon:L.divIcon({className:'hospital-map-icon',html:'<span>+</span>',iconSize:[26,26],iconAnchor:[13,13]}),title:f.name}).addTo(group).bindTooltip(f.name);
+   L.marker([n.y,longitude(n.x)],{icon:L.divIcon({className:'hospital-map-icon',html:'<span>+</span>',iconSize:[26,26],iconAnchor:[13,13]}),title:f.name}).addTo(group).bindTooltip(f.name+' · условная больница');
+  }
+  // Additional medical categories are explicitly SYNTHETIC and do not claim
+  // real facilities on the map. The per-region seed is reproducible.
+  const styles:{[key:string]:[string,string]}={public_adult_polyclinic:['П','#2474bf'],public_children_polyclinic:['Д','#9450c1'],private_paid:['₽','#2b9b56']};
+  for(const f of medical.data?.facilities??[]){
+   const style=styles[f.type];if(!style)continue;
+   L.marker([f.lat,longitude(f.lon)],{icon:L.divIcon({className:'medsvyaz-medical-marker',html:`<span style=\"background:${style[1]}\">${style[0]}</span>`,iconSize:[29,29],iconAnchor:[14,14]}),title:f.name}).addTo(group).bindTooltip(f.name+' · условное учреждение, не реальная медорганизация');
   }
   return()=>{group.remove();};
- },[dataset,pointId,route.join('|'),edgeId,results,threshold,timeScale,scenario,multiplier]);
- return <div className="journey-map-shell"><div className="journey-geo-map" ref={container} aria-label={'Географическая карта территории '+dataset.regionId+' с модельными пунктами и выбранной поездкой'}/><div className="journey-map-legend"><span>Цвет — баллы доступности · размер и вес поселений одинаковые · выбранное поселение — белая обводка</span><span><b className="map-route-key"/>Модельный путь</span><span><b className="hospital-key">+</b>Условный центр</span></div>{tilesFailed&&<p className="map-offline-note">Подложка OSM недоступна. Контур и расчётные точки остаются на карте.</p>}<p className="journey-map-note">Поселения показаны по географическим координатам. Пунктир — связи синтетической дорожной модели.</p><MapDistributionPanel distribution={mapDistribution(results)} threshold={threshold}/></div>;
+ },[dataset,pointId,route.join('|'),edgeId,results,threshold,timeScale,scenario,multiplier,medical.data]);
+ return <div className="journey-map-shell"><div className="journey-geo-map" ref={container} aria-label={'Географическая карта территории '+dataset.regionId+' с модельными пунктами и выбранной поездкой'}/><div className="journey-map-legend"><span>Цвет — баллы доступности · размер и вес поселений одинаковые · выбранное поселение — белая обводка</span><span><b className="map-route-key"/>Модельный путь</span><span><b className="hospital-key">+</b>Больница · <b>П/Д/₽</b> — модельные поликлиники и частные клиники</span></div>{tilesFailed&&<p className="map-offline-note">Подложка OSM недоступна. Контур и расчётные точки остаются на карте.</p>}<p className="journey-map-note">Поселения показаны по географическим координатам. Пунктир — связи синтетической дорожной модели.</p><MapDistributionPanel distribution={mapDistribution(results)} threshold={threshold}/></div>;
 }

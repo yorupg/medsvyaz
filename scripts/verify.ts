@@ -6,7 +6,7 @@ import geometries from '../data/processed/geometries.json';
 import sources from '../data/sources.json';
 import {studyCatalogue,baselineResults,realRegionIds,syntheticDatasets} from '../server/study';
 import {regionStyle,regionTooltip,NO_DATA_TERRITORIES} from '../shared/map-style';
-import type {Region} from '../shared/schema';
+import {METHODOLOGY,type Region} from '../shared/schema';
 assert.equal(regions.length,89);assert.equal(geometries.features.length,89);
 assert.equal(new Set(regions.map(r=>r.id)).size,89);
 assert.equal(new Set(geometries.features.map(f=>f.properties.regionId)).size,89);
@@ -17,15 +17,14 @@ for(const [id,d] of Object.entries(studyCatalogue)){
  const result=baselineResults[id];assert(result.value!==null&&result.value>=0&&result.value<=100,id);
  assert.equal(result.synthetic,d.synthetic,id);
  if(!d.synthetic){
-  const prefix=id==='kaliningrad'?'pilot':id;
-  const check=JSON.parse(readFileSync('data/derived/v5-independent-checks.json','utf8'))[id];
-  assert.equal(result.methodologyVersion,'5.0.0');assert.equal(result.threshold,40);
-  assert(Math.abs(result.medianMinutes!-check.medianMinutes)<1e-6,id+' median');
-  assert(Math.abs(result.p90Minutes!-check.p90Minutes)<1e-6,id+' P90');
-  for(const limit of ['60','90'] as const)assert(Math.abs(result.overMinutesShares[limit]!-check.overMinutesShares[limit])<1e-12,id+' tail share');
-  assert(Math.abs(result.indexBounds.lower!-check.indexBounds.lower)<1e-9,id+' lower bound');
-  assert(Math.abs(result.indexBounds.upper!-check.indexBounds.upper)<1e-9,id+' upper bound');
-  assert(Math.abs(result.value-check.index)<1e-9,id+' independent index');
+  const check=JSON.parse(readFileSync('data/derived/v6-extended/'+id+'.json','utf8'));
+  const historicalTimes=JSON.parse(readFileSync('data/derived/v5-independent-checks.json','utf8'))[id];
+  assert.equal(result.methodologyVersion,METHODOLOGY.version);assert.equal(result.threshold,check.tau);
+  assert(Math.abs(result.medianMinutes!-historicalTimes.medianMinutes)<1e-6,id+' median');
+  assert(Math.abs(result.p90Minutes!-historicalTimes.p90Minutes)<1e-6,id+' P90');
+  for(const limit of ['60','90'] as const)assert(Math.abs(result.overMinutesShares[limit]!-historicalTimes.overMinutesShares[limit])<1e-12,id+' tail share');
+  if(result.methodologyVersion==='6.1.0'&&result.missingSettlements>0)assert.deepEqual(result.indexBounds,{lower:null,upper:null},id+' unidentified bounds');
+  assert(Math.abs(result.value-check.value)<1e-9,id+' independent index');
   assert.equal(result.population,check.includedPopulation,id+' independent population');
   assert.equal(result.includedSettlements,check.includedSettlements,id+' independent settlements');
  }

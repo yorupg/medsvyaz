@@ -1,0 +1,167 @@
+{
+  "regionId": "kaliningrad",
+  "source": "Тарифное соглашение ОМС Калининградской области на 2026 год (отдельные строки); дополнительная сверка с приказом 2022 года",
+  "sourceUrls": [
+    "https://base.garant.ru/413645576/53f89421bbdaf741eb2d1ecc4ddb4c33/",
+    "https://base.garant.ru/406143189/53f89421bbdaf741eb2d1ecc4ddb4c33/"
+  ],
+  "scope": "Перечень названий организаций; НЕ все филиалы, не координаты, не обещание полноты",
+  "ownership": "public",
+  "organizations": [
+    {
+      "name": "Областная клиническая больница Калининградской области",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Детская областная больница Калининградской области",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Региональный перинатальный центр",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Инфекционная больница Калининградской области",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Центр специализированных видов медицинской помощи Калининградской области",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Центр общественного здоровья и медицинской профилактики Калининградской области",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Центральная городская клиническая больница",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Городская клиническая больница скорой медицинской помощи",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Городская больница № 2",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Городская больница № 3",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Городская больница № 4",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Родильный дом Калининградской области № 3",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Родильный дом Калининградской области № 4",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Городская поликлиника № 3",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Городская детская поликлиника",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Областная стоматологическая поликлиника Калининградской области",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Городская стоматологическая поликлиника",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Городская детская стоматологическая поликлиника",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Онкологический центр Калининградской области",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Региональный центр скорой медицинской помощи и медицины катастроф Калининградской области",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Багратионовская центральная районная больница",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Балтийская центральная районная больница",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Зеленоградская центральная районная больница",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Гвардейская центральная районная больница",
+      "ownership": "public",
+      "evidence": "2026 tariff agreement"
+    },
+    {
+      "name": "Ладушкинская городская больница",
+      "ownership": "public",
+      "evidence": "2022 subordinate list; needs up-to-date check"
+    },
+    {
+      "name": "Полесская центральная районная больница",
+      "ownership": "public",
+      "evidence": "2022 subordinate list; needs up-to-date check"
+    },
+    {
+      "name": "Правдинская центральная районная больница",
+      "ownership": "public",
+      "evidence": "2022 subordinate list; needs up-to-date check"
+    },
+    {
+      "name": "Нестеровская центральная районная больница",
+      "ownership": "public",
+      "evidence": "2022 subordinate list; needs up-to-date check"
+    },
+    {
+      "name": "Славская центральная районная больница",
+      "ownership": "public",
+      "evidence": "2022 subordinate list; needs up-to-date check"
+    },
+    {
+      "name": "Советская центральная районная больница",
+      "ownership": "public",
+      "evidence": "2022 subordinate list; needs up-to-date check"
+    },
+    {
+      "name": "Черняховская центральная районная больница",
+      "ownership": "public",
+      "evidence": "2022 subordinate list; needs up-to-date check"
+    }
+  ]
+}

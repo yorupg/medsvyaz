@@ -1,0 +1,6172 @@
+{
+  "retrievedAt": "2026-11-13",
+  "source": "https://api.openstreetmap.org/api/0.6/",
+  "license": "ODbL 1.0 © OpenStreetMap contributors",
+  "scope": "Original tags and version timestamps for all 204 previously mapped objects; node coordinates from API, way/relation map anchors retained from prior snapshot.",
+  "elements": [
+    {
+      "type": "node",
+      "id": 927026353,
+      "lat": 54.7293616,
+      "lon": 20.0080723,
+      "timestamp": "2010-09-26T17:58:27Z",
+      "version": 1,
+      "changeset": 5883817,
+      "user": "Canabis",
+      "uid": 174822,
+      "tags": {
+        "amenity": "hospital",
+        "comment": "Местоположение примерное"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1405644884,
+      "lat": 54.7695123,
+      "lon": 20.4466705,
+      "timestamp": "2026-09-24T17:50:26Z",
+      "version": 7,
+      "changeset": 189510289,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Медицинский центр",
+        "opening_hours": "Mo-Su 09:00-19:00; Sa 10:00-16:00",
+        "phone": "+7 4012 568565"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1612765504,
+      "lat": 54.7220949,
+      "lon": 20.48329,
+      "timestamp": "2026-10-16T06:54:11Z",
+      "version": 7,
+      "changeset": 190588996,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "tags": {
+        "addr:floor": "1",
+        "addr:housenumber": "8",
+        "addr:street": "улица Космонавта Леонова",
+        "amenity": "clinic",
+        "check_date": "2026-10-16",
+        "entrance": "yes",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Медэксперт",
+        "opening_hours": "Mo-Sa 07:30-20:00; Su 07:30-18:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+7 401 251-90-00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1633668523,
+      "lat": 54.7260094,
+      "lon": 20.5301984,
+      "timestamp": "2026-09-24T17:50:26Z",
+      "version": 4,
+      "changeset": 189510289,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Пражская улица",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "МедЭксперт"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1645253771,
+      "lat": 54.7175111,
+      "lon": 20.4849224,
+      "timestamp": "2026-09-23T20:32:46Z",
+      "version": 6,
+      "changeset": 189468390,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2026-08-23",
+        "entrance": "main",
+        "healthcare": "clinic",
+        "name": "Центр семейной медицины"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1920163284,
+      "lat": 54.7319851,
+      "lon": 20.5163172,
+      "timestamp": "2026-09-23T20:21:24Z",
+      "version": 4,
+      "changeset": 189468083,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:housenumber": "4",
+        "addr:street": "улица Лёни Голикова",
+        "amenity": "clinic",
+        "email": "toive@cardiosib.ru",
+        "healthcare": "clinic",
+        "name": "Медицинский центр TERVE",
+        "phone": "+7 (401) 243 03 20",
+        "website": "https://terve39.ru/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2021374656,
+      "lat": 54.676567,
+      "lon": 20.125314,
+      "timestamp": "2012-11-22T06:07:37Z",
+      "version": 2,
+      "changeset": 13981626,
+      "user": "lcdw",
+      "uid": 1064550,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Поликлиника"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2042166673,
+      "lat": 54.7237798,
+      "lon": 20.4808873,
+      "timestamp": "2026-09-25T12:27:16Z",
+      "version": 5,
+      "changeset": 189542129,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:country": "RU",
+        "addr:floor": "1",
+        "addr:housenumber": "13А",
+        "addr:postcode": "236022",
+        "addr:street": "улица Космонавта Леонова",
+        "amenity": "clinic",
+        "check_date": "2026-09-10",
+        "entrance": "yes",
+        "healthcare": "clinic",
+        "health_facility:type": "clinic",
+        "level": "0",
+        "name": "Городская детская поликлиника №2",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-14:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2138833132,
+      "lat": 54.7408992,
+      "lon": 20.5069929,
+      "timestamp": "2026-09-23T20:32:46Z",
+      "version": 5,
+      "changeset": 189468390,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:housenumber": "81-85",
+        "addr:postcode": "236029",
+        "addr:street": "Зелёная улица",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Медико-диагностический центр",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa,Su 09:00-18:00",
+        "phone": "+7 4012 309444;+7 4012 320202"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2152881116,
+      "lat": 54.7425364,
+      "lon": 20.4968552,
+      "timestamp": "2026-09-23T20:32:46Z",
+      "version": 2,
+      "changeset": 189468390,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "МедЭксперт"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2366034451,
+      "lat": 54.7715605,
+      "lon": 20.4515611,
+      "timestamp": "2013-06-29T18:42:55Z",
+      "version": 1,
+      "changeset": 16755873,
+      "user": "ErshKUS",
+      "uid": 383137,
+      "tags": {
+        "amenity": "clinic",
+        "contact:phone": "56-90-06",
+        "name": "Офис врачей общей практики",
+        "opening_hours": "Mo-Fr 08:10-18:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2460061948,
+      "lat": 54.7089092,
+      "lon": 20.5025321,
+      "timestamp": "2026-09-25T23:08:57Z",
+      "version": 2,
+      "changeset": 189565648,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Калининградский маммологический центр"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2524082059,
+      "lat": 54.6741574,
+      "lon": 20.5005866,
+      "timestamp": "2026-09-05T12:11:08Z",
+      "version": 4,
+      "changeset": 188568260,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:housenumber": "4Б",
+        "addr:postcode": "236011",
+        "addr:street": "улица Ульяны Громовой",
+        "amenity": "clinic",
+        "check_date": "2026-09-05",
+        "name": "Медицинский центр \"Прогноз\"",
+        "opening_hours": "Mo-Sa 07:30-20:45; Su 09:00-18:00",
+        "phone": "+7 4012 700608"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2653424670,
+      "lat": 54.7236013,
+      "lon": 20.4817047,
+      "timestamp": "2026-08-25T18:13:46Z",
+      "version": 4,
+      "changeset": 188005100,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2026-08-25",
+        "healthcare": "clinic",
+        "health_facility:type": "clinic",
+        "name": "Центр медицинских осмотров",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-14:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2749791990,
+      "lat": 54.7442262,
+      "lon": 20.4963717,
+      "timestamp": "2026-09-23T20:32:46Z",
+      "version": 3,
+      "changeset": 189468390,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2026-01-01",
+        "entrance": "main",
+        "healthcare": "clinic",
+        "name": "Филиал поликлиники № 2 Ленинградского района"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2886604667,
+      "lat": 54.7274943,
+      "lon": 20.5002718,
+      "timestamp": "2026-08-20T21:59:55Z",
+      "version": 4,
+      "changeset": 187767737,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2026-08-20",
+        "healthcare": "clinic",
+        "health_facility:type": "clinic",
+        "name": "Филиал поликлиники городской больницы № 3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3158984899,
+      "lat": 54.698649,
+      "lon": 20.5175955,
+      "timestamp": "2024-04-23T16:14:53Z",
+      "version": 3,
+      "changeset": 150404249,
+      "user": "Ilya_Puchcow",
+      "uid": 18791126,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "ВОП на Октябрьской"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3500046611,
+      "lat": 54.8756793,
+      "lon": 19.9388165,
+      "timestamp": "2026-07-03T10:55:58Z",
+      "version": 3,
+      "changeset": 185033166,
+      "user": "Krass86",
+      "uid": 23104176,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3501241751,
+      "lat": 54.9427801,
+      "lon": 20.0372364,
+      "timestamp": "2019-07-09T20:22:30Z",
+      "version": 2,
+      "changeset": 72069802,
+      "user": "Sv_nvs",
+      "uid": 10046469,
+      "tags": {
+        "addr:city": "Приморье",
+        "addr:housenumber": "2",
+        "addr:street": "Офицерская улица",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3523487975,
+      "lat": 54.9490247,
+      "lon": 20.2350198,
+      "timestamp": "2022-11-03T13:46:05Z",
+      "version": 3,
+      "changeset": 128440220,
+      "user": "itdirector39",
+      "uid": 12483920,
+      "tags": {
+        "addr:street": "улица Шаманова",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3625949049,
+      "lat": 54.677798,
+      "lon": 20.1379586,
+      "timestamp": "2015-06-29T22:16:24Z",
+      "version": 1,
+      "changeset": 32296051,
+      "user": "i29",
+      "uid": 501824,
+      "tags": {
+        "amenity": "hospital",
+        "contact:website": "http://arsmedica39.ru",
+        "name": "Арсмедика"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4121729189,
+      "lat": 54.71682,
+      "lon": 20.521062,
+      "timestamp": "2026-08-30T19:01:03Z",
+      "version": 5,
+      "changeset": 188266347,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "tags": {
+        "addr:housenumber": "69",
+        "addr:street": "Клиническая улица",
+        "amenity": "clinic",
+        "check_date": "2026-08-30",
+        "healthcare": "clinic",
+        "name": "Областная стоматологическая поликлиника",
+        "opening_hours": "Mo-Sa 07:30-21:45",
+        "phone": "+7 4012 462326",
+        "website": "www.osp39.su"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4180550291,
+      "lat": 54.7040261,
+      "lon": 20.7386796,
+      "timestamp": "2016-12-09T21:21:40Z",
+      "version": 2,
+      "changeset": 44292634,
+      "user": "Alexbit-39",
+      "uid": 4876838,
+      "tags": {
+        "amenity": "hospital",
+        "name": "мед. пункт Низовье"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4195690753,
+      "lat": 54.6757786,
+      "lon": 20.6196115,
+      "timestamp": "2016-05-19T17:40:15Z",
+      "version": 1,
+      "changeset": 39430305,
+      "user": "Frag31337",
+      "uid": 3983343,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4341345814,
+      "lat": 54.7236004,
+      "lon": 20.5098837,
+      "timestamp": "2026-09-06T21:33:43Z",
+      "version": 5,
+      "changeset": 188640782,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:street": "Партизанская улица",
+        "amenity": "clinic",
+        "check_date": "2026-09-06",
+        "healthcare": "clinic",
+        "internet_access": "wlan",
+        "name": "Медицинский Центр Апрель",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+7 4012 919150",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4372073994,
+      "lat": 54.7352696,
+      "lon": 20.4820214,
+      "timestamp": "2024-11-28T14:51:58Z",
+      "version": 4,
+      "changeset": 159706267,
+      "user": "literan",
+      "uid": 830106,
+      "tags": {
+        "addr:postcode": "236023",
+        "amenity": "clinic",
+        "email": "nz932111@mail.ru",
+        "healthcare": "clinic",
+        "health_facility:type": "clinic",
+        "name": "Навигатор Здоровья",
+        "opening_hours": "Mo-Fr 10:00-13:00,14:00-19:00",
+        "phone": "+7 4012 932111"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4463204809,
+      "lat": 54.727917,
+      "lon": 20.4741484,
+      "timestamp": "2026-09-19T11:03:58Z",
+      "version": 4,
+      "changeset": 189247540,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "tags": {
+        "addr:floor": "1",
+        "addr:housenumber": "45",
+        "addr:postcode": "236023",
+        "addr:street": "Красная улица",
+        "amenity": "clinic",
+        "check_date": "2026-09-19",
+        "email": "info@eliksir39.ru",
+        "level": "0",
+        "name": "Эликсир",
+        "name:en": "Elixir",
+        "opening_hours": "09:00-21:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+7 4012 508472",
+        "website": "https://www.eliksir39.ru/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4637428251,
+      "lat": 54.7703036,
+      "lon": 20.6105457,
+      "timestamp": "2026-09-24T17:50:26Z",
+      "version": 6,
+      "changeset": 189510289,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "tags": {
+        "addr:city": "Гурьевск",
+        "addr:street": "улица Калининградское шоссе",
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4637446523,
+      "lat": 54.7926513,
+      "lon": 20.6378097,
+      "timestamp": "2022-01-19T06:45:13Z",
+      "version": 4,
+      "changeset": 116326829,
+      "user": "iWowik",
+      "uid": 481934,
+      "tags": {
+        "addr:city": "Гурьевск",
+        "addr:housenumber": "31",
+        "addr:street": "Калининградское шоссе",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Больница Гурьевска"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4646803273,
+      "lat": 54.7770675,
+      "lon": 20.5926313,
+      "timestamp": "2026-09-24T17:50:26Z",
+      "version": 6,
+      "changeset": 189510289,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "ВиаМар Медцентр",
+        "operator": "ВиаМар"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5844653119,
+      "lat": 54.7242763,
+      "lon": 20.4926133,
+      "timestamp": "2026-09-22T06:55:03Z",
+      "version": 3,
+      "changeset": 189381679,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "tags": {
+        "addr:floor": "1",
+        "addr:housenumber": "20-24",
+        "addr:street": "улица Чайковского",
+        "amenity": "clinic",
+        "check_date": "2026-09-22",
+        "email": "info@neyrodibamika.ru",
+        "healthcare": "clinic",
+        "health_facility:type": "clinic",
+        "health_specialty:neurology": "main",
+        "level": "0",
+        "medical_system:western": "yes",
+        "name": "Нейродинамика",
+        "opening_hours": "Mo-Sa 09:00-19:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+7 401 243-02-06",
+        "website": "https://neyrodibamika.ru",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5971016486,
+      "lat": 55.0408393,
+      "lon": 21.6738007,
+      "timestamp": "2019-07-06T00:47:46Z",
+      "version": 3,
+      "changeset": 71948042,
+      "user": "igor lyatun",
+      "uid": 10043626,
+      "tags": {
+        "addr:housenumber": "79",
+        "addr:street": "Советская улица",
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6264525385,
+      "lat": 54.6321962,
+      "lon": 21.8203717,
+      "timestamp": "2019-02-07T19:01:21Z",
+      "version": 1,
+      "changeset": 67004437,
+      "user": "Евгения Чильвинас",
+      "uid": 9423659,
+      "tags": {
+        "addr:street": "Советская улица",
+        "amenity": "clinic",
+        "name": "Женская консультация"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6271032387,
+      "lat": 54.4429409,
+      "lon": 20.9992787,
+      "timestamp": "2019-02-11T09:04:13Z",
+      "version": 1,
+      "changeset": 67093218,
+      "user": "Anatoly Martynyuk",
+      "uid": 4606511,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6289398385,
+      "lat": 54.6337904,
+      "lon": 21.8160017,
+      "timestamp": "2023-07-30T19:41:49Z",
+      "version": 4,
+      "changeset": 139223942,
+      "user": "TrickyFoxy",
+      "uid": 11528195,
+      "tags": {
+        "addr:city": "Черняховск",
+        "addr:housenumber": "18",
+        "addr:postcode": "238150",
+        "addr:street": "улица Ленина",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;ophthalmology;dermatology;psychiatry;vaccination;covid19;urology;surgery;cardiology;neurology",
+        "name": "Поликлиника взрослая",
+        "opening_hours": "Mo-Fr 07:30-18:00",
+        "operator": "Черняховская центральная районной больница",
+        "operator:type": "public"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6967852435,
+      "lat": 54.4234143,
+      "lon": 20.8284356,
+      "timestamp": "2025-08-02T19:58:33Z",
+      "version": 2,
+      "changeset": 169878720,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "tags": {
+        "addr:street": "Садовая улица",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "ВОП",
+        "operator": "Правдинская ЦРБ",
+        "website": "http://pcrb39.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7020906796,
+      "lat": 54.6368462,
+      "lon": 21.7962872,
+      "timestamp": "2024-10-10T14:39:20Z",
+      "version": 3,
+      "changeset": 157718994,
+      "user": "IlyaGav",
+      "uid": 11026669,
+      "tags": {
+        "addr:city": "Черняховск",
+        "addr:comment": "Литер Б",
+        "addr:full": "Калининградская область, Черняховск, Калининградская улица, 22А",
+        "amenity": "clinic",
+        "contact:instagram": "https://www.instagram.com/dializ39",
+        "contact:vk": "https://vk.com/adc39",
+        "facebook": "https://www.facebook.com/ООО-ЛПУ-АДЦ-1016716168366986",
+        "healthcare": "clinic",
+        "image": "https://p1.zoon.ru/preview/3gkrn9dAkDty-QbNFDdbjA/2196x1070x75/1/0/8/original_5db7e14b5511754f9669c91d_5db80e7fc308a.jpg",
+        "name": "Амбулаторный диализный центр",
+        "opening_hours": "Mo-Sa 07:00-17:00; Su off",
+        "phone": "+7-4012-20-13-65;+7-401-413-33-63",
+        "website": "https://adc39.ru/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7168232186,
+      "lat": 54.7133636,
+      "lon": 20.4505939,
+      "timestamp": "2021-04-20T09:11:58Z",
+      "version": 3,
+      "changeset": 103255478,
+      "user": "Волосов",
+      "uid": 5583361,
+      "tags": {
+        "addr:housenumber": "70А",
+        "addr:postcode": "236010",
+        "addr:street": "проспект Победы",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "internet_access": "wlan",
+        "name": "Реацентр",
+        "name:en": "Reacenter",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "phone": "+74012335705",
+        "website": "http://reac39.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7677112285,
+      "lat": 54.7148676,
+      "lon": 20.4505623,
+      "timestamp": "2020-07-30T22:08:37Z",
+      "version": 2,
+      "changeset": 88753621,
+      "user": "VlIvYur",
+      "uid": 345975,
+      "tags": {
+        "amenity": "clinic",
+        "contact:instagram": "brazilia_kaliningrad",
+        "contact:skype": "clinic-brazil",
+        "contact:vk": "clinicbrazil",
+        "contact:youtube": "https://www.youtube.com/channel/UCaVqc3sbvbAcDgKtHpJreXQ",
+        "email": "clinic-brazil@yandex.ru",
+        "healthcare": "clinic",
+        "healthcare:speciality": "plastic_surgery",
+        "name": "Бразилия",
+        "opening_hours": "Mo-Su 09:00-19:00",
+        "phone": "+7 800 5508139; +7 4012 331737; +7 931 6035043",
+        "website": "https://clinic-brazil.ru/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8831817399,
+      "lat": 54.7468697,
+      "lon": 20.460244,
+      "timestamp": "2026-09-23T20:32:46Z",
+      "version": 3,
+      "changeset": 189468390,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:housenumber": "40",
+        "addr:street": "Броненосная улица",
+        "amenity": "clinic",
+        "check_date": "2026-08-09",
+        "healthcare": "clinic",
+        "healthcare:speciality": "paediatrics;neurology;orthopaedics;physiotherapy",
+        "name": "МВЦ Продвижение"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8851164241,
+      "lat": 54.7042203,
+      "lon": 20.5083283,
+      "timestamp": "2026-05-23T19:46:55Z",
+      "version": 2,
+      "changeset": 183082527,
+      "user": "empty_child",
+      "uid": 13256444,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2026-05-23",
+        "entrance": "yes",
+        "name": "Хорошая поликлиника",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9705825917,
+      "lat": 54.5892064,
+      "lon": 20.6228607,
+      "timestamp": "2022-04-30T19:28:57Z",
+      "version": 1,
+      "changeset": 120397360,
+      "user": "Yankys",
+      "uid": 558021,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Фельдшерско-акушерский пункт",
+        "name:en": "Paramedic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9705825920,
+      "lat": 54.5817406,
+      "lon": 20.5671129,
+      "timestamp": "2022-04-30T19:29:04Z",
+      "version": 1,
+      "changeset": 120397360,
+      "user": "Yankys",
+      "uid": 558021,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Больница",
+        "name:en": "Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9855711874,
+      "lat": 54.7466854,
+      "lon": 20.4941273,
+      "timestamp": "2026-09-23T20:32:46Z",
+      "version": 4,
+      "changeset": 189468390,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:housenumber": "8",
+        "addr:postcode": "236001",
+        "addr:street": "улица Петра Панина",
+        "amenity": "clinic",
+        "email": "ekamed39@yandex.ru",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Екамед",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "phone": "+74012323323;+79114606666"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9890627299,
+      "lat": 54.6555002,
+      "lon": 19.9036431,
+      "timestamp": "2022-07-15T21:02:13Z",
+      "version": 1,
+      "changeset": 123669325,
+      "user": "VlIvYur",
+      "uid": 345975,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10576294827,
+      "lat": 54.7332595,
+      "lon": 20.4841482,
+      "timestamp": "2024-10-28T08:13:34Z",
+      "version": 3,
+      "changeset": 158443917,
+      "user": "kate_rocketdata",
+      "uid": 12100948,
+      "tags": {
+        "amenity": "clinic",
+        "contact:phone": "+7 401 2966464;+7 800 5501711;+7 963 7387790",
+        "contact:website": "https://mastersluh.ru/",
+        "name": "МастерСлух",
+        "opening_hours": "Mo-Tu,Th-Fr,Su 09:00-17:00; We 08:00-16:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11185642090,
+      "lat": 54.7320795,
+      "lon": 20.5408019,
+      "timestamp": "2023-09-12T11:46:01Z",
+      "version": 1,
+      "changeset": 141159453,
+      "user": "kate_rocketdata",
+      "uid": 12100948,
+      "tags": {
+        "amenity": "clinic",
+        "contact:phone": "+7 401 2357778;+7 401 2557755",
+        "contact:website": "https://edkar-art.ru",
+        "name": "Эдкар",
+        "opening_hours": "Mo-Fr 08:00-21:00; Sa 08:00-14:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11185642091,
+      "lat": 54.7071035,
+      "lon": 20.5000323,
+      "timestamp": "2025-01-20T08:20:55Z",
+      "version": 2,
+      "changeset": 161552379,
+      "user": "kate_rocketdata",
+      "uid": 12100948,
+      "tags": {
+        "amenity": "clinic",
+        "contact:phone": "+7 401 2357774;+7 401 2673522",
+        "contact:website": "https://edkar.ru",
+        "name": "Эдкар",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-14:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11185642092,
+      "lat": 54.7395233,
+      "lon": 20.4853079,
+      "timestamp": "2024-06-16T19:47:05Z",
+      "version": 2,
+      "changeset": 152775238,
+      "user": "Ilya_Puchcow",
+      "uid": 18791126,
+      "tags": {
+        "amenity": "clinic",
+        "contact:phone": "+7 401 2557755",
+        "contact:website": "https://edkarik.ru/",
+        "name": "Эдкарик",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-14:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11185642093,
+      "lat": 54.634901,
+      "lon": 21.7937227,
+      "timestamp": "2024-10-10T14:39:20Z",
+      "version": 2,
+      "changeset": 157718994,
+      "user": "IlyaGav",
+      "uid": 11026669,
+      "tags": {
+        "amenity": "clinic",
+        "contact:phone": "+7 401 2557755",
+        "contact:website": "https://edkar.ru",
+        "healthcare": "clinic",
+        "name": "Эдкар",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-15:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12215935043,
+      "lat": 54.7170743,
+      "lon": 20.5216696,
+      "timestamp": "2025-01-27T07:44:18Z",
+      "version": 2,
+      "changeset": 161806679,
+      "user": "kate_rocketdata",
+      "uid": 12100948,
+      "tags": {
+        "amenity": "clinic",
+        "contact:email": "mail@prozrenie.ru",
+        "contact:phone": "+7 401 2615495;+7 401 2615610",
+        "contact:website": "https://prozrenie.ru",
+        "name": "Ясный взор",
+        "opening_hours": "Mo-Fr 08:30-20:30; Sa-Su 09:00-18:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13034191601,
+      "lat": 54.7467983,
+      "lon": 20.4930728,
+      "timestamp": "2026-09-20T16:59:48Z",
+      "version": 3,
+      "changeset": 189307649,
+      "user": "shamilbi",
+      "uid": 242206,
+      "tags": {
+        "addr:housenumber": "8А",
+        "addr:postcode": "236001",
+        "addr:street": "улица Петра Панина",
+        "amenity": "clinic",
+        "check_date": "2026-09-20",
+        "email": "reg@1med39.ru",
+        "name": "Особый статус",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-16:00",
+        "phone": "+74012430504;+79062319667",
+        "website": "https://osobystatus.ru/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13058019794,
+      "lat": 54.7413722,
+      "lon": 20.4851729,
+      "timestamp": "2025-08-08T14:01:45Z",
+      "version": 1,
+      "changeset": 170157506,
+      "user": "literan",
+      "uid": 830106,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Апрель"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13806138202,
+      "lat": 54.7192555,
+      "lon": 20.5259206,
+      "timestamp": "2026-05-07T13:06:33Z",
+      "version": 1,
+      "changeset": 182338381,
+      "user": "Lady Marcello",
+      "uid": 24105667,
+      "tags": {
+        "addr:housenumber": "88А",
+        "addr:postcode": "236016",
+        "addr:street": "улица 9-го Апреля",
+        "amenity": "clinic",
+        "contact:vk": "ya.zdorova39",
+        "email": "info@ya-zdorova39.ru",
+        "level": "1",
+        "name": "Клиника женского здоровья",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-18:00",
+        "phone": "+74012278908",
+        "website": "http://ya-zdorova39.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13853088101,
+      "lat": 54.7197957,
+      "lon": 20.4790778,
+      "timestamp": "2026-09-04T06:40:34Z",
+      "version": 4,
+      "changeset": 188509298,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "tags": {
+        "addr:floor": "1",
+        "addr:housenumber": "4",
+        "addr:street": "проспект Мира,  59Б",
+        "amenity": "clinic",
+        "check_date": "2026-09-04",
+        "check_date:opening_hours": "2026-05-20",
+        "contact:telegram": "https://t.me/illenclinic",
+        "contact:vk": "illenhealth",
+        "email": "illenmed@yandex.ru",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Иллен Клиник",
+        "opening_hours": "08:00-20:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+7 (4012) 97-31-97;+7 (906) 231-81-00;+7 (4012) 98-82-88",
+        "website": "http://illenclinic.ru",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13888074767,
+      "lat": 54.7093012,
+      "lon": 20.5051185,
+      "timestamp": "2026-09-02T17:54:08Z",
+      "version": 3,
+      "changeset": 188433084,
+      "user": "shamilbi",
+      "uid": 242206,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2026-09-02",
+        "healthcare": "clinic",
+        "name": "АрсМедика",
+        "website": "https://arsmedica39.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13888149548,
+      "lat": 54.7182873,
+      "lon": 20.5134415,
+      "timestamp": "2026-05-27T12:49:48Z",
+      "version": 1,
+      "changeset": 183254790,
+      "user": "empty_child",
+      "uid": 13256444,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2026-05-27",
+        "healthcare": "clinic",
+        "name": "Альзория"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13891044034,
+      "lat": 54.7195704,
+      "lon": 20.5135827,
+      "timestamp": "2026-05-28T09:41:26Z",
+      "version": 1,
+      "changeset": 183295180,
+      "user": "empty_child",
+      "uid": 13256444,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2026-05-28",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14123374362,
+      "lat": 54.7183586,
+      "lon": 20.4714827,
+      "timestamp": "2026-08-25T18:13:46Z",
+      "version": 1,
+      "changeset": 188005100,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2026-08-25",
+        "healthcare": "hospital",
+        "name": "Городская больница №2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14123374368,
+      "lat": 54.7259868,
+      "lon": 20.4792373,
+      "timestamp": "2026-11-05T07:19:14Z",
+      "version": 3,
+      "changeset": 191497208,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "tags": {
+        "addr:floor": "1",
+        "amenity": "clinic",
+        "check_date": "2026-11-05",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Консультативно-диагностическая поликлиника",
+        "opening_hours": "Mo-Fr 08:00-20:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14133873350,
+      "lat": 54.5988874,
+      "lon": 22.2084587,
+      "timestamp": "2026-08-29T20:55:36Z",
+      "version": 1,
+      "changeset": 188217858,
+      "user": "Глеб",
+      "uid": 346125,
+      "tags": {
+        "addr:city": "Гусев",
+        "addr:housenumber": "54",
+        "addr:postcode": "238051",
+        "addr:street": "Московская улица",
+        "amenity": "clinic",
+        "description": "Детская поликлиника города Гусев",
+        "emergency": "yes",
+        "name": "Детская поликлиника",
+        "phone": "+7 40143 3-24-31;+7 40143 3-54-54"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14133873351,
+      "lat": 54.5992676,
+      "lon": 22.2088193,
+      "timestamp": "2026-08-29T20:55:36Z",
+      "version": 1,
+      "changeset": 188217858,
+      "user": "Глеб",
+      "uid": 346125,
+      "tags": {
+        "addr:city": "Гусев",
+        "addr:housenumber": "54",
+        "addr:postcode": "238056",
+        "addr:street": "Московская улица",
+        "amenity": "clinic",
+        "description": "Городская стоматологическая поликлиника",
+        "emergency": "yes",
+        "name": "Стоматологическая поликлиника",
+        "phone": "+7 40143 3-08-08"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14158119449,
+      "lat": 54.6661307,
+      "lon": 20.50832,
+      "timestamp": "2026-09-06T18:22:37Z",
+      "version": 1,
+      "changeset": 188633218,
+      "user": "secretikov",
+      "uid": 24429468,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Арс Медика"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14179961298,
+      "lat": 54.7161017,
+      "lon": 20.4611384,
+      "timestamp": "2026-09-14T06:52:02Z",
+      "version": 1,
+      "changeset": 188993789,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "tags": {
+        "addr:floor": "1",
+        "addr:housenumber": "34",
+        "addr:street": "улица Кутузова",
+        "amenity": "clinic",
+        "check_date": "2026-09-13",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Ментальное равновесие",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-19:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14196504554,
+      "lat": 54.7332622,
+      "lon": 20.481651,
+      "timestamp": "2026-09-19T10:32:06Z",
+      "version": 1,
+      "changeset": 189246346,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "tags": {
+        "addr:floor": "1",
+        "amenity": "clinic",
+        "check_date": "2026-09-19",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Варикоза нет",
+        "opening_hours": "08:00-20:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+7 401 243-02-10",
+        "website": "https://varikozanet39.ru",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14196554593,
+      "lat": 54.7321514,
+      "lon": 20.4740626,
+      "timestamp": "2026-09-19T10:56:01Z",
+      "version": 1,
+      "changeset": 189247272,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "tags": {
+        "addr:housenumber": "87",
+        "addr:street": "Красная улица",
+        "amenity": "clinic",
+        "check_date": "2026-09-19",
+        "healthcare": "clinic",
+        "name": "Добрый доктор",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+7 401 297-30-97",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14222475696,
+      "lat": 54.7148924,
+      "lon": 20.5033451,
+      "timestamp": "2026-09-27T14:55:40Z",
+      "version": 1,
+      "changeset": 189634726,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2026-09-27",
+        "healthcare": "clinic",
+        "name": "Сигма мед"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14254316726,
+      "lat": 54.7180045,
+      "lon": 20.4834371,
+      "timestamp": "2026-10-06T07:12:06Z",
+      "version": 1,
+      "changeset": 190072732,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "tags": {
+        "addr:door": "24",
+        "addr:floor": "-1",
+        "addr:housenumber": "6А",
+        "addr:street": "улица Сержанта Колоскова",
+        "amenity": "clinic",
+        "check_date": "2026-10-04",
+        "healthcare": "clinic",
+        "name": "Сакруммед",
+        "opening_hours": "Mo-Fr 09:00-21:00; Sa 10:00-20:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+7 401 279-77-77",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 42922700,
+      "timestamp": "2019-07-07T15:18:12Z",
+      "version": 6,
+      "changeset": 71984832,
+      "user": "empers",
+      "uid": 7644650,
+      "nodes": [
+        537578578,
+        537578580,
+        537578581,
+        537578583,
+        537578585,
+        537578587,
+        537578588,
+        537578590,
+        537578592,
+        537578594,
+        1113050369,
+        1113050347,
+        1113050325,
+        537578596,
+        1113050287,
+        1113050242,
+        537578598,
+        1113050208,
+        537578564,
+        1113050516,
+        537578566,
+        537578568,
+        537578570,
+        537578572,
+        537578573,
+        1113050486,
+        537578575,
+        537578559,
+        537578561,
+        537578563,
+        537578551,
+        537578553,
+        537578555,
+        537578558,
+        2897113972,
+        2897113969,
+        2897113970,
+        2897113971,
+        2897113978,
+        537578578
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "barrier": "wall",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "loc_name": "Калининградский военный госпиталь Балтийского флота имени Саулькина",
+        "name": "ФГКУ «1409 военно-морской клинический госпиталь» МО РФ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 54984683,
+      "timestamp": "2026-04-17T17:07:00Z",
+      "version": 5,
+      "changeset": 181468794,
+      "user": "Alexey_ND",
+      "uid": 515330,
+      "nodes": [
+        691746924,
+        10250506362,
+        10250506323,
+        691746884,
+        10250506317,
+        10250506340,
+        10250506339,
+        10250490004,
+        691746908,
+        10250490002,
+        10250506373,
+        10250506374,
+        10250506322,
+        691746926,
+        10250506363,
+        691746924
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "barrier": "fence",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "Областная инфекционная больница"
+      }
+    },
+    {
+      "type": "way",
+      "id": 77689464,
+      "timestamp": "2026-08-29T11:02:44Z",
+      "version": 10,
+      "changeset": 188190686,
+      "user": "Глеб",
+      "uid": 346125,
+      "nodes": [
+        14132955083,
+        913863299,
+        913863271,
+        913863235,
+        913863282,
+        14132955084,
+        14132960119,
+        14132960120,
+        14132960121,
+        14132960122,
+        14132960123,
+        14132960124,
+        14132960125,
+        14132960126,
+        14132960127,
+        14132960128,
+        14132960129,
+        14132960130,
+        14132960131,
+        14132960132,
+        14132960133,
+        14132960134,
+        14132960135,
+        14132960136,
+        14132960137,
+        14132960138,
+        14132955083
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:housenumber": "78",
+        "addr:postcode": "236004",
+        "addr:street": "улица Дзержинского",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Медицинский центр \"МедПрофи\"",
+        "opening_hours": "08:00-20:00",
+        "operator": "Медицинский центр \"МедПрофи\""
+      }
+    },
+    {
+      "type": "way",
+      "id": 84100069,
+      "timestamp": "2026-09-24T17:50:26Z",
+      "version": 8,
+      "changeset": 189510289,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "nodes": [
+        978483392,
+        978483809,
+        978484062,
+        2294510751,
+        978483653,
+        978483211,
+        978482768,
+        978484271,
+        2287897054,
+        978484239,
+        978483771,
+        978483392
+      ],
+      "tags": {
+        "addr:housenumber": "3А",
+        "addr:street": "улица Партизана Железняка",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Класс Клиник"
+      }
+    },
+    {
+      "type": "way",
+      "id": 85828623,
+      "timestamp": "2026-01-26T20:32:33Z",
+      "version": 5,
+      "changeset": 177737653,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        996299017,
+        996299444,
+        996299605,
+        996300608,
+        996299017
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Районная больница",
+        "name:ru": "Детская районная больница",
+        "start_date": "1958"
+      }
+    },
+    {
+      "type": "way",
+      "id": 85828784,
+      "timestamp": "2026-01-26T20:32:33Z",
+      "version": 9,
+      "changeset": 177737653,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        996299294,
+        996299125,
+        996298919,
+        996299551,
+        996300712,
+        996299686,
+        996299294
+      ],
+      "tags": {
+        "addr:city": "Гвардейск",
+        "addr:housenumber": "22",
+        "addr:street": "улица Тельмана",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "3",
+        "emergency": "yes",
+        "name": "Районная больница",
+        "start_date": "1945"
+      }
+    },
+    {
+      "type": "way",
+      "id": 88520890,
+      "timestamp": "2019-10-20T20:19:14Z",
+      "version": 6,
+      "changeset": 75964126,
+      "user": "Gelap",
+      "uid": 10392526,
+      "nodes": [
+        1028106294,
+        1028106523,
+        1028106254,
+        1028106566,
+        1028106311,
+        1028106408,
+        1028106641,
+        1028106484,
+        1028106219,
+        1028106335,
+        1028106548,
+        1028106375,
+        1028106605,
+        1028106252,
+        1028106474,
+        1028106290,
+        1028106515,
+        1028106239,
+        1028106431,
+        1028106260,
+        1028106294
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:country": "RU",
+        "addr:housenumber": "64А",
+        "addr:postcode": "236005",
+        "addr:street": "улица Литовский Вал",
+        "building": "hospital",
+        "building:levels": "2",
+        "healthcare": "hospital",
+        "name": "ГБУЗ центр медицинской профилактики и реабилитации"
+      }
+    },
+    {
+      "type": "way",
+      "id": 93183659,
+      "timestamp": "2022-09-16T17:33:30Z",
+      "version": 8,
+      "changeset": 126272946,
+      "user": "B_KSL",
+      "uid": 553541,
+      "nodes": [
+        1080312100,
+        6821806888,
+        6672568387,
+        6672568389,
+        6672568388,
+        6672568390,
+        6672568391,
+        6672568392,
+        6672568393,
+        6672568394,
+        6672568386,
+        6672568395,
+        6672568396,
+        1080312107,
+        1080312106,
+        6672568385,
+        1080312100
+      ],
+      "tags": {
+        "addr:city": "Гусев",
+        "addr:country": "RU",
+        "addr:housenumber": "56",
+        "addr:postcode": "238051",
+        "addr:street": "Московская улица",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "3",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "type": "way",
+      "id": 93772994,
+      "timestamp": "2023-07-07T14:18:12Z",
+      "version": 4,
+      "changeset": 138231583,
+      "user": "Mainn",
+      "uid": 19706600,
+      "nodes": [
+        1089035309,
+        1089035156,
+        1089035223,
+        2025958837,
+        1089035450,
+        1089035038,
+        1089035019,
+        1092119138,
+        1089035311,
+        1089035195,
+        1089035096,
+        1089035283,
+        1089035309
+      ],
+      "tags": {
+        "addr:city": "Светлый",
+        "addr:housenumber": "10",
+        "addr:street": "Сосновый переулок",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Приемный покой"
+      }
+    },
+    {
+      "type": "way",
+      "id": 93944175,
+      "timestamp": "2012-11-27T12:38:20Z",
+      "version": 3,
+      "changeset": 14058295,
+      "user": "lcdw",
+      "uid": 1064550,
+      "nodes": [
+        1092119046,
+        1092119358,
+        1092119138,
+        1089035019,
+        1092119333,
+        1092119254,
+        1092119156,
+        1092119295,
+        1092118984,
+        1092119089,
+        1092119066,
+        1092119046
+      ],
+      "tags": {
+        "addr:city": "Светлый",
+        "addr:housenumber": "10",
+        "addr:street": "Сосновый переулок",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Светловская ЦОБ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 93944193,
+      "timestamp": "2019-06-05T17:51:43Z",
+      "version": 5,
+      "changeset": 70962641,
+      "user": "elena_v_s",
+      "uid": 10043857,
+      "nodes": [
+        1092119106,
+        1092119327,
+        2021374656,
+        1092119182,
+        1092119233,
+        1092119106
+      ],
+      "tags": {
+        "addr:city": "Светлый",
+        "addr:housenumber": "8",
+        "addr:street": "Сосновый переулок",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "way",
+      "id": 95405047,
+      "timestamp": "2025-08-11T13:27:57Z",
+      "version": 3,
+      "changeset": 170293883,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        13063519744,
+        13063519743,
+        13063519742,
+        1106295946,
+        13063519741,
+        1106295870,
+        1106295841,
+        1106295921,
+        13063519744
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "1",
+        "start_date": "1986"
+      }
+    },
+    {
+      "type": "way",
+      "id": 95810704,
+      "timestamp": "2026-09-23T20:32:46Z",
+      "version": 7,
+      "changeset": 189468390,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "nodes": [
+        1110437201,
+        1110437178,
+        1110437216,
+        1110437169,
+        1110437201
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:country": "RU",
+        "addr:housenumber": "49; 51",
+        "addr:postcode": "236022",
+        "addr:street": "улица Чайковского",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "3",
+        "check_date": "2026-08-05",
+        "healthcare": "clinic",
+        "health_facility:type": "hospital",
+        "health_specialty:gynaecology": "main",
+        "medical_system:western": "yes",
+        "name": "Родильный дом №4",
+        "provided_for:female": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 95813840,
+      "timestamp": "2020-06-04T12:13:42Z",
+      "version": 4,
+      "changeset": 86189002,
+      "user": "Kopich",
+      "uid": 420956,
+      "nodes": [
+        1110503855,
+        1110503680,
+        1110503501,
+        1110503208,
+        1446954160,
+        1446954159,
+        1446954178,
+        1446954177,
+        1110503855
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:country": "RU",
+        "addr:postcode": "236028",
+        "addr:street": "Садовая улица",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Детская поликлинника №4 Балтийского района"
+      }
+    },
+    {
+      "type": "way",
+      "id": 95930529,
+      "timestamp": "2020-06-04T12:13:42Z",
+      "version": 3,
+      "changeset": 86189002,
+      "user": "Kopich",
+      "uid": 420956,
+      "nodes": [
+        1111482804,
+        1111482850,
+        1111482835,
+        1111482803,
+        1111482804
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:country": "RU",
+        "addr:housenumber": "64",
+        "addr:postcode": "236005",
+        "addr:street": "Киевская улица",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Поликлинника профмедосмотров"
+      }
+    },
+    {
+      "type": "way",
+      "id": 96833661,
+      "timestamp": "2026-08-21T19:47:21Z",
+      "version": 5,
+      "changeset": 187814478,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "nodes": [
+        1122002377,
+        1122002356,
+        1122001753,
+        1122002845,
+        1122002377
+      ],
+      "tags": {
+        "addr:housenumber": "25Б",
+        "addr:street": "улица Космонавта Леонова",
+        "amenity": "clinic",
+        "building": "yes",
+        "check_date": "2026-08-21",
+        "healthcare": "clinic",
+        "name": "Центр лазерной микрохирургии глаза",
+        "opening_hours": "Mo-Fr 08:30-20:00; Sa 08:30-15:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 100867047,
+      "timestamp": "2026-09-27T14:55:40Z",
+      "version": 6,
+      "changeset": 189634726,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "nodes": [
+        1165678431,
+        4287033486,
+        1165678220,
+        1165677736,
+        1165677178,
+        1165678431
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:housenumber": "60",
+        "addr:street": "улица 9-го Апреля",
+        "amenity": "clinic",
+        "building": "yes",
+        "check_date": "2026-09-27",
+        "contact:phone": "+74012313339",
+        "contact:website": "http://clinic.kantiana.ru",
+        "healthcare": "clinic",
+        "name": "Клинико-диагностический центр БФУ им. И. Канта",
+        "opening_hours": "Mo-Fr 09:00-20:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 103395211,
+      "timestamp": "2026-09-07T18:30:04Z",
+      "version": 6,
+      "changeset": 188686304,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        1193936125,
+        1193934957,
+        1193936581,
+        1193933600,
+        1193936125
+      ],
+      "tags": {
+        "addr:city": "Гурьевск",
+        "addr:country": "RU",
+        "addr:housenumber": "5",
+        "addr:street": "улица Калининградское шоссе",
+        "amenity": "hospital",
+        "building": "apartments",
+        "building:levels": "4",
+        "healthcare": "hospital",
+        "name": "Гурьевская поликлиника",
+        "start_date": "1983"
+      }
+    },
+    {
+      "type": "way",
+      "id": 103395349,
+      "timestamp": "2017-01-31T07:57:20Z",
+      "version": 5,
+      "changeset": 45676919,
+      "user": "Владимир К",
+      "uid": 2853561,
+      "nodes": [
+        1193936824,
+        1193933687,
+        1193935416,
+        1193934989,
+        1193936154,
+        1193933626,
+        1193936182,
+        1193935982,
+        1193936824
+      ],
+      "tags": {
+        "addr:city": "Гурьевск",
+        "addr:housenumber": "11А",
+        "addr:street": "улица Ленина",
+        "amenity": "clinic",
+        "building": "yes",
+        "description": "Детская поликлиника Гурьевского городского округа",
+        "name": "Детская поликлинника"
+      }
+    },
+    {
+      "type": "way",
+      "id": 103633605,
+      "timestamp": "2026-08-21T19:47:21Z",
+      "version": 8,
+      "changeset": 187814478,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "nodes": [
+        1196626434,
+        1196626760,
+        1196626540,
+        1196626421,
+        1196626434
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:country": "RU",
+        "addr:housenumber": "26",
+        "addr:street": "улица Чернышевского",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "2",
+        "check_date": "2026-08-21",
+        "healthcare": "clinic",
+        "health_facility:type": "clinic",
+        "name": "Детская городская поликлиника №2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 110955870,
+      "timestamp": "2015-07-01T00:44:58Z",
+      "version": 5,
+      "changeset": 32321310,
+      "user": "DJ Gesh",
+      "uid": 2918396,
+      "nodes": [
+        1265132711,
+        1265132284,
+        1265132805,
+        1265132979,
+        1265132711
+      ],
+      "tags": {
+        "addr:city": "Светлогорск",
+        "addr:country": "RU",
+        "addr:housenumber": "50",
+        "addr:postcode": "238560",
+        "addr:street": "улица Ленина",
+        "amenity": "hospital",
+        "building": "yes",
+        "description": "Другой корпус",
+        "name": "санаторий Янтарь",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 114436937,
+      "timestamp": "2020-08-18T19:24:33Z",
+      "version": 6,
+      "changeset": 89592804,
+      "user": "yuryleb",
+      "uid": 446083,
+      "nodes": [
+        1296349469,
+        1296349509,
+        1296349528,
+        1296349514,
+        1296349469
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:country": "RU",
+        "addr:housenumber": "2В",
+        "addr:postcode": "236038",
+        "addr:street": "улица Юрия Гагарина",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "1",
+        "healthcare": "clinic",
+        "name": "Новомед",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-17:00",
+        "phone": "+7 401 256-23-11",
+        "website": "https://medical-center-143.business.site/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 115708220,
+      "timestamp": "2020-05-17T18:07:06Z",
+      "version": 3,
+      "changeset": 85343795,
+      "user": "Nnik_12",
+      "uid": 11081935,
+      "nodes": [
+        1306494314,
+        1306494696,
+        1306494418,
+        1306494222,
+        7529596984,
+        1306494651,
+        1306494900,
+        1306494314
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Водо-Грязелечебница санаторий зеленоградск"
+      }
+    },
+    {
+      "type": "way",
+      "id": 116094610,
+      "timestamp": "2026-09-23T20:45:51Z",
+      "version": 6,
+      "changeset": 189468770,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "nodes": [
+        1310087723,
+        2158837973,
+        1310087691,
+        1310087721,
+        1310087729,
+        1310087723
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "check_date": "2025-06-07",
+        "healthcare": "clinic",
+        "name": "Медэксперт"
+      }
+    },
+    {
+      "type": "way",
+      "id": 119086588,
+      "timestamp": "2012-01-30T21:03:59Z",
+      "version": 4,
+      "changeset": 10543825,
+      "user": "parukhin",
+      "uid": 519501,
+      "nodes": [
+        1338837161,
+        1338837266,
+        1338837583,
+        1338837183,
+        1338837452,
+        1338837127,
+        1338837512,
+        1338837154,
+        1338837402,
+        1338837097,
+        1338837293,
+        1338837611,
+        1338837209,
+        1338837484,
+        1338837070,
+        1338837231,
+        1338837517,
+        1338837157,
+        1338837405,
+        1338837102,
+        1338837161
+      ],
+      "tags": {
+        "addr:city": "Неман",
+        "addr:country": "RU",
+        "addr:housenumber": "25",
+        "addr:postcode": "238710",
+        "addr:street": "улица Победы",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Городская больница"
+      }
+    },
+    {
+      "type": "way",
+      "id": 130974764,
+      "timestamp": "2020-05-05T21:29:53Z",
+      "version": 5,
+      "changeset": 84718533,
+      "user": "EvgenyVlasenko",
+      "uid": 371463,
+      "nodes": [
+        1441966850,
+        1441966861,
+        1441966884,
+        1441966886,
+        1441966902,
+        1441966899,
+        1441966901,
+        1441966905,
+        1441966910,
+        1441966907,
+        1441966912,
+        1441966914,
+        1441966916,
+        1441966915,
+        1441966913,
+        1441966909,
+        1441966911,
+        1441966906,
+        1441966904,
+        1441966900,
+        1441966903,
+        1441966897,
+        1441966878,
+        1441966874,
+        1441966865,
+        1441966849,
+        1441966847,
+        1441966850
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "ЦРБ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 132062416,
+      "timestamp": "2018-08-20T20:11:35Z",
+      "version": 3,
+      "changeset": 61835219,
+      "user": "literan",
+      "uid": 830106,
+      "nodes": [
+        1453427491,
+        1453427498,
+        1453427494,
+        1453427492,
+        1453427484,
+        1453427488,
+        1453427485,
+        1453427481,
+        1453427491
+      ],
+      "tags": {
+        "addr:city": "Светлогорск",
+        "addr:housenumber": "13",
+        "addr:postcode": "238560",
+        "addr:street": "Зелёная улица",
+        "amenity": "clinic",
+        "building": "yes",
+        "emergency": "yes",
+        "healthcare": "clinic",
+        "health_facility:type": "clinic",
+        "name": "Городская поликлиника"
+      }
+    },
+    {
+      "type": "way",
+      "id": 132062418,
+      "timestamp": "2026-02-17T11:41:25Z",
+      "version": 5,
+      "changeset": 178675077,
+      "user": "zuzuFan",
+      "uid": 3419533,
+      "nodes": [
+        1453427561,
+        1453427555,
+        1453427550,
+        1453427558,
+        1453427561
+      ],
+      "tags": {
+        "addr:city": "Светлогорск",
+        "addr:housenumber": "13",
+        "addr:street": "Октябрьская улица",
+        "amenity": "hospital",
+        "building": "yes",
+        "check_date": "2026-02-17",
+        "healthcare": "hospital",
+        "name": "Светлогорский центральный военный санаторий",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 132609823,
+      "timestamp": "2025-08-10T09:44:37Z",
+      "version": 4,
+      "changeset": 170235383,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        1458504592,
+        1458504590,
+        13061512387,
+        1458504594,
+        1458504597,
+        1458504592
+      ],
+      "tags": {
+        "addr:city": "Багратионовск",
+        "addr:housenumber": "38А",
+        "addr:street": "улица Багратиона",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "2",
+        "operator": "Детская поликлиника",
+        "start_date": "1978"
+      }
+    },
+    {
+      "type": "way",
+      "id": 136177440,
+      "timestamp": "2024-08-11T05:56:19Z",
+      "version": 7,
+      "changeset": 155086163,
+      "user": "11daf",
+      "uid": 377791,
+      "nodes": [
+        1494187030,
+        1494186936,
+        1494186959,
+        1494187015,
+        1494187030
+      ],
+      "tags": {
+        "addr:city": "Балтийск",
+        "addr:housenumber": "11А",
+        "addr:street": "улица Чехова",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Поликлиника",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "type": "way",
+      "id": 141478460,
+      "timestamp": "2018-12-12T18:02:18Z",
+      "version": 6,
+      "changeset": 65417839,
+      "user": "al0202",
+      "uid": 4487141,
+      "nodes": [
+        1548570251,
+        1548570247,
+        2441474436,
+        2441474435,
+        2441474438,
+        1548570144,
+        1548570151,
+        1548570251
+      ],
+      "tags": {
+        "addr:city": "Ладушкин",
+        "addr:housenumber": "8",
+        "addr:postcode": "238460",
+        "addr:street": "Школьная улица",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:levels": "3",
+        "email": "muz.lgb@mail.ru",
+        "emergency": "yes",
+        "name": "Ладушкинская городская больница",
+        "name:de": "Städtisches Krankenhaus",
+        "official_name:ru": "Государственное бюджетное учреждение здравоохранения Калининградской области „Ладушкинская городская больница“",
+        "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-13:00",
+        "phone": "+7 40156 66360"
+      }
+    },
+    {
+      "type": "way",
+      "id": 145246563,
+      "timestamp": "2020-06-05T20:39:58Z",
+      "version": 2,
+      "changeset": 86261646,
+      "user": "EvgenyVlasenko",
+      "uid": 371463,
+      "nodes": [
+        3499996062,
+        1586813929,
+        1586813927,
+        1586813908,
+        1586813906,
+        1586813898,
+        1586813902,
+        1586813891,
+        1586813895,
+        1586813905,
+        1586813911,
+        1586813915,
+        3499996062
+      ],
+      "tags": {
+        "addr:city": "Янтарный",
+        "addr:country": "RU",
+        "addr:housenumber": "23",
+        "addr:street": "Советская улица",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Больница"
+      }
+    },
+    {
+      "type": "way",
+      "id": 146612412,
+      "timestamp": "2023-06-02T19:18:26Z",
+      "version": 3,
+      "changeset": 136881322,
+      "user": "Karol_S",
+      "uid": 1993471,
+      "nodes": [
+        1598805401,
+        1598805329,
+        1598805302,
+        1598805471,
+        1598805593,
+        1598805607,
+        1598805553,
+        1598805569,
+        1598805523,
+        1598805505,
+        1598805444,
+        1598805460,
+        1598805429,
+        1598805401
+      ],
+      "tags": {
+        "addr:city": "Мамоново",
+        "addr:housenumber": "3",
+        "addr:street": "улица Евсеева",
+        "amenity": "hospital",
+        "building": "hospital",
+        "name": "ГБУЗ КО «Мамоновская городская больница»"
+      }
+    },
+    {
+      "type": "way",
+      "id": 149103572,
+      "timestamp": "2026-08-06T14:26:27Z",
+      "version": 5,
+      "changeset": 187037196,
+      "user": "gorod-up",
+      "uid": 24387367,
+      "nodes": [
+        1621291681,
+        1621291682,
+        1621291680,
+        1621291679,
+        1621291681
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:country": "RU",
+        "addr:housenumber": "197",
+        "addr:street": "улица Горького",
+        "amenity": "clinic",
+        "building": "yes",
+        "description": "административное здание",
+        "healthcare": "clinic",
+        "name": "Сигма Мед"
+      }
+    },
+    {
+      "type": "way",
+      "id": 150338771,
+      "timestamp": "2026-09-24T17:50:26Z",
+      "version": 4,
+      "changeset": 189510289,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "nodes": [
+        1632593162,
+        1632593164,
+        1632593163,
+        1632593160,
+        1632593162
+      ],
+      "tags": {
+        "addr:city": "Васильково",
+        "addr:housenumber": "51А",
+        "addr:postcode": "238310",
+        "addr:street": "Шатурская улица",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Детская поликлиника"
+      }
+    },
+    {
+      "type": "way",
+      "id": 162194319,
+      "timestamp": "2026-09-27T19:57:08Z",
+      "version": 7,
+      "changeset": 189648155,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "nodes": [
+        1741249571,
+        1741249567,
+        1741249565,
+        1741249560,
+        1741249563,
+        1741249561,
+        1741249564,
+        2342021557,
+        1741249571
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:housenumber": "147А",
+        "addr:street": "улица Дзержинского",
+        "alt_name": "Городская больница №2",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "2",
+        "check_date": "2024-06-25",
+        "healthcare": "clinic",
+        "name": "Хоспис"
+      }
+    },
+    {
+      "type": "way",
+      "id": 169728633,
+      "timestamp": "2025-07-12T09:45:04Z",
+      "version": 4,
+      "changeset": 168829210,
+      "user": "Глеб",
+      "uid": 346125,
+      "nodes": [
+        1808902909,
+        1808902907,
+        1808902908,
+        6578317695,
+        12993929157,
+        12993929156,
+        1808902909
+      ],
+      "tags": {
+        "addr:housenumber": "8Б",
+        "addr:street": "улица Лейтенанта Калинина",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "3",
+        "healthcare": "clinic",
+        "name": "Клиника Здоровья",
+        "phone": "+7 4012 555-909",
+        "start_date": "2024",
+        "website": "https://www.хорошиеврачи.рф"
+      }
+    },
+    {
+      "type": "way",
+      "id": 185406150,
+      "timestamp": "2026-05-29T09:31:13Z",
+      "version": 5,
+      "changeset": 183344576,
+      "user": "empty_child",
+      "uid": 13256444,
+      "nodes": [
+        1960067602,
+        1960067598,
+        1960067600,
+        1960067604,
+        1960067602
+      ],
+      "tags": {
+        "addr:city": "Светлогорск",
+        "addr:housenumber": "29",
+        "addr:street": "улица Ленина",
+        "amenity": "clinic",
+        "building": "hospital",
+        "check_date": "2026-05-29",
+        "name": "Лечебно-диагностический корпус 2",
+        "ref": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 192219432,
+      "timestamp": "2020-08-08T15:57:51Z",
+      "version": 3,
+      "changeset": 89132313,
+      "user": "Bravo_two_zer0",
+      "uid": 8891425,
+      "nodes": [
+        2027817301,
+        2027817307,
+        2027817303,
+        2027817298,
+        2027817301
+      ],
+      "tags": {
+        "addr:city": "Советск",
+        "addr:housenumber": "5",
+        "addr:street": "улица Александра Невского",
+        "building": "yes",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 192933877,
+      "timestamp": "2023-06-09T11:11:35Z",
+      "version": 4,
+      "changeset": 137132163,
+      "user": "Bravo_two_zer0",
+      "uid": 8891425,
+      "nodes": [
+        2034670969,
+        2034670970,
+        2034670968,
+        2034670965,
+        2034670969
+      ],
+      "tags": {
+        "addr:city": "Советск",
+        "addr:housenumber": "16Д",
+        "addr:street": "Калининградское шоссе",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "paediatrics",
+        "name": "Детская поликлиника"
+      }
+    },
+    {
+      "type": "way",
+      "id": 205183378,
+      "timestamp": "2020-10-09T14:18:57Z",
+      "version": 5,
+      "changeset": 92242923,
+      "user": "Ser9ei",
+      "uid": 10524327,
+      "nodes": [
+        2151600478,
+        2151600444,
+        2151600440,
+        2151600446,
+        2151600441,
+        2151600439,
+        2151600438,
+        2151600443,
+        2151600442,
+        2151600454,
+        2151600456,
+        2151600466,
+        2151600467,
+        2151600451,
+        2151600453,
+        2151600459,
+        2151600462,
+        2151600457,
+        6570818598,
+        2151600460,
+        2151600474,
+        6570818601,
+        7992420937,
+        7992420939,
+        7992420938,
+        2151600478
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:housenumber": "14-16",
+        "addr:street": "Артиллерийская улица",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "№40"
+      }
+    },
+    {
+      "type": "way",
+      "id": 210719462,
+      "timestamp": "2013-03-18T09:06:23Z",
+      "version": 1,
+      "changeset": 15404452,
+      "user": "user_16881",
+      "uid": 16881,
+      "nodes": [
+        2207909594,
+        2207909595,
+        2207909597,
+        2207909596,
+        2207909594
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "name": "Озёрская центральная больница",
+        "name:de": "Zentralkrankenhaus Osjorsk",
+        "name:ru": "Озёрская центральная больница"
+      }
+    },
+    {
+      "type": "way",
+      "id": 211436819,
+      "timestamp": "2023-02-01T12:12:29Z",
+      "version": 3,
+      "changeset": 131961021,
+      "user": "vaibhavnz",
+      "uid": 4164103,
+      "nodes": [
+        2214529439,
+        2214529440,
+        2214529444,
+        2214529442,
+        2214529439
+      ],
+      "tags": {
+        "addr:city": "Муромское",
+        "addr:housenumber": "2",
+        "addr:street": "Школьная улица",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 223576153,
+      "timestamp": "2023-12-17T13:54:31Z",
+      "version": 4,
+      "changeset": 145215892,
+      "user": "IlyaGav",
+      "uid": 11026669,
+      "nodes": [
+        2324567799,
+        2324567800,
+        2324567801,
+        2324567802,
+        2324567799
+      ],
+      "tags": {
+        "addr:city": "Черняховск",
+        "addr:housenumber": "4",
+        "addr:postcode": "238151",
+        "addr:street": "Цветочная улица",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "ЦРБ",
+        "phone": "+7 40141 31766",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "type": "way",
+      "id": 266073062,
+      "timestamp": "2026-09-23T20:32:46Z",
+      "version": 3,
+      "changeset": 189468390,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "nodes": [
+        2716503640,
+        1111561474,
+        1111561666,
+        1111561854,
+        1111561334,
+        2716503642,
+        1111561552,
+        2716503652,
+        2716503640
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "1",
+        "healthcare": "clinic",
+        "name": "Поликлиника № 2 Ленинградского района"
+      }
+    },
+    {
+      "type": "way",
+      "id": 272758099,
+      "timestamp": "2014-04-08T09:29:00Z",
+      "version": 1,
+      "changeset": 21567811,
+      "user": "ru2fj",
+      "uid": 2021370,
+      "nodes": [
+        2776844574,
+        2776844575,
+        996300357,
+        2776844576,
+        2776844577,
+        2776844578,
+        2776844579,
+        2776844580,
+        2776844574
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "name": "Военный госпиталь"
+      }
+    },
+    {
+      "type": "way",
+      "id": 272758100,
+      "timestamp": "2026-01-25T19:49:06Z",
+      "version": 2,
+      "changeset": 177696070,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        13484712891,
+        13484712890,
+        13484712889,
+        2776844581,
+        13484712888,
+        13484712887,
+        13484712886,
+        13484712885,
+        13484712884,
+        13484712883,
+        13484712882,
+        13484712881,
+        13484712880,
+        2776844588,
+        2776844589,
+        2776844587,
+        2776844586,
+        2776844585,
+        2776844584,
+        13484712879,
+        13484712878,
+        13484712877,
+        13484712876,
+        2776844583,
+        13484712875,
+        13484712874,
+        13484712873,
+        13484712891
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "Госпиталь",
+        "start_date": "1945"
+      }
+    },
+    {
+      "type": "way",
+      "id": 288879660,
+      "timestamp": "2019-12-28T16:02:13Z",
+      "version": 6,
+      "changeset": 78958824,
+      "user": "mavl",
+      "uid": 564990,
+      "nodes": [
+        2924381071,
+        2924381022,
+        2924380994,
+        2924381023,
+        2924381035,
+        2924381018,
+        2924381037,
+        2924381056,
+        2924381071
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 304316270,
+      "timestamp": "2019-08-29T21:30:24Z",
+      "version": 3,
+      "changeset": 73899390,
+      "user": "igor lyatun",
+      "uid": 10043626,
+      "nodes": [
+        3088432892,
+        3088432880,
+        3088432895,
+        3088432906,
+        3088432892
+      ],
+      "tags": {
+        "addr:city": "п. Канаш",
+        "addr:housenumber": "5",
+        "addr:postcode": "238725",
+        "addr:street": "Школьная улица",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "ФАП"
+      }
+    },
+    {
+      "type": "way",
+      "id": 307449221,
+      "timestamp": "2022-12-08T06:06:29Z",
+      "version": 2,
+      "changeset": 129845976,
+      "user": "michael60101",
+      "uid": 10036384,
+      "nodes": [
+        3125995569,
+        3125995565,
+        3125995559,
+        3125995558,
+        3125995561,
+        3125995566,
+        3125995569
+      ],
+      "tags": {
+        "addr:housenumber": "29",
+        "addr:street": "Космическая улица",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "4",
+        "healthcare": "clinic",
+        "name": "Медэксперт"
+      }
+    },
+    {
+      "type": "way",
+      "id": 342313004,
+      "timestamp": "2019-11-13T21:27:08Z",
+      "version": 3,
+      "changeset": 77039471,
+      "user": "Mariusz Staniszewski",
+      "uid": 2044927,
+      "nodes": [
+        3493310811,
+        3493310924,
+        3493310835,
+        3493311109,
+        3493311056,
+        6968258929,
+        6968258935,
+        6968258923,
+        6968258938,
+        6968258939,
+        6968258922,
+        3493311113,
+        3493311115,
+        3493310868,
+        3493310811
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 379042379,
+      "timestamp": "2024-01-12T06:33:23Z",
+      "version": 4,
+      "changeset": 146168016,
+      "user": "Bravo_two_zer0",
+      "uid": 8891425,
+      "nodes": [
+        7351138596,
+        7351138600,
+        7351138601,
+        7351138604,
+        8437341288,
+        7815177207,
+        7815177208,
+        3823915116,
+        7351138589,
+        8437341306,
+        7351138590,
+        8437341305,
+        3823915117,
+        3823915118,
+        3823915119,
+        8437341289,
+        8437341290,
+        8437341291,
+        7815177205,
+        7815177206,
+        3823915120,
+        3823915121,
+        8437341285,
+        3823915122,
+        8437341284,
+        8437341286,
+        3823915123,
+        8437341287,
+        7351138596
+      ],
+      "tags": {
+        "addr:city": "Советск",
+        "addr:housenumber": "6А",
+        "addr:street": "улица Кутузова",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Психо-неврологический диспансер"
+      }
+    },
+    {
+      "type": "way",
+      "id": 379119952,
+      "timestamp": "2023-05-08T18:20:06Z",
+      "version": 4,
+      "changeset": 135864669,
+      "user": "Ponticum",
+      "uid": 3010650,
+      "nodes": [
+        3824831160,
+        3824831161,
+        3824831162,
+        3824831163,
+        3824831164,
+        3824831165,
+        3824831166,
+        3824831167,
+        3824831160
+      ],
+      "tags": {
+        "addr:city": "Славск",
+        "addr:housenumber": "5",
+        "addr:street": "Советская улица",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "way",
+      "id": 379692422,
+      "timestamp": "2024-04-13T14:36:36Z",
+      "version": 3,
+      "changeset": 149955079,
+      "user": "Ilya_Puchcow",
+      "uid": 18791126,
+      "nodes": [
+        3830206524,
+        3830206525,
+        11813784665,
+        11813784666,
+        11813784663,
+        11813784664,
+        3830206526,
+        3830206527,
+        3830206524
+      ],
+      "tags": {
+        "addr:city": "Советск",
+        "addr:housenumber": "13",
+        "addr:street": "улица 9-го Января",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Центральная больница"
+      }
+    },
+    {
+      "type": "way",
+      "id": 431510434,
+      "timestamp": "2022-09-16T16:36:19Z",
+      "version": 2,
+      "changeset": 126271092,
+      "user": "B_KSL",
+      "uid": 553541,
+      "nodes": [
+        4307189446,
+        4307189435,
+        4307189434,
+        4307189439,
+        4307189443,
+        4307189448,
+        4307189450,
+        4307189451,
+        4307189458,
+        4307189457,
+        4307189456,
+        4307189455,
+        4307189454,
+        4307189452,
+        4307189449,
+        4307189447,
+        4307189446
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "name": "туберкулезный санаторий «Лесное»"
+      }
+    },
+    {
+      "type": "way",
+      "id": 476442515,
+      "timestamp": "2019-06-28T23:17:52Z",
+      "version": 3,
+      "changeset": 71724326,
+      "user": "Nikkichiri",
+      "uid": 2995451,
+      "nodes": [
+        4700311658,
+        6535591810,
+        4700311674,
+        4700311642,
+        4700311656,
+        4700311667,
+        4700311672,
+        4700311668,
+        4700311658
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 525720798,
+      "timestamp": "2017-09-18T21:26:25Z",
+      "version": 1,
+      "changeset": 52157645,
+      "user": "karlson39",
+      "uid": 6675057,
+      "nodes": [
+        5113828561,
+        5113828560,
+        5113828559,
+        5113828558,
+        5113828561
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "name": "Городская больница №1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 652273052,
+      "timestamp": "2019-08-26T21:49:57Z",
+      "version": 2,
+      "changeset": 73771061,
+      "user": "igor lyatun",
+      "uid": 10043626,
+      "nodes": [
+        6115446249,
+        6115446248,
+        6115446247,
+        6115446246,
+        6115446249
+      ],
+      "tags": {
+        "addr:city": "Ветрово",
+        "addr:housenumber": "12",
+        "addr:street": "Школьная улица",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "ФАП"
+      }
+    },
+    {
+      "type": "way",
+      "id": 653206212,
+      "timestamp": "2019-09-14T21:49:09Z",
+      "version": 2,
+      "changeset": 74485046,
+      "user": "igor lyatun",
+      "uid": 10043626,
+      "nodes": [
+        6121903010,
+        6121903007,
+        6121903008,
+        6121903009,
+        6121903010
+      ],
+      "tags": {
+        "addr:city": "п. Вишнёвка",
+        "addr:housenumber": "44",
+        "addr:street": "улица Победы",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "ФАП"
+      }
+    },
+    {
+      "type": "way",
+      "id": 700810906,
+      "timestamp": "2025-08-16T18:23:34Z",
+      "version": 2,
+      "changeset": 170536353,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        13074822566,
+        13074822565,
+        13074822564,
+        13074822563,
+        13074822562,
+        13074822561,
+        13074822560,
+        13074822559,
+        13074822558,
+        13074822557,
+        13074822556,
+        13074822555,
+        13074822554,
+        13074822553,
+        13074822552,
+        13074822551,
+        13074822550,
+        13074822549,
+        13074822548,
+        13074822547,
+        13074822566
+      ],
+      "tags": {
+        "addr:city": "Нивенское",
+        "addr:housenumber": "1",
+        "addr:street": "Больничная улица",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "1",
+        "healthcare": "hospital",
+        "source:addr": "ЕГРН",
+        "start_date": "1957"
+      }
+    },
+    {
+      "type": "way",
+      "id": 705615864,
+      "timestamp": "2019-07-19T20:38:03Z",
+      "version": 2,
+      "changeset": 72445740,
+      "user": "iWowik",
+      "uid": 481934,
+      "nodes": [
+        6630039102,
+        6630039103,
+        6630039104,
+        6630039105,
+        6630039102
+      ],
+      "tags": {
+        "addr:city": "Гастеллово",
+        "addr:housenumber": "98",
+        "addr:street": "Центральная улица",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "ФАП"
+      }
+    },
+    {
+      "type": "way",
+      "id": 716314808,
+      "timestamp": "2019-08-21T08:46:14Z",
+      "version": 1,
+      "changeset": 73569611,
+      "user": "Maturi0n",
+      "uid": 2052948,
+      "nodes": [
+        6730056914,
+        6730056915,
+        6730056916,
+        6730056917,
+        6730056914
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Нестеровская центральная районная больница",
+        "name:ru": "Нестеровская центральная районная больница",
+        "website": "https://nesterov-crb.infomed39.ru/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 720600049,
+      "timestamp": "2019-08-31T21:07:22Z",
+      "version": 1,
+      "changeset": 73958161,
+      "user": "igor lyatun",
+      "uid": 10043626,
+      "nodes": [
+        6762485263,
+        6762485264,
+        6762485265,
+        6762485266,
+        6762485263
+      ],
+      "tags": {
+        "addr:city": "п. Красное",
+        "addr:housenumber": "11",
+        "addr:street": "Центральная улица",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "ФАП"
+      }
+    },
+    {
+      "type": "way",
+      "id": 725196482,
+      "timestamp": "2022-01-19T06:43:32Z",
+      "version": 2,
+      "changeset": 116326790,
+      "user": "iWowik",
+      "uid": 481934,
+      "nodes": [
+        6800562433,
+        6800562434,
+        6800562435,
+        6800562436,
+        6800562433
+      ],
+      "tags": {
+        "addr:city": "Мысовка",
+        "addr:housenumber": "13",
+        "addr:street": "Набережная улица",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "ФАП"
+      }
+    },
+    {
+      "type": "way",
+      "id": 756678644,
+      "timestamp": "2019-12-18T20:13:28Z",
+      "version": 1,
+      "changeset": 78599581,
+      "user": "UserOSM0161",
+      "uid": 10558820,
+      "nodes": [
+        7067541852,
+        7067541849,
+        7067541850,
+        7067541851,
+        7067541852
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "ФАП"
+      }
+    },
+    {
+      "type": "way",
+      "id": 804270704,
+      "timestamp": "2024-06-16T06:28:15Z",
+      "version": 6,
+      "changeset": 152746567,
+      "user": "Ilya_Puchcow",
+      "uid": 18791126,
+      "nodes": [
+        7522858370,
+        11984898786,
+        7522858369,
+        7522858368,
+        7522858367,
+        7522858366,
+        7522858365,
+        11984852610,
+        11183601386,
+        11984890544,
+        7522858363,
+        7522858370
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "barrier": "fence",
+        "healthcare": "hospital",
+        "name": "Федеральный центр по борьбе с онкологическими заболеваниями"
+      }
+    },
+    {
+      "type": "way",
+      "id": 814543848,
+      "timestamp": "2024-04-25T07:22:42Z",
+      "version": 2,
+      "changeset": 150479753,
+      "user": "Ilya_Puchcow",
+      "uid": 18791126,
+      "nodes": [
+        7608732695,
+        7608732694,
+        7608732693,
+        7608732692,
+        7608732691,
+        7608732690,
+        7608732689,
+        7608732688,
+        7608732695
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:housenumber": "2А",
+        "addr:street": "улица Герцена",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "1409 ВМГК"
+      }
+    },
+    {
+      "type": "way",
+      "id": 842139473,
+      "timestamp": "2020-08-29T12:52:59Z",
+      "version": 1,
+      "changeset": 90118945,
+      "user": "Linari",
+      "uid": 10806760,
+      "nodes": [
+        7856569253,
+        7856569254,
+        7856569255,
+        7856569256,
+        7856569253
+      ],
+      "tags": {
+        "addr:city": "Матросово",
+        "addr:housenumber": "7",
+        "addr:street": "улица Александра Матросова",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "ФАП"
+      }
+    },
+    {
+      "type": "way",
+      "id": 844618625,
+      "timestamp": "2026-02-02T18:44:53Z",
+      "version": 4,
+      "changeset": 178019743,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        7879460127,
+        13520115130,
+        13520112074,
+        13520112072,
+        13520115129,
+        13520112073,
+        13520115128,
+        13520115127,
+        13520115126,
+        13520115125,
+        13520115124,
+        13520115123,
+        13520115122,
+        13520115121,
+        7879460128,
+        13520115120,
+        13520115119,
+        13520115118,
+        13520115117,
+        13520115116,
+        13520115115,
+        13520115114,
+        13520115113,
+        13520115112,
+        13520115111,
+        13520115110,
+        13520115109,
+        13520115108,
+        13520115107,
+        13520115106,
+        13520115105,
+        13520115104,
+        13520115103,
+        13520115102,
+        13520115101,
+        13520112100,
+        13520112099,
+        13520112098,
+        13520112097,
+        13520112096,
+        13520112095,
+        13520112094,
+        13520112093,
+        13520112092,
+        13520112091,
+        13520112090,
+        13520112089,
+        13520112088,
+        13520112087,
+        13520112086,
+        13520112085,
+        13520112084,
+        13520112083,
+        13520112082,
+        13520112081,
+        13520112080,
+        7879460126,
+        13520112079,
+        7879460127
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 954231279,
+      "timestamp": "2022-02-03T11:57:30Z",
+      "version": 2,
+      "changeset": 116960690,
+      "user": "Alexbit-39",
+      "uid": 4876838,
+      "nodes": [
+        8831817400,
+        8831817401,
+        8831817402,
+        8831817403,
+        8831817400
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:housenumber": "40",
+        "addr:street": "Броненосная улица",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1039436232,
+      "timestamp": "2026-08-23T11:35:14Z",
+      "version": 5,
+      "changeset": 187882183,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        14099042126,
+        14099041495,
+        14099042125,
+        14099042124,
+        14099042123,
+        14099042122,
+        14099042121,
+        14099042120,
+        14099042119,
+        14099042118,
+        14099544222,
+        14099544221,
+        14099042114,
+        14099042113,
+        14099042139,
+        14099042138,
+        14099042137,
+        2621733392,
+        14099042136,
+        14099042135,
+        14099042134,
+        14099042133,
+        14099042132,
+        9571665044,
+        9571665043,
+        14099039941,
+        14099042131,
+        14099042130,
+        14099042126
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Пионерская больница",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077470118,
+      "timestamp": "2022-07-28T07:55:52Z",
+      "version": 2,
+      "changeset": 124171745,
+      "user": "Bravo_two_zer0",
+      "uid": 8891425,
+      "nodes": [
+        9879219323,
+        9879219320,
+        9879219321,
+        9879219322,
+        9879219317,
+        9879219318,
+        9879219319,
+        9879219323
+      ],
+      "tags": {
+        "addr:city": "Жилино",
+        "addr:housenumber": "1",
+        "addr:street": "Комсомольская улица",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086189456,
+      "timestamp": "2026-09-23T20:48:59Z",
+      "version": 3,
+      "changeset": 189468861,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "nodes": [
+        9952592387,
+        9952592388,
+        9952592389,
+        9952592390,
+        9952592391,
+        9952592392,
+        12016649000,
+        1110503268,
+        1625226265,
+        9952592393,
+        9952592387
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:housenumber": "2",
+        "addr:postcode": "236006",
+        "addr:street": "улица Генерала Буткова",
+        "amenity": "clinic",
+        "building": "hospital",
+        "building:levels": "3",
+        "healthcare": "clinic",
+        "name": "Детская Стамотологическая Поликлиника"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1120836775,
+      "timestamp": "2024-08-11T05:56:19Z",
+      "version": 3,
+      "changeset": 155086163,
+      "user": "11daf",
+      "uid": 377791,
+      "nodes": [
+        10251376531,
+        10251376532,
+        10251376533,
+        11764533253,
+        11764533255,
+        11764533254,
+        11764533252,
+        10251376534,
+        10251376535,
+        10251376536,
+        11764533248,
+        10251376537,
+        10251376538,
+        10251376531
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:housenumber": "48А",
+        "addr:street": "улица Согласия",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Амбулаторно-поликлиническое отделение"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1124610719,
+      "timestamp": "2022-12-24T08:27:17Z",
+      "version": 1,
+      "changeset": 130447563,
+      "user": "Iliya_Puchkov",
+      "uid": 16719342,
+      "nodes": [
+        10284282146,
+        10284282152,
+        10284282153,
+        10284282154,
+        538786093,
+        10284282162,
+        10284282163,
+        10284282149,
+        538786094,
+        10284282148,
+        10284282150,
+        10284282174,
+        10284282158,
+        538786095,
+        10284282151,
+        10284282146
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Станция скорой медицинской помощи"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1125012326,
+      "timestamp": "2026-10-01T20:01:24Z",
+      "version": 3,
+      "changeset": 189845814,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "nodes": [
+        3125995578,
+        3125995563,
+        10287839495,
+        10287839496,
+        10287852013,
+        1645499815,
+        10287839497,
+        10287839498,
+        1188942317,
+        1188942247,
+        1188942435,
+        1188942254,
+        10287839499,
+        10287839500,
+        3125995578
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Центр специализированных видов медицинской помощи Калининградской области"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1125589885,
+      "timestamp": "2026-10-03T07:37:29Z",
+      "version": 2,
+      "changeset": 189913106,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "nodes": [
+        6676165408,
+        6676165407,
+        1059304075,
+        6676165406,
+        10292934426,
+        6238683200,
+        6676165405,
+        10292934427,
+        6676165404,
+        6676165403,
+        6676165400,
+        6676165402,
+        10292934425,
+        10292934424,
+        6676165408
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2026-10-03",
+        "healthcare": "hospital",
+        "name": "Областной перинатальный центр"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1188098297,
+      "timestamp": "2026-11-05T20:11:28Z",
+      "version": 3,
+      "changeset": 191529339,
+      "user": "JohnMl",
+      "uid": 5381028,
+      "nodes": [
+        11032391198,
+        11032421922,
+        14353114961,
+        11032391199,
+        11032391200,
+        11032391201,
+        11032391202,
+        11032421941,
+        11032391203,
+        11032391204,
+        11032420205,
+        11032391198
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Светловская центральная больница"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1266596017,
+      "timestamp": "2024-11-22T13:57:48Z",
+      "version": 4,
+      "changeset": 159460247,
+      "user": "shamilbi",
+      "uid": 242206,
+      "nodes": [
+        10251376534,
+        11764533251,
+        11764533249,
+        11764533246,
+        11764533247,
+        11764533248,
+        10251376536,
+        10251376535,
+        10251376534
+      ],
+      "tags": {
+        "addr:housenumber": "48",
+        "addr:street": "улица Согласия",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Горбольница 3",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-15:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1300921961,
+      "timestamp": "2026-05-29T16:24:01Z",
+      "version": 2,
+      "changeset": 183364200,
+      "user": "empty_child",
+      "uid": 13256444,
+      "nodes": [
+        12049416483,
+        12049416480,
+        12049416481,
+        12049416482,
+        12049416484,
+        12049416483
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "oncology",
+        "name": "Областной онкологический диспансер"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1375100061,
+      "timestamp": "2026-09-27T19:57:08Z",
+      "version": 3,
+      "changeset": 189648155,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "nodes": [
+        12731896965,
+        12731896960,
+        12731896966,
+        12731896967,
+        12731896963,
+        12731896959,
+        843926315,
+        12731896962,
+        12731896961,
+        12731896964,
+        12731896965
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "ambulance_station",
+        "name": "Станция скорой медпомощи"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1414806837,
+      "timestamp": "2025-08-03T11:57:30Z",
+      "version": 2,
+      "changeset": 169901094,
+      "user": "mueschel",
+      "uid": 616774,
+      "nodes": [
+        13000973630,
+        13000973629,
+        13000973628,
+        13000973627,
+        13000973626,
+        13000973625,
+        13000973624,
+        13000973623,
+        13000973622,
+        13000973621,
+        13000973620,
+        13000973619,
+        13000973618,
+        13000973617,
+        13000973616,
+        13000973615,
+        13000973630
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1416984295,
+      "timestamp": "2025-07-24T14:40:41Z",
+      "version": 1,
+      "changeset": 169403288,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        13021102627,
+        13021102626,
+        13021102625,
+        13021102624,
+        13021102623,
+        13021102622,
+        13021102627
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1421320834,
+      "timestamp": "2026-09-18T10:13:33Z",
+      "version": 3,
+      "changeset": 189201035,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "nodes": [
+        13061517379,
+        13061517378,
+        13061517377,
+        13061517376,
+        13061517375,
+        13061517374,
+        13061520218,
+        13061520219,
+        13061520220,
+        14191372101,
+        13061520221,
+        13061520222,
+        13061520223,
+        13061517373,
+        13061517372,
+        13061517371,
+        13061517370,
+        13061517379
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1422716374,
+      "timestamp": "2025-08-16T18:23:34Z",
+      "version": 1,
+      "changeset": 170536353,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        13074822580,
+        13074822579,
+        13074822578,
+        13074822577,
+        13074822576,
+        13074822575,
+        13074822574,
+        13074822573,
+        13074822572,
+        13074822571,
+        13074822580
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1422885094,
+      "timestamp": "2025-08-17T18:38:08Z",
+      "version": 1,
+      "changeset": 170581823,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        13076375180,
+        13076375179,
+        13076375178,
+        13076375177,
+        13076375180
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1470374663,
+      "timestamp": "2026-01-26T20:32:34Z",
+      "version": 2,
+      "changeset": 177737653,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        13502517960,
+        13502522635,
+        13502522634,
+        13502522633,
+        13502522632,
+        13484712698,
+        13484712439,
+        13484712440,
+        13484712449,
+        13484712450,
+        13484712447,
+        13484712448,
+        13484712697,
+        13484712696,
+        13484711100,
+        13484712401,
+        13484712695,
+        13484712694,
+        13502522631,
+        13502522630,
+        13502522629,
+        13484712404,
+        13484712405,
+        13484712406,
+        13484712407,
+        13484712693,
+        13484712692,
+        13484712691,
+        13484712690,
+        13484712689,
+        13076374461,
+        13076374462,
+        13484712786,
+        13484712787,
+        13484712788,
+        13076374463,
+        2211071867,
+        13076374464,
+        13076374465,
+        2211071860,
+        13076374466,
+        13076374467,
+        13484712688,
+        13076374468,
+        13076374469,
+        13484712687,
+        13502522628,
+        13502522627,
+        13502522626,
+        13502522625,
+        13502517989,
+        13502522624,
+        13502522623,
+        13502522622,
+        13502517976,
+        13502517975,
+        13484712686,
+        996300887,
+        996299268,
+        13484712683,
+        13484712682,
+        13484712681,
+        13502517960
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1471679534,
+      "timestamp": "2026-01-27T14:03:04Z",
+      "version": 1,
+      "changeset": 177764562,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        13504255794,
+        13504255793,
+        13504255792,
+        13504255791,
+        13504255790,
+        13504255789,
+        13504255788,
+        13504255787,
+        13504255786,
+        13504255785,
+        13504255784,
+        13504255783,
+        13504255782,
+        13504255781,
+        13504255780,
+        13504255779,
+        13504255529,
+        13504255794
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1475257107,
+      "timestamp": "2026-02-08T13:27:23Z",
+      "version": 1,
+      "changeset": 178265809,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        13534203299,
+        13534203298,
+        13534203297,
+        13534203296,
+        13534203295,
+        13534203294,
+        13534203293,
+        13534203292,
+        13534203291,
+        13534203290,
+        13534203286,
+        13534203287,
+        13534203357,
+        13534203313,
+        13534203314,
+        13534203315,
+        13534203289,
+        13534203288,
+        13534203304,
+        13534203305,
+        13534203299
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1503774472,
+      "timestamp": "2026-04-25T22:43:43Z",
+      "version": 1,
+      "changeset": 181825613,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        13762128452,
+        13762128451,
+        13762128450,
+        13762128449,
+        13762128452
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1504019745,
+      "timestamp": "2026-04-26T13:35:16Z",
+      "version": 1,
+      "changeset": 181845820,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        13763638133,
+        13763576294,
+        13763576293,
+        13763576292,
+        13763638132,
+        13763638131,
+        13763638130,
+        13763638133
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1504019761,
+      "timestamp": "2026-04-26T13:35:16Z",
+      "version": 1,
+      "changeset": 181845820,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        13763638224,
+        13763638223,
+        13763638222,
+        13763638221,
+        13763638224
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1504019896,
+      "timestamp": "2026-04-26T13:35:16Z",
+      "version": 1,
+      "changeset": 181845820,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        13763639235,
+        13763639234,
+        13763639233,
+        13763639232,
+        13763639235
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1547023352,
+      "timestamp": "2026-08-03T18:27:28Z",
+      "version": 1,
+      "changeset": 186885291,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        14071103091,
+        14071103090,
+        14071103089,
+        14071103088,
+        14071103087,
+        14071103086,
+        14071103085,
+        14071103084,
+        14071103091
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1547023666,
+      "timestamp": "2026-08-03T18:27:28Z",
+      "version": 1,
+      "changeset": 186885291,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        14071121286,
+        14071121285,
+        14071121284,
+        14071121283,
+        14071121286
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1547777471,
+      "timestamp": "2026-08-06T19:58:48Z",
+      "version": 1,
+      "changeset": 187054318,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        14077553229,
+        14077553233,
+        14077553231,
+        14077553228,
+        14077553227,
+        14077553226,
+        14077553225,
+        13123996938,
+        14077553224,
+        14077553229
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1547779209,
+      "timestamp": "2026-08-06T20:06:41Z",
+      "version": 1,
+      "changeset": 187054612,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        14077569821,
+        14077569820,
+        14077569819,
+        13123918593,
+        14077569821
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1548301642,
+      "timestamp": "2026-08-09T12:15:06Z",
+      "version": 1,
+      "changeset": 187176317,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        14081984104,
+        14081984103,
+        14081984102,
+        14081984106,
+        14081984104
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1553975300,
+      "timestamp": "2026-08-31T19:54:45Z",
+      "version": 1,
+      "changeset": 188326966,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        14135577647,
+        14135577648,
+        14135579571,
+        14135579568,
+        14135577717,
+        14135577718,
+        14135577647
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1562586224,
+      "timestamp": "2026-09-26T18:43:08Z",
+      "version": 1,
+      "changeset": 189601430,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        14220286177,
+        14220286176,
+        14220286175,
+        14220286174,
+        14220286173,
+        14220286172,
+        14220286158,
+        14220286159,
+        14220286171,
+        14220286170,
+        14220286177
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1562945066,
+      "timestamp": "2026-09-27T19:57:08Z",
+      "version": 1,
+      "changeset": 189648155,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "nodes": [
+        6063480388,
+        6063480083,
+        6063480084,
+        6063480393,
+        6063480385,
+        6063480394,
+        6063480386,
+        6063480387,
+        6063480388
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Поликлиника УФСБ России по КО"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1563232487,
+      "timestamp": "2026-09-28T18:12:09Z",
+      "version": 1,
+      "changeset": 189692485,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "nodes": [
+        14228452034,
+        14228452040,
+        10255400102,
+        10255400069,
+        14228452041,
+        14228452042,
+        14228452043,
+        14228452044,
+        14228452045,
+        14228452034
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Поликлинника МВД"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1563882156,
+      "timestamp": "2026-09-30T18:35:07Z",
+      "version": 1,
+      "changeset": 189789196,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "nodes": [
+        14235610407,
+        14235610406,
+        14235610405,
+        14235610404,
+        14235610403,
+        14235610402,
+        14235610401,
+        14235610413,
+        14235610407
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "source:geometry": "ЕГРН"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1565840280,
+      "timestamp": "2026-10-07T13:44:10Z",
+      "version": 1,
+      "changeset": 190147900,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "nodes": [
+        1741249562,
+        1741249557,
+        1741249558,
+        1741249555,
+        1741249554,
+        1741249547,
+        1741249538,
+        1741249544,
+        1741249550,
+        1741249553,
+        2342588400,
+        1741249572,
+        1741249575,
+        2342577323,
+        2342575294,
+        1741249570,
+        1741249562
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Городская больница №2"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1312359,
+      "timestamp": "2024-08-19T06:09:56Z",
+      "version": 6,
+      "changeset": 155443503,
+      "user": "anastasia_",
+      "uid": 12947812,
+      "members": [
+        {
+          "type": "way",
+          "ref": 95930527,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 88700758,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1308740190,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 101755787,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 43074204,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 88700767,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Дорожная больница станции Калининград",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1312368,
+      "timestamp": "2026-08-23T08:55:13Z",
+      "version": 7,
+      "changeset": 187875086,
+      "user": "secretikov",
+      "uid": 24429468,
+      "members": [
+        {
+          "type": "way",
+          "ref": 43074141,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 88700767,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 43074204,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 101755791,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 101755785,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 88700734,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 101767119,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 101767118,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 101767122,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 103442576,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 103442574,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636271,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636291,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "alt_name": "Городская многопрофильная больница",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Центральная городская больница",
+        "type": "multipolygon",
+        "website": "http://cgb39.ru"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1380933,
+      "timestamp": "2014-09-14T15:45:28Z",
+      "version": 2,
+      "changeset": 25435234,
+      "user": "rimshev22",
+      "uid": 2306951,
+      "members": [
+        {
+          "type": "way",
+          "ref": 95636300,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636290,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636262,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 54852847,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636276,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636266,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Калининградская областная больница скорой медицинской помощи",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1380934,
+      "timestamp": "2024-07-11T16:54:33Z",
+      "version": 2,
+      "changeset": 153820630,
+      "user": "Ilya_Puchcow",
+      "uid": 18791126,
+      "members": [
+        {
+          "type": "way",
+          "ref": 95636237,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636273,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636256,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 54851963,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636240,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 54851964,
+          "role": "inner"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Областная психиатрическая больница №1",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1380945,
+      "timestamp": "2026-09-24T17:54:31Z",
+      "version": 6,
+      "changeset": 189510489,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "members": [
+        {
+          "type": "way",
+          "ref": 47051795,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636280,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636294,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636244,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "access": "no",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Детская областная больница",
+        "old_name": "Медсанчасть №1;Больница рыбаков",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1380946,
+      "timestamp": "2026-08-24T06:10:35Z",
+      "version": 5,
+      "changeset": 187919536,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "members": [
+        {
+          "type": "way",
+          "ref": 95636243,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636277,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636293,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636286,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636260,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636285,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636274,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636294,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636279,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95636299,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2026-08-23",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "health_facility:type": "hospital",
+        "medical_system:western": "yes",
+        "name": "Детская областная больница",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1382477,
+      "timestamp": "2026-10-09T21:00:10Z",
+      "version": 3,
+      "changeset": 190273563,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "members": [
+        {
+          "type": "way",
+          "ref": 95805375,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95805414,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 60740658,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95805367,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95805403,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "Областной родильный дом №1",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1382635,
+      "timestamp": "2011-01-19T15:43:39Z",
+      "version": 1,
+      "changeset": 7021677,
+      "user": "akashihi",
+      "uid": 176819,
+      "members": [
+        {
+          "type": "way",
+          "ref": 95810697,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "name": "Родильный дом №2",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1382637,
+      "timestamp": "2026-08-18T06:05:35Z",
+      "version": 2,
+      "changeset": 187620309,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "members": [
+        {
+          "type": "way",
+          "ref": 95810702,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 82614497,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2026-08-16",
+        "name": "Родильный дом №3",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1383564,
+      "timestamp": "2026-09-13T19:03:16Z",
+      "version": 9,
+      "changeset": 188977044,
+      "user": "shamilbi",
+      "uid": 242206,
+      "members": [
+        {
+          "type": "way",
+          "ref": 95935554,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95935537,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95935538,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:country": "RU",
+        "addr:housenumber": "6",
+        "addr:street": "улица Генделя",
+        "amenity": "clinic",
+        "building": "yes",
+        "check_date": "2026-09-13",
+        "healthcare": "clinic",
+        "health_facility:type": "clinic",
+        "name": "Поликлиника городской больницы №3",
+        "type": "multipolygon",
+        "website": "http://gb3.infomed39.ru"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1383567,
+      "timestamp": "2026-10-01T20:01:24Z",
+      "version": 3,
+      "changeset": 189845814,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "members": [
+        {
+          "type": "way",
+          "ref": 95935523,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 95935529,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 95935544,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 95935541,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 95935518,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95935525,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95935552,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 95935560,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "alt_name": "Портовая больница",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Городская больница № 4",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1385575,
+      "timestamp": "2014-12-02T13:46:54Z",
+      "version": 2,
+      "changeset": 27179331,
+      "user": "rimshev22",
+      "uid": 2306951,
+      "members": [
+        {
+          "type": "way",
+          "ref": 96057144,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96057148,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96057158,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96057153,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96057147,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96057146,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96057155,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96057162,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96057145,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 43469429,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Противотуберкулёзный диспансер",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1385576,
+      "timestamp": "2020-06-10T12:39:33Z",
+      "version": 2,
+      "changeset": 86464727,
+      "user": "Kopich",
+      "uid": 420956,
+      "members": [
+        {
+          "type": "way",
+          "ref": 96057143,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96057152,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96057164,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96057165,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "Детский противотуберкулёзный диспансер",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1385785,
+      "timestamp": "2017-03-18T10:32:45Z",
+      "version": 2,
+      "changeset": 46952309,
+      "user": "Aurimas Fišeras",
+      "uid": 651869,
+      "members": [
+        {
+          "type": "way",
+          "ref": 96069471,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96069480,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96069477,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96069474,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "name": "Городская больница №6",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1385786,
+      "timestamp": "2026-09-14T06:52:02Z",
+      "version": 3,
+      "changeset": 188993789,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "members": [
+        {
+          "type": "way",
+          "ref": 96069479,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96069478,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96069472,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96069470,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96069469,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:floor": "1",
+        "addr:housenumber": "26; 28",
+        "addr:street": "улица Чапаева",
+        "amenity": "hospital",
+        "check_date": "2026-09-13",
+        "level": "0",
+        "name": "Городская больница №2",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "type": "multipolygon",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1385787,
+      "timestamp": "2017-05-17T06:00:38Z",
+      "version": 2,
+      "changeset": 48751744,
+      "user": "Alexander-II",
+      "uid": 3580412,
+      "members": [
+        {
+          "type": "way",
+          "ref": 96069475,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96069473,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96069476,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "health_facility:type": "hospital",
+        "medical_system:western": "yes",
+        "name": "Городская больница №3",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1395286,
+      "timestamp": "2011-01-27T12:55:16Z",
+      "version": 1,
+      "changeset": 7103322,
+      "user": "akashihi",
+      "uid": 176819,
+      "members": [
+        {
+          "type": "way",
+          "ref": 96937060,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96937090,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96937071,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96937072,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96937088,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96937092,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96937078,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 73887549,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96937086,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96937077,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96937087,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96937062,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Городская психиатрическая больница",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1395289,
+      "timestamp": "2026-09-23T20:20:17Z",
+      "version": 4,
+      "changeset": 189468050,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "members": [
+        {
+          "type": "way",
+          "ref": 96937067,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96937081,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96937083,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96937070,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Поликлиника №3",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1395318,
+      "timestamp": "2026-10-09T21:00:10Z",
+      "version": 8,
+      "changeset": 190273563,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "members": [
+        {
+          "type": "way",
+          "ref": 96941031,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 96941056,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96941032,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96941051,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96941057,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96941053,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96941043,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96941026,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96941052,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96941041,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96941029,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96941046,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96941050,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96941055,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96941060,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96941022,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 96941025,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2026-08-30",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Калининградская областная клиническая больница",
+        "name:de": "Regionales klinisches Krankenhaus Kaliningrad",
+        "name:en": "Kaliningrad Regional Clinical Hospital",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1395321,
+      "timestamp": "2026-09-25T10:59:52Z",
+      "version": 7,
+      "changeset": 189538378,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "members": [
+        {
+          "type": "way",
+          "ref": 96941054,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:floor": "1",
+        "addr:housenumber": "18",
+        "addr:postcode": "236010",
+        "addr:street": "улица Огарёва",
+        "amenity": "clinic",
+        "check_date": "2026-08-25",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Городская детская поликлиника №2",
+        "type": "multipolygon",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1638470,
+      "timestamp": "2011-06-25T19:36:58Z",
+      "version": 1,
+      "changeset": 8546048,
+      "user": "akashihi",
+      "uid": 176819,
+      "members": [
+        {
+          "type": "way",
+          "ref": 119086615,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 119086591,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "name": "Неманская районная больница",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 4263615,
+      "timestamp": "2020-06-03T20:14:04Z",
+      "version": 6,
+      "changeset": 86152451,
+      "user": "EvgenyVlasenko",
+      "uid": 371463,
+      "members": [
+        {
+          "type": "way",
+          "ref": 316589217,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 316589216,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 316648610,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 317247981,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 316685568,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 317247982,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 317247984,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 384222043,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 384222049,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 384222051,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Светлогорск",
+        "addr:housenumber": "74",
+        "addr:street": "Калининградский проспект",
+        "amenity": "hospital",
+        "contact:website": "http://kurort-otradnoe.ru/",
+        "healthcare": "hospital",
+        "name": "Детский пульмонологический санаторий Отрадное",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 5698217,
+      "timestamp": "2020-06-03T20:14:04Z",
+      "version": 2,
+      "changeset": 86152451,
+      "user": "EvgenyVlasenko",
+      "uid": 371463,
+      "members": [
+        {
+          "type": "way",
+          "ref": 382950315,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 382950311,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 317021364,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 5698218,
+      "timestamp": "2020-06-03T20:14:04Z",
+      "version": 3,
+      "changeset": 86152451,
+      "user": "EvgenyVlasenko",
+      "uid": 371463,
+      "members": [
+        {
+          "type": "way",
+          "ref": 317021359,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 382950313,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 317021356,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Светлогорск",
+        "addr:housenumber": "5",
+        "addr:street": "улица Фрунзе",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 5877628,
+      "timestamp": "2016-01-18T20:01:04Z",
+      "version": 1,
+      "changeset": 36666384,
+      "user": "i29",
+      "uid": 501824,
+      "members": [
+        {
+          "type": "way",
+          "ref": 96067923,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 392149302,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "name": "Госпиталь для ветеранов войн",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 6290452,
+      "timestamp": "2016-06-06T07:44:13Z",
+      "version": 1,
+      "changeset": 39832117,
+      "user": "i29",
+      "uid": 501824,
+      "members": [
+        {
+          "type": "way",
+          "ref": 423075877,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 423075876,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 175186704,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "contact:website": "http://kldcardio.ru/",
+        "name": "Федеральный центр сердечно-сосудистой хирургии",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 6482810,
+      "timestamp": "2026-09-27T19:57:08Z",
+      "version": 5,
+      "changeset": 189648155,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "members": [
+        {
+          "type": "way",
+          "ref": 71425396,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 914794359,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 436608913,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 436608912,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11053171,
+      "timestamp": "2022-12-01T10:33:50Z",
+      "version": 3,
+      "changeset": 129596851,
+      "user": "itdirector39",
+      "uid": 12483920,
+      "members": [
+        {
+          "type": "way",
+          "ref": 798741761,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 345704123,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Дом-интернат для престарелых и инвалидов \"Сосновая усадьба\"",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11485616,
+      "timestamp": "2026-05-07T12:01:08Z",
+      "version": 3,
+      "changeset": 182335606,
+      "user": "b-jazz-bot",
+      "uid": 9451067,
+      "members": [
+        {
+          "type": "way",
+          "ref": 363247925,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 363247412,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "email": "sanpionersk@mail.ru",
+        "fee": "yes",
+        "healthcare": "hospital",
+        "name": "Детский ортопедический санаторий \"Пионерск\"",
+        "official_name": "ФГБУ детский ортопедический санаторий \"Пионерск\"",
+        "phone": "+7 4012 697900",
+        "type": "multipolygon",
+        "website": "https://www.ortosanatorium.ru/"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19408424,
+      "timestamp": "2025-07-30T12:15:07Z",
+      "version": 1,
+      "changeset": 169717548,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "members": [
+        {
+          "type": "way",
+          "ref": 1418654270,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1418654269,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "source:geometry": "ЕГРН",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20165651,
+      "timestamp": "2026-02-02T18:44:52Z",
+      "version": 1,
+      "changeset": 178019743,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "members": [
+        {
+          "type": "way",
+          "ref": 844618625,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1473683132,
+          "role": "inner"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "source:geometry": "ЕГРН",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20995624,
+      "timestamp": "2026-06-17T14:19:25Z",
+      "version": 1,
+      "changeset": 184229040,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "members": [
+        {
+          "type": "way",
+          "ref": 1530370499,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1530370498,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 1530370497,
+          "role": "inner"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "source:geometry": "ЕГРН",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4180461694,
+      "lat": 54.7202035,
+      "lon": 20.7440926,
+      "timestamp": "2025-06-27T11:33:04Z",
+      "version": 2,
+      "changeset": 168181223,
+      "user": "KekcuHa",
+      "uid": 30590,
+      "tags": {
+        "amenity": "hospital",
+        "name": "мед пункт"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6133210186,
+      "lat": 54.5723892,
+      "lon": 20.1723928,
+      "timestamp": "2018-12-12T18:04:28Z",
+      "version": 1,
+      "changeset": 65417839,
+      "user": "al0202",
+      "uid": 4487141,
+      "tags": {
+        "addr:postcode": "238460",
+        "amenity": "clinic",
+        "name": "Городская станция скорой медицинской помощи",
+        "name:en": "Urban station emergency medical care",
+        "opening_hours": "24/7",
+        "operator": "скорая медицинская помощь",
+        "phone": "+74015666672"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6271032395,
+      "lat": 54.4422303,
+      "lon": 21.0015233,
+      "timestamp": "2019-02-11T09:07:56Z",
+      "version": 1,
+      "changeset": 67093332,
+      "user": "Anatoly Martynyuk",
+      "uid": 4606511,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Скорая помощь"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7068875185,
+      "lat": 54.6031195,
+      "lon": 22.1555339,
+      "timestamp": "2023-11-10T08:23:21Z",
+      "version": 2,
+      "changeset": 143852313,
+      "user": "b-jazz-bot",
+      "uid": 9451067,
+      "tags": {
+        "addr:postcode": "238042",
+        "amenity": "hospital",
+        "email": "gpni-gusev@mail.ru",
+        "name": "Гусевский психоневрологический интернат",
+        "phone": "+74014377755",
+        "website": "https://gpni-gusev.klgd.socinfo.ru/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14049240501,
+      "lat": 54.6973082,
+      "lon": 20.5195391,
+      "timestamp": "2026-07-25T14:42:28Z",
+      "version": 1,
+      "changeset": 186350304,
+      "user": "Flikwin",
+      "uid": 24346964,
+      "tags": {
+        "addr:housenumber": "17",
+        "addr:street": "улица Дзержинского",
+        "amenity": "hospital",
+        "check_date": "2026-07-25",
+        "check_date:opening_hours": "2026-07-25",
+        "healthcare": "hospital",
+        "name": "Подстанция скорой помощи",
+        "opening_hours": "24/7",
+        "phone": "+7 401 264-66-73;+7 401 299-49-03",
+        "website": "https://skoraya39.ru/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135507590,
+      "timestamp": "2026-08-21T19:47:21Z",
+      "version": 8,
+      "changeset": 187814478,
+      "user": "mike39rus",
+      "uid": 16669925,
+      "nodes": [
+        1488285709,
+        1488285726,
+        1694924913,
+        1488285681,
+        1488285663,
+        1488285709
+      ],
+      "tags": {
+        "addr:city": "Калининград",
+        "addr:country": "RU",
+        "addr:housenumber": "26",
+        "addr:street": "улица Чернышевского",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "2",
+        "check_date": "2026-08-21",
+        "healthcare": "clinic",
+        "health_facility:type": "clinic",
+        "name": "Детская городская поликлиника №2",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 211108395,
+      "timestamp": "2022-12-28T02:54:58Z",
+      "version": 7,
+      "changeset": 130580217,
+      "user": "Toni100",
+      "uid": 359705,
+      "nodes": [
+        2211144380,
+        2211144382,
+        2211144373,
+        2211144378,
+        2211144375,
+        2211144380
+      ],
+      "tags": {
+        "addr:street": "Красноармейская улица",
+        "amenity": "hospital",
+        "contact:phone": "+7 (40159) 3-2244",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "В/Ч"
+      }
+    },
+    {
+      "type": "way",
+      "id": 513872104,
+      "timestamp": "2019-09-23T00:30:23Z",
+      "version": 2,
+      "changeset": 74784103,
+      "user": "igor lyatun",
+      "uid": 10043626,
+      "nodes": [
+        5022004740,
+        5022004741,
+        5022004742,
+        5022004743,
+        5022004740
+      ],
+      "tags": {
+        "addr:city": "п. Заповедное",
+        "addr:housenumber": "39",
+        "addr:street": "Советская улица",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "ПОЧТА ФАП"
+      }
+    },
+    {
+      "type": "way",
+      "id": 545422613,
+      "timestamp": "2017-12-08T08:34:09Z",
+      "version": 1,
+      "changeset": 54452321,
+      "user": "Agent37",
+      "uid": 7155190,
+      "nodes": [
+        5271495691,
+        5271495692,
+        5271495693,
+        5271495694,
+        5271495691
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Частный Зубной Врач"
+      }
+    },
+    {
+      "type": "way",
+      "id": 631085046,
+      "timestamp": "2019-09-10T20:10:40Z",
+      "version": 2,
+      "changeset": 74327834,
+      "user": "igor lyatun",
+      "uid": 10043626,
+      "nodes": [
+        5959602814,
+        5959602815,
+        5959602816,
+        5959602817,
+        5959602814
+      ],
+      "tags": {
+        "addr:city": "п. Советское",
+        "addr:housenumber": "26",
+        "addr:street": "Советская улица",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Библ."
+      }
+    },
+    {
+      "type": "way",
+      "id": 1562029281,
+      "timestamp": "2026-09-24T17:50:26Z",
+      "version": 1,
+      "changeset": 189510289,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "nodes": [
+        1110371056,
+        1110371066,
+        1110371072,
+        1110371080,
+        1110371083,
+        1110371063,
+        1110371071,
+        1110371056
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Cтанция переливания крови Калининградской области"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1563916551,
+      "timestamp": "2026-09-30T22:02:00Z",
+      "version": 1,
+      "changeset": 189795949,
+      "user": "Destabilizacja",
+      "uid": 21338304,
+      "nodes": [
+        14235962585,
+        14235962600,
+        1481063134,
+        1481063135,
+        7992211461,
+        14235962584,
+        14235962585
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Центр гигиены и эпидемиологии"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 5877629,
+      "timestamp": "2016-01-18T20:01:04Z",
+      "version": 1,
+      "changeset": 36666384,
+      "user": "i29",
+      "uid": 501824,
+      "members": [
+        {
+          "type": "way",
+          "ref": 392149302,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 392149304,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "name": "Дом ветеранов",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

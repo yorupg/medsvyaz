@@ -17,7 +17,7 @@ export const DatasetSchema = z.object({
 export type Dataset = z.infer<typeof DatasetSchema>;
 export const PILOT_ROAD_DEFAULTS = {minRoadMinutes:5, minRoadPercent:10};
 export const CalculationSchema = z.object({
-  methodologyVersion:z.enum(['2.0.0','3.0.0','4.0.0','5.0.0','6.1.0']).default('6.1.0'),
+  methodologyVersion:z.enum(['2.0.0','3.0.0','4.0.0','5.0.0','6.1.0','6.2.0']).default('6.1.0'),
   threshold: z.number().finite().min(1).max(360).optional(),
   facilityIds:z.array(id).max(10000).optional(),
   period: z.enum(['day', 'night']).default('day'),
@@ -29,12 +29,12 @@ export const CalculationSchema = z.object({
   timeScale:z.number().finite().min(0.5).max(2).default(1),
   edgeId: id.optional(), multiplier: z.number().finite().min(1).max(3).default(1.5),
   cost: z.number().finite().positive().max(1e12).nullable().default(null)
-}).strict().transform(o=>({...o,threshold:o.threshold??(o.methodologyVersion==='2.0.0'?60:['5.0.0','6.1.0'].includes(o.methodologyVersion)?40:30)})).refine(o=>!['5.0.0','6.1.0'].includes(o.methodologyVersion)||o.threshold>15,'Для МИЭД v5/v6.1 параметр τ должен быть больше 15 минут');
+}).strict().transform(o=>({...o,threshold:o.threshold??(o.methodologyVersion==='2.0.0'?60:['5.0.0','6.1.0','6.2.0'].includes(o.methodologyVersion)?40:30)})).refine(o=>!['5.0.0','6.1.0','6.2.0'].includes(o.methodologyVersion)||o.threshold>15,'Для МИЭД v5/v6.1/v6.2 параметр τ должен быть больше 15 минут');
 export type CalculationOptions = z.infer<typeof CalculationSchema>;
 export type QualityStatus = 'verified' | 'partial' | 'needs_review' | 'no_data' | 'calculation_error';
 export type Region = { id:string; slug:string; name:string; districtId:string|null; type:string; isoCode:string|null; officialCode?:string|null; disputed?:boolean; geometryId?:string|null; geometryStatus?:string; population?:number|null; dataStatus?:QualityStatus; synthetic?:boolean; indexValue?:number|null; datasetId?:string; profileLabel?:string; settlementCount?:number; studyLabel?:string;facilityEvidence?:FacilityEvidence;populationCoverage?:number|null;indexBounds?:{lower:number|null;upper:number|null}; };
 export type FacilityEvidence='official-source'|'osm-unverified-profile'|'synthetic';
-export type PointResult = {id:string; name:string; municipality:string; population:number|null; minutes:number|null; score:number|null; status:'reachable'|'unreachable'|'route_unverified'|'missing_population'|'missing_node'; facilityId:string|null; path:string[]; backupMinutes?:number|null; backupFacilityId?:string|null; robustMinutes?:number|null};
+export type PointResult = {clinicMinutes?:number|null;clinicFacilityId?:string|null;id:string; name:string; municipality:string; population:number|null; minutes:number|null; score:number|null; status:'reachable'|'unreachable'|'route_unverified'|'missing_population'|'missing_node'; facilityId:string|null; path:string[]; backupMinutes?:number|null; backupFacilityId?:string|null; robustMinutes?:number|null};
 export type IndexResult = {
   value:number|null; unit:'points'; status:QualityStatus; synthetic:boolean; methodologyVersion:string;
   datasetId:string; datasetVersion:string; sourceIds:string[]; period:'day'|'night'; profile:string; threshold:number;
@@ -45,13 +45,14 @@ export type IndexResult = {
   reachablePopulation:number; withinThresholdPopulation:number; withinThresholdShare:number|null;
   withinMinutesShares:Record<'30'|'60'|'90'|'120',number|null>;
   meanMinutes:number|null; medianMinutes:number|null; points:PointResult[]; warnings:string[];
-  p90Minutes:number|null;overMinutesShares:Record<'60'|'90',number|null>;
+  p90Minutes:number|null;hospitalP90Minutes?:number|null;clinicMedianMinutes?:number|null;clinicP90Minutes?:number|null;overMinutesShares:Record<'60'|'90',number|null>;
   excludedPopulation:number|null;unreachablePopulation:number;
   indexBounds:{lower:number|null;upper:number|null};facilityEvidence:FacilityEvidence; territorialIndex?:number|null; populationIndex?:number|null; isolatedSettlementsShare?:number|null; isolatedPopulationShare?:number|null; backupWithin60Share?:number|null; stressWayIds?:string[];
 };
 export const LEGACY_METHODOLOGY={id:'mied-car-v2',version:'2.0.0',defaultThreshold:60,allowedThresholds:[30,45,60,90],formula:'Iᴿ(car)=100 × Σ[pᵢ 2^(−tᵢ/60)] / Σpᵢ'};
 export const POPULATION_METHODOLOGY={id:'mied-car-v3',version:'3.0.0',defaultThreshold:30,formula:'I=100 × Σ[pᵢ 2^(−tᵢ/30)] / Σpᵢ'};
-export const METHODOLOGY = {id:'mied-car-v6.1',version:'6.1.0',status:'75,2% территория + 24,8% население; 85% ближайшая площадка + 10% резервная + 5% модельный стресс-тест',defaultThreshold:40,comfortMinutes:15,longTripMinutes:60,longTripGamma:2,allowedThresholds:[30,40,50,60],thresholdUnit:'минуты',profileRule:'Сопоставимы только одинаковые профили, периоды, τ, версии данных и схемы стресс-теста',formula:'I = 100 × Σᵢ(0.752/N + 0.248 pᵢ/P)[0.85 A(t₁ᵢ) + 0.10 A(t₂ᵢ) + 0.05 Uᵢ]; A(t)=1 до 15 мин; затем экспонента; снижение ускорено после 60 мин'};
+export const METHODOLOGY = {id:'mied-car-v6.1',version:'6.1.0',status:'75,2% территория + 24,8% население; 85% ближайшее бесплатное медучреждение (больница или поликлиника) + 10% второе ближайшее + 5% модельный стресс-тест',defaultThreshold:40,comfortMinutes:15,longTripMinutes:60,longTripGamma:2,allowedThresholds:[30,40,50,60],thresholdUnit:'минуты',profileRule:'Сопоставимы только одинаковые профили, периоды, τ, версии данных и схемы стресс-теста',formula:'I = 100 × Σᵢ(0.752/N + 0.248 pᵢ/P)[0.85 A(t₁ᵢ) + 0.10 A(t₂ᵢ) + 0.05 Uᵢ]; t₁ и t₂ — два разных ближайших бесплатных медучреждения: больницы или поликлиники; A(t)=1 до 15 мин; затем экспонента, снижение ускорено после 60 мин'};
+export const MEDICAL_METHODOLOGY = {id:'mied-car-v6.2-kaliningrad',version:'6.2.0',status:'ЭКСПЕРИМЕНТ, не для общероссийского сравнения. Только Калининградская область: пилотная смешанная модель: 55% больница, 35% поликлиника, 10% устойчивость больничного маршрута; 75,2% поселения и 24,8% население',defaultThreshold:40,formula:'I=100 Σ_i (0.752/N+0.248 p_i/P)[0.55 A(H_i)+0.35 A(C_i)+0.10 A(R_i)]',limitation:'OSM может не включать существующие больницы и поликлиники; отсутствие OSM-точки не доказывает отсутствие учреждения. Возрастные группы входят только в рейтинг новых площадок.'};
 export const DISTRICTS = [
   {id:'central',name:'Центральный',short:'ЦФО'}, {id:'northwestern',name:'Северо-Западный',short:'СЗФО'},
   {id:'southern',name:'Южный',short:'ЮФО'}, {id:'north-caucasian',name:'Северо-Кавказский',short:'СКФО'},

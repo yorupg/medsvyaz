@@ -4,6 +4,7 @@
  * This does not alter the official MIED score or imply causation.
  */
 import type {Dataset,IndexResult} from '../shared/schema';
+import {isCalculationFacility} from '../shared/medical-policy';
 
 export type MlAnomaly={
  id:string;name:string;municipality:string;expectedScore:number;actualScore:number;
@@ -40,7 +41,7 @@ function round(v:number){return Math.round(v*100)/100;}
 
 /** The candidate's own observed outcome is explicitly excluded from its prediction. */
 export function analyzeAccessibilityGaps(dataset:Dataset,result:IndexResult):MlReport{
- const facilities=dataset.facilities.filter((f):f is Dataset['facilities'][number]&Coordinates=>(dataset.synthetic||f.verified)&&f.profile===dataset.profile&&f.periods.includes(result.period)&&validCoord(f));
+ const facilities=dataset.facilities.filter((f):f is Dataset['facilities'][number]&Coordinates=>isCalculationFacility(dataset,f)&&f.profile===dataset.profile&&f.periods.includes(result.period)&&validCoord(f));
  const facilityById=new Map(facilities.map(f=>[f.id,f]));
  const byPoint=new Map(result.points.map(p=>[p.id,p]));
  const examples:Example[]=[];

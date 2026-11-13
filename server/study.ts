@@ -7,16 +7,106 @@ import {METHODOLOGY} from '../shared/schema';
 import type {CalculationOptions,Dataset,IndexResult} from '../shared/schema';
 import {expandedSummaries,expandedDataset,expandedBaseline} from './expanded';
 
-const originalReal=Object.fromEntries(['kaliningrad','ivanovo','pskov'].map(id=>[id,validateDataset(JSON.parse(existsSync(resolve('data/processed/'+id+'-pilot.json'))?readFileSync(resolve('data/processed/'+id+'-pilot.json'),'utf8'):(existsSync(resolve('data/processed/'+id+'-pilot.json.gz'))?gunzipSync(readFileSync(resolve('data/processed/'+id+'-pilot.json.gz'))):brotliDecompressSync(readFileSync(resolve('data/processed/'+id+'-pilot.json.br')))).toString('utf8')))]));
+// The national model retains historical MIED v6.1 coefficients (85/10/5).
+// The two closest sources can be a public hospital, an adult polyclinic or a
+// children's polyclinic. Private paid clinics are intentionally not eligible.
+// Kaliningrad also has an experimental v6.2 (55/35/10) shown separately.
+// OSM classification is NOT proof of public ownership or covered care.
+
+type CatalogPlace={
+ id:string;name:string;type:string;ownership?:string;roadNodeId?:string;
+ sourceClass?:string;sourceUrl?:string;officiallyVerified?:boolean;
+};
+const medicalCatalogCache=new Map<string,CatalogPlace[]>();
+function eligibleCatalogPlaces(regionId:string):CatalogPlace[]{
+ const cached=medicalCatalogCache.get(regionId);if(cached)return cached;
+ const pathname=resolve('public/data/medical-catalogs/'+regionId+'.json');
+ let entries:CatalogPlace[]=[];
+ if(existsSync(pathname)){
+  try{
+   const parsed=JSON.parse(readFileSync(pathname,'utf8')) as {facilities?:CatalogPlace[]};
+   if(Array.isArray(parsed.facilities))entries=parsed.facilities.filter(e=>
+    typeof e.id==='string' && typeof e.name==='string' &&
+    typeof e.roadNodeId==='string' &&
+    ['public_hospital','public_adult_polyclinic','public_children_polyclinic'].includes(e.type) &&
+    ['public','synthetic'].includes(e.ownership??'')
+   );
+  }catch{/* Do not promote malformed or unverified records into eligible sources. */}
+ }
+ medicalCatalogCache.set(regionId,entries);
+ return entries;
+}
+function medicalClinicNodes(regionId:string):string[]{
+ return [...new Set(eligibleCatalogPlaces(regionId)
+  .filter(e=>['public_adult_polyclinic','public_children_polyclinic'].includes(e.type))
+  .map(e=>e.roadNodeId!))];
+}
+function withMedicalData(d:Dataset):Dataset{
+ const clinicNodeIds=medicalClinicNodes(d.regionId);
+ const metadata={...(d.metadata??{}),clinicNodeIds};
+ if(d.regionId==='kaliningrad')return {...d,metadata};
+ const existingNodes=new Set(d.nodes.map(n=>n.id));
+ const existingIds=new Set(d.facilities.map(f=>f.id));
+ const existingSiteNodes=new Set(d.facilities.filter(f=>d.synthetic||f.verified).map(f=>f.nodeId));
+ const additional:Dataset['facilities']=[];
+ for(const entry of eligibleCatalogPlaces(d.regionId)){
+  // Preserve the historical hospital cohort. Map-only OSM classification is not
+  // enough to enter the national benchmark: verify the actual service/profile first.
+  if(!['public_adult_polyclinic','public_children_polyclinic'].includes(entry.type) || entry.officiallyVerified!==true)continue;
+  const nodeId=entry.roadNodeId!;
+  // Both the closest and the reserve MUST refer to different physical sites.
+  if(!existingNodes.has(nodeId)||existingSiteNodes.has(nodeId))continue;
+  const id='catalog-'+d.regionId+'-'+entry.id;
+  if(id.length>120||existingIds.has(id))continue;
+  const isPolyclinic=entry.type==='public_adult_polyclinic'||entry.type==='public_children_polyclinic';
+  additional.push({
+   id,name:entry.name,nodeId,profile:d.profile,periods:['day'],
+   verified:entry.officiallyVerified===true,
+   provenance:entry.sourceClass==='synthetic'?'synthetic-public-medical-catalog':
+    entry.officiallyVerified===true?'official-public-medical-catalog':'osm-classified-public-medical-catalog',
+   facilityType:isPolyclinic?(entry.type==='public_children_polyclinic'?'Детская поликлиника':'Взрослая поликлиника'):'Государственная больница',
+   sourceUrl:entry.sourceUrl,
+  });
+  existingIds.add(id);existingSiteNodes.add(nodeId);
+ }
+ return {...d,metadata:{...metadata,publicMedicalSitesFromCatalog:additional.length},
+  facilities:[...d.facilities,...additional]};
+}
+function medicalMethod(_d:Dataset):'6.1.0'{
+ // One national benchmark; experimental Kaliningrad calculations are opt-in.
+ return '6.1.0';
+}
+function calculateCurrent(d:Dataset){return calculate(withMedicalData(d),{methodologyVersion:medicalMethod(d)});}
+
+const originalReal=Object.fromEntries(['kaliningrad','ivanovo','pskov'].map(id=>{
+ const path=resolve('data/processed/'+id+'-pilot.json');
+ const gz=resolve('data/processed/'+id+'-pilot.json.gz');
+ const br=resolve('data/processed/'+id+'-pilot.json.br');
+ const raw=existsSync(path)?readFileSync(path):existsSync(gz)?gunzipSync(readFileSync(gz)):brotliDecompressSync(readFileSync(br));
+ return [id,withMedicalData(validateDataset(JSON.parse(raw.toString('utf8'))))];
+}));
 export const realRegionIds=[...Object.keys(originalReal),...Object.keys(expandedSummaries)];
 export const realDatasets:Record<string,Dataset>={...originalReal};
 export const pilot=originalReal.kaliningrad;
+// In-depth pilot is never substituted for the primary 85/10/5 regional result.
+// Unlike the common index, this pilot uses preliminary OSM-classified clinic sites.
+const experimentalCache=new Map<string,IndexResult>();
+export function kaliningradExperimental(options:{threshold?:number;timeScale?:number}={}):IndexResult {
+ const threshold=options.threshold??40,timeScale=options.timeScale??1;
+ const key=`${threshold}:${timeScale}`;
+ const cached=experimentalCache.get(key);if(cached)return cached;
+ const result=calculate(studyDatasets.kaliningrad,{methodologyVersion:'6.2.0',threshold,timeScale,scenario:'baseline'});
+ result.warnings.push('ЭКСПЕРИМЕНТ: предварительная классификация поликлиник OSM не означает подтверждённый профиль и бесплатность обслуживания. Не сравнивать баллы 55/35/10 с общероссийским МИЭД 85/10/5.');
+ if(experimentalCache.size>6)experimentalCache.clear();
+ experimentalCache.set(key,result);
+ return result;
+}
 const generated=JSON.parse(readFileSync(resolve('data/processed/synthetic-regions.json'),'utf8')) as Record<string,Dataset>;
-export const syntheticDatasets=Object.fromEntries(Object.entries(generated).filter(([id])=>!realRegionIds.includes(id)));
+export const syntheticDatasets=Object.fromEntries(Object.entries(generated).filter(([id])=>!realRegionIds.includes(id)).map(([id,d])=>[id,withMedicalData(d)]));
 export const studyDatasets:Record<string,Dataset>={...syntheticDatasets,...Object.fromEntries(Object.entries(originalReal).map(([id,d])=>[id,{...d,edges:d.edges.map(({geometry,...edge})=>edge)}]))};
 for(const id of Object.keys(expandedSummaries)){
- Object.defineProperty(realDatasets,id,{enumerable:true,get:()=>expandedDataset(id)});
- Object.defineProperty(studyDatasets,id,{enumerable:true,get:()=>expandedDataset(id,false)});
+ Object.defineProperty(realDatasets,id,{enumerable:true,get:()=>withMedicalData(expandedDataset(id))});
+ Object.defineProperty(studyDatasets,id,{enumerable:true,get:()=>withMedicalData(expandedDataset(id,false))});
 }
 export const studyDatasetIds=Object.keys(studyDatasets);
 export const isRealRegion=(id:string)=>realRegionIds.includes(id);
@@ -26,9 +116,18 @@ export const studyCatalogue:Record<string,StudyCatalogueEntry>=Object.fromEntrie
  ...Object.entries(expandedSummaries),
 ]);
 export const baselineResults:Record<string,IndexResult>={
- ...Object.fromEntries(Object.entries({...syntheticDatasets,...originalReal}).map(([id,d])=>[id,calculate({...d,edges:d.edges.map(({geometry,...edge})=>edge)})])),
+ ...Object.fromEntries(Object.entries({...syntheticDatasets,...originalReal}).map(([id,d])=>[id,calculateCurrent({...d,edges:d.edges.map(({geometry,...edge})=>edge)})])),
  ...Object.fromEntries(Object.entries(expandedSummaries).map(([id,s])=>[id,expandedBaseline(s)])),
 };
+
+for(const [id] of Object.entries(expandedSummaries)){
+ if(!eligibleCatalogPlaces(id).some(p=>p.officiallyVerified===true && ['public_adult_polyclinic','public_children_polyclinic'].includes(p.type)))continue;
+ let result:IndexResult|null=null;
+ Object.defineProperty(baselineResults,id,{enumerable:true,configurable:true,get(){
+  if(!result)result=calculateCurrent(studyDatasets[id]);
+  return result;
+ }});
+}
 
 const scenarioCache=new Map<string,{id:string;name:string;osmWayId?:string;lengthKm:number|null}[]>();
 export function scenariosFor(d:Dataset){
@@ -49,7 +148,7 @@ export function studyComparison(regionId:string,options:Partial<CalculationOptio
  if(!d.synthetic&&options.period==='night')throw new Error('Ночная доступность больниц не подтверждена.');
  const edgeId=options.scope==='point'||options.scope==='region'?undefined:options.edgeId??scenariosFor(d)[0]?.id;
  const key=JSON.stringify([regionId,{...options,edgeId}]);if(cache.has(key))return cache.get(key)!;
- const result=compareScenario(d,{...options,edgeId});if(cache.size>=8)cache.delete(cache.keys().next().value!);cache.set(key,result);return result;
+ const result=compareScenario(d,{...options,methodologyVersion:medicalMethod(d),edgeId});if(cache.size>=8)cache.delete(cache.keys().next().value!);cache.set(key,result);return result;
 }
 const roadOptionCache=new Map<string,ReturnType<typeof settlementRoadOptions>>();
 type SavedRoadOptions={methodology:string;threshold:number;timeScale:number;regions:Record<string,ReturnType<typeof settlementRoadOptions>>};
@@ -71,7 +170,7 @@ export function studyRoadOptions(id:string,options:RoadListOptions){
 export function studyDescription(regionId:string){
  const summary=studyCatalogue[regionId];if(!summary)return null;
  const d=studyDatasets[regionId];
- return {id:summary.id,regionId,synthetic:summary.synthetic,title:summary.title,profile:summary.profile,profileLabel:summary.profileLabel,date:summary.date,version:summary.version,sourceIds:summary.sourceIds,assumptions:summary.assumptions,metadata:summary.metadata,coverageLabel:summary.coverageLabel,settlementCount:summary.settlementCount,facilityCount:summary.facilityCount,nodes:summary.nodes,edges:summary.edges,scenarios:scenariosFor(d),baseline:baselineResults[regionId],facilities:summary.facilities};
+ return {id:summary.id,regionId,synthetic:summary.synthetic,title:summary.title,profile:summary.profile,profileLabel:summary.profileLabel,medicalMethodologyVersion:medicalMethod(d),experimentalAvailable:regionId==='kaliningrad',date:summary.date,version:summary.version,sourceIds:summary.sourceIds,assumptions:summary.assumptions,metadata:summary.metadata,coverageLabel:summary.coverageLabel,settlementCount:summary.settlementCount,facilityCount:d.facilities.length,nodes:summary.nodes,edges:summary.edges,scenarios:scenariosFor(d),baseline:baselineResults[regionId],facilities:d.facilities};
 }
 export function studyMap(regionId:string,options:Partial<CalculationOptions>={}){
  const d=realDatasets[regionId],c=studyComparison(regionId,options)!;

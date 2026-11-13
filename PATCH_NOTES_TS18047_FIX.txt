@@ -1,0 +1,5 @@
+Исправление TS18047 в src/components/StudyWorkspace.tsx (строка 116).
+При показе экспериментального портфеля добавлена проверка наличия experimentalBaseline
+до обращения к experimentalBaseline.value. Это устраняет два сообщения TS18047.
+Исходный файл взят из MedSvyaz24_Unified_MIED_All_Regions_PATCH_2026-11-13.zip.
+GitHub не менялся.

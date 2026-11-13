@@ -1,0 +1,36 @@
+{
+  "initial": "Медицинские учреждения Калининградской области\nПоказано 191 из 191 · в расчёте МИЭД: 10",
+  "indexBefore": "Изменение индекса региона\n74 → 74,1 / 100\n+0,16 балла",
+  "indexAfter": "Изменение индекса региона\n74 → 74,1 / 100\n+0,16 балла",
+  "markerCounts": {
+    "all": 191,
+    "hospitals": 65,
+    "maternity": 5,
+    "search": 1,
+    "empty": 0
+  },
+  "popup": "Региональный перинатальный центр\nРоддома и перинатальные центры\n236023, Калининградская область, Калининград, Каштановая аллея, дом № 145\nГосударственная организация · подтверждено источником\nЕсть сопоставление с реестром ТФОМС на 2026 год.\nВ реестре ОМС. Бесплатная помощь — в пределах программы и условий направления.\nНа карте справочно. В текущий больничный профиль МИЭД не включено.\nОбъект OpenStreetMap\nИсточник сверки",
+  "errors": [],
+  "mobileWidth": {
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "downloads": [
+    {
+      "path": "/data/kaliningrad-medical-facilities.json",
+      "status": 200
+    },
+    {
+      "path": "/downloads/kaliningrad-medical-facilities.csv",
+      "status": 200
+    },
+    {
+      "path": "/downloads/kaliningrad-official-addresses-unmatched.csv",
+      "status": 200
+    },
+    {
+      "path": "/downloads/kaliningrad-medical-classification-audit.csv",
+      "status": 200
+    }
+  ]
+}

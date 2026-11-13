@@ -17,12 +17,12 @@ import examplesManifest from '../data/examples/manifest.json';
 import points from '../data/derived/representative-points.json';
 import geodataManifest from '../data/derived/geodata-manifest.json';
 import sources from '../data/sources.json';
-import {DISTRICTS,METHODOLOGY,LEGACY_METHODOLOGY,POPULATION_METHODOLOGY,CalculationSchema,type Dataset,type Region} from '../shared/schema';
+import {DISTRICTS,METHODOLOGY,MEDICAL_METHODOLOGY,LEGACY_METHODOLOGY,POPULATION_METHODOLOGY,CalculationSchema,type Dataset,type Region} from '../shared/schema';
 import {calculate,compareScenario,validateDataset,summarizePoints} from '../shared/engine';
 import {openapi} from './openapi';
 import {analyzeAccessibilityGaps} from './ml';
 import {RELEASE} from '../shared/release';
-import {realDatasets,pilot,studyDatasets,baselineResults,studyDescription,studyComparison,studyMap,studyRoute,studyCatalogue,studyRoadOptions,studyDatasetIds,realRegionIds,isRealRegion,aggregateCohorts} from './study';
+import {realDatasets,pilot,studyDatasets,baselineResults,studyDescription,studyComparison,studyMap,studyRoute,studyCatalogue,studyRoadOptions,studyDatasetIds,realRegionIds,isRealRegion,aggregateCohorts,kaliningradExperimental} from './study';
 
 export interface RunStore {save(id:string,payload:unknown):Promise<void>;get(id:string):Promise<unknown|null>}
 const examples:Record<string,Dataset>={kaliningrad:validateDataset(exampleKaliningrad),ivanovo:validateDataset(exampleIvanovo),tyumen:validateDataset(exampleTyumen)};
@@ -60,6 +60,13 @@ export function createApi(store?:RunStore){
  app.get('/methodology-comparison',c=>c.json(existsSync('data/derived/methodology-comparison.json')?JSON.parse(readFileSync('data/derived/methodology-comparison.json','utf8')):{rows:[]}));
  app.get('/study/:id/bias-audit',c=>{const all=existsSync('data/derived/facility-selection-audit.json')?JSON.parse(readFileSync('data/derived/facility-selection-audit.json','utf8')):{};return c.json(all[c.req.param('id')]??null);});
  app.get('/study/:id',c=>{const d=studyDescription(c.req.param('id'));return d?c.json(d):c.json({error:'Набор не найден'},404);});
+ app.get('/study/:id/experimental',c=>{
+  const id=c.req.param('id');
+  if(id!=='kaliningrad')return c.json({error:'Расширенная методика доступна только для Калининградского пилота'},404);
+  const threshold=Number(c.req.query('threshold')??40),timeScale=Number(c.req.query('timeScale')??1);
+  if(![30,40,50,60].includes(threshold)||![0.8,1,1.2].includes(timeScale))return c.json({error:'Недопустимые параметры экспериментального расчёта'},400);
+  return c.json({regionId:id,kind:'experimental',comparableToPrimary:false,methodologyVersion:'6.2.0',result:kaliningradExperimental({threshold,timeScale})});
+ });
  app.get('/study/:id/road-options',c=>{
   const region=lookup(c.req.param('id'));
   if(!region)return c.json({error:'Регион не найден'},404);
@@ -75,7 +82,7 @@ export function createApi(store?:RunStore){
   const key=JSON.stringify([id,options.threshold,options.timeScale,d.version]);
   let report=mlReportCache.get(key);
   if(!report){
-   const baseline=options.threshold===METHODOLOGY.defaultThreshold&&options.timeScale===1?baselineResults[id]:calculate(d,{threshold:options.threshold,timeScale:options.timeScale,period:'day',scenario:'baseline'});
+   const baseline=options.threshold===METHODOLOGY.defaultThreshold&&options.timeScale===1?baselineResults[id]:calculate(d,{methodologyVersion:baselineResults[id].methodologyVersion as '6.1.0'|'6.2.0',threshold:options.threshold,timeScale:options.timeScale,period:'day',scenario:'baseline'});
    report=analyzeAccessibilityGaps(d,baseline);
    if(mlReportCache.size>=12)mlReportCache.delete(mlReportCache.keys().next().value!);
    mlReportCache.set(key,report);
@@ -90,11 +97,19 @@ export function createApi(store?:RunStore){
  app.get('/regions/:id',c=>{const r=lookup(c.req.param('id'));return r?c.json(r):c.json({error:'Регион не найден'},404);});
  app.get('/regions/:id/settlement-sample',c=>{const r=lookup(c.req.param('id'));if(!r)return c.json({error:'Регион не найден'},404);return c.json(targetSettlementSamples[r.id as keyof typeof targetSettlementSamples]??{status:'no_data',warning:'Выборка не подготовлена.',sourceId:null,settlements:[]});});
  app.get('/regions/:id/geometry',c=>{const r=lookup(c.req.param('id'));if(!r)return c.json({error:'Регион не найден'},404);return c.json({type:'FeatureCollection',features:geometryFeatures.filter(f=>f.properties.regionId===r.id)});});
- app.get('/regions/:id/index',c=>{const r=lookup(c.req.param('id'));if(!r)return c.json({error:'Регион не найден'},404);return c.json(baselineResults[r.id]?summarizePoints(studyCatalogue[r.id],baselineResults[r.id].points,{methodologyVersion:studyOptions(c.req.query()).methodologyVersion,threshold:studyOptions(c.req.query()).threshold}):missing(r.id));});
+ app.get('/regions/:id/index',c=>{const r=lookup(c.req.param('id'));if(!r)return c.json({error:'Регион не найден'},404);return c.json(baselineResults[r.id]?studyComparison(r.id,{...studyOptions(c.req.query()),scenario:'baseline'})?.baseline??baselineResults[r.id]:missing(r.id));});
  app.get('/regions/:id/facilities',c=>{const r=lookup(c.req.param('id'));if(!r)return c.json({error:'Регион не найден'},404);return c.json({status:!studyCatalogue[r.id]?'no_data':studyCatalogue[r.id].synthetic?'needs_review':'partial',synthetic:studyCatalogue[r.id]?.synthetic,items:studyCatalogue[r.id]?.facilities??[]});});
- app.get('/regions/:id/sources',c=>{const r=lookup(c.req.param('id'));if(!r)return c.json({error:'Регион не найден'},404);const used=studyCatalogue[r.id]?.sourceIds??[];const ids=new Set(['geoboundaries-2017',...used,...(['crimea','sevastopol'].includes(r.id)?['geoboundaries-crimea-2017']:[]),...(['donetsk','luhansk','kherson','zaporizhzhia'].includes(r.id)?['geoboundaries-additional-2017']:[])]);return c.json(sources.filter(s=>ids.has(s.id)));}); app.get('/national-index',c=>{const results=realRegionIds.map(id=>baselineResults[id]);const total=aggregateCohorts(results);return c.json({...missing(),cohorts:total.cohorts,coveredIndex:total.value,coveredPopulation:total.population,includedRegions:results.filter(r=>r.value!==null).length,excludedRegions:regions.length-results.filter(r=>r.value!==null).length,totalRegions:regions.length,label:'Общероссийский индекс не рассчитан'});});
+ app.get('/regions/:id/sources',c=>{const r=lookup(c.req.param('id'));if(!r)return c.json({error:'Регион не найден'},404);const used=studyCatalogue[r.id]?.sourceIds??[];const ids=new Set(['geoboundaries-2017',...used,...(['crimea','sevastopol'].includes(r.id)?['geoboundaries-crimea-2017']:[]),...(['donetsk','luhansk','kherson','zaporizhzhia'].includes(r.id)?['geoboundaries-additional-2017']:[])]);return c.json(sources.filter(s=>ids.has(s.id)));}); app.get('/national-index',c=>{
+  const results=realRegionIds.map(id=>baselineResults[id]).filter(Boolean);
+  const total=aggregateCohorts(results);
+  const experiment=kaliningradExperimental();
+  return c.json({...missing(),methodologyVersion:'6.1.0',cohorts:total.cohorts,coveredIndex:total.value,coveredPopulation:total.population,
+   includedRegions:results.filter(r=>r.value!==null).length,excludedRegions:regions.length-results.filter(r=>r.value!==null).length,totalRegions:regions.length,
+   separatePilot:{regionId:'kaliningrad',kind:'experimental',methodologyVersion:'6.2.0',indexValue:experiment.value},
+   label:'Единая формула 85/10/5 применяется к каждому региону, включая Калининград. Общероссийский результат не публикуется без полного и сопоставимого охвата данными; экспериментальный 55/35/10 показывается отдельно.'});
+ });
  app.get('/sources',c=>c.json(sources));
- app.get('/methodology',c=>c.json({...METHODOLOGY,previous:POPULATION_METHODOLOGY,legacy:LEGACY_METHODOLOGY}));
+ app.get('/methodology',c=>c.json({...METHODOLOGY,medical:MEDICAL_METHODOLOGY,previous:POPULATION_METHODOLOGY,legacy:LEGACY_METHODOLOGY}));
  app.get('/data-quality',c=>c.json({regions:regions.length,geometries:geometryIds.size,geoSource:'geoboundaries-2017',geoSources:geodataManifest.sourceIds,sourceYear:2017,syntheticExamples:studyDatasetIds.length-realRegionIds.length,calculatedRegions:realRegionIds.length,populationCoverage:baselineResults.kaliningrad.populationCoverage,geometryYear:2017,checks:[{name:'Уникальность идентификаторов',passed:new Set(regions.map(r=>r.id)).size===regions.length},{name:'Принадлежность к ФО',passed:regions.every(r=>r.districtId===null||DISTRICTS.some(d=>d.id===r.districtId))}],profiles:[...new Set(Object.values(baselineResults).filter(r=>!r.synthetic).map(r=>r.profile))]}));
  app.get('/demo/dataset',c=>c.json(demoRaw));
  app.get('/dashboard',c=>{
@@ -114,9 +129,11 @@ export function createApi(store?:RunStore){
   const filtered=scope==='russia'?regions:regions.filter(r=>r.districtId===scope);
   if(!filtered.length)return c.json({error:'Территория не найдена'},404);
   const results=filtered.flatMap(r=>baselineResults[r.id]?[baselineResults[r.id]]:[]);const real=results.filter(r=>!r.synthetic);
-  return c.json({scope,regions:filtered,results,realResults:real,syntheticResults:results.filter(r=>r.synthetic),summary:real.length?aggregateCohorts(real):missing(),calculatedRegions:results.length,realCalculatedRegions:real.length,syntheticCalculatedRegions:results.length-real.length,populationCoverage:null,label:'Реальные и синтетические результаты показаны отдельно. Смешанный индекс не рассчитывается.'});
+  const comparable=real.filter(r=>r.methodologyVersion==='6.1.0');
+  const experimentalPilot=filtered.some(r=>r.id==='kaliningrad')?{regionId:'kaliningrad',result:kaliningradExperimental()}:null;
+  return c.json({scope,regions:filtered,results,realResults:real,syntheticResults:results.filter(r=>r.synthetic),summary:comparable.length?aggregateCohorts(comparable):missing(),experimentalPilot,calculatedRegions:results.length,realCalculatedRegions:real.length,syntheticCalculatedRegions:results.length-real.length,populationCoverage:null,label:'Основная формула МИЭД v6.1 (85/10/5) едина для всех реальных регионов. Эксперимент Калининграда 55/35/10 показан отдельно. Синтетические результаты исключены из сводки.'});
  });
- app.post('/scenarios/calculate',async c=>{const input=z.object({datasetId:z.string(),options:CalculationSchema}).strict().parse(await c.req.json());const dataset=input.datasetId==='demo-network'?demoRaw:studyDatasets[studyDatasetIds.find(id=>studyCatalogue[id].id===input.datasetId)??''];if(!dataset)return c.json({error:'Подтверждённый набор не найден. Учебный расчёт доступен отдельно.'},404);const d=validateDataset(dataset);if(['improvement','closure'].includes(input.options.scenario)&&!d.edges.some(e=>e.id===input.options.edgeId))return c.json({error:'Выберите существующий участок сети'},400);const comparison=compareScenario(d,input.options);const signature=JSON.stringify({dataset:d,options:input.options,methodology:METHODOLOGY.version});const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(signature));const runId=Array.from(new Uint8Array(digest)).map(x=>x.toString(16).padStart(2,'0')).join('');const payload={runId,calculatedAt:new Date().toISOString(),persistent:Boolean(store),...comparison};if(store)await store.save(runId,payload);return c.json(payload);});
+ app.post('/scenarios/calculate',async c=>{const input=z.object({datasetId:z.string(),options:CalculationSchema}).strict().parse(await c.req.json());const dataset=input.datasetId==='demo-network'?demoRaw:studyDatasets[studyDatasetIds.find(id=>studyCatalogue[id].id===input.datasetId)??''];if(!dataset)return c.json({error:'Подтверждённый набор не найден. Учебный расчёт доступен отдельно.'},404);const d=validateDataset(dataset);if(['improvement','closure'].includes(input.options.scenario)&&!d.edges.some(e=>e.id===input.options.edgeId))return c.json({error:'Выберите существующий участок сети'},400);const currentOptions=input.datasetId==='demo-network'?input.options:{...input.options,methodologyVersion:'6.1.0' as const};const comparison=compareScenario(d,currentOptions);const signature=JSON.stringify({dataset:d,options:currentOptions,methodology:currentOptions.methodologyVersion});const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(signature));const runId=Array.from(new Uint8Array(digest)).map(x=>x.toString(16).padStart(2,'0')).join('');const payload={runId,calculatedAt:new Date().toISOString(),persistent:Boolean(store),...comparison};if(store)await store.save(runId,payload);return c.json(payload);});
  app.get('/runs/:id',async c=>{const result=store?await store.get(c.req.param('id')):null;return result?c.json(result as object):c.json({error:'Сохранённый расчёт не найден. В размещённой версии скачайте JSON результата.'},404);});
  app.notFound(c=>c.json({error:'Маршрут API не найден'},404));
  return app;

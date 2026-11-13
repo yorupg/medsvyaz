@@ -1,0 +1,1790 @@
+{
+  "regionId": "kaliningrad",
+  "reviewedAt": "2026-11-13",
+  "scope": "Classification audit, not a claim of a complete licensed-provider register",
+  "facilities": {
+    "osm-way-93183659": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Гусевская центральная районная больница",
+      "baselineFacilityId": "gusev-crb"
+    },
+    "osm-way-716314808": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        587,
+        588,
+        589
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Нестеровская центральная районная больница",
+      "baselineFacilityId": "nesterov-crb"
+    },
+    "osm-way-223576153": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        731,
+        732
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Черняховская центральная районная больница",
+      "baselineFacilityId": "chernyakhovsk-crb"
+    },
+    "osm-way-379692422": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        614,
+        615
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Советская центральная городская больница",
+      "baselineFacilityId": "sovetsk-crb"
+    },
+    "osm-way-146612412": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        781,
+        782
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Мамоновская городская больница",
+      "baselineFacilityId": "mamonovo-gb"
+    },
+    "osm-way-85828784": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        788,
+        789,
+        794
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Гвардейская центральная районная больница",
+      "baselineFacilityId": "gvardeysk-crb"
+    },
+    "osm-way-210719462": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        829,
+        830
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Озёрская центральная районная больница",
+      "baselineFacilityId": "ozyorsk-crb"
+    },
+    "osm-way-93772994": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        970,
+        971,
+        972,
+        973,
+        974,
+        975,
+        976,
+        977,
+        978
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Светловская центральная районная больница",
+      "baselineFacilityId": "svetly-crb"
+    },
+    "osm-relation-1380933": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        145,
+        146,
+        147,
+        148,
+        149
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Городская клиническая больница скорой медицинской помощи",
+      "baselineFacilityId": "kaliningrad-bsmp"
+    },
+    "osm-relation-1395318": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        889,
+        890,
+        891,
+        892,
+        893,
+        894,
+        895,
+        896,
+        897,
+        898,
+        899,
+        900,
+        901,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Областная клиническая больница Калининградской области",
+      "baselineFacilityId": "kaliningrad-okb"
+    },
+    "osm-node-4637446523": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        206,
+        207,
+        208
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Гурьевская центральная районная больница"
+    },
+    "osm-node-5971016486": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        534,
+        535,
+        536,
+        537,
+        538,
+        539
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Славская центральная районная больница"
+    },
+    "osm-way-700810906": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        881
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Психиатрическая больница · стационар в Нивенском"
+    },
+    "osm-way-130974764": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        935,
+        936,
+        937,
+        938,
+        939,
+        940,
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        947,
+        948,
+        949,
+        950,
+        951,
+        952,
+        953,
+        954
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "Полесская центральная районная больница"
+    },
+    "osm-way-119086588": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "Неманская центральная районная больница"
+    },
+    "osm-relation-1638470": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "Неманская центральная районная больница"
+    },
+    "osm-way-141478460": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        582,
+        583,
+        584,
+        585
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "Ладушкинская городская больница"
+    },
+    "osm-relation-1383567": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "Городская больница № 4"
+    },
+    "osm-relation-1385786": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        874
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Городская больница № 2 · стационар на Чапаева"
+    },
+    "osm-node-14123374362": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        870,
+        871,
+        872,
+        873,
+        874,
+        875,
+        876,
+        877,
+        878,
+        879,
+        880
+      ],
+      "reason": "Organization name matched; separate OSM location retained, not merged with another address",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "Городская больница № 2 · площадка OSM",
+      "comment": "Форма собственности организации подтверждена, но конкретный адрес этой точки не сопоставлен. Отдельная площадка сохранена; в индекс не включена."
+    },
+    "osm-way-1565840280": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        877,
+        878,
+        879
+      ],
+      "reason": "Same treatment site represented by territory / building / POI; distinct addresses are retained",
+      "evidenceScope": "treatment-address",
+      "name": "Городская больница № 2 · хоспис",
+      "duplicateOf": "osm-way-162194319",
+      "comment": "Контур той же площадки, что OSM way/162194319 (около 19 м); не относится к стационару на Чапаева."
+    },
+    "osm-relation-1385787": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "Городская больница № 3"
+    },
+    "osm-relation-1312368": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "Центральная городская клиническая больница"
+    },
+    "osm-relation-1380945": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        1019,
+        1020,
+        1021,
+        1022,
+        1023,
+        1024,
+        1025,
+        1026,
+        1027,
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039,
+        1040,
+        1041,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046,
+        1047,
+        1048
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "Детская областная больница"
+    },
+    "osm-relation-1380946": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        1019,
+        1020,
+        1021,
+        1022,
+        1023,
+        1024,
+        1025,
+        1026,
+        1027,
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039,
+        1040,
+        1041,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046,
+        1047,
+        1048
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "Детская областная больница"
+    },
+    "osm-way-54984683": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "Инфекционная больница · стационар на Фрунзе"
+    },
+    "osm-relation-1380934": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        881,
+        882,
+        883,
+        884,
+        885,
+        886,
+        887,
+        888
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "Психиатрическая больница Калининградской области"
+    },
+    "osm-relation-1395286": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        881,
+        882,
+        883,
+        884,
+        885,
+        886,
+        887,
+        888
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "Психиатрическая больница · стационар"
+    },
+    "osm-way-162194319": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        877,
+        878,
+        879
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Городская больница № 2 · хоспис"
+    },
+    "osm-way-1125012326": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        774,
+        775,
+        776,
+        777,
+        778
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "Центр специализированных видов медицинской помощи"
+    },
+    "osm-relation-6290452": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        916,
+        917,
+        918,
+        919,
+        920
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Федеральный центр высоких медицинских технологий · кардиохирургия"
+    },
+    "osm-way-804270704": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Онкологический центр Калининградской области"
+    },
+    "osm-relation-1312359": {
+      "ownership": "private",
+      "medicalType": "hospital",
+      "registryRows": [
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "РЖД-Медицина · больница в Калининграде",
+      "feeStatus": "paid-confirmed",
+      "sourceUrl": "https://kaliningrad.rzd-medicine.ru/",
+      "comment": "Частная собственность по ОКФС 16; участие в ОМС не превращает организацию в государственную."
+    },
+    "osm-way-1125589885": {
+      "ownership": "public",
+      "medicalType": "maternity",
+      "registryRows": [
+        158,
+        159,
+        160,
+        161,
+        162
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Региональный перинатальный центр"
+    },
+    "osm-relation-1382477": {
+      "ownership": "public",
+      "medicalType": "maternity",
+      "registryRows": [
+        157
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Региональный перинатальный центр · гинекологическое отделение № 2",
+      "comment": "В OSM старое название «Областной родильный дом №1». Реестр 2026 относит площадку к гинекологическому отделению №2 регионального перинатального центра."
+    },
+    "osm-relation-1382635": {
+      "ownership": "public",
+      "medicalType": "maternity",
+      "registryRows": [
+        678
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Родильный дом № 3 · гинекологическое отделение",
+      "comment": "В OSM сохранено старое название «Родильный дом №2». В реестре 2026: гинекологическое отделение роддома №3; отдельным действующим роддомом №2 не считается."
+    },
+    "osm-relation-1382637": {
+      "ownership": "public",
+      "medicalType": "maternity",
+      "registryRows": [
+        678,
+        679,
+        680,
+        681
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "Родильный дом № 3 · родильная площадка"
+    },
+    "osm-way-95810704": {
+      "ownership": "public",
+      "medicalType": "maternity",
+      "registryRows": [
+        645,
+        646,
+        647
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Родильный дом № 4"
+    },
+    "osm-way-1039436232": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        700,
+        706
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Межрайонная больница № 1 · Пионерский"
+    },
+    "osm-node-3523487975": {
+      "ownership": "public",
+      "medicalType": "hospital",
+      "registryRows": [
+        700,
+        706
+      ],
+      "reason": "Same treatment site represented by territory / building / POI; distinct addresses are retained",
+      "evidenceScope": "treatment-address",
+      "name": "Межрайонная больница № 1 · Пионерский",
+      "duplicateOf": "osm-way-1039436232"
+    },
+    "osm-way-145246563": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        696,
+        698,
+        699
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Межрайонная больница № 1 · поликлиника в Янтарном"
+    },
+    "osm-node-3501241751": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        693
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Межрайонная больница № 1 · Приморье"
+    },
+    "osm-way-132062416": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        684
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Межрайонная больница № 1 · поликлиника в Светлогорске"
+    },
+    "osm-way-103395349": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        211
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Гурьевская ЦРБ · детская поликлиника"
+    },
+    "osm-way-103395211": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        209,
+        210
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Гурьевская ЦРБ · поликлиника"
+    },
+    "osm-node-14133873350": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        186,
+        187
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Гусевская ЦРБ · детская поликлиника"
+    },
+    "osm-way-136177440": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Балтийская ЦРБ · поликлиника на Чехова"
+    },
+    "osm-way-93944193": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        968,
+        970,
+        971,
+        972,
+        973,
+        974,
+        975,
+        976,
+        977,
+        978
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Светловская ЦРБ · поликлиника"
+    },
+    "osm-node-2021374656": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        968,
+        970,
+        971,
+        972,
+        973,
+        974,
+        975,
+        976,
+        977,
+        978
+      ],
+      "reason": "Same treatment site represented by territory / building / POI; distinct addresses are retained",
+      "evidenceScope": "treatment-address",
+      "name": "Светловская ЦРБ · поликлиника",
+      "duplicateOf": "osm-way-93944193"
+    },
+    "osm-way-379119952": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        540,
+        541,
+        542,
+        543
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Славская ЦРБ · поликлиника"
+    },
+    "osm-node-6264525385": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        724
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Черняховская ЦРБ · женская консультация"
+    },
+    "osm-node-6289398385": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        716
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Черняховская ЦРБ · взрослая поликлиника"
+    },
+    "osm-relation-1383564": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        53
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Городская больница № 3 · поликлиника на Генделя"
+    },
+    "osm-way-100867047": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        618,
+        619
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "БФУ им. И. Канта · университетская клиника"
+    },
+    "osm-way-1563232487": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        637,
+        638
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "МСЧ МВД России · поликлиника"
+    },
+    "osm-way-88520890": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        768,
+        769,
+        770,
+        771,
+        772,
+        773
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "organization-name; coordinates from OSM",
+      "name": "Центр общественного здоровья и медицинской профилактики"
+    },
+    "osm-way-211436819": {
+      "ownership": "public",
+      "medicalType": "ambulatory",
+      "registryRows": [
+        998
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Зеленоградская ЦРБ · общая врачебная практика в Муромском"
+    },
+    "osm-node-7020906796": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "registryRows": [
+        762
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "Амбулаторный диализный центр · Черняховск"
+    },
+    "osm-way-192219432": {
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        868
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "1409 ВМКГ · лечебно-диагностический центр в Советске"
+    },
+    "osm-way-1416984295": {
+      "duplicateOf": "osm-node-4637446523",
+      "reason": "Same treatment site represented by territory / building / POI; distinct addresses are retained"
+    },
+    "osm-way-272758100": {
+      "duplicateOf": "osm-way-272758099",
+      "reason": "Same treatment site represented by territory / building / POI; distinct addresses are retained"
+    },
+    "osm-way-844618625": {
+      "duplicateOf": "osm-relation-20165651",
+      "reason": "Same treatment site represented by territory / building / POI; distinct addresses are retained"
+    },
+    "osm-way-93944175": {
+      "duplicateOf": "osm-way-93772994",
+      "reason": "Same treatment site represented by territory / building / POI; distinct addresses are retained"
+    },
+    "osm-way-1188098297": {
+      "duplicateOf": "osm-way-93772994",
+      "reason": "Same treatment site represented by territory / building / POI; distinct addresses are retained"
+    },
+    "osm-way-135507590": {
+      "duplicateOf": "osm-way-103633605",
+      "reason": "Same treatment site represented by territory / building / POI; distinct addresses are retained"
+    },
+    "osm-way-954231279": {
+      "duplicateOf": "osm-node-8831817399",
+      "reason": "Same treatment site represented by territory / building / POI; distinct addresses are retained"
+    },
+    "osm-way-814543848": {
+      "medicalType": "hospital",
+      "ownership": "public",
+      "comment": "Вид определён по исходным тегам/названию; актуальность площадки и доступность приёма проверяются отдельно.",
+      "registryRows": [
+        850,
+        851,
+        852,
+        853,
+        854,
+        855,
+        856,
+        857,
+        858,
+        859,
+        860,
+        861,
+        862,
+        863,
+        864,
+        865,
+        866,
+        867
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "1409 военно-морской клинический госпиталь · корпус"
+    },
+    "osm-way-42922700": {
+      "medicalType": "hospital",
+      "ownership": "public",
+      "comment": "Вид определён по исходным тегам/названию; актуальность площадки и доступность приёма проверяются отдельно.",
+      "registryRows": [
+        850,
+        851,
+        852,
+        853,
+        854,
+        855,
+        856,
+        857,
+        858,
+        859,
+        860,
+        861,
+        862,
+        863,
+        864,
+        865,
+        866,
+        867
+      ],
+      "reason": "Manual match to TFOMS-2026 organization and treatment subdivision",
+      "evidenceScope": "treatment-address",
+      "name": "1409 военно-морской клинический госпиталь"
+    },
+    "osm-way-272758099": {
+      "medicalType": "hospital",
+      "ownership": "public",
+      "comment": "Вид определён по исходным тегам/названию; актуальность площадки и доступность приёма проверяются отдельно."
+    },
+    "osm-way-205183378": {
+      "medicalType": "polyclinic",
+      "ownership": "public",
+      "comment": "OSM: «№40». Медицинский объект на Артиллерийской, 14–16; ведомственный приём. Включение в расчёт ОМС не подтверждено.",
+      "name": "1409 ВМКГ · лечебно-диагностический центр (Артиллерийская)",
+      "sourceUrl": "https://1409hospital.ru/"
+    },
+    "osm-node-4180550291": {
+      "medicalType": "ambulatory",
+      "ownership": "unknown",
+      "comment": "Вид определён по исходным тегам/названию; актуальность площадки и доступность приёма проверяются отдельно."
+    },
+    "osm-way-1562945066": {
+      "medicalType": "polyclinic",
+      "ownership": "public",
+      "comment": "Вид определён по исходным тегам/названию; актуальность площадки и доступность приёма проверяются отдельно."
+    },
+    "osm-way-1266596017": {
+      "medicalType": "polyclinic",
+      "ownership": "public",
+      "comment": "Вид определён по исходным тегам/названию; актуальность площадки и доступность приёма проверяются отдельно."
+    },
+    "osm-way-1120836775": {
+      "medicalType": "polyclinic",
+      "ownership": "public",
+      "comment": "Вид определён по исходным тегам/названию; актуальность площадки и доступность приёма проверяются отдельно."
+    },
+    "osm-way-132609823": {
+      "medicalType": "polyclinic",
+      "ownership": "public",
+      "comment": "Вид определён по исходным тегам/названию; актуальность площадки и доступность приёма проверяются отдельно."
+    },
+    "osm-way-1300921961": {
+      "medicalType": "hospital",
+      "ownership": "public",
+      "comment": "Вид определён по исходным тегам/названию; актуальность площадки и доступность приёма проверяются отдельно."
+    },
+    "osm-node-12215935043": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Ясный взор",
+      "sourceUrl": "https://prozrenie.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-13888149548": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Альзория",
+      "sourceUrl": "https://alzoria.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-7677112285": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Бразилия",
+      "sourceUrl": "https://clinic-brazil.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-14196504554": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Варикоза нет",
+      "sourceUrl": "https://varikozanet39.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-4646803273": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Виомар",
+      "sourceUrl": "https://viomar.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-14196554593": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Добрый доктор",
+      "sourceUrl": "https://napopravku.ru/kaliningrad/doctors/kardiolog/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-9855711874": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "ЕКА-МЕД",
+      "sourceUrl": "https://ekamed39.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-2460061948": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Калининградский маммологический центр",
+      "sourceUrl": "https://www.kmc39.ru/contacts/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-13806138202": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Клиника женского здоровья",
+      "sourceUrl": "https://ya-zdorova39.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-way-169728633": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Клиника Здоровья",
+      "sourceUrl": "https://prodoctorov.ru/kaliningrad/lpu/36095-klinika-zdorovya/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-10576294827": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "МастерСлух",
+      "sourceUrl": "https://mastersluh.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-8831817399": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "МВЦ Продвижение",
+      "sourceUrl": "https://mvcprodvigenie.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-2138833132": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Медико-диагностический центр «ДовериеМед»",
+      "sourceUrl": "https://mdc39.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-1920163284": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Медицинский центр TERVE",
+      "sourceUrl": "https://terve39.ru/pravilappmu",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-way-77689464": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "МедПрофи",
+      "sourceUrl": "https://napopravku.ru/kaliningrad/clinics/meditsinskij-tsentr-medprofi-na-dzerzhinskogo/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-2524082059": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Прогноз",
+      "sourceUrl": "https://prognozmc.com/rules/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-14179961298": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Ментальное равновесие",
+      "sourceUrl": "https://ravnovesie39.ru/price/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-4372073994": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Навигатор здоровья",
+      "sourceUrl": "https://mestam.info/ru/kaliningrad/address/kosmonavta-leonova-74",
+      "feeStatus": "unknown",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-5844653119": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Нейродинамика",
+      "sourceUrl": "https://neyrodinamika.ru/contacts/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-way-114436937": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Новомед",
+      "sourceUrl": "https://mc-novomed.ru/contacts/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-13034191601": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Особый статус",
+      "sourceUrl": "https://osobystatus.ru/informatsiya-dlya-potrebitelya",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-7168232186": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Реацентр",
+      "sourceUrl": "https://reac39.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-14254316726": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "СакрумМед",
+      "sourceUrl": "https://sakrummed.wixsite.com/website",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-8851164241": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Хорошая поликлиника",
+      "sourceUrl": "https://goodpoli.clinic/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-way-96833661": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Центр лазерной микрохирургии глаза",
+      "sourceUrl": "https://glaza39.ru/kontakty/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-2653424670": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Центр медицинских осмотров",
+      "sourceUrl": "https://medosmotr39.ru/contact",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-4463204809": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "name": "Эликсир",
+      "sourceUrl": "https://www.eliksir39.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Профиль и коммерческий приём сверены с сайтом организации/каталогом; координата из OSM, фактический приём перед поездкой уточняется."
+    },
+    "osm-node-13058019794": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://med-aprel.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются."
+    },
+    "osm-node-14158119449": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://arsmedica39.ru/price/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются."
+    },
+    "osm-node-13888074767": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://arsmedica39.ru/price/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются."
+    },
+    "osm-node-3625949049": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://arsmedica39.ru/price/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются."
+    },
+    "osm-node-13853088101": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://www.illenclinic.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются."
+    },
+    "osm-way-84100069": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://www.classclinic.ru/ceni/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются."
+    },
+    "osm-node-4341345814": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://med-aprel.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются."
+    },
+    "osm-node-1612765504": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://med-expert.ru/patients/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются."
+    },
+    "osm-node-1633668523": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://med-expert.ru/patients/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются."
+    },
+    "osm-node-2152881116": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://med-expert.ru/patients/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются."
+    },
+    "osm-way-116094610": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://med-expert.ru/patients/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются."
+    },
+    "osm-way-307449221": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://med-expert.ru/patients/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются."
+    },
+    "osm-node-14222475696": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://sigmamedic.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются."
+    },
+    "osm-way-149103572": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://sigmamedic.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются."
+    },
+    "osm-node-11185642090": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://edkar.ru/kontakty",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются.",
+      "name": "Эдкар · поликлиника на Артиллерийской",
+      "address": "Калининград, Артиллерийская улица, 22"
+    },
+    "osm-node-11185642091": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://edkar.ru/kontakty",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются.",
+      "name": "Эдкар-Мед · многопрофильная поликлиника",
+      "address": "Калининград, улица Маршала Баграмяна, 14"
+    },
+    "osm-node-11185642093": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://edkar.ru/kontakty",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются.",
+      "name": "Эдкар Регион · Черняховск",
+      "address": "Черняховск, Калининградская улица, 25"
+    },
+    "osm-node-11185642092": {
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://edkarik.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Публичный сайт медицинской сети; площадка сопоставлена по OSM. Стоматологические услуги многопрофильной клиники отдельно не учитываются.",
+      "name": "Эдкарик · детская поликлиника",
+      "address": "Калининград, улица Генерала Челнокова, 25"
+    },
+    "osm-way-95930529": {
+      "medicalType": "polyclinic",
+      "comment": "OSM указывает поликлинику профмедосмотров; оператор и актуальность не подтверждены, в индекс не включена."
+    },
+    "osm-node-13891044034": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-14049240501": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-1405644884": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-14123374368": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-14133873351": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-1645253771": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim",
+      "ownership": "private",
+      "medicalType": "clinic",
+      "sourceUrl": "https://www.klgd.ru/construction/gr_documents/project_plan_utv/094_20_pp_pz.pdf",
+      "evidenceStatus": "provider-confirmed",
+      "feeStatus": "unknown",
+      "comment": "Документ администрации города указывает ООО «Центр семейной медицины» на улице Сержанта Колоскова. Текущая работа и условия оплаты не подтверждены; в индекс не включён."
+    },
+    "osm-node-2042166673": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-2366034451": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-2749791990": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-2886604667": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-3158984899": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-3500046611": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-4121729189": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-4180461694": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-4195690753": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-4637428251": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-6133210186": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-6271032387": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-6271032395": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-6967852435": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-7068875185": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-927026353": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-9705825917": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-9705825920": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-node-9890627299": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-relation-11053171": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-relation-11485616": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-relation-1385575": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-relation-1385576": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-relation-1385785": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-relation-1395289": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-relation-1395321": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-relation-19408424": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-relation-20165651": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-relation-20995624": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-relation-4263615": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim",
+      "ownership": "public",
+      "medicalType": "hospital",
+      "sourceUrl": "https://minzdrav.gov.ru/ministry/podvedy/federalnoe-gosudarstvennoe-byudzhetnoe-uchrezhdenie-detskiy-pulmonologicheskiy-sanatoriy-otradnoe",
+      "website": "https://kurort-otradnoe.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "ФГБУ детский пульмонологический санаторий Минздрава России. Стационарная реабилитация; платные услуги не меняют государственную собственность. Не входит в расчётный профиль общей больницы."
+    },
+    "osm-relation-5698217": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-relation-5698218": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-relation-5877628": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-relation-5877629": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-relation-6482810": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-103633605": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1077470118": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1086189456": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-110955870": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim",
+      "ownership": "private",
+      "medicalType": "hospital",
+      "name": "AZIMUT Здоровье Янтарь · лечебный корпус",
+      "sourceUrl": "https://kurort.minzdrav.gov.ru/search/3383?refers_to_sku_from_search=true",
+      "website": "https://rzdz.ru/ru/svetlogorsk/sanatorium-yantar",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "evidenceScope": "treatment-address",
+      "comment": "Санаторий — филиал АО «РЖД-ЗДОРОВЬЕ»; Ленина, 50. Платная реабилитационная медицинская площадка; в больничный индекс не включена."
+    },
+    "osm-way-1124610719": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-115708220": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim",
+      "ownership": "private",
+      "medicalType": "hospital",
+      "name": "Санаторий «Зеленоградск» · водогрязелечебница",
+      "sourceUrl": "https://kurort.minzdrav.gov.ru/search/3347?refers_to_sku_from_search=true&statistics_count_param=region",
+      "website": "https://sanzel.ru/",
+      "feeStatus": "paid-confirmed",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "ООО «Санаторий Зеленоградск». Реестр санаториев Минздрава указывает коммерческие услуги; к государственным больницам не относится, в индекс не включён."
+    },
+    "osm-way-132062418": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim",
+      "ownership": "public",
+      "medicalType": "hospital",
+      "sourceUrl": "https://cvo.psvsrf.ru/health/sanatoriums/51",
+      "evidenceStatus": "provider-confirmed",
+      "comment": "Филиал «Светлогорский военный санаторий» ФГБУ СКК «Западный» Минобороны. Реабилитационная площадка; отдельные условия приёма, в индекс не включена."
+    },
+    "osm-way-1375100061": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1414806837": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1421320834": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1422716374": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1422885094": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1470374663": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1471679534": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1475257107": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-150338771": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1503774472": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1504019745": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1504019761": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1504019896": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1547023352": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1547023666": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1547777471": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1547779209": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1548301642": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1553975300": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1562029281": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1562586224": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1563882156": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-1563916551": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-185406150": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-192933877": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-211108395": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-266073062": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-288879660": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-304316270": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-342313004": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-379042379": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-431510434": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-476442515": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-513872104": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-525720798": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-545422613": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-631085046": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-652273052": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-653206212": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-705615864": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-720600049": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-725196482": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-756678644": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-842139473": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-85828623": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-95405047": {
+      "reason": "Classified from original OSM tags; no independent operating-status claim"
+    },
+    "osm-way-95813840": {
+      "reason": "TFOMS-2026 city children polyclinic, Sadovaya treatment address",
+      "name": "Городская детская поликлиника · отделение № 4 на Садовой",
+      "ownership": "public",
+      "medicalType": "polyclinic",
+      "registryRows": [
+        369
+      ],
+      "evidenceScope": "treatment-address"
+    }
+  }
+}

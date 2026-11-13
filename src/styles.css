@@ -135,3 +135,23 @@
 .ml-anomaly-difference small{font-size:.68rem;font-weight:500}
 .ml-anomaly-difference span{font-size:.72rem;font-weight:650;color:#087d78;margin-top:.7rem}
 @media(max-width:520px){.ml-anomaly-item{padding:.75rem}.ml-anomaly-list{grid-template-columns:1fr}.ml-anomaly-main>strong{font-size:.98rem}}
+/* Kaliningrad study controls: exactly two inputs with a full-width explanation underneath. */
+.study-controls-medical{grid-template-columns:repeat(2,minmax(0,1fr));align-items:end;column-gap:18px;row-gap:12px}
+.study-controls-medical .study-control-explanation{grid-column:1/-1;margin:0;color:#617c89;font-size:12px;line-height:1.55;max-width:none}
+.study-controls-medical .study-control-explanation strong{color:#365a68}
+@media(max-width:640px){.study-controls-medical{grid-template-columns:1fr}}
+
+/* Regional infrastructure tools: separate from Kaliningrad portfolio. */
+.regional-improvement-actions{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:12px 0 20px;padding:14px;border-radius:12px;border:1px solid #d8e5e8;background:#f6fafb}
+.regional-improvement-actions button{padding:10px 14px;border:1px solid #b9d7d5;background:white;color:#146f6b;border-radius:8px;font-size:13px;font-weight:750}
+.regional-improvement-actions button.active{background:#147f78;border-color:#147f78;color:white}
+.regional-improvement-actions button.reset{color:#526c78;border-color:#d6e1e7}
+.regional-improvement-actions small{width:100%;font-weight:400;color:#697e89;line-height:1.6}
+.kaliningrad-proposals-action button.road{background:#527891}
+/* Unified primary MIED / separate Kaliningrad experimental study */
+.kaliningrad-experiment-panel{display:flex;flex-direction:column;gap:12px;border-left:3px solid #5c8eac}
+.kaliningrad-experiment-panel .panel-heading{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.kaliningrad-experiment-values{display:flex;flex-direction:column;gap:5px;padding:12px 16px;border:1px solid #d9e5ee;background:#f7fafc;border-radius:10px}
+.kaliningrad-experiment-values strong{font-size:15px;color:#194354}
+.kaliningrad-experiment-values span,.kaliningrad-experiment-values p{font-size:12px;line-height:1.6;color:#597382}
+@media(max-width:760px){.kaliningrad-experiment-panel .panel-heading{align-items:flex-start}.kaliningrad-experiment-values{padding:12px}}

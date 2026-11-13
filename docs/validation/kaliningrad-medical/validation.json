@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-13",
+  "regionId": "kaliningrad",
+  "catalogCount": 191,
+  "unknownType": 22,
+  "calculationSites": 10,
+  "baselineIndex": 73.96196373537572,
+  "checks": {
+    "vitest": "100 passed in 13 files; npm test",
+    "pythonCatalog": "9 passed",
+    "verify": "passed",
+    "independentV61": "85 models passed",
+    "build": "passed",
+    "browser": "desktop and mobile passed; no page errors"
+  },
+  "notes": [
+    "Catalogue is not an exhaustive licensed-provider register.",
+    "Map type and confidence in current operation are separate.",
+    "Only selected public hospital sites with documented OMS care are used in the index."
+  ]
+}
